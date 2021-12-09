@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-padre {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container_dark-grey .style-logo-video {
+    width:  100px;
+    height: 100px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 13px;
+}
+
+.container_header-menu, .container_fondos-colores {
+    display: flex;
+    height: 670px;
+}
+
+.container_fondos-colores .container_dark-grey {
+    width: 80%;
+    height: auto;
+    background-color: #2A2A2A;
+}
+
+.container_fondos-colores .container_dark-grey 
+.container__texto-presentacion {
+    width: 73%;
+    height: 300px;
+    margin-top: 205px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container_fondos-colores .container-orange {
+    width: 40%;
+    height: auto;
+    background-color: #FFB633;
+}
+
+.container_fondos-colores .container-orange img {
+    width: 35vw;
+    height: 44vw;
+    position: relative;
+    top: 51px;
+    right: 45%;
+    z-index: 1;
+}
+
+.style-h1-home, .style-h2-home, a, .container__lineas-horizontales,
+.style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.style-h1-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+
+.style-nombre, .style-apellido {
+    font-size: 55px !important;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    color: #FFB633 !important;
+}
+
+.style-h1-home span {
+    color: #fff;
+    font-size: 50px;
+    text-transform: none;
+}
+
+.style-span_linea-horizontal-home, .style-span_linea-horizontal-home:after {
+    border-radius: 25px;
+}
+
+.style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
+    width: 4px;
+    height: 65%;
+    top: 55px;
+    left: 24px;
+    bottom: 0 !important;
+}
+
+.style-span_linea-horizontal-home1 {
+    background-color: #fff;
+    animation: animarBottom 3s infinite;
+}
+
+.style-span_linea-horizontal-home2 {
+    background-color: #FFB633;
+    animation: animarTop 3s infinite;
+}
+
+.style-animacionMaquetador {
+    width: 320px;
+    height: 90px;
+    margin-top: 115px;
+    margin-left: 40px;
+}
+
+@keyframes animarBottom {
+    0% {
+        transform: translateY(0px);
+    }
+
+    10% {
+        transform: translateY(30px);
+    }
+
+    0% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animarTop {
+    0% {
+        transform: translateY(0px);
+    }
+
+    10% {
+        transform: translateY(-30px);
+    }
+
+    0% {
+        transform: translateY(0px);
+    }
+}
+
+.style-h2-home {
+    font-size: 30px;
+    color: #fff;
+    left: -10px;
+    margin: auto;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .container-padre {
+        height: 350px;
+    }
+    
+    .container_dark-grey .style-logo-video {
+        width:  55px;
+        height: 55px;
+        margin-left: 20px;
+        margin-top: 8px;
+    }
+    
+    .container_header-menu, .container_fondos-colores {
+        height: 350px;
+    }
+    
+    .container_fondos-colores .container_dark-grey 
+    .container__texto-presentacion {
+        width: 100%;
+        height: 180px;
+        margin-top: 90px !important;
+        margin-left: 0;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .style-nombre, .style-apellido {
+        font-size: 6.5vw !important;
+    }
+    
+    .style-h1-home span {
+        font-size: 6vw;
+    }
+    
+    .style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
+        display: none;
+    }
+    
+    .style-animacionMaquetador {
+        width: 30vw;
+        height: auto;
+        margin-top: 0;
+        margin: auto;
+    }
+
+    .style-h2-home {
+        font-size: 30px;
+    }
+    
+    .container_fondos-colores .container-orange {
+        width: 38%;
+    }
+    
+    .container_fondos-colores .container-orange img {
+        width: 230px;
+        height: 300px;
+        right: 35%;
+        z-index: 0;
+    }
+}

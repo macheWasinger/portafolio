@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container-Padre_menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .item-li {
+    width: 50%;
+    bottom: 60px;
+    margin: 0 0 40px 0;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .item-li a:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 35px;
+    background-color: #2C2C2C;
+    position: absolute;
+    transition: all 0.7s;
+    opacity: 0.15;
+    border-radius: 0 20px 0 20px; 
+  }
+
+  .item-li a:hover:before {
+    width: 100%;
+  }
+
+.item-li a:before {
+  left: 50%;
+}
+
+.item-li a:hover:before {
+  left: 0;
+}
+
+  .item-li:hover {
+    transition: all 1.4s;
+    color: #2C2C2C;
+  }
+
+  .menu-navegacion ul li a {
+    height: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 35px;
+    transition: all 1s;
+  }
+  
+    .container-Padre_menu .burger {
+      position: fixed;
+      width: 3%;
+      height: 5vh;
+      color: #fff;
+      top: 23px;
+      right: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+    }
+  
+    .label-menu {
+      width: 40px;
+      height: 25px;
+      position: relative;
+      right: 20px;
+      cursor: pointer;
+    }
+  
+    .label-menu #span-1,
+    #span-2,
+    #span-3 {
+      position: absolute;
+      content: "";
+      background-color: #fff;
+      width: 40px;
+      height: 4px;
+      border-radius: 4px;
+      transition: all 0.4s;
+    }
+  
+    #span-2 {
+      top: 11px;
+    }
+  
+    #span-3 {
+      top: 22px;
+    }
+  
+    #btn-menu {
+      display: none;
+    }
+  
+    /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
+    #btn-menu:checked ~ .label-menu #span-1 {
+      height: 5px;
+      transform: rotate(140deg);
+      top: 10px;
+    }
+  
+    #btn-menu:checked ~ .label-menu #span-2 {
+      opacity: 0;
+    }
+  
+    #btn-menu:checked ~ .label-menu #span-3 {
+      height: 5px;
+      transform: rotate(-140deg);
+      top: 10px;
+    }
+  
+    .container-Padre_menu .hide {
+      transform: translate(110%);
+    }
+  
+    .container-Padre_menu .menu-activado {
+      transition: all 1s;
+    }
+  
+    .container-Padre_menu .menu-navegacion {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      transition: all 1s;
+      z-index: 1;
+    }
+  
+    .container-Padre_menu .menu-navegacion ul {
+      position: fixed;
+      right: 0px;
+      margin: auto;
+      padding-bottom: 50px;
+      width: 20vw;
+      height: 100%;
+      background-color: #FFB633;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 1.5s;
+      border-top-left-radius: 100%;
+      border-bottom-left-radius: 500%;
+      z-index: 1;
+    }
+  
+
+    @media screen and (max-width: 800px) {
+      .item-li {
+        width: auto;
+        margin: 0 2% 0 0;
+        position: relative;
+        top: 100%;
+        right: 8.5%;
+      }
+
+      .item-li a:before {
+        display: none;
+      }
+    
+        .menu-navegacion ul li a {
+          height: 25px;
+          font-size: 13px;
+          letter-spacing: 0.5px;
+          width: auto;
+        }
+      
+        .container-Padre_menu .burger {
+          width: 3%;
+          height: 4vh;
+          top: 3%;
+          right: 6%;
+          z-index: 2;
+        }
+      
+        .label-menu {
+          right: 10px;
+        }
+      
+        .label-menu #span-1,
+        #span-2,
+        #span-3 {
+          width: 29px;
+          height: 3.5px;
+        }
+      
+        /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
+        #btn-menu:checked ~ .label-menu #span-1, #btn-menu:checked ~ .label-menu #span-3 {
+          width: 30px;
+          height: 4.5px;
+        }
+
+        
+        .container-Padre_menu .hide {
+          transform: translateY(-15vw);
+        }
+      
+        .container-Padre_menu .menu-navegacion {
+          width: 100%;
+          top: 0;
+          height: auto;
+          transition: all 1s;
+          z-index: 1;
+        }
+      
+        .container-Padre_menu .menu-navegacion ul {
+          width: 100%;
+          height: 70px;
+          border-bottom-right-radius: 37% !important;
+          border-bottom-left-radius: 37% !important;
+          background-color: #2a2a2a;
+          border-radius: 0;
+          z-index: 1;
+          flex-direction: row;
+        }   
+    }
+  

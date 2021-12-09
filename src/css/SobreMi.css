@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-padre_sobreMi {
+    background-color: #303131;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container_small-picture, .container-image, .style-smallImage, .container-text_sobreMi, .style-h1-sobreMi, .style-span_linea-horizontal, .style-p-sobreMi {
+    position: relative;
+}
+
+.container_small-picture {
+    width: 304px;
+    height: 380px;
+    right: 25px;
+}
+
+.container-image {
+    width: 270px;
+    height: 330px;
+    border: 10px solid #FFB633;
+    top: 40px;
+}
+
+.style-smallImage {
+    width: 270px;
+    height: 330px;
+    border: 10px solid #3a3a3a;
+    left: 25px;
+    bottom: 40px;
+}
+
+.container-text_sobreMi {
+    width: 40%;
+    height: 100%;
+    left: 10px;
+    padding-bottom: 3.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.style-h1-sobreMi {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    right: 29.5%;
+    bottom: 3.5%;
+    letter-spacing: 2px;
+}
+
+.container-text_sobreMi .style-span_linea-horizontal {
+    width: 18%;
+    height: 3px;
+    background-color: #FFB633;
+    border-radius: 25px;
+    bottom: 25px;
+}
+
+.style-p-sobreMi {
+    color: rgb(192, 192, 192);
+    bottom: 4px;
+    text-align: left;
+}
+
+.style-button-descargarCV {
+    width: 135px;
+    height: 45px;
+    background-color: #FFB633;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #000;
+}
+
+.style-button-descargarCV:hover {
+    color: #fff;
+    background-color: #fca400;
+    transition: all 0.7s;
+    border-radius: 0 20px 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .container-padre_sobreMi {
+        height: 470px;
+        padding-top: 10%;
+        justify-content: space-around;
+    }
+    
+    .container_small-picture {
+        width: auto;
+        height: auto;
+        top: 0;
+        left: -10px;
+    }
+    
+    .container-image {
+        width: 13rem;
+        height: 17rem;
+        border: 10px solid #474747;
+        top: 0;
+    }
+    
+    .style-smallImage {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .container-text_sobreMi {
+        width: 48%;
+        height: 440px;
+        left: -7px;
+        bottom: 5%;
+    }
+    
+    .style-h1-sobreMi {
+        font-size: 40px;
+        right: 62%;
+        bottom: 1%;
+    }
+    
+    .container-text_sobreMi .style-span_linea-horizontal {
+        width: 37%;
+        height: 2.9px;
+        background-color: #FFB633;
+        border-radius: 25px;
+        bottom: 2%;
+        right: 119px;
+    }
+    
+    .style-p-sobreMi {
+        color: rgb(192, 192, 192);
+        top: 21px;
+        text-align: left;
+    }
+    
+    .style-button-descargarCV {
+        width: 120px;
+        height: 40px;
+        top: 20px;
+        border-radius: 0 20px 0 20px;
+        font-size: 13px;
+        box-shadow: 0 0 10px #2a2a2a;
+    }
+}

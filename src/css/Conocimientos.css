@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-padre_conocimientos {
+    width: 100%;
+    height: 640px;
+    background-image: url("https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Teaser/web-development-t.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 74px;
+    overflow: auto;
+}
+
+.title-lineaHorizontal, .style-h1-title, 
+.style-h3-subtitulo, .column-general, 
+.container-tech, .style-text__nivel {
+    position: relative;
+}
+
+.title-lineaHorizontal {
+    background-color: #FFB633 !important;
+    width: 12% !important;
+    height: 3.1px !important;
+    border-radius: 5px;
+    margin: auto;
+    right: 102px;
+}
+
+.card__title, .skills__tech, .style-h1-title, .style-h3-subtitulo {
+    color: #fff;
+}
+
+.style-h1-title {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.style-h3-subtitulo {
+    text-transform: uppercase;
+    font-size: 25px;
+    top: 35px;
+    letter-spacing: 3px;
+}
+
+.column-general {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    top: 95px;
+    align-items: start;
+}
+
+.container-tech {
+    width: auto;
+    height: 250px;
+    background-color: #2a2a2a;
+    box-shadow: 0 0 10px #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.style-logo-tech {
+    width: 100px;
+    height: 100px;
+    margin: 25px 15px;
+}
+
+.card__title {
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+}
+
+.container-frontend, .container-design, 
+.container-backend {
+    display: flex;
+}
+
+.container__logo-nivel {
+    width: auto;
+    height: 13.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-nivel {
+    width: 80%;
+    height: auto;
+    border-radius: 7px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.style-text__nivel {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    top: 3px;
+}
+
+.style-circle {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+
+.n-bajo .style-circle {
+    background-color: #E22A47;
+}
+
+.n-bajo {
+    border: 2px solid #E22A47;
+}
+
+
+.n-medio .style-circle {
+    background-color: #DCB64B;
+}
+
+.n-medio {
+    border: 2px solid #DCB64B;
+}
+
+
+.n-alto .style-circle {
+    background-color: #43A52F;
+}
+
+.n-alto {
+    border: 2px solid #43A52F;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container-padre_conocimientos {
+        background-image: none;
+        background-attachment: unset;
+        height: 165vw;
+        padding-top: 40px;
+        background-color: #242424;
+    }
+    
+    .title-lineaHorizontal {
+        width: 25% !important;
+        right: 122px;
+    }
+    
+    .style-h3-subtitulo {
+        font-size: 20px;
+        top: 25px;
+    }
+    
+    .column-general {
+        flex-direction: column;
+        top: 40px;
+    }
+    
+    .container-tech {
+        width: 75%;
+        height: 190px;
+        background-color: #474747;
+        margin-top: 3%;
+        left: 12.7%;
+    }
+    
+    .style-logo-tech {
+        width: 50px;
+        height: 50px;
+        margin: 20px 15px;
+    }
+    
+    .card__title {
+        font-weight: 600;
+        position: relative;
+        top: 10px;
+    }
+    
+    .container-frontend, .container-design, 
+    .container-backend {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .container__logo-nivel {
+        height: 13.5vw;
+    }
+    
+    .style-text__nivel {
+        font-size: 12px;
+        top: 3.5px;
+    }
+    
+    .style-circle {
+        width: 9px;
+        height: 9px;
+    }
+}
