@@ -15,7 +15,9 @@
 
 .title-lineaHorizontal, .style-h1-title, 
 .style-h3-subtitulo, .column-general, 
-.container-tech, .style-text__nivel {
+.container-tech, .style-text__nivel, 
+.container-nivel, .style-logo-tech, 
+.container__logo-nivel {
     position: relative;
 }
 
@@ -57,7 +59,7 @@
 
 .container-tech {
     width: auto;
-    height: 250px;
+    height: 18vw;
     background-color: #2a2a2a;
     box-shadow: 0 0 10px #000;
     border-radius: 15px;
@@ -66,8 +68,8 @@
 }
 
 .style-logo-tech {
-    width: 100px;
-    height: 100px;
+    width: 6.5vw;
+    height: 6.5vw;
     margin: 25px 15px;
 }
 
@@ -101,7 +103,7 @@
 
 .style-text__nivel {
     color: #fff;
-    font-size: 17px;
+    font-size: 1.3vw;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -109,8 +111,8 @@
 }
 
 .style-circle {
-    width: 17px;
-    height: 17px;
+    width: 1.1vw;
+    height: 1.1vw;
     border-radius: 50%;
 }
 
@@ -145,7 +147,7 @@
     .container-padre_conocimientos {
         background-image: none;
         background-attachment: unset;
-        height: 170vw;
+        height: 160vw;
         padding-top: 10%;
         background-color: #242424;
     }
@@ -171,16 +173,17 @@
     
     .container-tech {
         width: 75%;
-        height: 190px;
+        height: 35vw;
         background-color: #474747;
         margin-top: 3%;
         left: 12.7%;
     }
     
     .style-logo-tech {
-        width: 50px;
-        height: 50px;
+        width: 13vw;
+        height: 13vw;
         margin: 20px 15px;
+        bottom: 21%;
     }
     
     .card__title {
@@ -196,11 +199,16 @@
     }
     
     .container__logo-nivel {
-        height: 13.5vw;
+        height: 22vw;
+        top: 15%;
+    }
+
+    .container-nivel {
+        bottom: 25%;
     }
     
     .style-text__nivel {
-        font-size: 12px;
+        font-size: 2.8vw;
         top: 3.5px;
     }
     

@@ -45,6 +45,7 @@
 .container__title-lineaHorizontal {
     position: relative;
     top: 6%;
+    padding-right: 9%;
 }
 
 
@@ -62,7 +63,7 @@
     height: 3.1px !important;
     border-radius: 5px;
     margin: auto;
-    right: 9.5%;
+    right: 11%;
     bottom: 3px;
 }
 
@@ -228,8 +229,8 @@
     }
 
     .container__title-lineaHorizontal {
-        right: 0%;
         top: 0%;
+        padding-left: 9%;
     }
     
     
@@ -241,7 +242,7 @@
     
     .title-lineaHorizontal__contactos {
         height: 2.5px !important;
-        right: 14.3%;
+        right: 19.6%;
         top: 9px !important;
     }
     
