@@ -230,6 +230,7 @@
     .carousel-control-next-icon {
         border-radius: 50%;
         position: relative;
+        bottom: 5%;
     }
 
     .carousel-control-prev-icon {

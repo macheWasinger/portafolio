@@ -237,8 +237,8 @@
     
     .style-h1__title-contactos {
         font-size: 38px;
-        top: 15px;
-        right: 4px;
+        top: 14px;
+        right: 0.5%;
     }
     
     .title-lineaHorizontal__contactos {
@@ -287,7 +287,7 @@
     
     .style__text-desarrollador {
         color: #fff;
-        font-size: 14px;
+        font-size: 2.5vw;
         font-weight: 300 !important;
         position: relative;
         top: 7px;
