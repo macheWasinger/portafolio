@@ -11,7 +11,8 @@
 
   .item-li {
     width: 50%;
-    bottom: 60px;
+    position: relative;
+    top: 20px;
     margin: 0 0 40px 0;
     display: flex;
     justify-content: center;
@@ -144,9 +145,9 @@
       position: fixed;
       right: 0px;
       margin: auto;
-      padding-bottom: 50px;
+      padding-bottom: 40px;
       width: 20vw;
-      height: 100%;
+      height: 42vw;
       background-color: #FFB633;
       display: flex;
       flex-direction: column;
@@ -161,11 +162,14 @@
 
     @media screen and (max-width: 800px) {
       .item-li {
+        height: 3.5vw;
         width: auto;
         margin: 0 2% 0 0;
+        padding: 0.25%;
+        padding-left: 1%;
         position: relative;
-        top: 100%;
-        right: 8.5%;
+        top: 65%;
+        right: 8%;
       }
 
       .item-li a:before {
@@ -173,8 +177,8 @@
       }
     
         .menu-navegacion ul li a {
-          height: 25px;
-          font-size: 13px;
+          font-size: 2.5vw;
+          bottom: 75%;
           letter-spacing: 0.5px;
           width: auto;
         }

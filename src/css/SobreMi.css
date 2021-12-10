@@ -5,7 +5,7 @@
 .container-padre_sobreMi {
     background-color: #303131;
     width: 100%;
-    height: 600px;
+    height: 44vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
 }
 
 .container-text_sobreMi {
-    width: 40%;
+    width: 38vw;
     height: 100%;
     left: 10px;
     padding-bottom: 3.5%;
@@ -96,8 +96,8 @@
 
 @media screen and (max-width: 800px) {
     .container-padre_sobreMi {
-        height: 470px;
-        padding-top: 10%;
+        height: 100vw;
+        padding-top: 8%;
         justify-content: space-around;
     }
     

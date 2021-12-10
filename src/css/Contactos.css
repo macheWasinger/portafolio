@@ -63,8 +63,8 @@
     height: 3.1px !important;
     border-radius: 5px;
     margin: auto;
-    right: 57px;
-    top: 15px !important;
+    right: 8%;
+    top: 24% !important;
 }
 
 .container__site-footer {
@@ -240,8 +240,9 @@
     }
     
     .title-lineaHorizontal__contactos {
+        height: 2.5px !important;
         right: 14.3%;
-        top: 10px !important;
+        top: 9px !important;
     }
     
     .container__site-footer {
