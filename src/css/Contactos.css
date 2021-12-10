@@ -44,7 +44,7 @@
 
 .container__title-lineaHorizontal {
     position: relative;
-    top: 6%;
+    top: 5%;
     padding-right: 9%;
 }
 
@@ -82,7 +82,6 @@
 .container-datos__siteFooter {
     width: 33%;
     height: 2.6vw;
-    top: 3%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -159,7 +158,7 @@
     padding: 7px;
     display: flex;
     flex-direction: column;
-    top: 13%;
+    top: 35px;
 }
 
 .style-seguimeEnRedes, .container-logos {
@@ -169,7 +168,7 @@
 .style-seguimeEnRedes {
     color: #fff;
     text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
-    font-size: 1.25vw;
+    font-size: 16px;
     text-align: left;
 }
 
@@ -179,14 +178,14 @@
 }
 
 .container__datos-contactos .style-i {
-    font-size: 2.15vw;
+    font-size: 30px;
     color: #FFB633;
     cursor: pointer;
     border-radius: 100%;
 }
 
 .container__datos-contactos .style-p {
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #fff;
     font-weight: 500;
     margin-top: 15px;
@@ -230,20 +229,20 @@
     }
 
     .container__title-lineaHorizontal {
-        top: 0%;
-        padding-left: 9%;
+        left: 3.8%;
+        top: 2px;
     }
     
     
     .style-h1__title-contactos {
-        font-size: 8vw;
+        font-size: 38px;
         top: 15px;
-        right: 3px;
+        right: 4px;
     }
     
     .title-lineaHorizontal__contactos {
         height: 2.5px !important;
-        right: 19.6%;
+        right: 16%;
         top: 9px !important;
     }
     
@@ -310,19 +309,20 @@
     }
 
     .container-whatsapp .style-i, .container-mail .style-i {
-        bottom: 6.5px;
+        top: 4px;
     }
     
     
     .container-mail .style-p, .container-whatsapp .style-p {
-        font-size: 17px !important;
+        font-size: 3.5vw !important;
         left: 8% !important;
+        top: 9px;
     }
     
     .container__logos-redes {
         width: 127%;
         padding: 0;
-        top: 18%;
+        top: 15%;
     }
     
     .style-seguimeEnRedes, .container-logos {
