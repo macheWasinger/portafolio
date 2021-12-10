@@ -175,12 +175,10 @@
     .container-tech {
         width: auto;
         height: auto;
-        display: flex;
-        align-items: center;
+        margin: auto;
         padding: 15px;
         background-color: #474747;
         margin-top: 3%;
-        margin-left: 8.8%;
     }
     
     .style-logo-tech {
