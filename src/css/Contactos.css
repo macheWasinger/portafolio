@@ -236,14 +236,13 @@
     
     
     .style-h1__title-contactos {
-        font-size: 38px;
+        font-size: 8vw;
         top: 14px;
-        left: 5%;
     }
     
     .title-lineaHorizontal__contactos {
         height: 2.5px !important;
-        right: 14.5%;
+        right: 16%;
         top: 9px !important;
     }
     
