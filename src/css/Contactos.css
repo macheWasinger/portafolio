@@ -265,6 +265,7 @@
         width: 66%;
         height: 6vw;
         left: 5%;
+        top: -2px;
     }
     
     .container__site-footer img {
