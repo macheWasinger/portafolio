@@ -25,7 +25,8 @@
     height: 3.1px !important;
     border-radius: 5px;
     margin: auto;
-    right: 7.3%;
+    right: 7.1%;
+    bottom: 0.5%;
 }
 
 .card__title, .skills__tech, .style-h1-title, .style-h3-subtitulo {
@@ -34,7 +35,7 @@
 
 .style-h1-title {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3.5vw;
     letter-spacing: 2px;
 }
 
@@ -148,15 +149,19 @@
         padding-top: 10%;
         background-color: #242424;
     }
+
+    .style-h1-title {
+        font-size: 8vw;
+    }
     
     .title-lineaHorizontal {
         width: 25% !important;
-        right: 24.5%;
+        right: 17.8%;
     }
     
     .style-h3-subtitulo {
-        font-size: 20px;
-        top: 25px;
+        font-size: 3.2vw;
+        top: 4%;
     }
     
     .column-general {

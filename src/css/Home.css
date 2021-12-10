@@ -4,7 +4,7 @@
 
 .container-padre {
     width: 100%;
-    height: 47.6vw;
+    height: 47vw;
     display: flex;
     flex-direction: column;
     overflow: hidden;

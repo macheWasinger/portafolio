@@ -49,7 +49,7 @@
 
 .style-h1-sobreMi {
     color: #fff;
-    font-size: 50px;
+    font-size: 3.5vw;
     font-weight: 700;
     right: 29.5%;
     bottom: 3.5%;
@@ -105,7 +105,7 @@
         width: auto;
         height: auto;
         top: 0;
-        left: -10px;
+        left: 1.5%;
     }
     
     .container-image {
@@ -125,15 +125,15 @@
     
     .container-text_sobreMi {
         width: 48%;
-        height: 440px;
-        left: -7px;
+        height: 90vw;
+        left: 0% !important;
         bottom: 5%;
     }
     
     .style-h1-sobreMi {
-        font-size: 40px;
+        font-size: 8vw;
         right: 62%;
-        bottom: 1%;
+        top: 2%;
     }
     
     .container-text_sobreMi .style-span_linea-horizontal {
@@ -141,20 +141,25 @@
         height: 2.9px;
         background-color: #FFB633;
         border-radius: 25px;
-        bottom: 2%;
+        top: 1.5%;
         right: 119px;
     }
     
     .style-p-sobreMi {
+        width: 85%;
+        padding: 3px;
+        font-size: 3vw;
         color: rgb(192, 192, 192);
-        top: 21px;
-        text-align: left;
+        top: 11.5%;
+        left: 5.5%;
     }
     
     .style-button-descargarCV {
         width: 120px;
         height: 40px;
-        top: 20px;
+        top: 6%;
+        left: -4%;
+        margin: auto;
         border-radius: 0 20px 0 20px;
         font-size: 13px;
         box-shadow: 0 0 10px #2a2a2a;

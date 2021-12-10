@@ -44,16 +44,15 @@
 
 .container__title-lineaHorizontal {
     position: relative;
-    right: 40px;
+    top: 6%;
 }
 
 
 .style-h1__title-contactos {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 3.5vw;
     color: #fff;
     letter-spacing: 2px;
-    top: 20px;
     z-index: 1;
 }
 
@@ -63,8 +62,8 @@
     height: 3.1px !important;
     border-radius: 5px;
     margin: auto;
-    right: 8%;
-    top: 24% !important;
+    right: 9.5%;
+    bottom: 3px;
 }
 
 .container__site-footer {
@@ -230,13 +229,14 @@
 
     .container__title-lineaHorizontal {
         right: 0%;
+        top: 0%;
     }
     
     
     .style-h1__title-contactos {
-        font-size: 38px;
+        font-size: 8vw;
         top: 15px;
-        right: 4px;
+        right: 3px;
     }
     
     .title-lineaHorizontal__contactos {
