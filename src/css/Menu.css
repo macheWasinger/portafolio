@@ -185,7 +185,7 @@
         .container-Padre_menu .burger {
           width: 3%;
           height: 4vh;
-          top: 3%;
+          top: 2%;
           right: 5.5%;
           z-index: 2;
         }
@@ -197,7 +197,7 @@
         .label-menu #span-1,
         #span-2,
         #span-3 {
-          width: 5.5vw;
+          width: 5.7vw;
           height: 0.7vw;
         }
       
