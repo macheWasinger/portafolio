@@ -194,8 +194,8 @@
         height: 0;
     }
 
-    .style-a__project:hover .container__name-tech {
-        display: none;
+    .style-a__project:hover .style-span__text-tech {
+        font-size: 0;
     }
 
     .style-image__product {

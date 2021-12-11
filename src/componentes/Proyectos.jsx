@@ -17,7 +17,7 @@ const Proyectos = () => {
                 <div className="container-hijo__proyecto1 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="250">
                     <a href="https://machewasinger.github.io/destinoarg/" target="_blank" className="style-a__project">
                         <img src={imageDestinoArg} alt="" className="style-image__product"/>
-                        <div className="container__text-tech__project-1 container__name-tech">
+                        <div className="container__text-tech__project-1">
                             <span className="style-span__text-tech">
                                 JavaScript
                             </span>
@@ -42,7 +42,7 @@ const Proyectos = () => {
                 <div className="container-hijo__proyecto2 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="400">
                     <a href="https://machewasinger.github.io/MaquetadoMeli.github.io/"  target="_blank" className="style-a__project">
                         <img src={imageMeli} alt="" className="style-image__product"/>
-                        <div className="container__text-tech__project-2 container__name-tech">
+                        <div className="container__text-tech__project-2">
                             <span className="style-span__text-tech">
                                 JavaScript
                             </span>
@@ -61,7 +61,7 @@ const Proyectos = () => {
                 <div className="container-hijo__proyecto3 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="550">
                     <a href="https://machewasinger.github.io/Maquetado.github.io/" target="_blank" className="style-a__project">
                         <img src={imageMaquetado} alt="" className="style-image__product"/>
-                        <div className="container__text-tech__project-3 container__name-tech">
+                        <div className="container__text-tech__project-3">
                             <span className="style-span__text-tech">
                                 JavaScript
                             </span>
