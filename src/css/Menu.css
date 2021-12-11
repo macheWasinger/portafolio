@@ -172,6 +172,10 @@
         right: 8%;
       }
 
+      .item-li:hover {
+        color: #FFB633;
+      }
+
       .item-li a:before {
         display: none;
       }
