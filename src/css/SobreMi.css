@@ -17,9 +17,9 @@
 }
 
 .container_small-picture {
-    width: 304px;
-    height: 380px;
-    right: 25px;
+    width: 21.6vw;
+    height: 26.5vw;
+    right: 2%;
 }
 
 .container-image {
@@ -102,15 +102,15 @@
     }
     
     .container_small-picture {
-        width: auto;
-        height: auto;
+        width: 44vw;
+        height: 51vw;
         top: 0;
         left: 3%;
     }
     
     .container-image {
-        width: 13rem;
-        height: 17rem;
+        width: 100%;
+        height: 100%;
         border: 10px solid #474747;
         top: 0;
     }
@@ -133,7 +133,7 @@
     .style-h1-sobreMi {
         font-size: 8vw;
         right: 53%;
-        top: 2%;
+        top: 5%;
     }
     
     .container-text_sobreMi .style-span_linea-horizontal {
@@ -141,7 +141,7 @@
         height: 2.9px;
         background-color: #FFB633;
         border-radius: 25px;
-        top: 1.5%;
+        top: 4%;
         right: 40.5%;
     }
     
@@ -163,5 +163,9 @@
         border-radius: 0 20px 0 20px;
         font-size: 13px;
         box-shadow: 0 0 10px #2a2a2a;
+    }
+
+    .style-button-descargarCV:hover {
+        transition: all 0.3s;
     }
 }
