@@ -186,6 +186,14 @@
         flex-direction: column;
     }
 
+    .style-a__project:before {
+        width: 0;
+    }
+
+    .style-a__project:hover:before {
+        height: 0;
+    }
+
     .style-image__product {
         box-shadow: 0 0 10px #000;
     }
