@@ -21,15 +21,14 @@ const Home = () => {
                     <div className="container__texto-presentacion">
                         <h1 className="style-h1-home">
                             <span className="span__text-soy" data-aos="fade-right" data-aos-delay="100">Soy</span>
-                            <span className="nombre-apellido" data-aos="fade-right" data-aos-delay="300">Marcelo Wasinger</span>
-                            {/* <span className="style-apellido" data-aos="fade-right" data-aos-delay="500">Wasinger</span> */}
+                            <span className="nombre-apellido" data-aos="fade-right" data-aos-delay="250">Marcelo Wasinger</span>
                         </h1>
                         
-                        <span className="style-span_linea-horizontal-home1" data-aos="zoom-in" data-aos-delay="700"></span>
+                        <span className="style-span_linea-horizontal-home1"></span>
 
-                        <span className="style-span_linea-horizontal-home2" data-aos="zoom-in" data-aos-delay="950"></span>
+                        <span className="style-span_linea-horizontal-home2"></span>
 
-                        <video onLoadedMetadata="this.muted=true" autoPlay loop muted className="style-animacionMaquetador" data-aos="zoom-in" data-aos-delay="1250">
+                        <video onLoadedMetadata="this.muted=true" autoPlay loop muted className="style-animacionMaquetador" data-aos="zoom-in" data-aos-delay="700">
                         <source src={animacionMaquetador} />
                         </video>
                     </div>
