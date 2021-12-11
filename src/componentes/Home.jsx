@@ -20,10 +20,9 @@ const Home = () => {
                     </video>
                     <div className="container__texto-presentacion">
                         <h1 className="style-h1-home">
-                            <span data-aos="fade-right" data-aos-delay="100">Soy</span>
-                            <span className
-                            ="style-nombre" data-aos="fade-right" data-aos-delay="300">Marcelo</span>
-                            <span className="style-apellido" data-aos="fade-right" data-aos-delay="500">Wasinger</span>
+                            <span className="span__text-soy" data-aos="fade-right" data-aos-delay="100">Soy</span>
+                            <span className="nombre-apellido" data-aos="fade-right" data-aos-delay="300">Marcelo Wasinger</span>
+                            {/* <span className="style-apellido" data-aos="fade-right" data-aos-delay="500">Wasinger</span> */}
                         </h1>
                         
                         <span className="style-span_linea-horizontal-home1" data-aos="zoom-in" data-aos-delay="700"></span>
