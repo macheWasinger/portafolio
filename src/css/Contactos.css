@@ -22,8 +22,8 @@
 .container-hijo__contactos:before {
     content: "";
     display: block;
-    width: 11.5vw;
-    height: 26.9vw;
+    width: 23%;
+    height: 380px;
     border-radius: 10px 0 0 10px;
     background-color: #2c2c2c;
     position: absolute;
@@ -31,8 +31,8 @@
 }
 
 .container-hijo__contactos {
-    width: 50vw;
-    height: 26.9vw;
+    width: 50%;
+    height: 380px;
     margin: auto;
     background-color: #4d4c4c;
     z-index: 1 !important;
@@ -150,33 +150,27 @@
 
 
 .container-mail .style-p, .container-whatsapp .style-p {
-    left: 6.5%;
-}
-
-.container-mail .style-p {
-    left: 5.5%;
+    left: 25px;
 }
 
 .container__logos-redes {
-    width: 22vw;
-    height: 6vw;
+    width: 73%;
+    height: auto;
     padding: 7px;
     display: flex;
     flex-direction: column;
     top: 11%;
-    left: -0.5%;
 }
 
 .style-seguimeEnRedes, .container-logos {
-    margin-left: -2%;
+    margin-left: -7px;
 }
 
 .style-seguimeEnRedes {
-    color: #FFB633;
-    font-size: 1.2vw;
-    font-weight: 600;
-    text-align: center;
+    color: #fff;
     text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+    font-size: 16px;
+    text-align: left;
 }
 
 .container-logos {
@@ -230,8 +224,8 @@
     }
 
     .container-hijo__contactos {
-        width: 90vw;
-        height: 57vw;
+        width: 90%;
+        height: 62%;
         top: 11%;
     }
 
