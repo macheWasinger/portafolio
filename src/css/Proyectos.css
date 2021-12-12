@@ -194,7 +194,7 @@
         height: 0;
     }
 
-    .style-a__project:hover .style-span__text-tech {
+    .style-a__project:hover {
         pointer-events: none;
     }
 
