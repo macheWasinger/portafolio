@@ -194,8 +194,10 @@
         height: 0;
     }
 
-    .style-a__project:hover {
-        pointer-events: none;
+    .style-a__project:hover .style-span__text-tech {
+       width: 0;
+       height: 0;
+       font-size: 0;
     }
 
     .style-image__product {
