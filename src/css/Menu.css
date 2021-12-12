@@ -88,8 +88,9 @@
       position: absolute;
       content: "";
       background-color: #fff;
-      width: 40px;
+      width: 35px;
       height: 4px;
+      box-shadow: 2px 2px 2px #555555;
       border-radius: 4px;
       transition: all 0.4s;
     }
@@ -108,9 +109,7 @@
   
     /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
     #btn-menu:checked ~ .label-menu #span-1 {
-      height: 5px;
       transform: rotate(140deg);
-      top: 10px;
     }
   
     #btn-menu:checked ~ .label-menu #span-2 {
@@ -118,8 +117,12 @@
     }
   
     #btn-menu:checked ~ .label-menu #span-3 {
-      height: 5px;
       transform: rotate(-140deg);
+    }
+
+    #btn-menu:checked ~ .label-menu #span-1, #btn-menu:checked ~ .label-menu #span-3 {
+      height: 5px;
+      box-shadow: none;
       top: 10px;
     }
   

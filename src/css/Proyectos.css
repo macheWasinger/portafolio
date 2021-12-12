@@ -195,7 +195,7 @@
     }
 
     .style-a__project:hover .style-span__text-tech {
-        display: none;
+        pointer-events: none;
     }
 
     .style-image__product {
