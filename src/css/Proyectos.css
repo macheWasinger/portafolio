@@ -195,7 +195,7 @@
     }
 
     .style-a__project:hover .style-span__text-tech {
-        font-size: 0;
+        display: none;
     }
 
     .style-image__product {
