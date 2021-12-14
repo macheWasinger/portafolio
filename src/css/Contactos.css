@@ -240,6 +240,7 @@
     .style-h1__title-contactos {
         font-size: 8vw;
         line-height: 7.2vw;
+        top: 2px;
     }
     
     .title-lineaHorizontal__contactos {
@@ -338,9 +339,9 @@
     
     .container__logos-redes {
         width: 60vw;
-        height: 11vw;
+        height: 53px;
         padding: 0;
-        top: 0;
+        top: -2%;
     }
 
     .container__logos-redes .style-i {
