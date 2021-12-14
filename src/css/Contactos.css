@@ -4,7 +4,7 @@
 
 .container-padre__Contactos {
     width: 100%;
-    height: 450px;
+    height: 30vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://einatec.com/wp-content/uploads/2015/02/responsive-design-and-web-devices-P8AJY9U.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -22,21 +22,21 @@
 .container-hijo__contactos:before {
     content: "";
     display: block;
-    width: 23%;
-    height: 380px;
+    width: 11.5vw;
+    height: 28vw;
     border-radius: 10px 0 0 10px;
     background-color: #2c2c2c;
     position: absolute;
-    top: 0px;
+    top: 0;
 }
 
 .container-hijo__contactos {
-    width: 50%;
-    height: 380px;
+    width: 50vw;
+    height: 28vw;
     margin: auto;
     background-color: #4d4c4c;
     z-index: 1 !important;
-    bottom: 132px;
+    bottom: 28%;
     box-shadow: 0 0 12px #161616;
     border-radius: 10px;
     border-bottom: 15px solid #FFB633;
@@ -59,17 +59,17 @@
 
 .title-lineaHorizontal__contactos {
     background-color: #FFB633 !important;
-    width: 16% !important;
-    height: 3.1px !important;
+    width: 8.5vw !important;
+    height: 0.2vw !important;
     border-radius: 5px;
     margin: auto;
-    right: 11%;
-    bottom: 3px;
+    right: 9.1%;
+    bottom: 5.5%;
 }
 
 .container__site-footer {
     width: 100%;
-    height: 85px;
+    height: 5vw;
     background-color: #2a2a2a;
     display: flex;
     align-items: center;
@@ -82,20 +82,19 @@
 .container-datos__siteFooter {
     width: 33%;
     height: 2.6vw;
-    top: 2px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
 .container__site-footer img {
-    width: 55px;
-    height: 35px;
+    width: 4vw;
+    height: 2.5vw;
 }
 
 .style-button__return {
     color: #FFB633;
-    font-size: 40px;
+    font-size: 2.6vw;
     left: 50px;
     cursor: pointer;
     transition: all 0.5s;
@@ -108,18 +107,18 @@
 
 .style__text-desarrollador {
     color: #fff;
-    font-size: 14px;
+    font-size: 1.1vw;
     font-weight: 300 !important;
     position: relative;
-    top: 7px;
+    top: 15%;
 }
 
 .container__datos-contactos {
     width: 55%;
-    height: 250px;
+    height: 16.5vw;
     margin: auto;
-    top: 50px;
-    left: 38px;
+    top: 18%;
+    left: 5.6%;
     display: flex;
     flex-direction: column;
 }
@@ -159,7 +158,7 @@
     padding: 7px;
     display: flex;
     flex-direction: column;
-    top: 11%;
+    top: 14%;
 }
 
 .style-seguimeEnRedes, .container-logos {
@@ -169,7 +168,7 @@
 .style-seguimeEnRedes {
     color: #fff;
     text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
-    font-size: 16px;
+    font-size: 1.2vw;
     text-align: left;
 }
 
@@ -179,14 +178,14 @@
 }
 
 .container__datos-contactos .style-i {
-    font-size: 30px;
+    font-size: 2vw;
     color: #FFB633;
     cursor: pointer;
     border-radius: 100%;
 }
 
 .container__datos-contactos .style-p {
-    font-size: 1.5vw;
+    font-size: 1.35vw;
     color: #fff;
     font-weight: 500;
     margin-top: 15px;
@@ -216,39 +215,40 @@
 
 @media screen and (max-width: 800px) {
     .container-padre__Contactos {
+        height: 80vw;
         background-attachment: scroll;
     }
 
     .container-hijo__contactos:before {
-        height: 106%;
+        width: 20vw;
+        height: 57.5vw;
     }
 
     .container-hijo__contactos {
-        width: 90%;
-        height: 62%;
+        width: 90vw;
+        height: 57.5vw;
         top: 11%;
     }
 
     .container__title-lineaHorizontal {
-        left: 3.8%;
-        top: 2px;
+        padding-left: 7.5%;
+        top: 6%;
     }
     
     
     .style-h1__title-contactos {
         font-size: 8vw;
-        top: 14px;
     }
     
     .title-lineaHorizontal__contactos {
-        height: 2.5px !important;
-        right: 16%;
-        top: 9px !important;
+        height: 0.4vw !important;
+        right: 20.6%;
+        bottom: 7%;
     }
     
     .container__site-footer {
         width: 100%;
-        height: 70px;
+        height: 9.5vw;
         top: 22.5%;
         background-color: #2a2a2a;
         display: flex;
@@ -256,25 +256,24 @@
     }
     
     .container__site-footer, 
-    .container-datos__siteFooter, .style-button__return, .style__text-desarrollador {
+    .container-datos__siteFooter, .style-button__return, .style__text-desarrollador, img {
         position: relative;
     }
     
     .container-datos__siteFooter {
-        width: 66%;
-        height: 6vw;
-        left: 5%;
-        top: -2px;
+        width: 66vw;
+        height: 7.5vw;
     }
     
     .container__site-footer img {
-        width: 50px;
-        height: 30px;
+        width: 9vw;
+        height: 5.4vw;
+        top: 16%;
     }
     
     .style-button__return {
         color: #FFB633;
-        font-size: 35px;
+        font-size: 6vw;
         left: 60%;
         cursor: pointer;
         transition: all 0.5s;
@@ -290,14 +289,14 @@
         font-size: 2.5vw;
         font-weight: 300 !important;
         position: relative;
-        top: 7px;
+        top: 25%;
     }
     
     .container__datos-contactos {
-        width: 55%;
-        height: 28%;
-        top: 13%;
-        left: 4.5%;
+        width: 60vw;
+        height: 33vw;
+        top: 17%;
+        left: 10%;
     }
     
     .container-redSocial {
@@ -310,20 +309,19 @@
     }
 
     .container-whatsapp .style-i, .container-mail .style-i {
-        top: 4px;
+        top: 11%;
     }
     
     
     .container-mail .style-p, .container-whatsapp .style-p {
         font-size: 3.5vw !important;
         left: 8% !important;
-        top: 9px;
+        top: 20%;
     }
     
     .container__logos-redes {
-        width: 127%;
+        width: 60vw;
         padding: 0;
-        top: 25%;
     }
     
     .style-seguimeEnRedes, .container-logos {
@@ -332,7 +330,7 @@
     
     .style-seguimeEnRedes {
         width: 100%;
-        font-size: 14px;
+        font-size: 2.9vw;
     }
     
     .container-logos {
@@ -340,11 +338,11 @@
     }
     
     .container__datos-contactos .style-i {
-        font-size: 25px;
+        font-size: 4.5vw;
     }
     
     .container__datos-contactos .style-p {
-        font-size: 18px;
-        margin-top: 0;
+        font-size: 3.3vw !important;
+        margin-top: -2px;
     }
 }
