@@ -64,7 +64,7 @@
     border-radius: 5px;
     margin: auto;
     right: 9.1%;
-    bottom: 5.5%;
+    top: 0;
 }
 
 .container__site-footer {
@@ -241,9 +241,9 @@
     }
     
     .title-lineaHorizontal__contactos {
-        height: 0.4vw !important;
+        height: 2.8px !important;
         right: 20.6%;
-        bottom: 10%;
+        top: -7% !important;
     }
     
     .container__site-footer {
