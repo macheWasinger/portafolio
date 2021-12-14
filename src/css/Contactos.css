@@ -154,7 +154,7 @@
 
 .container__logos-redes {
     width: 73%;
-    height: auto;
+    height: 6vw;
     padding: 7px;
     display: flex;
     flex-direction: column;
@@ -321,6 +321,7 @@
     
     .container__logos-redes {
         width: 60vw;
+        height: 12vw;
         padding: 0;
     }
     
