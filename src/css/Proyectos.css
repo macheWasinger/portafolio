@@ -171,6 +171,18 @@
         height: 0;
     }
 
+    .style-a__project:hover .style-span__text-tech {
+        height: 5.2vw;
+        padding: 0 5px;
+        padding-right: 7px;
+        padding-top: 1px;
+        margin-left: 4.8px;
+        margin-top: 5.5px;
+        font-size: 3vw;
+        box-shadow: 0 0 5px #fff;
+        transition: all 0.7s;
+    }
+
     .carousel {
         display: block;
         width: 85%;
