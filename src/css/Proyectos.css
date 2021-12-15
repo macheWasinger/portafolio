@@ -70,14 +70,14 @@
     background-color: black;
     opacity: 0.8;
     display: block;
-    top: -9.8vw;
+    top: -9.9vw;
     transition: all 0.3s;
     transition-delay: 0.2s;
     z-index: 1;
 }
 
 .style-a__project:hover:before {
-    height: 21.5vw;
+    height: 21.6vw;
     cursor: pointer;
 }
 
