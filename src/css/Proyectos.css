@@ -41,12 +41,10 @@
 }
 
 .container-proyectos {
-    width: 80%;
+    width: 80vw;
     height: auto;
     margin: auto;
-    margin-top: 100px;
-    position: relative;
-    right: 5px;
+    margin-top: 7%;
     display: flex;
     background-color: #2A2A2A;
     box-shadow: 0 0 12px #000;

@@ -12,7 +12,8 @@
   .item-li {
     width: 50%;
     position: relative;
-    top: 10%;
+    top: 8%;
+    left: 7%;
     margin: 0 13% 17% 0;
     display: flex;
     justify-content: center;
@@ -171,7 +172,7 @@
         padding: 0.7%;
         position: relative;
         top: 25%;
-        right: 8%;
+        left: -8%;
       }
 
       .item-li:hover {
