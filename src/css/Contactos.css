@@ -234,19 +234,19 @@
         height: 9.5vw;
         padding-left: 7.5%;
         top: 6%;
+        background-color: green;
     }
     
     
     .style-h1__title-contactos {
         font-size: 8vw;
         line-height: 7.2vw;
-        top: 2px;
     }
     
     .title-lineaHorizontal__contactos {
         height: 2.8px !important;
         right: 21%;
-        top: 0;
+        top: -2%;
     }
     
     .container__site-footer {
@@ -341,7 +341,7 @@
         width: 60vw;
         height: 53px;
         padding: 0;
-        top: -2%;
+        top: 0%;
     }
 
     .container__logos-redes .style-i {
