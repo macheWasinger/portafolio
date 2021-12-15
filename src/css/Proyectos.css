@@ -35,7 +35,7 @@
 
 .style-h3-subtitulo__proyectos {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 1.7vw;
     top: 35px;
     letter-spacing: 3px;
 }
@@ -52,8 +52,8 @@
 
 
 .container-hijo__proyecto1, .container-hijo__proyecto2, .container-hijo__proyecto3 {
-    width: 400px;
-    height: 300px;
+    width: 30vw;
+    height: 21.4vw;
     margin: auto;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .style-a__project:hover:before {
-    height: 301px;
+    height: 21.4vw;
     cursor: pointer;
 }
 
