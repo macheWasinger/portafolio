@@ -66,9 +66,9 @@ const Conocimientos = () => {
                         </div>
                         <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="750">
                             <img src={figma} alt="" className="style-logo-tech" />
-                            <div className="container-nivel n-bajo">
+                            <div className="container-nivel n-medio">
                                 <span className="style-circle"></span>
-                                <h3 className="style-text__nivel">bajo</h3>
+                                <h3 className="style-text__nivel">medio</h3>
                             </div>
                         </div>
                         <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="900">
