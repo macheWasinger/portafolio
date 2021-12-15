@@ -161,6 +161,10 @@
     .container-proyectos {
         display: none;
     }
+
+    .style-a__project:hover {
+        pointer-events: none;
+    }
     
     .carousel {
         display: block;
