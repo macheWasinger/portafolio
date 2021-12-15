@@ -162,10 +162,15 @@
         display: none;
     }
 
-    .style-a__project:hover {
+    /* .style-a__project:hover {
         pointer-events: none;
     }
-    
+     */
+
+    .style-a__project:hover:before {
+        height: 0;
+    }
+
     .carousel {
         display: block;
         width: 85%;
