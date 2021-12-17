@@ -7,9 +7,9 @@
     height: 45vw;
     background-image: url("https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Teaser/web-development-t.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 140%;
     background-attachment: fixed;
-    padding-top: 74px;
+    padding-top: 5.5%;
     overflow: hidden;
 }
 
@@ -43,8 +43,8 @@
 
 .style-h3-subtitulo {
     text-transform: uppercase;
-    font-size: 25px;
-    top: 35px;
+    font-size: 1.6vw;
+    top: 6%;
     letter-spacing: 3px;
 }
 
@@ -53,13 +53,13 @@
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    top: 95px;
+    top: 17%;
     align-items: start;
 }
 
 .container-tech {
     width: auto;
-    height: 18vw;
+    height: 16.4vw;
     background-color: #2a2a2a;
     box-shadow: 0 0 10px #000;
     border-radius: 15px;
@@ -70,14 +70,14 @@
 .style-logo-tech {
     width: 6.5vw;
     height: 6.5vw;
-    margin: 25px 15px;
+    margin: 19% 1.1vw;
 }
 
 .card__title {
     font-size: 2.4vw;
     font-weight: 600;
     position: relative;
-    top: 10px;
+    top: 5%;
 }
 
 .container-frontend, .container-design, 
@@ -87,7 +87,7 @@
 
 .container__logo-nivel {
     width: auto;
-    height: 13.5vw;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -97,6 +97,7 @@
     height: auto;
     border-radius: 7px;
     margin: auto;
+    bottom: 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -108,7 +109,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    top: 3px;
+    top: 10%;
 }
 
 .style-circle {

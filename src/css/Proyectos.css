@@ -35,8 +35,8 @@
 
 .style-h3-subtitulo__proyectos {
     text-transform: uppercase;
-    font-size: 1.7vw;
-    top: 35px;
+    font-size: 1.6vw;
+    top: 6%;
     letter-spacing: 3px;
 }
 
@@ -53,7 +53,7 @@
 
 .container-hijo__proyecto1, .container-hijo__proyecto2, .container-hijo__proyecto3 {
     width: 30vw;
-    height: 21.4vw;
+    height: 21vw;
     margin: auto;
 }
 
@@ -70,14 +70,14 @@
     background-color: black;
     opacity: 0.8;
     display: block;
-    top: -9.9vw;
+    top: -9.55vw;
     transition: all 0.3s;
     transition-delay: 0.2s;
     z-index: 1;
 }
 
 .style-a__project:hover:before {
-    height: 21.6vw;
+    height: 21vw;
     cursor: pointer;
 }
 
@@ -92,13 +92,15 @@
 .style-a__project:hover 
 .container__text-tech__project-1 {
     width: 80%;
+    padding-left: 4.5%;
 }
 
 .style-a__project:hover 
 .container__text-tech__project-2, 
 .container-project:hover 
 .container__text-tech__project-3 {
-    width: 50%;
+    width: 80%;
+    padding-left: 13%;
 }
 
 .style-a__project:hover 
@@ -113,16 +115,14 @@
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    bottom: 185px;
+    bottom: 62%;
 }
 
 .style-a__project:hover .style-span__text-tech {
     width: auto;
     height: 2vw;
-    padding: 0 5px;
-    padding-right: 7px;
-    margin-left: 5px;
-    margin-top: 5px;
+    padding: 0 2%;
+    margin-left: 2%;
     background-color: #4d4c4c;
     font-size: 1.2vw;
     font-weight: 600;
