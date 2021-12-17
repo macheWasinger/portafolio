@@ -151,7 +151,7 @@
     .container-padre_conocimientos {
         background-image: none;
         background-attachment: unset;
-        height: 165vw;
+        height: 170vw;
         padding-top: 10%;
         background-color: #242424;
     }
@@ -174,12 +174,12 @@
     
     .column-general {
         flex-direction: column;
-        top: 40px;
+        top: 7% !important;
     }
     
     .container-tech {
         width: auto;
-        height: 39vw;
+        height: auto;
         margin: auto;
         padding: 2vw;
         padding-top: 3vw;
@@ -198,7 +198,7 @@
         font-size: 6vw;
         font-weight: 600;
         position: relative;
-        top: -4px;
+        top: -1vw;
     }
     
     .container-frontend, .container-design, 
