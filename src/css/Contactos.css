@@ -43,6 +43,7 @@
 }
 
 .container__title-lineaHorizontal {
+    height: 5vw;
     position: relative;
     top: 5%;
     padding-right: 9%;
@@ -59,12 +60,12 @@
 
 .title-lineaHorizontal__contactos {
     background-color: #FFB633 !important;
-    width: 8.5vw !important;
+    width: 8vw !important;
     height: 0.2vw !important;
     border-radius: 5px;
     margin: auto;
-    right: 9.1%;
-    top: -4%;
+    right: 10%;
+    top: -5.5%;
 }
 
 .container__site-footer {
@@ -131,7 +132,7 @@
     height: 2.2vw;
     display: flex;
     align-items: center;
-    margin-bottom: 3%;
+    margin-bottom: 3.5%;
 }
 
 /* .container-mail {
@@ -148,9 +149,9 @@
 }
 
 .container__logos-redes {
-    width: 73%;
-    height: 6vw;
-    padding: 7px;
+    width: 21vw;
+    height: auto;
+    padding: 0.55vw;
     display: flex;
     flex-direction: column;
     top: 20%;
@@ -238,9 +239,10 @@
     }
     
     .title-lineaHorizontal__contactos {
-        height: 2.8px !important;
-        right: 21%;
-        top: -2%;
+        width: 20vw !important;
+        height: 0.3vw !important;
+        right: 13.5%;
+        top: -1%;
     }
     
     .container__site-footer {

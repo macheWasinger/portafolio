@@ -23,12 +23,12 @@
 
 .title-lineaHorizontal {
     background-color: #FFB633 !important;
-    width: 12% !important;
-    height: 3.1px !important;
+    width: 11% !important;
+    height: 0.2vw !important;
     border-radius: 5px;
     margin: auto;
-    right: 7.1%;
-    bottom: 0.5%;
+    right: 7.6%;
+    bottom: 0.7%;
 }
 
 .card__title, .skills__tech, .style-h1-title, .style-h3-subtitulo {
@@ -59,7 +59,7 @@
 
 .container-tech {
     width: auto;
-    height: 16.4vw;
+    height: 15.6vw;
     background-color: #2a2a2a;
     box-shadow: 0 0 10px #000;
     border-radius: 15px;
@@ -76,6 +76,7 @@
 .card__title {
     font-size: 2.4vw;
     font-weight: 600;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
     position: relative;
     top: 5%;
 }
@@ -90,6 +91,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    bottom: 7%;
 }
 
 .container-nivel {
@@ -97,7 +99,7 @@
     height: auto;
     border-radius: 7px;
     margin: auto;
-    bottom: 5%;
+    bottom: 8%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -159,8 +161,10 @@
     }
     
     .title-lineaHorizontal {
-        width: 25% !important;
-        right: 17.8%;
+        width: 30vw !important;
+        height: 0.3vw !important;
+        right: 15.2%;
+        bottom: 0.7%;
     }
     
     .style-h3-subtitulo {
@@ -175,9 +179,10 @@
     
     .container-tech {
         width: auto;
-        height: auto;
+        height: 39vw;
         margin: auto;
-        padding: 15px;
+        padding: 2vw;
+        padding-top: 3vw;
         background-color: #474747;
         margin-top: 3%;
     }
@@ -190,7 +195,7 @@
     }
     
     .card__title {
-        font-size: 5.5vw;
+        font-size: 6vw;
         font-weight: 600;
         position: relative;
         top: -4px;

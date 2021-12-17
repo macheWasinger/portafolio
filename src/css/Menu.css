@@ -159,7 +159,7 @@
       justify-content: center;
       transition: all 1.5s;
       border-top-left-radius: 100%;
-      border-bottom-left-radius: 500%;
+      border-bottom-left-radius: 350%;
       z-index: 1;
     }
   
