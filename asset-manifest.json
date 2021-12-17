@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.703a7af6.chunk.css",
-    "main.js": "/portafolio/static/js/main.1bffc5fb.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.1bffc5fb.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.00d2f636.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.00d2f636.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.d97de6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portafolio/static/css/2.0a9ec390.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.0a9ec390.chunk.css.map": "/portafolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.703a7af6.chunk.css.map": "/portafolio/static/css/main.703a7af6.chunk.css.map",
     "static/js/2.24710574.chunk.js.LICENSE.txt": "/portafolio/static/js/2.24710574.chunk.js.LICENSE.txt",
-    "static/media/CV-MarceloWasinger-MaquetadorWeb.887741b3.pdf": "/portafolio/static/media/CV-MarceloWasinger-MaquetadorWeb.887741b3.pdf",
+    "static/media/CV-MarceloWasinger-MaquetadorWeb.30ea526e.pdf": "/portafolio/static/media/CV-MarceloWasinger-MaquetadorWeb.30ea526e.pdf",
     "static/media/canva.3c3e6d67.png": "/portafolio/static/media/canva.3c3e6d67.png",
     "static/media/destinoArg.0ecdf01f.jpg": "/portafolio/static/media/destinoArg.0ecdf01f.jpg",
     "static/media/java.74329a08.png": "/portafolio/static/media/java.74329a08.png",
@@ -30,6 +30,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.24710574.chunk.js",
     "static/css/main.703a7af6.chunk.css",
-    "static/js/main.1bffc5fb.chunk.js"
+    "static/js/main.00d2f636.chunk.js"
   ]
 }
