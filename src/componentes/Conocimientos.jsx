@@ -4,6 +4,7 @@ import React from 'react'
 import html from '../img/html.png';
 import css from '../img/css.png';
 import js from '../img/js.png';
+import bootstrap from '../img/bootstrap.png';
 import react from '../img/react.png';
 import photoshop from '../img/photoshop.png';
 import figma from '../img/figma.png';
@@ -45,6 +46,13 @@ const Conocimientos = () => {
                             </div>
                         </div>
                         <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="750">
+                            <img src={bootstrap} alt="" className='style-logo-tech' />
+                            <div className="container-nivel n-medio">
+                                <span className="style-circle"></span>
+                                <h3 className="style-text__nivel">medio</h3>
+                            </div>
+                        </div>
+                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="900">
                             <img src={react} alt="" className="style-logo-tech" />
                             <div className="container-nivel n-medio">
                                 <span className="style-circle"></span>
