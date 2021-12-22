@@ -18,6 +18,9 @@ const Home = () => {
                     <video onLoadedMetadata="this.muted=true" autoPlay loop muted className="style-logo-video">
                         <source src={logoAnimado} />
                     </video>
+
+                    <div className="scroll"></div>
+
                     <div className="container__texto-presentacion">
                         <h1 className="style-h1-home">
                             <span className="span__text-soy" data-aos="fade-right" data-aos-delay="100">Soy</span>
