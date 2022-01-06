@@ -3,6 +3,7 @@ import React from 'react'
 /********** IMPORTO LOGOS **********/
 import html from '../img/html.png';
 import css from '../img/css.png';
+import grid from '../img/grid.png';
 import js from '../img/js.png';
 import bootstrap from '../img/bootstrap.png';
 import react from '../img/react.png';
@@ -38,21 +39,28 @@ const Conocimientos = () => {
                                 <h3 className="style-text__nivel">alto</h3>
                             </div>
                         </div>
-                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="600">
+                        <div className="container__logo-nivel" data-aos="zoom-in" data-aos-delay="600">
+                            <img src={grid} alt="" className='style-logo-tech' />
+                            <div className="container-nivel n-alto">
+                                <span className="style-circle"></span>
+                                <h3 className="style-text__nivel">alto</h3>
+                            </div>
+                        </div>
+                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="750">
                             <img src={js} alt="" className='style-logo-tech' />
                             <div className="container-nivel n-medio">
                                 <span className="style-circle"></span>
                                 <h3 className="style-text__nivel">medio</h3>
                             </div>
                         </div>
-                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="750">
+                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="900">
                             <img src={bootstrap} alt="" className='style-logo-tech' />
                             <div className="container-nivel n-medio">
                                 <span className="style-circle"></span>
                                 <h3 className="style-text__nivel">medio</h3>
                             </div>
                         </div>
-                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="900">
+                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="1050">
                             <img src={react} alt="" className="style-logo-tech" />
                             <div className="container-nivel n-medio">
                                 <span className="style-circle"></span>
@@ -65,21 +73,21 @@ const Conocimientos = () => {
                 data-aos-delay="400">
                     <h2 className="card__title" data-aos="zoom-in"  data-aos-delay="450">Design</h2>
                     <div className="container-design">
-                        <div className="container__logo-nivel" data-aos="zoom-in" data-aos-delay="600">
+                        <div className="container__logo-nivel" data-aos="zoom-in" data-aos-delay="750">
                             <img src={photoshop} alt="" className="style-logo-tech" />
                             <div className="container-nivel n-alto">
                                 <span className="style-circle"></span>
                                 <h3 className="style-text__nivel">alto</h3>
                             </div>
                         </div>
-                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="750">
+                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="900">
                             <img src={figma} alt="" className="style-logo-tech" />
                             <div className="container-nivel n-medio">
                                 <span className="style-circle"></span>
                                 <h3 className="style-text__nivel">medio</h3>
                             </div>
                         </div>
-                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="900">
+                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="1050">
                             <img src={canva} alt="" className="style-logo-tech" />
                             <div className="container-nivel n-medio">
                                 <span className="style-circle"></span>
@@ -92,14 +100,14 @@ const Conocimientos = () => {
                 data-aos-delay="600">
                     <h2 className="card__title" data-aos="zoom-in" data-aos-delay="700">Back End</h2>
                     <div className="container-backend">
-                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="850">
+                        <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="1000">
                             <img src={java} alt="" className="style-logo-tech" />
                             <div className="container-nivel n-bajo">
                                 <span className="style-circle"></span>
                                 <h3 className="style-text__nivel">bajo</h3>
                             </div>
                         </div>
-                        <div className="container__logo-nivel" data-aos="zoom-in" data-aos-delay="1000">
+                        <div className="container__logo-nivel" data-aos="zoom-in" data-aos-delay="1150">
                             <img src={python} alt="" className="style-logo-tech" />
                             <div className="container-nivel n-bajo">
                                 <span className="style-circle"></span>

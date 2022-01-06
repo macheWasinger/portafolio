@@ -9,6 +9,7 @@ import logoAnimado from '../video/logo-mw.mp4';
 import animacionMaquetador from '../video/maquetador.mp4';
 
 const Home = () => {
+
     return (
         <div className="container-padre">
             <a name="Home"></a>
@@ -19,7 +20,7 @@ const Home = () => {
                         <source src={logoAnimado} />
                     </video>
 
-                    <div className="scroll"></div>
+                    <div className="scroll" id="animacionScroll"></div>
 
                     <div className="container__texto-presentacion">
                         <h1 className="style-h1-home">

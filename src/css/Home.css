@@ -38,7 +38,7 @@
     background-color: #FFB633;
     border-radius: 100px;
     opacity: 1;
-    animation: animar 2s infinite;
+    animation: animar 3s infinite;
 }
 
 @keyframes animar {
@@ -47,8 +47,16 @@
         margin-top: 30%;
     }
 
-    70% {
+    25% {
+        opacity: 0.75;
+    }
+
+    50% {
         opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.25;
     }
 
     100% {

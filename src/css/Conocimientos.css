@@ -82,9 +82,25 @@
     top: 5%;
 }
 
-.container-frontend, .container-design, 
+.container-design, 
 .container-backend {
     display: flex;
+}
+
+.container-frontend {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(8.5vw, 1fr));
+}
+
+/* .container-frontend > div {
+    border: 1px solid #ffffff;
+} */
+
+.container__logo-nivel {
+    /* background-color: red !important; */
+    display: grid;
+    place-items: center;
 }
 
 .container__logo-nivel {
@@ -202,7 +218,7 @@
         top: -1vw;
     }
     
-    .container-frontend, .container-design, 
+    .container-design, 
     .container-backend {
         display: flex;
         justify-content: space-around;
