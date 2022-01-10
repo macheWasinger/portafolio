@@ -93,12 +93,7 @@
     grid-template-columns: repeat(6, minmax(8.5vw, 1fr));
 }
 
-/* .container-frontend > div {
-    border: 1px solid #ffffff;
-} */
-
 .container__logo-nivel {
-    /* background-color: red !important; */
     display: grid;
     place-items: center;
 }
@@ -234,12 +229,12 @@
     }
     
     .style-text__nivel {
-        font-size: 2.8vw;
+        font-size: 2.5vw;
         top: 3.5px;
     }
     
     .style-circle {
-        width: 9px;
-        height: 9px;
+        width: 8px;
+        height: 8px;
     }
 }
