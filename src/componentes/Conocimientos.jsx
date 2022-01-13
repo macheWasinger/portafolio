@@ -43,7 +43,7 @@ const Conocimientos = () => {
                             <img src={grid} alt="" className='style-logo-tech' />
                             <div className="container-nivel n-alto">
                                 <span className="style-circle"></span>
-                                <h3 className="style-text__nivel">medio</h3>
+                                <h3 className="style-text__nivel">alto</h3>
                             </div>
                         </div>
                         <div className="container__logo-nivel" data-aos="zoom-in"  data-aos-delay="750">

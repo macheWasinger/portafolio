@@ -6,7 +6,7 @@ import Menu from './header/Menu';
 // IMPORTO IMAGEN Y VIDEO
 import maw from '../img/maw.png';
 import logoAnimado from '../video/logo-mw.mp4';
-import animacionMaquetador from '../video/maquetador.mp4';
+import videoFrontendAnimation from '../video/Frontend.mp4';
 
 const Home = () => {
 
@@ -28,12 +28,14 @@ const Home = () => {
                             <span className="nombre-apellido" data-aos="fade-right" data-aos-delay="250">Marcelo Wasinger</span>
                         </h1>
                         
-                        <span className="style-span_linea-horizontal-home1"></span>
+<br />
 
-                        <span className="style-span_linea-horizontal-home2"></span>
+                        {/* <span className="style-span_linea-horizontal-home1"></span>
 
-                        <video onLoadedMetadata="this.muted=true" autoPlay loop muted className="style-animacionMaquetador" data-aos="zoom-in" data-aos-delay="700">
-                        <source src={animacionMaquetador} />
+                        <span className="style-span_linea-horizontal-home2"></span> */}
+
+                        <video onLoadedMetadata="this.muted=true" autoPlay loop muted className="style-videoFrontend-animation" data-aos="zoom-in" data-aos-delay="700">
+                        <source src={videoFrontendAnimation} />
                         </video>
                     </div>
                 </div>

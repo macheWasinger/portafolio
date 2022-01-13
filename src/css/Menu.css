@@ -199,20 +199,22 @@
         }
       
         .label-menu {
-          right: 35%;
+          margin-right: 0;
         }
       
         .label-menu #span-1,
         #span-2,
         #span-3 {
-          width: 5.7vw;
+          width: 7.5vw;
           height: 0.7vw;
         }
       
         /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
         #btn-menu:checked ~ .label-menu #span-1, #btn-menu:checked ~ .label-menu #span-3 {
-          width: 5.5vw;
-          height: 0.8vw;
+          width: 6vw;
+          height: 0.7vw;
+          margin-left: 55%;
+          margin-top: -8%;
         }
 
         

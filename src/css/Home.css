@@ -82,8 +82,6 @@
     height: auto;
     margin-top: 13%;
     margin-left: 6%;
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -121,6 +119,8 @@
     font-weight: 600;
     text-transform: uppercase !important;
     color: #FFB633 !important;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 .style-h1-home .span__text-soy {
@@ -128,10 +128,9 @@
     font-size: 3.5vw;
     text-transform: none;
     letter-spacing: 3px;
-    bottom: 15px;
 }
 
-.style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
+/* .style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
     width: 10vw;
     height: 3.5px;
     margin: auto;
@@ -155,12 +154,10 @@
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     
-}
+} */
 
-.style-animacionMaquetador {
-    width: 22vw;
-    height: 7vw;
-    margin-top: 25px !important;
+.style-videoFrontend-animation {
+    width: 19vw;
     margin: auto;
 }
 
@@ -199,10 +196,10 @@
     }
     
     .container_dark-grey .style-logo-video {
-        width:  12vw;
-        height: 12vw;
+        width:  15vw;
+        height: 15vw;
         margin-left: 5.5%;
-        top: 1.7%;
+        top: 1%;
     }
     
     .scroll {
@@ -224,42 +221,32 @@
     .container_fondos-colores .container_dark-grey 
     .container__texto-presentacion {
         width: 100%;
-        height: 27vw;
-        margin-top: 18% !important;
+        margin-top: 22% !important;
         margin-left: 0;
         padding-right: 15px;
-        display: flex;
-        flex-direction: column;
     }
 
-    .style-h1-home {
-        top: 10%;
-    }
-    
     .nombre-apellido {
         font-size: 5.5vw !important;
         letter-spacing: 3px;
         left: 2.4%;
+        margin-top: 5%;
+        margin-bottom: -5%;
         box-shadow: 0 0 8px #000;
         padding-left: 3px;
     }
     
     .style-h1-home .span__text-soy {
         font-size: 4.5vw;
-        bottom: 20%;
     }
     
-    .style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
+    /* .style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
         width: 13vw;
         height: 4px;
-        top: 13.5%;
     }
-    
-    .style-animacionMaquetador {
-        width: 30vw;
-        height: 20vw !important;
-        margin-top: 5% !important;
-        margin: auto;
+     */
+    .style-videoFrontend-animation {
+        width: 32vw;
     }
 
     .container_fondos-colores .container-orange {
@@ -269,7 +256,7 @@
     .container_fondos-colores .container-orange img {
         width: 47vw;
         height: 60vw;
-        right: 35%;
+        right: 30%;
         top: 15%;
         z-index: 0;
     }
