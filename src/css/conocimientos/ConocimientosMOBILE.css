@@ -1,0 +1,123 @@
+@media screen and (max-width: 800px) {
+    .container-padre_conocimientos {
+      height: auto;
+      padding-top: 0;
+      /* background-color: #242424; */
+      background-attachment: unset;
+      background-position-x: 47%;
+    }
+  
+    .style-h1-title {
+      margin-top: 14%;
+      font-size: 8vw;
+    }
+  
+    .title-lineaHorizontal {
+      width: 30vw !important;
+      height: 0.3vw !important;
+      right: 15.2%;
+      bottom: 0.7%;
+    }
+  
+    .style-h3-subtitulo {
+      display: none;
+    }
+  
+    .column-general {
+      width: 100% !important;
+      height: 145vw;
+      display: flex !important;
+      margin-top: 10% !important;
+      flex-direction: column;
+      align-items: center !important;
+      justify-content: space-between;
+    }
+  
+    .frontendIcon-container,
+    .desingIcon-container,
+    .backendIcon-container {
+      width: 45vw;
+      height: 45vw;
+    }
+  
+    .frontendIcon-container > img,
+    .backendIcon-container > img {
+      width: 40vw;
+      margin: auto;
+    }
+  
+    .desingIcon-container > img {
+      width: 40vw;
+      height: 40vw !important;
+      margin: auto;
+    }
+    
+    .desingIcon-container {
+      padding-bottom: 3%;
+    }
+  
+    .container-tech {
+      width: auto;
+      height: 29vw;
+      padding: 0;
+      /* padding-top: 3vw; */
+      background-color: #474747;
+      /* margin-top: 3%; */
+    }
+  
+    .iconRefresh-container {
+      width: 10vw;
+      margin-top: 15% !important;
+      margin-bottom: 10% !important;
+      margin: auto;
+    }
+  
+    .iconRefresh-container > img {
+      width: 10vw !important;
+    }
+    
+    .refreshAnimation {
+      transform: rotate(360deg);
+      transition: all 0.3s;
+    }
+  
+    .style-logo-tech {
+      width: 13vw;
+      height: 13vw;
+      margin: 20px 15px;
+      bottom: 21%;
+    }
+  
+    .card__title {
+      font-size: 6vw;
+      font-weight: 600;
+      position: relative;
+      top: -1vw;
+    }
+  
+    .container-design,
+    .container-backend {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .container__logo-nivel {
+      height: 22vw;
+      top: 8%;
+    }
+  
+    .container-nivel {
+      bottom: 25%;
+    }
+  
+    .style-text__nivel {
+      font-size: 2.8vw;
+      top: 3.5px;
+    }
+  
+    .style-circle {
+      width: 9px;
+      height: 9px;
+    }
+  }
+  

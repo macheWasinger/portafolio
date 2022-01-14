@@ -1,0 +1,71 @@
+@media screen and (max-width: 800px) {
+    .container-padre {
+        height: auto;
+    }
+    
+    .container_dark-grey .style-logo-video {
+        width:  15vw;
+        height: 15vw;
+        margin-left: 5.5%;
+        top: 1%;
+    }
+    
+    .scroll {
+        width: 4.5vw;
+        height: 8vw;
+        border: 0.30vw solid #FFB633;
+    }
+
+    .scroll:before {
+        width: 0.45vw;
+        height: 1.3vw;
+
+    }
+
+    .container_header-menu, .container_fondos-colores {
+        height: 70vw;
+    }
+    
+    .container_fondos-colores .container_dark-grey 
+    .container__texto-presentacion {
+        width: 100%;
+        margin-top: 22% !important;
+        margin-left: 0;
+        padding-right: 15px;
+    }
+
+    .nombre-apellido {
+        font-size: 5.5vw !important;
+        letter-spacing: 3px;
+        left: 2.4%;
+        margin-top: 5%;
+        margin-bottom: -5%;
+        box-shadow: 0 0 8px #000;
+        padding-left: 3px;
+    }
+    
+    .style-h1-home .span__text-soy {
+        font-size: 4.5vw;
+    }
+    
+    /* .style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
+        width: 13vw;
+        height: 4px;
+    }
+     */
+    .style-videoFrontend-animation {
+        width: 32vw;
+    }
+
+    .container_fondos-colores .container-orange {
+        width: 38%;
+    }
+    
+    .container_fondos-colores .container-orange img {
+        width: 47vw;
+        height: 60vw;
+        right: 30%;
+        top: 15%;
+        z-index: 0;
+    }
+}

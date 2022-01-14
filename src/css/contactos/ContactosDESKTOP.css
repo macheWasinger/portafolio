@@ -35,7 +35,6 @@
     height: 28vw;
     margin: auto;
     background-color: #4d4c4c;
-    z-index: 1 !important;
     bottom: 28%;
     box-shadow: 0 0 12px #161616;
     border-radius: 10px;
@@ -55,7 +54,6 @@
     font-size: 3.5vw;
     color: #fff;
     letter-spacing: 2px;
-    z-index: 1;
 }
 
 .title-lineaHorizontal__contactos {
@@ -135,10 +133,6 @@
     margin-bottom: 3.5%;
 }
 
-/* .container-mail {
-    bottom: 8%;
-} */
-
 .container-whatsapp .style-i {
     left: 2px;
 }
@@ -205,164 +199,5 @@
 
     0% {
         transform: translateY((0px));
-    }
-}
-
-
-@media screen and (max-width: 800px) {
-    .container-padre__Contactos {
-        height: 85vw;
-        background-attachment: scroll;
-    }
-
-    .container-hijo__contactos:before {
-        width: 20vw;
-        height: 54vw;
-    }
-
-    .container-hijo__contactos {
-        width: 90vw;
-        height: 54vw;
-        top: 12%;
-    }
-
-    .container__title-lineaHorizontal {
-        height: 9.5vw;
-        padding-left: 7.5%;
-        top: 6%;
-    }
-    
-    
-    .style-h1__title-contactos {
-        font-size: 8vw;
-        line-height: 7.2vw;
-    }
-    
-    .title-lineaHorizontal__contactos {
-        width: 20vw !important;
-        height: 0.3vw !important;
-        right: 13.5%;
-        top: -1%;
-    }
-    
-    .container__site-footer {
-        width: 100%;
-        height: 10vw;
-        top: 25%;
-        background-color: #2a2a2a;
-        display: flex;
-        align-items: center;
-    }
-    
-    .container__site-footer, 
-    .container-datos__siteFooter, .style-button__return, .style__text-desarrollador, img {
-        position: relative;
-    }
-    
-    .container-datos__siteFooter {
-        width: 66vw;
-        height: 7.5vw;
-    }
-    
-    .container__site-footer img {
-        width: 9vw;
-        height: 5.4vw;
-        top: 16%;
-    }
-    
-    .style-button__return {
-        color: #FFB633;
-        font-size: 6vw;
-        left: 60%;
-        cursor: pointer;
-        transition: all 0.5s;
-    }
-    
-    .style-button__return:hover {
-        color: #fff;
-        transform: scale(1.1);
-    }
-    
-    .style__text-desarrollador {
-        color: #fff;
-        font-size: 2.5vw;
-        font-weight: 300 !important;
-        position: relative;
-        top: 25%;
-    }
-    
-    .container__datos-contactos {
-        width: 60vw;
-        height: 31vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        top: 17%;
-        left: 10%;
-    }
-    
-    .container-redSocial {
-        width: 90%;
-        height: auto;
-    }
-    
-
-    .container-mail, .container-whatsapp, .style-p {
-        position: relative;
-    }
-
-    .container-whatsapp .style-p {
-        left: -22%;
-    }
-
-    .container-mail {
-        bottom: 6% !important;
-    }
-
-    .container-mail .style-p {
-        left: 0 !important;
-    }
-
-    .container-whatsapp .style-i {
-        left: 2px;
-    }
-    
-    
-    .container-mail .style-p, .container-whatsapp .style-p {
-        font-size: 3.5vw !important;
-        margin: auto;
-    }
-    
-    .container__logos-redes {
-        width: 60vw;
-        height: 53px;
-        padding: 0;
-        top: 0%;
-    }
-
-    .container__logos-redes .style-i {
-        bottom: 7px;
-    }
-    
-    .style-seguimeEnRedes, .container-logos {
-        margin-left: 0;
-    }
-    
-    .style-seguimeEnRedes {
-        width: 100%;
-        font-size: 2.9vw;
-    }
-    
-    .container-logos {
-        width: 100%;
-    }
-    
-    .container__datos-contactos .style-i {
-        font-size: 4.5vw;
-    }
-    
-    .container__datos-contactos .style-p {
-        font-size: 3.3vw !important;
-        margin-top: -2px;
     }
 }

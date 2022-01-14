@@ -47,13 +47,10 @@ const Conocimientos = () => {
             Front End
           </h2>
         </div>
-        <div className={`${active == 0 ? "container-tech" : "hidden"}`}>
+        <div className={`${active === 0 ? "container-tech" : "hidden"}`}>
           <div className="container-frontend">
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
+              className="container__logo-nivel">
               <img src={html} alt="" className="style-logo-tech" />
               <div className="container-nivel n-alto">
                 <span className="style-circle"></span>
@@ -61,10 +58,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="450"
-            >
+              className="container__logo-nivel">
               <img src={css} alt="" className="style-logo-tech" />
               <div className="container-nivel n-alto">
                 <span className="style-circle"></span>
@@ -72,10 +66,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="600"
-            >
+              className="container__logo-nivel">
               <img src={grid} alt="" className="style-logo-tech" />
               <div className="container-nivel n-alto">
                 <span className="style-circle"></span>
@@ -83,10 +74,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="750"
-            >
+              className="container__logo-nivel">
               <img src={js} alt="" className="style-logo-tech" />
               <div className="container-nivel n-medio">
                 <span className="style-circle"></span>
@@ -94,10 +82,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="900"
-            >
+              className="container__logo-nivel">
               <img src={bootstrap} alt="" className="style-logo-tech" />
               <div className="container-nivel n-medio">
                 <span className="style-circle"></span>
@@ -105,10 +90,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="1050"
-            >
+              className="container__logo-nivel">
               <img src={react} alt="" className="style-logo-tech" />
               <div className="container-nivel n-medio">
                 <span className="style-circle"></span>
@@ -124,13 +106,10 @@ const Conocimientos = () => {
             Design
           </h2>
         </div>
-        <div className={`${ active == 1 ? "container-tech" : "hidden" }`}>
+        <div className={`${ active === 1 ? "container-tech" : "hidden" }`}>
           <div className="container-design">
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="750"
-            >
+              className="container__logo-nivel">
               <img src={responsive} alt="" className="style-logo-tech" />
               <div className="container-nivel n-alto">
                 <span className="style-circle"></span>
@@ -138,10 +117,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="750"
-            >
+              className="container__logo-nivel">
               <img src={photoshop} alt="" className="style-logo-tech" />
               <div className="container-nivel n-alto">
                 <span className="style-circle"></span>
@@ -149,10 +125,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="900"
-            >
+              className="container__logo-nivel">
               <img src={figma} alt="" className="style-logo-tech" />
               <div className="container-nivel n-medio">
                 <span className="style-circle"></span>
@@ -160,10 +133,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="1050"
-            >
+              className="container__logo-nivel">
               <img src={canva} alt="" className="style-logo-tech" />
               <div className="container-nivel n-medio">
                 <span className="style-circle"></span>
@@ -173,7 +143,7 @@ const Conocimientos = () => {
           </div>
         </div>
 
-        <div className={`backendIcon-container ${ active == 2 ? "hidden" : "show" }`}>
+        <div className={`backendIcon-container ${ active === 2 ? "hidden" : "show" }`}>
             <img src={backend} alt="" onClick={() => setActive(2)} />
             <h2 className="card__title" data-aos="zoom-in" data-aos-delay="850">
             Back End
@@ -184,10 +154,7 @@ const Conocimientos = () => {
         >
           <div className="container-backend">
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="1000"
-            >
+              className="container__logo-nivel">
               <img src={java} alt="" className="style-logo-tech" />
               <div className="container-nivel n-bajo">
                 <span className="style-circle"></span>
@@ -195,10 +162,7 @@ const Conocimientos = () => {
               </div>
             </div>
             <div
-              className="container__logo-nivel"
-              data-aos="zoom-in"
-              data-aos-delay="1150"
-            >
+              className="container__logo-nivel">
               <img src={python} alt="" className="style-logo-tech" />
               <div className="container-nivel n-bajo">
                 <span className="style-circle"></span>
@@ -209,7 +173,7 @@ const Conocimientos = () => {
         </div>
       </div>
       <div className="iconRefresh-container" onClick={() => setActive(3)}>
-        <img src={refresh} alt="" className={`icon-refresh__style ${ active == 3 ? "refreshAnimation" : "" }`} />
+        <img src={refresh} alt="" className={`icon-refresh__style ${ active === 3 ? "refreshAnimation" : "" }`} />
       </div>
     </div>
   );

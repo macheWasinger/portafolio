@@ -10,11 +10,6 @@
   }
 
   .item-li {
-    width: 50%;
-    position: relative;
-    top: 8%;
-    left: 5%;
-    margin: 0 13% 17% 0;
     display: flex;
     justify-content: center;
     color: #fff;
@@ -144,6 +139,15 @@
       transition: all 1s;
       z-index: 1;
     }
+
+    .items-container {
+      width: auto;
+      height: 27vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
   
     .container-Padre_menu .menu-navegacion ul {
       position: fixed;
@@ -153,92 +157,11 @@
       width: 20vw;
       height: 42vw;
       background-color: #FFB633;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      display: grid;
+      place-items: center;
       transition: all 1.5s;
       border-top-left-radius: 100%;
       border-bottom-left-radius: 350%;
       z-index: 1;
-    }
-  
-
-    @media screen and (max-width: 800px) {
-      .item-li {
-        height: 3.5vw;
-        width: auto;
-        margin: 0 2% 0 0;
-        padding: 0.7%;
-        position: relative;
-        top: 25%;
-        left: -8%;
-      }
-
-      .item-li:hover {
-        transition: all 0.3s;
-        color: #FFB633;
-      }
-
-      .item-li a:before {
-        display: none;
-      }
-    
-        .menu-navegacion ul li a {
-          font-size: 2.5vw;
-          letter-spacing: 0.5px;
-          width: auto;
-        }
-      
-        .container-Padre_menu .burger {
-          width: 7%;
-          height: 13.1vw;
-          top: 0;
-          right: 3.5%;
-          z-index: 2;
-        }
-      
-        .label-menu {
-          margin-right: 0;
-        }
-      
-        .label-menu #span-1,
-        #span-2,
-        #span-3 {
-          width: 7.5vw;
-          height: 0.7vw;
-        }
-      
-        /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
-        #btn-menu:checked ~ .label-menu #span-1, #btn-menu:checked ~ .label-menu #span-3 {
-          width: 6vw;
-          height: 0.7vw;
-          margin-left: 55%;
-          margin-top: 17%;
-        }
-
-        
-        .container-Padre_menu .hide {
-          transform: translateY(-15vw);
-        }
-      
-        .container-Padre_menu .menu-navegacion {
-          width: 100%;
-          height: auto;
-          top: -1px;
-          transition: all 1s;
-          z-index: 1;
-        }
-      
-        .container-Padre_menu .menu-navegacion ul {
-          width: 100%;
-          height: 16.1vw;
-          background-color: #2a2a2a;
-          border-bottom-right-radius: 10% !important;
-          border-bottom-left-radius: 10% !important;
-          border-radius: 0;
-          z-index: 1;
-          flex-direction: row;
-        }   
     }
   

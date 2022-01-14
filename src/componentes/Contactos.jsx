@@ -30,7 +30,8 @@ const Contactos = () => {
                     <div className="container__logos-redes">
                         <p className="style-seguimeEnRedes">Seguime en mis redes sociales:</p>
                         <div className="container-logos">
-                            <a href="https://github.com/macheWasinger" target="_blank" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="300">
+                            <a href="https://github.com/macheWasinger" target="_blank" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="300"
+                            data-aos-offset="100">
                                 <i class="fab fa-github style-i"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/marcelowasinger/" target="_blank" data-aos="zoom-in" data-aos-delay="650" data-aos-duration="300">

@@ -10,12 +10,23 @@ import Contactos from './componentes/Contactos';
 
 // IMPORTO LOS 'CSS'
 import './App.css';
-import './css/Home.css';
-import './css/Menu.css';
-import './css/SobreMi.css';
-import './css/Conocimientos.css';
-import './css/Proyectos.css';
-import './css/Contactos.css';
+import './css/home/HomeDESKTOP.css';
+import './css/home/HomeMOBILE.css';
+
+import './css/menu/MenuDESKTOP.css';
+import './css/menu/MenuMOBILE.css';
+
+import './css/sobreMi/SobreMiDESKTOP.css';
+import './css/sobreMi/SobreMiMOBILE.css';
+
+import './css/conocimientos/ConocimientosDESKTOP.css';
+import './css/conocimientos/ConocimientosMOBILE.css';
+
+import './css/proyectos/ProyectosDESKTOP.css';
+import './css/proyectos/ProyectosMOBILE.css';
+
+import './css/contactos/ContactosDESKTOP.css';
+import './css/contactos/ContactosMOBILE.css';
 
 function App() {
   return (
