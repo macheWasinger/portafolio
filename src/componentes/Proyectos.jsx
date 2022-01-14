@@ -13,7 +13,7 @@ const Proyectos = () => {
             <div className="title-proyectos__lineaHorizontal" data-aos="slide-left" data-aos-duration="700" data-aos-offset="220">
             </div>
             <h3 className="style-h3-subtitulo__proyectos">Estos son algunos de mis proyectos</h3>
-            <div className="container-proyectos" data-aos="flip-right" data-aos-offset="100">
+            <div className="container-proyectos" data-aos="flip-right">
                 <div className="container-hijo__proyecto1 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="250">
                     <a href="https://machewasinger.github.io/destinoarg/" target="_blank" className="style-a__project">
                         <img src={imageDestinoArg} alt="" className="style-image__product"/>
