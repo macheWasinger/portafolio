@@ -36,13 +36,11 @@ const Conocimientos = () => {
         <div
           className={`frontendIcon-container ${
             active == 0 ? "hidden" : "show"
-          }`}>
+          }`} onClick={() => setActive(0)}>
           <img
             src={frontend}
             className="style-frontendIcon"
-            alt=""
-            onClick={() => setActive(0)}
-          />
+            alt=""/>
           <h2 className="card__title" data-aos="zoom-in" data-aos-delay="450">
             Front End
           </h2>
@@ -100,8 +98,8 @@ const Conocimientos = () => {
           </div>
         </div>
         
-        <div className={`desingIcon-container ${ active == 1 ? "hidden" : "show" }`}>
-            <img src={design} alt="" onClick={() => setActive(1)} />
+        <div className={`desingIcon-container ${ active == 1 ? "hidden" : "show" }`} onClick={() => setActive(1)}>
+            <img src={design} alt=""/>
             <h2 className="card__title" data-aos="zoom-in" data-aos-delay="650">
             Design
           </h2>
@@ -143,8 +141,8 @@ const Conocimientos = () => {
           </div>
         </div>
 
-        <div className={`backendIcon-container ${ active === 2 ? "hidden" : "show" }`}>
-            <img src={backend} alt="" onClick={() => setActive(2)} />
+        <div className={`backendIcon-container ${ active === 2 ? "hidden" : "show" }`} onClick={() => setActive(2)}>
+            <img src={backend} alt=""/>
             <h2 className="card__title" data-aos="zoom-in" data-aos-delay="850">
             Back End
           </h2>
