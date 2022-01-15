@@ -34,16 +34,20 @@ const Contactos = () => {
                             data-aos-offset="100">
                                 <i class="fab fa-github style-i"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/marcelowasinger/" target="_blank" data-aos="zoom-in" data-aos-delay="650" data-aos-duration="300">
+                            <a href="https://www.linkedin.com/in/marcelowasinger/" target="_blank" data-aos="zoom-in" data-aos-delay="650" data-aos-duration="300"
+                            data-aos-offset="100">
                                 <i class="fab fa-linkedin-in style-i"></i>
                             </a>
-                            <a href="https://twitter.com/maw_2018" target="_blank" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300">
+                            <a href="https://twitter.com/maw_2018" target="_blank" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300"
+                            data-aos-offset="100">
                                 <i class="fab fa-twitter style-i"></i>
                             </a>
-                            <a href="https://www.instagram.com/machewasinger90/" target="_blank" data-aos="zoom-in" data-aos-delay="950" data-aos-duration="300">
+                            <a href="https://www.instagram.com/machewasinger90/" target="_blank" data-aos="zoom-in" data-aos-delay="950" data-aos-duration="300"
+                            data-aos-offset="100">
                                 <i class="fab fa-instagram style-i"></i>
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=100070072241358" target="_blank" data-aos="zoom-in" data-aos-delay="1100" data-aos-duration="300">
+                            <a href="https://www.facebook.com/profile.php?id=100070072241358" target="_blank" data-aos="zoom-in" data-aos-delay="1100"data-aos-duration="300"
+                            data-aos-offset="100">
                                 <i class="fab fa-facebook-f style-i"></i>
                             </a>
                         </div>
