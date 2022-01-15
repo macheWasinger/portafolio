@@ -4,22 +4,22 @@
     }
     
     .container_dark-grey .style-logo-video {
-        width:  15vw;
-        height: 15vw;
-        margin-left: 5.5%;
-        top: 1%;
+        width:  60px;
+        height: 60px;
+        margin-left: 0.5em;
+        margin-top: 0.5em;
     }
     
     .scroll {
-        width: 4.5vw;
-        height: 8vw;
-        border: 0.30vw solid #FFB633;
+        width: 18px;
+        height: 35px;
+        border: 2px solid #FFB633;
+        top: 1em;
     }
 
     .scroll:before {
-        width: 0.45vw;
-        height: 1.3vw;
-
+        width: 2px;
+        height: 5px;
     }
 
     .container_header-menu, .container_fondos-colores {
