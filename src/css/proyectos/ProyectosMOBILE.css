@@ -2,11 +2,11 @@
     .container-padre__proyectos {
         height: 110vw;
         background-color: #2A2A2A;
-        padding-top: 60px;
     }
     
     .style-h1__proyectos {
         font-size: 8vw;
+        margin-top: 12%;
     }
     
     .title-proyectos__lineaHorizontal {
@@ -18,17 +18,13 @@
     
     .style-h3-subtitulo__proyectos {
         font-size: 3.2vw;
-        top: 6.5%;
+        margin-top: 0;
     }
     
     .container-proyectos {
         display: none;
     }
 
-    /* .style-a__project:hover {
-        pointer-events: none;
-    }
-     */
 
     .style-a__project:hover:before {
         height: 0;
@@ -49,9 +45,8 @@
     .carousel {
         display: block;
         width: 85%;
-        height: 65% !important;
         margin: auto;
-        margin-top: 12%;
+        margin-top: 13%;
     }
 
     .caousel-item {
