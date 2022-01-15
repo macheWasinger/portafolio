@@ -59,23 +59,22 @@
   
     .container-Padre_menu .burger {
       position: fixed;
-      width: 3%;
-      height: 5vh;
+      width: auto;
       color: #fff;
-      margin-top: 5.2%;
-      right: 1.5%;
+      margin-top: 3.8%;
+      right: 4%;
       display: flex;
       justify-content: center;
       align-items: center;
       z-index: 2;
+      background-color: red;
     }
   
     .label-menu {
-      width: 40px;
-      height: 25px;
-      position: relative;
-      right: 20px;
+      width: auto;
+      height: auto;
       cursor: pointer;
+      background-color: green;
     }
   
     .label-menu #span-1,
