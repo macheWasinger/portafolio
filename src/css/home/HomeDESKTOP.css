@@ -89,6 +89,8 @@
     width: 40%;
     height: auto;
     background-color: #FFB633;
+    display: flex;
+    flex-direction: column;
 }
 
 .container_fondos-colores .container-orange img {

@@ -29,11 +29,6 @@ const Home = () => {
                         </h1>
                         
 <br />
-
-                        {/* <span className="style-span_linea-horizontal-home1"></span>
-
-                        <span className="style-span_linea-horizontal-home2"></span> */}
-
                         <video onLoadedMetadata="this.muted=true" autoPlay loop muted className="style-videoFrontend-animation" data-aos="zoom-in" data-aos-delay="700">
                         <source src={videoFrontendAnimation} />
                         </video>
