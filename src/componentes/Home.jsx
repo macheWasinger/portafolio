@@ -6,7 +6,7 @@ import Menu from './header/Menu';
 // IMPORTO IMAGEN Y VIDEO
 import maw from '../img/maw.png';
 import logoAnimado from '../video/logo-mw.mp4';
-import videoFrontendAnimation from '../video/Frontend.mp4';
+import videoFrontendAnimation from '../video/FrontendJr.mp4';
 
 const Home = () => {
 

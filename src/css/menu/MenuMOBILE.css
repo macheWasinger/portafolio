@@ -52,8 +52,7 @@
       }
       
       .container-Padre_menu .hide {
-        transform: none;
-        opacity: 0;
+        transform: translate(110%);
       }
     
       .container-Padre_menu .menu-navegacion {
