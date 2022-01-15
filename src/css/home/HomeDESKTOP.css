@@ -95,7 +95,7 @@
     width: 35vw;
     height: 44vw;
     position: relative;
-    top: 7%;
+    margin-top: 9%;
     right: 45%;
     z-index: 1;
 }
