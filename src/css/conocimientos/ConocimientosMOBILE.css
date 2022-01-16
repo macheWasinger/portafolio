@@ -25,7 +25,7 @@
   
     .column-general {
       width: 100% !important;
-      height: 145vw;
+      height: 580px;
       display: flex !important;
       margin-top: 10% !important;
       flex-direction: column;
@@ -36,29 +36,37 @@
     .frontendIcon-container,
     .desingIcon-container,
     .backendIcon-container {
-      width: 45vw;
-      height: 45vw;
+      width: 175px;
+      height: 175px;
     }
   
     .frontendIcon-container > img,
     .backendIcon-container > img {
-      width: 40vw;
+      width: 165px;
       margin: auto;
     }
   
     .desingIcon-container > img {
-      width: 40vw;
-      height: 40vw !important;
+      width: 165px;
+      height: 165px !important;
       margin: auto;
     }
     
     .desingIcon-container {
       padding-bottom: 3%;
     }
+
+    .container-frontend {
+      width: 328px;
+      height: 115px;
+      display: flex !important;
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
   
     .container-tech {
       width: auto;
-      height: 29vw;
+      height: 115px;
       padding: 0;
       /* padding-top: 3vw; */
       background-color: #474747;
@@ -66,14 +74,14 @@
     }
   
     .iconRefresh-container {
-      width: 10vw;
+      width: 40px;
       margin-top: 15% !important;
       margin-bottom: 10% !important;
       margin: auto;
     }
   
     .iconRefresh-container > img {
-      width: 10vw !important;
+      width: 40px !important;
     }
     
     .refreshAnimation {
@@ -82,28 +90,29 @@
     }
   
     .style-logo-tech {
-      width: 13vw;
-      height: 13vw;
+      width: 52px;
+      height: 52px;
       margin: 20px 15px;
       bottom: 21%;
     }
   
     .card__title {
-      font-size: 6vw;
+      font-size: 28px;
       font-weight: 600;
       position: relative;
-      top: -1vw;
+      top: -5px;
     }
   
     .container-design,
     .container-backend {
+      height: 110px;
       display: flex;
       justify-content: space-around;
     }
   
     .container__logo-nivel {
-      height: 22vw;
-      top: 8%;
+      height: 115px;
+      top: 13%;
     }
   
     .container-nivel {
@@ -111,7 +120,7 @@
     }
   
     .style-text__nivel {
-      font-size: 2.8vw;
+      font-size: 12px;
       top: 3.5px;
     }
   

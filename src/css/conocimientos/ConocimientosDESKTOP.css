@@ -28,11 +28,11 @@
 
 .title-lineaHorizontal {
   background-color: #ffb633 !important;
-  width: 11% !important;
+  width: 10% !important;
   height: 0.2vw !important;
   border-radius: 5px;
   margin: auto;
-  right: 7.6%;
+  right: 8%;
   bottom: 0.7%;
 }
 
@@ -148,9 +148,13 @@
 }
 
 .container-frontend {
+  width: 35vw;
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(6, minmax(8.5vw, 1fr));
+  /* display: grid;
+  grid-template-columns: repeat(6, minmax(8.5vw, 1fr)); */
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .container__logo-nivel {

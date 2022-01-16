@@ -16,18 +16,19 @@
     }
   
       .menu-navegacion ul li a {
-        font-size: 5vw;
+        font-size: 20px;
         letter-spacing: 0.5px;
         width: auto;
         text-shadow: 1px 0 0 #2a2a2a, 0 1px 0 #2a2a2a, -1px 0 0 #2a2a2a, 0 -1px 0 #2a2a2a;
       }
     
       .container-Padre_menu .burger {
-        width: 8vw;
-        height: 7vw;
-        margin-top: 15.5%;
-        right: 4%;
+        width: 2em;
+        height: 1.8em;
+        margin-top: 60px;
+        right: 18px;
         z-index: 2;
+        /* background-color: red; */
       }
     
       .label-menu {
@@ -37,23 +38,23 @@
       .label-menu #span-1,
       #span-2,
       #span-3 {
-        width: 7.5vw;
+        width: 2em;
         height: 0.15em;
       }
 
       #span-2 {
-        top: 33%;
+        top: 31%;
       }
     
       #span-3 {
-        top: 66%;
+        top: 64%;
       }
     
     
       /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
       #btn-menu:checked ~ .label-menu #span-1, #btn-menu:checked ~ .label-menu #span-3 {
-        width: 35px;
-        height: 3px;
+        width: 2em;
+        height: 0.15em;
         margin-top: 8px;
         margin-left: -5px !important;
       }
@@ -89,6 +90,6 @@
         flex-direction: column;
         justify-content: space-around;
         position: relative;
-        left: -8% !important;
+        left: -28px !important;
       }
   }
