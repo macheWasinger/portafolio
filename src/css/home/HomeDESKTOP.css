@@ -38,10 +38,10 @@
     background-color: #FFB633;
     border-radius: 100px;
     opacity: 1;
-    animation: animar 3s infinite;
+    animation: animarDown 3s infinite;
 }
 
-@keyframes animar {
+@keyframes animarDown {
     0% {
         opacity: 1;
         margin-top: 30%;
