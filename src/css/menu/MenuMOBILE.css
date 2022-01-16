@@ -70,6 +70,10 @@
     transition: all 0.3s !important;
     display: flex !important;
   }
+  
+  .menu-activado > video {
+    display: flex !important;
+  }
 
   .container-Padre_menu .hide {
     display: none !important;

@@ -32,7 +32,7 @@ const Menu = () => {
           autoPlay
           loop
           muted
-          className="style-logo-video"
+          className="style-logo-video" style={{ display: "none" }}
         >
           <source src={logoAnimado} />
         </video>
