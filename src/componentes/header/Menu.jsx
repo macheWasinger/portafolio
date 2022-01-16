@@ -28,15 +28,6 @@ const Menu = () => {
 
       <nav className={`menu-navegacion ${isActive ? "menu-activado" : "hide"}`}>
         <ul>
-          <img
-            src={logoMW}
-            alt=""
-            style={{
-              width: "15vw",
-              height: "10vw",
-              display: "none",
-            }}
-          />
           <div className="items-container">
             <li className="item-li" onClick={toggleMenu}>
               <a href="#Home" smooth={true}>

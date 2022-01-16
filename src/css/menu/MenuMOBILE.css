@@ -1,95 +1,94 @@
 @media screen and (max-width: 800px) {
-    .item-li {
-      height: 3.5vw;
-      width: auto;
-      margin: 0 2% 0 0;
-      padding: 0.7%;
-    }
-
-    .item-li:hover {
-      transition: all 0.3s;
-      color: #2a2a2a !important;
-    }
-
-    .item-li a:before {
-      display: none;
-    }
-  
-      .menu-navegacion ul li a {
-        font-size: 20px;
-        letter-spacing: 0.5px;
-        width: auto;
-        text-shadow: 1px 0 0 #2a2a2a, 0 1px 0 #2a2a2a, -1px 0 0 #2a2a2a, 0 -1px 0 #2a2a2a;
-      }
-    
-      .container-Padre_menu .burger {
-        width: 2em;
-        height: 1.8em;
-        margin-top: 60px;
-        right: 18px;
-        z-index: 2;
-        /* background-color: red; */
-      }
-    
-      .label-menu {
-        margin-right: 0;
-      }
-    
-      .label-menu #span-1,
-      #span-2,
-      #span-3 {
-        width: 2em;
-        height: 0.15em;
-      }
-
-      #span-2 {
-        top: 31%;
-      }
-    
-      #span-3 {
-        top: 64%;
-      }
-    
-    
-      /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
-      #btn-menu:checked ~ .label-menu #span-1, #btn-menu:checked ~ .label-menu #span-3 {
-        width: 2em;
-        height: 0.15em;
-        margin-top: 8px;
-        margin-left: -5px !important;
-      }
-
-      .menu-activado {
-        transition: all 0.3s !important;
-      }
-      
-      .container-Padre_menu .hide {
-        transform: translate(110%);
-      }
-    
-      .container-Padre_menu .menu-navegacion {
-        width: 100vw;
-        height: 100% !important;
-        top: 0;
-        transition: all 0.5s !important;
-      }
-    
-      .container-Padre_menu .menu-navegacion ul {
-        top: 0;
-        width: 100vw;
-        padding-bottom: 0 !important;
-        height: 100% !important;
-        border-radius: 0;
-        background-color: #303131 !important;
-      }   
-
-      .items-container {
-        width: 100vw !important;
-        height: 75%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        position: relative;
-        left: -28px !important;
-      }
+  .item-li {
+    height: 3.5vw;
+    width: auto;
   }
+
+  .item-li:hover {
+    transition: all 0.3s;
+    color: #2a2a2a !important;
+  }
+
+  .item-li a:before {
+    display: none;
+  }
+
+  .menu-navegacion ul li a {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    width: auto;
+    text-shadow: 1px 0 0 #2a2a2a, 0 1px 0 #2a2a2a, -1px 0 0 #2a2a2a,
+      0 -1px 0 #2a2a2a;
+  }
+
+  .container-Padre_menu .burger {
+    width: 2em;
+    height: 1.8em;
+    margin-top: 65px;
+    right: 18px;
+    z-index: 2;
+  }
+
+  .label-menu {
+    margin-right: 0;
+  }
+
+  .label-menu #span-1,
+  #span-2,
+  #span-3 {
+    width: 2em;
+    height: 0.15em;
+  }
+
+  #span-2 {
+    top: 31%;
+  }
+
+  #span-3 {
+    top: 64%;
+  }
+
+  /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
+  #btn-menu:checked ~ .label-menu #span-1,
+  #btn-menu:checked ~ .label-menu #span-3 {
+    width: 2em;
+    height: 0.15em;
+    margin-top: 5px;
+    margin-left: 5px !important;
+  }
+
+  .menu-activado {
+    transition: all 0.3s !important;
+    display: flex !important;
+  }
+
+  .container-Padre_menu .hide {
+    transform: translate(110%);
+  }
+
+  .container-Padre_menu .menu-navegacion {
+    width: 100vw;
+    height: 100% !important;
+    top: 0;
+    transition: all 0.5s !important;
+  }
+
+  .container-Padre_menu .menu-navegacion ul {
+    top: 0;
+    width: 100vw;
+    padding-bottom: 0 !important;
+    height: 100% !important;
+    border-radius: 0;
+    background-color: #2a2a2a !important;
+  }
+
+  .items-container {
+    width: 100vw !important;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: -32px !important;
+  }
+}

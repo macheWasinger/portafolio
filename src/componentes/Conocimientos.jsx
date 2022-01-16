@@ -43,7 +43,7 @@ const Conocimientos = () => {
           className={`frontendIcon-container ${active == 0 ? "hidden" : ""}`}
           onClick={() => setActive(0)}
         >
-          <img src={frontend} className="style-frontendIcon" alt="" />
+          <img src={frontend} className="iconImage__tech" alt="" />
           <h2
             className="card__title"
             data-aos="zoom-in"
@@ -104,7 +104,7 @@ const Conocimientos = () => {
           className={`desingIcon-container ${active == 1 ? "hidden" : ""}`}
           onClick={() => setActive(1)}
         >
-          <img src={design} alt="" />
+          <img src={design} className="iconImage__tech" alt="" />
           <h2
             className="card__title"
             data-aos="zoom-in"
@@ -151,7 +151,7 @@ const Conocimientos = () => {
           className={`backendIcon-container ${active === 2 ? "hidden" : ""}`}
           onClick={() => setActive(2)}
         >
-          <img src={backend} alt="" />
+          <img src={backend} className="iconImage__tech" alt="" />
           <h2
             className="card__title"
             data-aos="zoom-in"

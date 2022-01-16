@@ -4,10 +4,11 @@
     }
     
     .container_dark-grey .style-logo-video {
-        width:  60px;
-        height: 60px;
-        margin-left: 0.8em;
-        margin-top: 0.5em;
+        width:  62px;
+        height: 62px;
+        margin-left: 1em;
+        margin-top: 0.6em;
+        z-index: 2;
     }
     
     .scroll {
@@ -48,11 +49,6 @@
         font-size: 4.5vw;
     }
     
-    /* .style-span_linea-horizontal-home1, .style-span_linea-horizontal-home2 {
-        width: 13vw;
-        height: 4px;
-    }
-     */
     .style-videoFrontend-animation {
         width: 32vw;
     }
