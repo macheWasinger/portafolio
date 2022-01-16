@@ -101,10 +101,10 @@
 .frontendIcon-container:hover .iconImage__tech,
 .backendIcon-container:hover .iconImage__tech,
 .desingIcon-container:hover .iconImage__tech {
-  transform: translateY(-0.5vw);
-  /* transform: scale(1.2); */
+  transform: translateY(-10px);
   transition: all 0.2s;
 }
+
 
 .hidden {
   display: none !important;
@@ -142,7 +142,7 @@
 .style-logo-tech {
   width: 6.5vw;
   height: 6.5vw;
-  margin: 19% 1.1vw;
+  margin: 12% 1.1vw;
 }
 
 .card__title {
@@ -158,7 +158,6 @@
 
 .container-frontend {
   width: 35vw;
-  height: auto;
   /* display: grid;
   grid-template-columns: repeat(6, minmax(8.5vw, 1fr)); */
   display: flex;

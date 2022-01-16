@@ -60,9 +60,9 @@
     .container-Padre_menu .burger {
       position: fixed;
       width: 2.5vw;
-      height: 3vw;
+      height: 1.6vw;
       color: #fff;
-      margin-top: 6.7%;
+      margin-top: 5.2%;
       right: 2%;
       display: flex;
       justify-content: space-between;
@@ -71,31 +71,26 @@
     }
   
     .label-menu {
-      width: auto;
-      height: auto;
+      width: 2.5vw;
+      height: 1.6vw;
       cursor: pointer;
-      background-color: green;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
   
     .label-menu #span-1,
     #span-2,
     #span-3 {
-      position: absolute;
+      /* position: absolute; */
       content: "";
       background-color: #fff;
       width: 2.5vw;
       height: 0.2em;
+      /* margin-left: -50% !important; */
       box-shadow: 2px 2px 2px #555555;
       border-radius: 4px;
       transition: all 0.4s;
-    }
-  
-    #span-2 {
-      top: 25%;
-    }
-  
-    #span-3 {
-      top: 50%;
     }
   
     #btn-menu {
@@ -113,11 +108,13 @@
   
     #btn-menu:checked ~ .label-menu #span-3 {
       transform: rotate(-140deg);
+      top: -9px !important;
     }
 
     #btn-menu:checked ~ .label-menu #span-1, #btn-menu:checked ~ .label-menu #span-3 {
       height: 5px;
       box-shadow: none;
+      position: relative;
       top: 10px;
     }
   

@@ -23,13 +23,15 @@
 
   .container-Padre_menu .burger {
     width: 2em;
-    height: 1.8em;
-    margin-top: 65px;
+    height: 1.4em;
+    margin-top: 59px;
     right: 18px;
     z-index: 2;
   }
 
   .label-menu {
+    width: 2em;
+    height: 1.4em;
     margin-right: 0;
   }
 
@@ -40,21 +42,20 @@
     height: 0.15em;
   }
 
-  #span-2 {
-    top: 31%;
-  }
-
-  #span-3 {
-    top: 64%;
-  }
-
   /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
   #btn-menu:checked ~ .label-menu #span-1,
   #btn-menu:checked ~ .label-menu #span-3 {
     width: 2em;
     height: 0.15em;
     margin-top: 5px;
-    margin-left: 5px !important;
+  }
+
+  #btn-menu:checked ~ .label-menu #span-1 {
+    top: 5px;
+  }
+
+  #btn-menu:checked ~ .label-menu #span-3 {
+    top: -10px !important;
   }
 
   .menu-activado {
