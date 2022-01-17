@@ -59,7 +59,7 @@ const Menu = () => {
                 Proyectos
               </a>
             </li>
-            <li className="item-li" onClick={toggleMenu}>
+            <li className="item-li li-contactos" onClick={toggleMenu}>
               <a href="#Contactos" smooth={true}>
                 Contactos
               </a>
@@ -67,29 +67,22 @@ const Menu = () => {
           </div>
         </ul>
         <div className="container-logos">
-        <a
-          href="https://github.com/macheWasinger"
-          target="_blank">
-          <i class="fab fa-github style-i"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/marcelowasinger/">
-          <i class="fab fa-linkedin-in style-i"></i>
-        </a>
-        <a
-          href="https://twitter.com/maw_2018"
-          target="_blank">
-          <i class="fab fa-twitter style-i"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/machewasinger90/">
-          <i class="fab fa-instagram style-i"></i>
-        </a>
-        <a
-          href="https://www.facebook.com/profile.php?id=100070072241358">
-          <i class="fab fa-facebook-f style-i"></i>
-        </a>
-      </div>
+          <a href="https://github.com/macheWasinger" target="_blank">
+            <i class="fab fa-github style-i"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/marcelowasinger/">
+            <i class="fab fa-linkedin-in style-i"></i>
+          </a>
+          <a href="https://twitter.com/maw_2018" target="_blank">
+            <i class="fab fa-twitter style-i"></i>
+          </a>
+          <a href="https://www.instagram.com/machewasinger90/">
+            <i class="fab fa-instagram style-i"></i>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100070072241358">
+            <i class="fab fa-facebook-f style-i"></i>
+          </a>
+        </div>
       </nav>
     </div>
   );
