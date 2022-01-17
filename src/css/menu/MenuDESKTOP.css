@@ -142,13 +142,11 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      align-items: center;
     }
   
     .container-Padre_menu .menu-navegacion ul {
       position: fixed;
       right: 0;
-      margin: auto;
       padding-bottom: 40px;
       width: 20vw;
       height: 42vw;
@@ -161,3 +159,6 @@
       z-index: 1;
     }
   
+    .menu-navegacion > .container-logos {
+      display: none;
+    }

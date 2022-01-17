@@ -32,7 +32,8 @@ const Menu = () => {
           autoPlay
           loop
           muted
-          className="style-logo-video" style={{ display: "none" }}
+          className="style-logo-video"
+          style={{ display: "none" }}
         >
           <source src={logoAnimado} />
         </video>
@@ -65,6 +66,30 @@ const Menu = () => {
             </li>
           </div>
         </ul>
+        <div className="container-logos">
+        <a
+          href="https://github.com/macheWasinger"
+          target="_blank">
+          <i class="fab fa-github style-i"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/marcelowasinger/">
+          <i class="fab fa-linkedin-in style-i"></i>
+        </a>
+        <a
+          href="https://twitter.com/maw_2018"
+          target="_blank">
+          <i class="fab fa-twitter style-i"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/machewasinger90/">
+          <i class="fab fa-instagram style-i"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100070072241358">
+          <i class="fab fa-facebook-f style-i"></i>
+        </a>
+      </div>
       </nav>
     </div>
   );
