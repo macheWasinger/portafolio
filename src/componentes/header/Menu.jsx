@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
-import logoAnimado from "../../video/logo-mw.mp4";
+import logoAnimado from "../../video/logo-mw-black.mp4";
 
 const Menu = () => {
   const [isActive, setActive] = useState(false);
@@ -28,7 +28,6 @@ const Menu = () => {
 
       <nav className={`menu-navegacion ${isActive ? "menu-activado" : "hide"}`}>
         <video
-          onLoadedMetadata="this.muted=true"
           autoPlay
           loop
           muted

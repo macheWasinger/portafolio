@@ -60,22 +60,51 @@
         padding-right: 15px;
     }
 
+    .style-h1-home {
+        margin-top: 0;
+        animation: movimiento 10s linear infinite !important;
+    }
+
     .nombre-apellido {
-        font-size: 5.5vw !important;
+        font-size: 8vw !important;
         letter-spacing: 3px;
-        left: 2.4%;
-        margin-top: 5%;
-        margin-bottom: -5%;
-        box-shadow: 0 0 8px #000;
-        padding-left: 3px;
     }
     
-    .style-h1-home .span__text-soy {
-        font-size: 4.5vw;
+    .span__text-soy {
+        font-size: 5vw !important;
+    }
+
+    .text-deslizable__container {
+        width: 51.5vw;
+        margin: auto;
+        margin-top: 3%;
+        padding-top: 2.5%;
+        padding-left: 50%;
+        margin-left: 8.5%;
+    }
+    
+    @keyframes movimiento {
+        0% {
+            transform: translate(100%) !important;
+        }
+    
+        100% {
+            transform: translate(0) !important;
+        }
+    
+        0% {
+            transform: translate(0);
+        }
+    
+        100% {
+            transform: translate(-130%);
+        }
     }
     
     .style-videoFrontend-animation {
-        width: 32vw;
+        width: 35vw;
+        position: relative;
+        top: -0.5em;
     }
 
     .container_fondos-colores .container-orange {

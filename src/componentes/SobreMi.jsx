@@ -15,7 +15,7 @@ const SobreMi = () => {
                 </div>
             </div>
             <div className="container-text_sobreMi">
-                <h1 className="style-h1-sobreMi">Sobre mí</h1>
+                <h1 className="style-h1-sobreMi title-font">Sobre mí</h1>
                 <span className="style-span_linea-horizontal" data-aos-duration="600" data-aos-offset="200"
                 data-aos="slide-left"></span>
                 <p className="style-p-sobreMi">Hola, soy Marcelo Adrián Wasinger. Estudié Licenciatura en sistemas en la Universidad Nacional de general Sarmiento por el lapso de 2 años.

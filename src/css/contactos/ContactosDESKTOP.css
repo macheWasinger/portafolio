@@ -42,7 +42,7 @@
   margin: auto;
   background-color: #2a2a2a;
   bottom: 28%;
-  box-shadow: 0 0 12px #161616;
+  box-shadow: 1px 2px 9px #161616;
   padding-left: 2%;
   border-left: 1.5vw;
   border-bottom: 1.45vw;
@@ -71,6 +71,7 @@
   font-size: 3.5vw;
   color: #fff;
   letter-spacing: 2px;
+  text-shadow: 1px 2px 3px black;
 }
 
 .title-lineaHorizontal__contactos {
@@ -126,7 +127,7 @@
 }
 
 .style__text-desarrollador {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.1vw;
   font-weight: 300 !important;
   position: relative;

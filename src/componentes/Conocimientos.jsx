@@ -24,7 +24,7 @@ const Conocimientos = () => {
   return (
     <div className="container-padre_conocimientos">
       <a name="Conocimientos"></a>
-      <h1 className="style-h1-title color-white">Conocimientos</h1>
+      <h1 className="style-h1-title color-white title-font">Conocimientos</h1>
       <div
         className="title-lineaHorizontal"
         data-aos="slide-left"
@@ -40,7 +40,7 @@ const Conocimientos = () => {
         data-aos-delay="250"
       >
         <div
-          className={`frontendIcon-container ${active == 0 ? "hidden" : ""}`}
+          className={`frontendIcon-container image-title-tech__container ${active == 0 ? "hidden" : ""}`}
           onClick={() => setActive(0)}
         >
           <img src={frontend} className="iconImage__tech" alt="" />
@@ -71,9 +71,9 @@ const Conocimientos = () => {
             </div>
             <div className="container__logo-nivel">
               <img src={grid} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-alto">
+              <div className="container-nivel n-medio">
                 <span className="style-circle"></span>
-                <h3 className="style-text__nivel">alto</h3>
+                <h3 className="style-text__nivel">medio</h3>
               </div>
             </div>
             <div className="container__logo-nivel">
@@ -101,7 +101,7 @@ const Conocimientos = () => {
         </div>
 
         <div
-          className={`desingIcon-container ${active == 1 ? "hidden" : ""}`}
+          className={`desingIcon-container image-title-tech__container ${active == 1 ? "hidden" : ""}`}
           onClick={() => setActive(1)}
         >
           <img src={design} className="iconImage__tech" alt="" />
@@ -125,9 +125,9 @@ const Conocimientos = () => {
             </div>
             <div className="container__logo-nivel">
               <img src={photoshop} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-alto">
+              <div className="container-nivel n-medio">
                 <span className="style-circle"></span>
-                <h3 className="style-text__nivel">alto</h3>
+                <h3 className="style-text__nivel">medio</h3>
               </div>
             </div>
             <div className="container__logo-nivel">
@@ -148,7 +148,7 @@ const Conocimientos = () => {
         </div>
 
         <div
-          className={`backendIcon-container ${active === 2 ? "hidden" : ""}`}
+          className={`backendIcon-container image-title-tech__container ${active === 2 ? "hidden" : ""}`}
           onClick={() => setActive(2)}
         >
           <img src={backend} className="iconImage__tech" alt="" />

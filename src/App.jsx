@@ -2,6 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // IMPORTO LOS COMPONENTES
+import AnimatedCover from './componentes/AnimatedCover';
+
 import Home from './componentes/Home';
 import SobreMi from './componentes/SobreMi';
 import Conocimientos from './componentes/Conocimientos';
@@ -10,6 +12,9 @@ import Contactos from './componentes/Contactos';
 
 // IMPORTO LOS 'CSS'
 import './App.css';
+import './css/animatedCover/AnimatedCoverDESKTOP.css';
+import './css/animatedCover/AnimatedCoverMOBILE.css';
+
 import './css/home/HomeDESKTOP.css';
 import './css/home/HomeMOBILE.css';
 
@@ -29,8 +34,12 @@ import './css/contactos/ContactosDESKTOP.css';
 import './css/contactos/ContactosMOBILE.css';
 
 function App() {
+
+  const [active, setActive] = React.useState(true);
+  
   return (
-    <div className="App">
+    <div className={`App ${ active === !true ? "enable-scroll" : "" }`}>
+      <AnimatedCover />
       <Home />
       <SobreMi />
       <Conocimientos />

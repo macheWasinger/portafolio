@@ -10,7 +10,7 @@ const Contactos = () => {
       <a name="Contactos"></a>
       <div className="container-hijo__contactos">
         <div className="container__title-lineaHorizontal">
-          <h1 className="style-h1__title-contactos color-white">Contactos</h1>
+          <h1 className="style-h1__title-contactos color-white title-font">Contactos</h1>
           <div
             className="title-lineaHorizontal__contactos"
             data-aos="slide-left"
