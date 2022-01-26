@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-scroll";
 
 import logo from "../img/logo-mw.png";
+import hand from "../img/hand.png";
 
 const Contactos = () => {
   return (
@@ -19,20 +20,21 @@ const Contactos = () => {
           ></div>
         </div>
         <div className="container__datos-contactos">
-          <div className="whatsapp-mail__container">
-            <div className="container-whatsapp">
-              <span data-aos="zoom-in" data-aos-delay="150">
-                <i class="fab fa-whatsapp style-i"></i>
-              </span>
-              <p className="style-p">11-3091-1213</p>
-            </div>
             <div className="container-mail">
               <span data-aos="zoom-in" data-aos-delay="300">
                 <i class="far fa-envelope style-i"></i>
               </span>
               <p className="style-p">marcelo_wasinger@hotmail.com</p>
             </div>
-          </div>
+            <div className="container-whatsapp">
+              <span data-aos="zoom-in" data-aos-delay="150">
+                <a href="https://wa.me/541130911213" class="whatsapp" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
+              </span>
+              <p className="style__text-hazme-click">Haz click</p>
+              <span className="content-hand">
+                <img src={hand} alt="" />
+              </span>
+            </div>
           <div className="container__logos-redes">
             <p className="style-seguimeEnRedes">
               Seguime en mis redes sociales:
@@ -92,6 +94,7 @@ const Contactos = () => {
           </div>
         </div>
       </div>
+
       <div className="container__site-footer">
         <Link to="Home" smooth={true}>
           <div className="style-button__return">

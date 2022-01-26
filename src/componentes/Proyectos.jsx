@@ -16,7 +16,7 @@ const Proyectos = () => {
             </div>
             <h3 className="style-h3-subtitulo__proyectos">Estos son algunos de mis proyectos</h3>
             <div className="container-proyectos" data-aos="flip-right">
-                <div className="container-hijo__proyecto1 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="250">
+                <div className="container-hijo__proyecto1 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
                     <a href="https://machewasinger.github.io/destinoarg/" target="_blank" className="style-a__project">
                         <img src={imageDestinoArg} alt="" className="style-image__product"/>
                         <div className="container__text-tech__project-1">
@@ -41,7 +41,7 @@ const Proyectos = () => {
                         </div>
                     </a>
                 </div>
-                <div className="container-hijo__proyecto2 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="400">
+                <div className="container-hijo__proyecto2 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="450">
                     <a href="https://machewasinger.github.io/MaquetadoMeli.github.io/"  target="_blank" className="style-a__project">
                         <img src={imageMeli} alt="" className="style-image__product"/>
                         <div className="container__text-tech__project-2">
@@ -60,7 +60,7 @@ const Proyectos = () => {
                         </div>
                     </a>
                 </div>
-                <div className="container-hijo__proyecto3 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="550">
+                <div className="container-hijo__proyecto3 container-project" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="600">
                     <a href="https://machewasinger.github.io/Maquetado.github.io/" target="_blank" className="style-a__project">
                         <img src={imageMaquetado} alt="" className="style-image__product"/>
                         <div className="container__text-tech__project-3">

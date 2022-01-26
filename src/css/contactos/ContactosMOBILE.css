@@ -5,13 +5,13 @@
   }
 
   .container-hijo__contactos:before {
-    width: 46.5vw;
-    height: 48vw;
+    width: 46vw;
+    height: 46vw;
   }
 
   .container-hijo__contactos {
-    width: 90vw;
-    height: 48vw;
+    width: 89.5vw;
+    height: 46vw;
     top: 12%;
     border-left: 2vw !important;
     border-bottom: 2vw !important;
@@ -39,7 +39,7 @@
 
   .container__site-footer {
     width: 100%;
-    height: 10vw;
+    height: 12vw;
     top: 25%;
     background-color: #2a2a2a;
     display: flex;
@@ -88,11 +88,10 @@
 
   .container__datos-contactos {
     width: 100%;
-    height: 27vw;
+    height: 25vw;
     margin: auto;
-    top: 16%;
     display: flex;
-    flex-direction: column;
+    margin-top: 8%;
   }
 
   .container-redSocial {
@@ -107,44 +106,117 @@
     justify-content: space-around;
   }
 
-  .container-whatsapp,
-.container-mail {
+  .container-mail {
     width: auto !important;
-    display: flex;
-    flex-direction: column;
-}
+    height: 6vw !important;
+    margin-left: 2.5%;
+  }
 
-  .container-mail .style-p,
-  .container-whatsapp .style-p {
-    left: 0 !important;
+  .container-mail .style-p {
+    left: 1.5vw;
   }
 
   .container__datos-contactos .style-p {
-    font-size: 3.3vw !important;
-    margin: auto;
-    margin-top: 3% !important;
+    font-size: 2.9vw !important;
   }
 
   .container__logos-redes {
-    width: 95%;
+    height: auto;
     margin: auto;
-    top: 4%;
-    right: 1%;
+    top: 1.5vw;
   }
 
   .style-seguimeEnRedes {
     width: 100%;
-    font-size: 2.85vw !important;
-    top: 25%;
-    right: 3%;
+    font-size: 3vw !important;
+    text-align: left;
+    margin-bottom: 0%;
+    bottom: 3.5vw;
   }
 
   .container-logos {
-    width: 90%;
+    width: 98%;
     justify-content: space-between;
   }
 
   .container__datos-contactos .style-i {
-    font-size: 4.5vw;
+    font-size: 5.5vw !important;
+  }
+
+  .container__datos-contactos .container__logos-redes .style-i:hover {
+    pointer-events: none;
+  }
+
+  .container-whatsapp {
+    margin-top: 0.5% !important;
+  }
+
+  .whatsapp {
+    width: 3.3em;
+    height: 3.3em;
+    left: 2.5vw;
+  }
+
+  .whatsapp-icon {
+    font-size: 5.5vw !important;
+  }
+
+  .whatsapp-icon:hover {
+    color: #fff;
+  }
+
+  .style__text-hazme-click {
+    top: 0.35vw;
+    left: 0.5vw !important;
+  }
+
+  .content-hand {
+    width: 5vw;
+    height: 5vw;
+    position: relative;
+    bottom: 5vw;
+    left: 17vw !important;
+    animation: handAnimation 3s infinite;
+  }
+
+  .content-hand > img {
+    width: 5.5vw !important;
+    transform: rotate(120deg);
+  }
+
+
+  @keyframes handAnimation {
+    0% {
+      transform: translate(-1vw, -1vw);
+    }
+  
+    50% {
+      transform: translate(0.5vw, 0.5vw);
+    }
+  
+    75% {
+      transform: translate(1vw, 1.5vw);
+      transform: rotate(45deg);
+    }
+  
+    85% {
+      position: relative;
+      right: 0.5vw;
+    }
+  
+    100% {
+      position: relative;
+      right: 0; 
+    }
+  }
+
+  .style__text-hazme-click {
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: 600;
+    text-shadow: 1px 0 0 black, 0 1px 0 black, -1px 0 0 black, 0 -1px 0 black;
+    position: relative;
+    top: 0.35vw;
+    left: 3.7vw;
   }
 }

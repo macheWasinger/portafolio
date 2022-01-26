@@ -4,7 +4,7 @@
 
 .container-padre__Contactos {
   width: 100%;
-  height: 27vw;
+  height: 25vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("https://einatec.com/wp-content/uploads/2015/02/responsive-design-and-web-devices-P8AJY9U.jpg");
   background-attachment: fixed;
@@ -28,8 +28,8 @@
 .container-hijo__contactos:before {
   content: "";
   display: block;
-  width: 21vw;
-  height: 22vw;
+  width: 16vw;
+  height: 20vw;
   background-color: #2a2a2a;
   position: absolute;
   top: 0;
@@ -37,20 +37,20 @@
 }
 
 .container-hijo__contactos {
-  width: 45vw;
-  height: 22vw;
+  width: 40vw;
+  height: 20vw;
   margin: auto;
   background-color: #2a2a2a;
   bottom: 28%;
   box-shadow: 1px 2px 9px #161616;
   padding-left: 2%;
-  border-left: 1.5vw;
-  border-bottom: 1.45vw;
+  border-left: 1.4vw;
+  border-bottom: 1.4vw;
   border-top: 0;
   border-right: 0;
   border-style: solid;
   border-color: #ffb633;
-  border-radius: 0 0 10px 10px;
+  border-radius: 1.2vw;
 }
 
 .container__title-lineaHorizontal {
@@ -58,12 +58,6 @@
   position: relative;
   top: 5%;
   padding-right: 9%;
-}
-
-.whatsapp-mail__container {
-  width: 95%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .style-h1__title-contactos {
@@ -136,52 +130,117 @@
 
 .container__datos-contactos {
   width: 100%;
-  height: 10vw;
+  height: 11.5vw;
   margin: auto;
-  top: 14%;
+  margin-top: 6%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.container-whatsapp .style-i,
 .container-mail .style-i {
   cursor: none !important;
 }
 
-.container-whatsapp,
 .container-mail {
+  height: 2vw;
   display: flex;
-  align-items: center;
+  margin-top: 1%;
 }
 
-.container-mail .style-p,
-.container-whatsapp .style-p {
-  left: 10px;
+.container-whatsapp {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  left: 4.5vw;
+}
+
+.whatsapp-icon {
+  font-size: 2vw !important;
+  color: #ffb633;
+}
+
+.whatsapp-icon:hover {
+  color: #ffffff;
+  transition: all 0.3s;
+  animation: jumpLogo 2s;
+}
+
+.style__text-hazme-click {
+  color: #ffffff;
+  font-size: 1.1vw;
+  font-weight: 600;
+  text-shadow: 1px 0 0 black, 0 1px 0 black, -1px 0 0 black, 0 -1px 0 black;
+  position: relative;
+  top: 0.35vw;
+  right: 0.6vw;
+}
+
+.content-hand {
+  width: 2vw;
+  height: 2vw;
+  position: relative;
+  bottom: 2vw;
+  left: 5.7vw;
+  animation: handAnimation 3s infinite;
+}
+
+.content-hand > img {
+  width: 2.2vw !important;
+  transform: rotate(120deg);
+}
+
+@keyframes handAnimation {
+  0% {
+    transform: translate(-1.5vw, -2vw);
+  }
+
+  50% {
+    transform: translate(0.5vw, 0.5vw);
+  }
+
+  75% {
+    transform: translate(1vw, 1.5vw);
+    transform: rotate(45deg);
+  }
+
+  85% {
+    position: relative;
+    right: 0.5vw;
+  }
+
+  100% {
+    position: relative;
+    right: 0; 
+  }
+}
+
+.container-mail .style-p {
+  left: 0.7vw;
 }
 
 .container__logos-redes {
   width: 95%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .style-seguimeEnRedes {
   color: #fff;
   text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
   font-size: 1.2vw;
-  top: 15%;
+  margin-top: 5%;
 }
 
 .container-logos {
-  width: 55%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .container__datos-contactos .style-i {
-  font-size: 2vw;
+  font-size: 2.1vw;
   color: #ffb633;
   cursor: pointer;
   border-radius: 100%;
@@ -191,16 +250,15 @@
   font-size: 1.35vw;
   color: #fff;
   font-weight: 500;
-  margin-top: 15px;
 }
 
 .container__datos-contactos .container__logos-redes .style-i:hover {
   color: #fff !important;
   transition: all 0.3s;
-  animation: animarLogo 2s;
+  animation: jumpLogo 2s;
 }
 
-@keyframes animarLogo {
+@keyframes jumpLogo {
   0% {
     transform: translateY(0px);
   }
@@ -210,6 +268,6 @@
   }
 
   0% {
-    transform: translateY((0px));
+    transform: translateY(0px);
   }
 }
