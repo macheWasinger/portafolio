@@ -165,18 +165,13 @@
     color: #fff;
   }
 
-  .style__text-hazme-click {
-    top: 0.35vw;
-    left: 0.5vw !important;
-  }
-
   .content-hand {
     width: 5vw;
     height: 5vw;
     position: relative;
     bottom: 5vw;
     left: 17vw !important;
-    animation: handAnimation 3s infinite;
+    animation: handAnimationMobile 3s alternate infinite;
   }
 
   .content-hand > img {
@@ -185,9 +180,9 @@
   }
 
 
-  @keyframes handAnimation {
+  @keyframes handAnimationMobile {
     0% {
-      transform: translate(-1vw, -1vw);
+      transform: translate(-2vw, -3vw);
     }
   
     50% {
@@ -211,12 +206,9 @@
   }
 
   .style__text-hazme-click {
-    color: #ffffff;
     font-size: 3vw;
-    font-weight: 600;
-    text-shadow: 1px 0 0 black, 0 1px 0 black, -1px 0 0 black, 0 -1px 0 black;
     position: relative;
     top: 0.35vw;
-    left: 3.7vw;
+    left: 0.5vw !important;
   }
 }

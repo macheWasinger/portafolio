@@ -163,7 +163,6 @@
 .whatsapp-icon:hover {
   color: #ffffff;
   transition: all 0.3s;
-  animation: jumpLogo 2s;
 }
 
 .style__text-hazme-click {
@@ -174,6 +173,16 @@
   position: relative;
   top: 0.35vw;
   right: 0.6vw;
+
+  animation: changeColors 6s alternate infinite;
+}
+
+@keyframes changeColors {
+  0% { color: #fff; }
+  25% { color: #414141; }
+  50% { color: #ffb633; }
+  75% { color: #414141; }
+  100% { color: #fff; }
 }
 
 .content-hand {
@@ -182,7 +191,7 @@
   position: relative;
   bottom: 2vw;
   left: 5.7vw;
-  animation: handAnimation 3s infinite;
+  animation: handAnimation 3s alternate infinite;
 }
 
 .content-hand > img {
@@ -192,7 +201,7 @@
 
 @keyframes handAnimation {
   0% {
-    transform: translate(-1.5vw, -2vw);
+    transform: translate(-1.5vw, -1.5vw);
   }
 
   50% {
