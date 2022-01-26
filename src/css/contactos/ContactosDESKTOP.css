@@ -169,7 +169,6 @@
   color: #ffffff;
   font-size: 1.1vw;
   font-weight: 600;
-  text-shadow: 1px 0 0 black, 0 1px 0 black, -1px 0 0 black, 0 -1px 0 black;
   position: relative;
   top: 0.35vw;
   right: 0.6vw;
@@ -179,9 +178,9 @@
 
 @keyframes changeColors {
   0% { color: #fff; }
-  25% { color: #414141; }
+  25% { color: #2a2a2a; }
   50% { color: #ffb633; }
-  75% { color: #414141; }
+  75% { color: #2a2a2a; }
   100% { color: #fff; }
 }
 
@@ -190,7 +189,7 @@
   height: 2vw;
   position: relative;
   bottom: 2vw;
-  left: 5.7vw;
+  left: 6vw;
   animation: handAnimation 3s alternate infinite;
 }
 
@@ -205,12 +204,11 @@
   }
 
   50% {
-    transform: translate(0.5vw, 0.5vw);
+    transform: translate(0.5vw, 0.3vw);
   }
 
   75% {
-    transform: translate(1vw, 1.5vw);
-    transform: rotate(45deg);
+    transform: rotate(20deg);
   }
 
   85% {

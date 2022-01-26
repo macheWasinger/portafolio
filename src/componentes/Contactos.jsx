@@ -30,7 +30,7 @@ const Contactos = () => {
               <span data-aos="zoom-in" data-aos-delay="150">
                 <a href="https://wa.me/541130911213" class="whatsapp" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
               </span>
-              <p className="style__text-hazme-click">Haz click</p>
+              <p className="style__text-hazme-click">Click aquí</p>
               <span className="content-hand" data-aos="zoom-in" data-aos-delay="400">
                 <img src={hand} alt="" />
               </span>
