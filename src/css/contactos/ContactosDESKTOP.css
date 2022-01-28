@@ -167,7 +167,7 @@
 
 .style__text-hazme-click {
   color: #ffffff;
-  font-size: 1.1vw;
+  font-size: 1vw;
   font-weight: 600;
   position: relative;
   top: 0.35vw;
@@ -177,11 +177,21 @@
 }
 
 @keyframes changeColors {
-  0% { color: #fff; }
-  25% { color: #2a2a2a; }
-  50% { color: #ffb633; }
-  75% { color: #2a2a2a; }
-  100% { color: #fff; }
+  0% {
+    color: #fff;
+  }
+  25% {
+    color: #2a2a2a;
+  }
+  50% {
+    color: #ffb633;
+  }
+  75% {
+    color: #2a2a2a;
+  }
+  100% {
+    color: #fff;
+  }
 }
 
 .content-hand {
@@ -218,7 +228,7 @@
 
   100% {
     position: relative;
-    right: 0; 
+    right: 0;
   }
 }
 
@@ -254,7 +264,7 @@
 }
 
 .container__datos-contactos .style-p {
-  font-size: 1.35vw;
+  font-size: 1.2vw;
   color: #fff;
   font-weight: 500;
 }

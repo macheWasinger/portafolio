@@ -11,7 +11,9 @@ const Contactos = () => {
       <a name="Contactos"></a>
       <div className="container-hijo__contactos">
         <div className="container__title-lineaHorizontal">
-          <h1 className="style-h1__title-contactos color-white title-font">Contactos</h1>
+          <h1 className="style-h1__title-contactos color-white title-font">
+            Contactos
+          </h1>
           <div
             className="title-lineaHorizontal__contactos"
             data-aos="slide-left"
@@ -20,21 +22,38 @@ const Contactos = () => {
           ></div>
         </div>
         <div className="container__datos-contactos">
-            <div className="container-mail">
-              <span data-aos="zoom-in" data-aos-delay="300">
-                <i class="far fa-envelope style-i"></i>
-              </span>
-              <p className="style-p">marcelo_wasinger@hotmail.com</p>
-            </div>
-            <div className="container-whatsapp">
-              <span data-aos="zoom-in" data-aos-delay="150">
-                <a href="https://wa.me/541130911213" class="whatsapp" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
-              </span>
-              <p className="style__text-hazme-click">Click aquí</p>
-              <span className="content-hand" data-aos="zoom-in" data-aos-delay="400">
-                <img src={hand} alt="" />
-              </span>
-            </div>
+          <div className="container-mail">
+            <span data-aos="zoom-in" data-aos-delay="300">
+              <i class="far fa-envelope style-i"></i>
+            </span>
+            <p className="style-p">marcelo_wasinger@hotmail.com</p>
+          </div>
+          <div className="container-whatsapp">
+            <span
+              data-aos="zoom-in"
+              data-aos-delay="1250"
+              data-aos-duration="300"
+              data-aos-offset="100"
+            >
+              <a
+                href="https://wa.me/541130911213"
+                class="whatsapp"
+                target="_blank"
+              >
+                <i class="fab fa-whatsapp whatsapp-icon"></i>
+              </a>
+            </span>
+            <p className="style__text-hazme-click">Click aquí</p>
+            <span
+              className="content-hand"
+              data-aos="zoom-in"
+              data-aos-delay="1400"
+              data-aos-duration="300"
+              data-aos-offset="100"
+            >
+              <img src={hand} alt="" />
+            </span>
+          </div>
           <div className="container__logos-redes">
             <p className="style-seguimeEnRedes">
               Seguime en mis redes sociales:
