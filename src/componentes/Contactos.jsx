@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 import logo from "../img/logo-mw.png";
 import hand from "../img/hand.png";
+import seguime from "../video/seguimeRedes.mp4";
 
 const Contactos = () => {
   return (
@@ -55,9 +56,14 @@ const Contactos = () => {
             </span>
           </div>
           <div className="container__logos-redes">
-            <p className="style-seguimeEnRedes">
+            {/* <p className="style-seguimeEnRedes">
               Seguime en mis redes sociales:
-            </p>
+            </p> */}
+
+            <video className="style__animation-seguime" autoPlay loop muted>
+              <source src={seguime} />
+            </video>
+
             <div className="container-logos">
               <a
                 href="https://github.com/macheWasinger"

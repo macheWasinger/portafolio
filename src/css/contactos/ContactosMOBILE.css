@@ -109,7 +109,7 @@
   .container-mail {
     width: auto !important;
     height: 6vw !important;
-    margin-left: 2.5%;
+    margin-left: 2.7%;
   }
 
   .container-mail .style-p {
@@ -123,7 +123,6 @@
   .container__logos-redes {
     height: auto;
     margin: auto;
-    top: 1.5vw;
   }
 
   .style-seguimeEnRedes {
@@ -134,9 +133,20 @@
     bottom: 3.5vw;
   }
 
+  .style__animation-seguime,
+  .container-logos {
+    position: relative;
+  }
+
+  .style__animation-seguime {
+    width: 37vw;
+    right: 2vw;
+  }
+
   .container-logos {
     width: 98%;
     justify-content: space-between;
+    top: 2.6vw;
   }
 
   .container__datos-contactos .style-i {
@@ -179,28 +189,27 @@
     transform: rotate(120deg);
   }
 
-
   @keyframes handAnimationMobile {
     0% {
       transform: translate(-2vw, -3vw);
     }
-  
+
     50% {
       transform: translate(0.5vw, 0.3vw);
     }
-  
+
     75% {
       transform: rotate(20deg);
     }
-  
+
     85% {
       position: relative;
       right: 0.5vw;
     }
-  
+
     100% {
       position: relative;
-      right: 0; 
+      right: 0;
     }
   }
 
@@ -209,5 +218,12 @@
     position: relative;
     top: 0.35vw;
     left: 0.5vw !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container-mail > span {
+    position: relative;
+    bottom: 4px;
   }
 }
