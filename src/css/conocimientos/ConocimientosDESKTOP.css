@@ -162,50 +162,35 @@
 }
 
 .container-design,
-.container-backend {
+.container-backend,
+.container-frontend {
   display: flex;
+  height: 13vw;
 }
 
 .container-frontend {
   width: 35vw;
-  /* display: grid;
-  grid-template-columns: repeat(6, minmax(8.5vw, 1fr)); */
-  display: flex;
   overflow-x: scroll;
   overflow-y: hidden;
 }
 
-.container__logo-nivel {
-  display: grid;
-  place-items: center;
-}
-
-.container__logo-nivel {
+.container__logo-title-tech {
   width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
-  bottom: 7%;
-}
-
-.container-nivel {
-  width: 80%;
-  height: auto;
-  border-radius: 7px;
-  margin: auto;
-  bottom: 8%;
-  display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  margin-top: 5%;
 }
 
-.style-text__nivel {
+.style-text__title-tech {
   color: #fff;
-  font-size: 1.3vw;
+  text-shadow: 1px 2px 3px #000;
+  font-size: 1vw;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  top: 10%;
 }
 
 .style-circle {

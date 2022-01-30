@@ -51,21 +51,9 @@
     margin: auto;
   }
 
-  .desingIcon-container {
-    padding-bottom: 3%;
-  }
-
-  .container-frontend {
-    width: 328px;
-    height: 115px;
-    display: flex !important;
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
-
   .container-tech {
     width: auto;
-    height: 115px;
+    height: 105px;
     padding: 0;
     /* padding-top: 3vw; */
     background-color: #474747;
@@ -88,11 +76,15 @@
     transition: all 0.3s;
   }
 
+  .container-frontend .style-logo-tech,
+  .container-design .style-logo-tech {
+    margin: 20px 15px;
+    bottom: 21%;
+  }
+
   .style-logo-tech {
     width: 52px;
     height: 52px;
-    margin: 20px 15px;
-    bottom: 21%;
   }
 
   .card__title {
@@ -102,29 +94,22 @@
     top: -5px;
   }
 
+  .container-frontend {
+    width: 328px;
+  }
+
   .container-design,
-  .container-backend {
-    height: 110px;
+  .container-backend,
+  .container-frontend {
     display: flex;
-    justify-content: space-around;
+    height: 110px;
   }
 
-  .container__logo-nivel {
-    height: 115px;
-    top: 13%;
+  .container__logo-title-tech {
+    margin-top: 13%;
   }
 
-  .container-nivel {
-    bottom: 25%;
-  }
-
-  .style-text__nivel {
-    font-size: 12px;
-    top: 3.5px;
-  }
-
-  .style-circle {
-    width: 9px;
-    height: 9px;
+  .style-text__title-tech {
+    font-size: 2.5vw;
   }
 }

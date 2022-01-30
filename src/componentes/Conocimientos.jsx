@@ -40,7 +40,9 @@ const Conocimientos = () => {
         data-aos-delay="250"
       >
         <div
-          className={`frontendIcon-container image-title-tech__container ${active == 0 ? "hidden" : ""}`}
+          className={`frontendIcon-container image-title-tech__container ${
+            active == 0 ? "hidden" : ""
+          }`}
           onClick={() => setActive(0)}
         >
           <img src={frontend} className="iconImage__tech" alt="" />
@@ -55,53 +57,41 @@ const Conocimientos = () => {
         </div>
         <div className={`${active === 0 ? "container-tech" : "hidden"}`}>
           <div className="container-frontend">
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">HTML</h3>
               <img src={html} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-alto">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">alto</h3>
-              </div>
             </div>
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">CSS</h3>
               <img src={css} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-alto">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">alto</h3>
-              </div>
             </div>
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">GRID</h3>
               <img src={grid} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-medio">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">medio</h3>
-              </div>
             </div>
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">JAVASCRIPT</h3>
               <img src={js} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-medio">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">medio</h3>
-              </div>
             </div>
-            <div className="container__logo-nivel">
-              <img src={bootstrap} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-medio">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">medio</h3>
-              </div>
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">RESPONSIVE</h3>
+              <img src={responsive} alt="" className="style-logo-tech" />
             </div>
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">REACT</h3>
               <img src={react} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-medio">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">medio</h3>
-              </div>
+            </div>
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">BOOTSTRAP</h3>
+              <img src={bootstrap} alt="" className="style-logo-tech" />
             </div>
           </div>
         </div>
 
         <div
-          className={`desingIcon-container image-title-tech__container ${active == 1 ? "hidden" : ""}`}
+          className={`desingIcon-container image-title-tech__container ${
+            active == 1 ? "hidden" : ""
+          }`}
           onClick={() => setActive(1)}
         >
           <img src={design} className="iconImage__tech" alt="" />
@@ -116,39 +106,25 @@ const Conocimientos = () => {
         </div>
         <div className={`${active === 1 ? "container-tech" : "hidden"}`}>
           <div className="container-design">
-            <div className="container__logo-nivel">
-              <img src={responsive} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-alto">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">alto</h3>
-              </div>
-            </div>
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">PHOTOSHOP</h3>
               <img src={photoshop} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-medio">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">medio</h3>
-              </div>
             </div>
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">FIGMA</h3>
               <img src={figma} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-medio">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">medio</h3>
-              </div>
             </div>
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">CANVA</h3>
               <img src={canva} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-medio">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">medio</h3>
-              </div>
             </div>
           </div>
         </div>
 
         <div
-          className={`backendIcon-container image-title-tech__container ${active === 2 ? "hidden" : ""}`}
+          className={`backendIcon-container image-title-tech__container ${
+            active === 2 ? "hidden" : ""
+          }`}
           onClick={() => setActive(2)}
         >
           <img src={backend} className="iconImage__tech" alt="" />
@@ -163,19 +139,13 @@ const Conocimientos = () => {
         </div>
         <div className={`${active == 2 ? "container-tech" : "hidden"}`}>
           <div className="container-backend">
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">JAVA</h3>
               <img src={java} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-bajo">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">bajo</h3>
-              </div>
             </div>
-            <div className="container__logo-nivel">
+            <div className="container__logo-title-tech">
+              <h3 className="style-text__title-tech">PYTHON</h3>
               <img src={python} alt="" className="style-logo-tech" />
-              <div className="container-nivel n-bajo">
-                <span className="style-circle"></span>
-                <h3 className="style-text__nivel">bajo</h3>
-              </div>
             </div>
           </div>
         </div>
