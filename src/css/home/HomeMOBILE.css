@@ -1,121 +1,128 @@
 @media screen and (max-width: 800px) {
-    .container-padre {
-        height: auto;
-    }
-    
-    .container_dark-grey .style-logo-video {
-        width:  4em;
-        height: 4em;
-        margin-left: 1em;
-        margin-top: 0.6em;
-    }
-    
-    .scroll {
-        width: 1.3em;
-        height: 2.3em;
-        border: 2px solid #FFB633;
-        top: 19px;
-        left: 19% !important;
+  .container-padre {
+    height: auto;
+  }
+
+  .container_dark-grey .style-logo-video {
+    width: 4em;
+    height: 4em;
+    margin-left: 1em;
+    margin-top: 0.6em;
+  }
+
+  .scroll {
+    width: 1.3em;
+    height: 2.3em;
+    border: 2px solid #ffb633;
+    top: 19px;
+    left: 19% !important;
+  }
+
+  .scroll:before {
+    width: 0.15em;
+    height: 0.4em;
+    animation: animarUp 2.5s infinite;
+  }
+
+  @keyframes animarUp {
+    100% {
+      opacity: 0;
+      margin-top: 40%;
     }
 
-    .scroll:before {
-        width: 0.15em;
-        height: 0.4em;
-        animation: animarUp 2.5s infinite;
+    75% {
+      opacity: 0.25;
     }
 
-    @keyframes animarUp {
-        100% {
-            opacity: 0;
-            margin-top: 40%;
-        }
-    
-        75% {
-            opacity: 0.25;
-        }
-    
-        50% {
-            opacity: 0.5;
-        }
-    
-        25% {
-            opacity: 0.75;
-        }
-    
-        0% {
-            opacity: 1;
-            margin-top: 115%;
-        }
+    50% {
+      opacity: 0.5;
     }
 
-    .container_header-menu, .container_fondos-colores {
-        height: 70vw;
+    25% {
+      opacity: 0.75;
     }
-    
-    .container_fondos-colores .container_dark-grey 
+
+    0% {
+      opacity: 1;
+      margin-top: 115%;
+    }
+  }
+
+  .container_header-menu,
+  .container_fondos-colores {
+    height: 70vw;
+  }
+
+  .container_fondos-colores
+    .container_dark-grey
     .container__texto-presentacion {
-        width: 100%;
-        margin-top: 22% !important;
-        margin-left: 0;
-        padding-right: 15px;
+    width: 100%;
+    margin-top: 24% !important;
+    margin-left: 0;
+    padding-right: 15px;
+  }
+
+  .style-h1-home {
+    margin-top: 0;
+    animation: movimiento 10s linear infinite !important;
+  }
+
+  .nombre-apellido {
+    font-size: 8vw !important;
+    letter-spacing: 3px;
+  }
+
+  .span__text-soy {
+    font-size: 5vw !important;
+    top: 1vw;
+  }
+
+  .text-deslizable__container {
+    width: 51.5vw;
+    margin: auto;
+    margin-top: 3%;
+    padding-top: 2.5%;
+    padding-left: 50%;
+    margin-left: 8.5%;
+  }
+
+  @keyframes movimiento {
+    0% {
+      transform: translate(100%) !important;
     }
 
-    .style-h1-home {
-        margin-top: 0;
-        animation: movimiento 10s linear infinite !important;
+    100% {
+      transform: translate(0) !important;
     }
 
-    .nombre-apellido {
-        font-size: 8vw !important;
-        letter-spacing: 3px;
-    }
-    
-    .span__text-soy {
-        font-size: 5vw !important;
+    0% {
+      transform: translate(0);
     }
 
-    .text-deslizable__container {
-        width: 51.5vw;
-        margin: auto;
-        margin-top: 3%;
-        padding-top: 2.5%;
-        padding-left: 50%;
-        margin-left: 8.5%;
+    100% {
+      transform: translate(-130%);
     }
-    
-    @keyframes movimiento {
-        0% {
-            transform: translate(100%) !important;
-        }
-    
-        100% {
-            transform: translate(0) !important;
-        }
-    
-        0% {
-            transform: translate(0);
-        }
-    
-        100% {
-            transform: translate(-130%);
-        }
-    }
-    
-    .style-videoFrontend-animation {
-        width: 35vw;
-        position: relative;
-        top: -0.5em;
-    }
+  }
 
-    .container_fondos-colores .container-orange {
-        width: 38%;
-    }
-    
-    .container_fondos-colores .container-orange img {
-        width: 47vw;
-        height: 60vw;
-        right: 30%;
-        margin-top: 27%;
-        z-index: 0;
-    }
+  .style-frontendJr {
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-size: 4.5vw;
+    letter-spacing: 2px;
+    margin-left: 4%;
+
+    animation: changeColorFrontendJr 4s alternate infinite;
+  }
+
+  .container_fondos-colores .container-orange {
+    width: 38%;
+  }
+
+  .container_fondos-colores .container-orange img {
+    width: 47vw;
+    height: 60vw;
+    right: 30%;
+    margin-top: 27%;
+    z-index: 0;
+  }
 }

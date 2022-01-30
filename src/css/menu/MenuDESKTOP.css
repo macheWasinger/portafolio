@@ -123,7 +123,7 @@
   top: 45%;
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1024px) {
   .container-Padre_menu .burger {
     height: 1.4vw !important;
     right: 1.8%;
@@ -190,7 +190,7 @@
   transition: all 1.5s;
   border-top-left-radius: 100%;
   border-bottom-left-radius: 350%;
-  background-color: #FFB633;
+  background-color: #ffb633;
   z-index: 1;
 }
 

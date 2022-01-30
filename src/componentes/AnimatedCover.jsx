@@ -30,80 +30,115 @@ const AnimatedCover = () => {
         }`}
       ></div>
 
-      <div className={`textAnimation-button-text-desarrollador_container ${ active === !true ? "hide-mainContainer-animation" : "" }`} style={{ width: "100vw", height: "100vh", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+      <div
+        className={`textAnimation-button-text-desarrollador_container ${
+          active === !true ? "hide-mainContainer-animation" : ""
+        }`}
+        style={{
+          width: "100vw",
+          height: "100vh",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+        }}
+      >
         <section
           className={`text-animation__container ${
             active === !true ? "hide-animation" : ""
           }`}
         >
           <span
-            className={`${active === !true ? "hide-letter1 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter1 letter-opacity" : ""
+            }`}
           >
             B
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter2 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter2 letter-opacity" : ""
+            }`}
           >
             i
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter3 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter3 letter-opacity" : ""
+            }`}
           >
             e
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter4 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter4 letter-opacity" : ""
+            }`}
           >
             n
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter5 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter5 letter-opacity" : ""
+            }`}
           >
             v
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter6 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter6 letter-opacity" : ""
+            }`}
           >
             e
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter7 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter7 letter-opacity" : ""
+            }`}
           >
             n
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter8 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter8 letter-opacity" : ""
+            }`}
           >
             i
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter9 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter9 letter-opacity" : ""
+            }`}
           >
             d
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter10 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter10 letter-opacity" : ""
+            }`}
           >
             o
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter11 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter11 letter-opacity" : ""
+            }`}
           >
             /
           </span>
 
           <span
-            className={`${active === !true ? "hide-letter12 letter-opacity" : ""}`}
+            className={`${
+              active === !true ? "hide-letter12 letter-opacity" : ""
+            }`}
           >
             a
           </span>

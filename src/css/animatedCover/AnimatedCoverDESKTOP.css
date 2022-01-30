@@ -441,10 +441,9 @@
   display: none !important;
 }
 
-
 @media screen and (min-width: 2560px) {
   .textAnimation-button-text-desarrollador_container
-  > .style__text-desarrollador {
-  font-size: 1.7em;
-}
+    > .style__text-desarrollador {
+    font-size: 1.7em;
+  }
 }

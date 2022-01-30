@@ -33,8 +33,8 @@
   .title-lineaHorizontal__contactos {
     width: 20vw !important;
     height: 0.3vw !important;
-    right: 13.5%;
-    top: -1%;
+    left: -10.5vw;
+    top: -0.4vw;
   }
 
   .container__site-footer {

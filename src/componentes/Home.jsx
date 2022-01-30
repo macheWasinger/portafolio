@@ -6,7 +6,6 @@ import Menu from "./header/Menu";
 // IMPORTO IMAGEN Y VIDEO
 import maw from "../img/maw.png";
 import logoAnimado from "../video/logo-mw.mp4";
-import videoFrontendAnimation from "../video/FrontendJr.mp4";
 
 const Home = () => {
   return (
@@ -28,18 +27,9 @@ const Home = () => {
               </h1>
             </div>
 
-            <br />
-            <video
-              onLoadedMetadata="this.muted=true"
-              autoPlay
-              loop
-              muted
-              className="style-videoFrontend-animation"
-              data-aos="zoom-in"
-              data-aos-delay="700"
-            >
-              <source src={videoFrontendAnimation} />
-            </video>
+            <h2 className="style-frontendJr">
+              {"{ "} Frontend Jr {" }"}
+            </h2>
           </div>
         </div>
 
