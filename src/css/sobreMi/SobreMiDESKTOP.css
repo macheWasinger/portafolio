@@ -75,7 +75,8 @@
   height: 0.2vw;
   background-color: #ffb633;
   border-radius: 25px;
-  bottom: 4.5%;
+  top: -1.4vw;
+  left: 0.25vw;
 }
 
 .style-p-sobreMi {
@@ -106,7 +107,8 @@
   background-color: #fca400;
   transition: all 0.7s;
   /* border-radius: 0 1.4vw 0 1.4vw; */
-  animation: animarButton 1s alternate infinite;
+  animation: animarButton 1.5s alternate;
+  animation-delay: 0.2s;
 }
 
 @keyframes animarButton {
@@ -114,7 +116,11 @@
     border-radius: 0 1.4vw 0 1.4vw;
   }
 
-  100% {
+  50% {
     border-radius: 1.4vw 0 1.4vw 0;
+  }
+
+  100% {
+    border-radius: 0 1.4vw 0 1.4vw;
   }
 }

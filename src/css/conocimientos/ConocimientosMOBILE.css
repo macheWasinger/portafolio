@@ -1,131 +1,130 @@
 @media screen and (max-width: 800px) {
-    .container-padre_conocimientos {
-      height: auto;
-      padding-top: 0 !important;
-      background-attachment: unset;
-      background-origin: content-box;
-      /* background-position-x: 30%; */
-    }
-  
-    .style-h1-title {
-      margin-top: 14%;
-      font-size: 8vw;
-    }
-  
-    .title-lineaHorizontal {
-      width: 27vw !important;
-      height: 0.3vw !important;
-      right: 17%;
-      bottom: 0%;
-    }
-  
-    .style-h3-subtitulo {
-      display: none;
-    }
-  
-    .column-general {
-      width: 100% !important;
-      height: 650px;
-      margin-top: 8%;
-      display: flex !important;
-      flex-direction: column;
-      align-items: center !important;
-    }
-  
-    .frontendIcon-container,
-    .desingIcon-container,
-    .backendIcon-container {
-      width: 175px;
-      height: 175px;
-    }
-  
-    .frontendIcon-container > img,
-    .backendIcon-container > img {
-      width: 165px;
-      margin: auto;
-    }
-  
-    .desingIcon-container > img {
-      width: 165px;
-      height: 165px !important;
-      margin: auto;
-    }
-    
-    .desingIcon-container {
-      padding-bottom: 3%;
-    }
-
-    .container-frontend {
-      width: 328px;
-      height: 115px;
-      display: flex !important;
-      overflow-x: scroll;
-      overflow-y: hidden;
-    }
-  
-    .container-tech {
-      width: auto;
-      height: 115px;
-      padding: 0;
-      /* padding-top: 3vw; */
-      background-color: #474747;
-      /* margin-top: 3%; */
-    }
-  
-    .iconRefresh-container {
-      width: 40px;
-      margin-top: 15% !important;
-      margin-bottom: 10% !important;
-      margin: auto;
-    }
-  
-    .iconRefresh-container > img {
-      width: 40px !important;
-    }
-    
-    .refreshAnimation {
-      transform: rotate(360deg);
-      transition: all 0.3s;
-    }
-  
-    .style-logo-tech {
-      width: 52px;
-      height: 52px;
-      margin: 20px 15px;
-      bottom: 21%;
-    }
-  
-    .card__title {
-      font-size: 28px;
-      font-weight: 600;
-      position: relative;
-      top: -5px;
-    }
-  
-    .container-design,
-    .container-backend {
-      height: 110px;
-      display: flex;
-      justify-content: space-around;
-    }
-  
-    .container__logo-nivel {
-      height: 115px;
-      top: 13%;
-    }
-  
-    .container-nivel {
-      bottom: 25%;
-    }
-  
-    .style-text__nivel {
-      font-size: 12px;
-      top: 3.5px;
-    }
-  
-    .style-circle {
-      width: 9px;
-      height: 9px;
-    }
+  .container-padre_conocimientos {
+    height: auto;
+    padding-top: 0 !important;
+    background-attachment: unset;
+    background-origin: content-box;
+    /* background-position-x: 30%; */
   }
-  
+
+  .style-h1-title {
+    margin-top: 14%;
+    font-size: 8vw;
+  }
+
+  .title-lineaHorizontal {
+    width: 27vw !important;
+    height: 0.3vw !important;
+    left: -15.8vw;
+    bottom: 0%;
+  }
+
+  .style-h3-subtitulo {
+    display: none;
+  }
+
+  .column-general {
+    width: 100% !important;
+    height: 650px;
+    margin-top: 8%;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .frontendIcon-container,
+  .desingIcon-container,
+  .backendIcon-container {
+    width: 175px;
+    height: 175px;
+  }
+
+  .frontendIcon-container > img,
+  .backendIcon-container > img {
+    width: 165px;
+    margin: auto;
+  }
+
+  .desingIcon-container > img {
+    width: 165px;
+    height: 165px !important;
+    margin: auto;
+  }
+
+  .desingIcon-container {
+    padding-bottom: 3%;
+  }
+
+  .container-frontend {
+    width: 328px;
+    height: 115px;
+    display: flex !important;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .container-tech {
+    width: auto;
+    height: 115px;
+    padding: 0;
+    /* padding-top: 3vw; */
+    background-color: #474747;
+    /* margin-top: 3%; */
+  }
+
+  .iconRefresh-container {
+    width: 40px;
+    margin-top: 15% !important;
+    margin-bottom: 10% !important;
+    margin: auto;
+  }
+
+  .iconRefresh-container > img {
+    width: 40px !important;
+  }
+
+  .refreshAnimation {
+    transform: rotate(360deg);
+    transition: all 0.3s;
+  }
+
+  .style-logo-tech {
+    width: 52px;
+    height: 52px;
+    margin: 20px 15px;
+    bottom: 21%;
+  }
+
+  .card__title {
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    top: -5px;
+  }
+
+  .container-design,
+  .container-backend {
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .container__logo-nivel {
+    height: 115px;
+    top: 13%;
+  }
+
+  .container-nivel {
+    bottom: 25%;
+  }
+
+  .style-text__nivel {
+    font-size: 12px;
+    top: 3.5px;
+  }
+
+  .style-circle {
+    width: 9px;
+    height: 9px;
+  }
+}
