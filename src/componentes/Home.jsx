@@ -20,7 +20,7 @@ const Home = () => {
           <div className="scroll" id="animacionScroll"></div>
 
           <div className="container__texto-presentacion">
-            <span className="span__text-soy">Soy</span>
+            <span className="span__text-soy">¡Hola!, soy</span>
             <div className="text-deslizable__container">
               <h1 className="style-h1-home">
                 <span className="nombre-apellido">Marcelo Wasinger</span>
