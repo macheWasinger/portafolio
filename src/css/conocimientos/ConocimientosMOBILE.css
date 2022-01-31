@@ -15,7 +15,7 @@
   .title-lineaHorizontal {
     width: 27vw !important;
     height: 0.3vw !important;
-    left: -17.2vw;
+    left: -15.2vw;
     top: -1.2vw;
   }
 
@@ -76,12 +76,6 @@
     transition: all 0.3s;
   }
 
-  .container-frontend .style-logo-tech,
-  .container-design .style-logo-tech {
-    margin: 20px 15px;
-    bottom: 21%;
-  }
-
   .style-logo-tech {
     width: 52px;
     height: 52px;
@@ -106,10 +100,65 @@
   }
 
   .container__logo-title-tech {
-    margin-top: 13%;
+    margin-top: 7vw;
   }
 
   .style-text__title-tech {
     font-size: 2.5vw;
+  }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 768px) {
+  .style-text__title-tech {
+    font-size: 1.5vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .container-frontend .style-logo-tech {
+    margin: 2vw 1.95vw !important;
+    bottom: 2vw !important;
+  }
+
+  .container-design .style-logo-tech {
+    margin: 3.7vw 17px !important;
+    bottom: 3vw !important;
+  }
+
+  .container-backend .style-logo-tech {
+    margin: 4.3vw 17px !important;
+    bottom: 3.3vw !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-frontend .style-logo-tech {
+    margin: 1vw 3.6vw;
+    bottom: 0.7vw;
+  }
+
+  .container-design .style-logo-tech,
+  .container-backend .style-logo-tech {
+    margin: 3.5vw 17px;
+    bottom: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container-frontend .style-logo-tech {
+    margin: -0.5vw 3.5vw;
+    top: 0.5vw;
+  }
+
+  .container-tech {
+    width: auto;
+  }
+
+  .container-frontend {
+    width: 300px;
+  }
+
+  .style-text__title-tech {
+    font-size: 3vw;
   }
 }
