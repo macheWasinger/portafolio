@@ -43,11 +43,13 @@
 }
 
 .style-smallImage {
-  width: auto;
+  width: 19vw;
   height: 23.8vw;
-  border: 0.7vw solid #3a3a3a;
+  border: 0.8vw solid #3a3a3a;
   left: 9%;
   bottom: 13%;
+  padding-top: 2px;
+  background-color: #ffffff;
 }
 
 .container-text_sobreMi {

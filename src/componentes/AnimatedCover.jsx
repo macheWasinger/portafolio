@@ -60,7 +60,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter2 letter-opacity" : ""
             }`}
           >
-            i
+            I
           </span>
 
           <span
@@ -68,7 +68,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter3 letter-opacity" : ""
             }`}
           >
-            e
+            E
           </span>
 
           <span
@@ -76,7 +76,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter4 letter-opacity" : ""
             }`}
           >
-            n
+            N
           </span>
 
           <span
@@ -84,7 +84,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter5 letter-opacity" : ""
             }`}
           >
-            v
+            V
           </span>
 
           <span
@@ -92,7 +92,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter6 letter-opacity" : ""
             }`}
           >
-            e
+            E
           </span>
 
           <span
@@ -100,7 +100,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter7 letter-opacity" : ""
             }`}
           >
-            n
+            N
           </span>
 
           <span
@@ -108,7 +108,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter8 letter-opacity" : ""
             }`}
           >
-            i
+            I
           </span>
 
           <span
@@ -116,7 +116,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter9 letter-opacity" : ""
             }`}
           >
-            d
+            D
           </span>
 
           <span
@@ -124,7 +124,7 @@ const AnimatedCover = () => {
               active === !true ? "hide-letter10 letter-opacity" : ""
             }`}
           >
-            o
+            O
           </span>
 
           <span

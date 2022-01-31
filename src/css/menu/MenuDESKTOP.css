@@ -64,34 +64,30 @@
   width: 2.5vw;
   height: 1.7em;
   color: #fff;
-  margin-top: 5.2%;
+  margin-top: 4.6%;
   right: 2%;
   display: flex;
   justify-content: space-between;
   z-index: 2;
   cursor: pointer;
-  /* background-color: red; */
 }
 
 .label-menu {
   width: 2.5vw;
-  height: 1.6em;
+  height: 1.7em;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: green; */
 }
 
 .label-menu #span-1,
 #span-2,
 #span-3 {
-  /* position: absolute; */
   content: "";
   background-color: #fff;
   width: 2.5vw;
   height: 0.2em;
-  /* margin-left: -50% !important; */
   box-shadow: 2px 2px 2px #555555;
   border-radius: 4px;
   transition: all 0.4s;
@@ -112,7 +108,6 @@
 
 #btn-menu:checked ~ .label-menu #span-3 {
   transform: rotate(-140deg);
-  top: -33% !important;
 }
 
 #btn-menu:checked ~ .label-menu #span-1,
@@ -127,8 +122,6 @@
   .container-Padre_menu .burger {
     height: 1.4vw !important;
     right: 1.8%;
-    /* margin-top: 5%; */
-    /* background-color: red; */
   }
 
   .label-menu {
@@ -140,7 +133,7 @@
   #span-2,
   #span-3 {
     width: 2.3vw !important;
-    height: 0.18vw !important;
+    height: 0.15vw !important;
   }
 
   #btn-menu:checked ~ .label-menu #span-3 {
