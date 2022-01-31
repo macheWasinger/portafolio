@@ -162,3 +162,10 @@
     font-size: 3vw;
   }
 }
+
+@media only screen and (min-width: 400px) and (max-width: 400px) {
+  .container-frontend .style-logo-tech {
+    margin: 2.5vw 3.7vw;
+    bottom: 2vw;
+  }
+}
