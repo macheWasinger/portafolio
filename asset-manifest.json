@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.49effcc1.chunk.css",
+    "main.css": "/portafolio/static/css/main.c654b16c.chunk.css",
     "main.js": "/portafolio/static/js/main.cb231182.chunk.js",
     "main.js.map": "/portafolio/static/js/main.cb231182.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
@@ -10,7 +10,7 @@
     "static/js/2.27ff2264.chunk.js.map": "/portafolio/static/js/2.27ff2264.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/portafolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.49effcc1.chunk.css.map": "/portafolio/static/css/main.49effcc1.chunk.css.map",
+    "static/css/main.c654b16c.chunk.css.map": "/portafolio/static/css/main.c654b16c.chunk.css.map",
     "static/js/2.27ff2264.chunk.js.LICENSE.txt": "/portafolio/static/js/2.27ff2264.chunk.js.LICENSE.txt",
     "static/media/CV-MarceloWasinger-MaquetadorWeb.2d116d07.pdf": "/portafolio/static/media/CV-MarceloWasinger-MaquetadorWeb.2d116d07.pdf",
     "static/media/backend.57f1aa17.png": "/portafolio/static/media/backend.57f1aa17.png",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.d97de6e3.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.27ff2264.chunk.js",
-    "static/css/main.49effcc1.chunk.css",
+    "static/css/main.c654b16c.chunk.css",
     "static/js/main.cb231182.chunk.js"
   ]
 }
