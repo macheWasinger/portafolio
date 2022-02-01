@@ -52,6 +52,11 @@
   background-color: #ffffff;
 }
 
+/* .container-image, */
+.style-smallImage {
+  box-shadow: 1px 2px 3px #000000;
+}
+
 .container-text_sobreMi {
   width: 38vw;
   height: 38vw;
@@ -83,7 +88,6 @@
 
 .style-p-sobreMi {
   color: rgb(192, 192, 192);
-  bottom: 1%;
   text-align: left;
 }
 
@@ -102,6 +106,8 @@
   text-transform: uppercase;
   border-radius: 3px;
   box-shadow: 1px 2px 3px #000000;
+  position: relative;
+  top: 0.5vw;
 }
 
 .style-button-descargarCV:hover {
