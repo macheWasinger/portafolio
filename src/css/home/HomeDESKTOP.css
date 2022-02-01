@@ -117,6 +117,8 @@ a,
   width: 45vw;
   overflow: hidden;
   margin: auto;
+  position: relative;
+  left: 2vw;
 }
 
 .style-h1-home {
