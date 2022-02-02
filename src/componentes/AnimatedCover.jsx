@@ -154,7 +154,7 @@ const AnimatedCover = () => {
           <i class="fas fa-arrow-right"></i>
         </button>
         <aside
-          className={`style__text-desarrollador ${
+          className={`style__text-desarrollador-animatedCover ${
             active === !true ? "hide-aside" : ""
           }`}
         >

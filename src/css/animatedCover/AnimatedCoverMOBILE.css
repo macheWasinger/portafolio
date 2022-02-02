@@ -29,7 +29,7 @@
     font-size: 4vw;
     left: 0;
     position: relative;
-    top: 10%;
+    top: 45vw;
   }
 
   .textAnimation-button-text-desarrollador_container
@@ -45,9 +45,8 @@
     padding-right: 5.2vw;
   }
 
-  .textAnimation-button-text-desarrollador_container
-    > .style__text-desarrollador {
-    margin-top: 38vh;
+  .style__text-desarrollador-animatedCover {
+    margin-top: 65vh;
     font-size: 3.5vw;
     letter-spacing: 1px;
   }
@@ -62,11 +61,11 @@
   .textAnimation-button-text-desarrollador_container
     > .button-enter-portafolio {
     margin-left: 42%;
+    top: 25vw;
     font-size: 2.2vw;
   }
 
-  .textAnimation-button-text-desarrollador_container
-    > .style__text-desarrollador {
+  .style__text-desarrollador-animatedCover {
     font-size: 2.2vw;
   }
 }
