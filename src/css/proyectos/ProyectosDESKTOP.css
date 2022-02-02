@@ -28,7 +28,6 @@
   font-size: 3.5vw;
   letter-spacing: 2px;
   margin-top: 5%;
-  text-shadow: 1px 2px 3px black;
 }
 
 .title-proyectos__lineaHorizontal {
@@ -40,6 +39,11 @@
   position: relative;
   right: 4.5vw;
   top: -0.3vw;
+}
+
+.style-h1__proyectos,
+.style-h3-subtitulo__proyectos {
+  text-shadow: 1px 2px 3px #000000;
 }
 
 .style-h3-subtitulo__proyectos {

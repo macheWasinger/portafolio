@@ -36,7 +36,7 @@ const Conocimientos = () => {
       </h3>
       <div
         className="column-general"
-        data-aos="flip-right"
+        data-aos="slide-right"
         data-aos-delay="250"
       >
         <div
@@ -89,7 +89,7 @@ const Conocimientos = () => {
         </div>
 
         <div
-          className={`desingIcon-container image-title-tech__container ${
+          className={`designIcon-container image-title-tech__container ${
             active == 1 ? "hidden" : ""
           }`}
           onClick={() => setActive(1)}

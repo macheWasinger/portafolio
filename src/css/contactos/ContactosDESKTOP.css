@@ -85,6 +85,7 @@
   display: flex;
   align-items: center;
   margin-top: 0.2%;
+  padding-top: 0.3vw;
 }
 
 .container-mail,
@@ -103,16 +104,33 @@
 }
 
 .container__site-footer img {
-  width: 4vw;
-  height: 2.5vw;
+  width: 3.5vw;
+  height: 2.2vw;
 }
 
 .style-button__return {
-  color: #ffb633;
-  font-size: 2.6vw;
-  left: 50px;
+  width: 2.7vw;
+  height: 2.7vw;
+  border-radius: 50%;
+  box-shadow: 0.05vw 0.1vw 0.15vw #000000;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#808080),
+    to(#414141)
+  );
+  color: #ffffff !important;
+  left: 3.26vw;
+  bottom: 0.15vw;
   cursor: pointer;
-  transition: all 0.5s;
+  transition: all 0.3s;
+  display: grid;
+  place-items: center;
+}
+
+.arrow-up {
+  font-size: 1.8vw;
 }
 
 .style-button__return:hover {
@@ -124,8 +142,7 @@
   color: #ffffff;
   font-size: 1.1vw;
   font-weight: 300 !important;
-  position: relative;
-  top: 15%;
+  top: 0.15vw;
 }
 
 .container__datos-contactos {
@@ -147,38 +164,148 @@
   margin-top: 1%;
 }
 
+.mail-container,
+.container-whatsapp,
+.whatsapp-container,
+.style__text-hazme-click {
+  position: relative;
+  bottom: 0.5vw;
+}
+
 .container-whatsapp {
   margin-top: 1%;
   display: flex;
   flex-direction: row-reverse;
-  position: relative;
-  left: 4.5vw;
+  /* margin-left: 16% !important; */
+  margin-right: 5% !important;
+  margin: auto;
+}
+
+.whatsapp-container {
+  margin-top: 17%;
 }
 
 .whatsapp-icon {
-  font-size: 2vw !important;
+  font-size: 1.7vw;
   color: #ffb633;
 }
 
-.whatsapp-icon:hover {
-  color: #ffffff;
-  transition: all 0.3s;
-}
-
 .style__text-hazme-click {
+  width: 6vw !important;
   color: #ffffff;
   font-size: 1vw;
   font-weight: 600;
-  position: relative;
-  top: 0.35vw;
-  right: 0.6vw;
+  margin-top: 10%;
 
   animation: changeColors 6s alternate infinite;
 }
 
+.logo-redSocial__container {
+  width: 3vw;
+  height: 3vw;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid #ffb633;
+}
+
+.mail-container:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#30a9ff),
+    to(#006fbe)
+  );
+}
+
+.whatsapp-container:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#83ff8f),
+    to(#248f34)
+  );
+}
+
+.github-container:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#343d47),
+    to(#0c0c0c)
+  );
+}
+
+.linkedin-container:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#1ca7ec),
+    to(#016a9e)
+  );
+}
+
+.twitter-container:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#61bffa),
+    to(#0fa3ff)
+  );
+}
+
+.instagram-container:hover {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.facebook-container:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#56bffc),
+    to(#0064d6)
+  );
+}
+
+.mail-container:hover,
+.whatsapp-container:hover,
+.github-container:hover,
+.linkedin-container:hover,
+.twitter-container:hover,
+.instagram-container:hover,
+.facebook-container:hover {
+  border: none;
+  box-shadow: 0.05vw 0.1vw 0.15vw #131613;
+}
+
+.mail-container:hover > .style-i,
+.whatsapp-container:hover > .style-i,
+.github-container:hover > .style-i,
+.linkedin-container:hover > .style-i,
+.twitter-container:hover > .style-i,
+.instagram-container:hover > .style-i,
+.facebook-container:hover > .style-i {
+  color: #ffffff !important;
+}
+
 @keyframes changeColors {
   0% {
-    color: #fff;
+    color: #ffffff;
   }
   25% {
     color: #2a2a2a;
@@ -190,7 +317,7 @@
     color: #2a2a2a;
   }
   100% {
-    color: #fff;
+    color: #ffffff;
   }
 }
 
@@ -198,8 +325,8 @@
   width: 2vw;
   height: 2vw;
   position: relative;
-  bottom: 2vw;
-  left: 6vw;
+  bottom: 1vw;
+  left: 8vw;
   animation: handAnimation 3s alternate infinite;
 }
 
@@ -210,7 +337,7 @@
 
 @keyframes handAnimation {
   0% {
-    transform: translate(-1.5vw, -1.5vw);
+    transform: translate(-1.5vw, -3vw);
   }
 
   50% {
@@ -242,7 +369,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  margin-bottom: 5px;
+  margin-bottom: 2.5%;
 }
 
 .style-seguimeEnRedes {
@@ -260,12 +387,13 @@
 
 .container-logos {
   width: 100%;
+  margin-top: 1.5%;
   display: flex;
   justify-content: space-between;
 }
 
 .container__datos-contactos .style-i {
-  font-size: 2.1vw;
+  font-size: 1.6vw;
   color: #ffb633;
   cursor: pointer;
   border-radius: 100%;
@@ -275,24 +403,4 @@
   font-size: 1.2vw;
   color: #fff;
   font-weight: 500;
-}
-
-.container__datos-contactos .container__logos-redes .style-i:hover {
-  color: #fff !important;
-  transition: all 0.3s;
-  animation: jumpLogo 0.5s alternate;
-}
-
-@keyframes jumpLogo {
-  0% {
-    transform: translateY(0px);
-  }
-
-  100% {
-    transform: translateY(-10px);
-  }
-
-  /* 0% {
-    transform: translateY(0px);
-  } */
 }

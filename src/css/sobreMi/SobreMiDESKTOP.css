@@ -112,7 +112,7 @@
 
 .style-button-descargarCV:hover {
   color: #fff;
-  background-color: #fca400;
+  background-color: #3a3a3a;
   transition: all 0.7s;
   /* border-radius: 0 1.4vw 0 1.4vw; */
   animation: animarButton 1.5s alternate;
@@ -130,5 +130,11 @@
 
   100% {
     border-radius: 0 1.4vw 0 1.4vw;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .style-p-sobreMi {
+    font-size: 1.2vw;
   }
 }

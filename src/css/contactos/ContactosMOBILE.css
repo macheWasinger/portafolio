@@ -38,12 +38,13 @@
   }
 
   .container__site-footer {
-    width: 100%;
+    width: 100% !important;
     height: 12vw;
-    top: 25%;
+    top: 20vw;
     background-color: #2a2a2a;
     display: flex;
-    align-items: center;
+    justify-content: space-between !important;
+    /* align-items: center; */
   }
 
   .container__site-footer,
@@ -62,15 +63,21 @@
   .container__site-footer img {
     width: 9vw;
     height: 5.4vw;
-    top: 16%;
+    top: 1vw;
+    left: 8.5vw;
   }
 
   .style-button__return {
-    color: #ffb633;
-    font-size: 6vw;
-    left: 60%;
+    width: 6.5vw;
+    height: 6.5vw;
+    font-size: 4vw;
+    left: 5vw;
     cursor: pointer;
     transition: all 0.5s;
+  }
+
+  .arrow-up {
+    font-size: 4vw;
   }
 
   .style-button__return:hover {
@@ -82,8 +89,7 @@
     color: #fff;
     font-size: 2.5vw;
     font-weight: 300 !important;
-    position: relative;
-    top: 25%;
+    margin: auto;
   }
 
   .container__datos-contactos {
@@ -99,11 +105,22 @@
     height: auto;
   }
 
-  .whatsapp-mail__container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  .logo-redSocial__container {
+    width: 6.5vw;
+    height: 6.5vw;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#ffc04b),
+      to(#cc8500)
+    );
+    box-shadow: 0.2vw 0.3vw 0.4vw #000000;
+    border: none;
+  }
+
+  .logo-redSocial__container .style-i {
+    color: #ffffff;
   }
 
   .container-mail {
@@ -123,6 +140,7 @@
   .container__logos-redes {
     height: auto;
     margin: auto;
+    margin-bottom: 0;
   }
 
   .style-seguimeEnRedes {
@@ -146,11 +164,11 @@
   .container-logos {
     width: 98%;
     justify-content: space-between;
-    top: 2.6vw;
+    margin-top: 2.5%;
   }
 
   .container__datos-contactos .style-i {
-    font-size: 5.5vw !important;
+    font-size: 4.5vw !important;
   }
 
   .container__datos-contactos .container__logos-redes .style-i:hover {
@@ -167,9 +185,9 @@
     left: 2.5vw;
   }
 
-  .whatsapp-icon {
+  /* .whatsapp-icon {
     font-size: 5.5vw !important;
-  }
+  } */
 
   .whatsapp-icon:hover {
     color: #fff;
@@ -179,7 +197,7 @@
     width: 5vw;
     height: 5vw;
     position: relative;
-    bottom: 5vw;
+    bottom: 2vw;
     left: 19vw !important;
     animation: handAnimationMobile 3s alternate infinite;
   }
@@ -191,7 +209,7 @@
 
   @keyframes handAnimationMobile {
     0% {
-      transform: translate(-2vw, -3vw);
+      transform: translate(-2vw, -6vw);
     }
 
     50% {
@@ -217,13 +235,81 @@
     font-size: 3vw;
     position: relative;
     top: 0.35vw;
-    left: 0.5vw !important;
+    right: 1vw !important;
+  }
+
+  .mail-container:hover,
+  .whatsapp-container:hover,
+  .github-container:hover,
+  .linkedin-container:hover,
+  .twitter-container:hover,
+  .instagram-container:hover,
+  .facebook-container:hover {
+    border: none;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#ffc04b),
+      to(#cc8500)
+    );
+  }
+
+  .linkedin-container .style-i,
+  .twitter-container .style-i,
+  .facebook-container .style-i {
+    font-size: 4.7vw !important;
+  }
+
+  .github-container .style-i,
+  .instagram-container .style-i,
+  .whatsapp-container .style-i {
+    font-size: 5.1vw !important;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .container-mail > span {
-    position: relative;
-    bottom: 4px;
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .title-lineaHorizontal__contactos {
+    width: 20vw !important;
+    height: 0.3vw !important;
+    left: -9vw;
+    top: 0.4vw;
+  }
+
+  .whatsapp-container {
+    margin-top: 17%;
+  }
+
+  .style__text-hazme-click {
+    width: 15vw !important;
+    margin-top: 4%;
+    left: 0.5vw !important;
+    font-size: 2.5vw !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .style__animation-seguime {
+    width: 30vw !important;
+    right: 1.5vw !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .whatsapp-container {
+    margin-top: 17%;
+  }
+
+  .style__text-hazme-click {
+    width: 15vw !important;
+    margin-top: 4%;
+    left: 0.5vw !important;
+    font-size: 2.5vw !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+  .container-mail {
+    margin-top: 1.2%;
   }
 }

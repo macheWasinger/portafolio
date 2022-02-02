@@ -8,7 +8,7 @@
   }
 
   .style-h1-title {
-    margin-top: 14%;
+    margin-top: 17%;
     font-size: 8vw;
   }
 
@@ -33,7 +33,7 @@
   }
 
   .frontendIcon-container,
-  .desingIcon-container,
+  .designIcon-container,
   .backendIcon-container {
     width: 175px;
     height: 175px;
@@ -45,10 +45,12 @@
     margin: auto;
   }
 
-  .desingIcon-container > img {
+  .designIcon-container > img {
     width: 165px;
     height: 165px !important;
     margin: auto;
+    position: relative;
+    bottom: 0.5vw;
   }
 
   .container-tech {
@@ -82,10 +84,19 @@
   }
 
   .card__title {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 600;
+  }
+
+  .frontendIcon-container .card__title,
+  .backendIcon-container .card__title {
     position: relative;
-    top: -5px;
+    top: -2vw !important;
+  }
+
+  .designIcon-container .card__title {
+    position: relative !important;
+    top: -3vw !important;
   }
 
   .container-frontend {
@@ -106,6 +117,11 @@
   .style-text__title-tech {
     font-size: 2.5vw;
   }
+
+  .image-title-tech__container:hover .card__title {
+    text-shadow: 0.15vw 0.2vw 0.25vw #000000 !important;
+    transition: all 0.5s !important;
+  }
 }
 
 @media only screen and (min-width: 668px) and (max-width: 768px) {
@@ -115,6 +131,11 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 768px) {
+  .title-lineaHorizontal {
+    left: -15vw;
+    top: -0.3vw;
+  }
+
   .container-frontend .style-logo-tech {
     margin: 2vw 1.95vw !important;
     bottom: 2vw !important;
@@ -128,6 +149,14 @@
   .container-backend .style-logo-tech {
     margin: 4.3vw 17px !important;
     bottom: 3.3vw !important;
+  }
+
+  .designIcon-container {
+    padding-bottom: 0.3% !important;
+  }
+
+  .designIcon-container .card__title {
+    top: -2vw !important;
   }
 }
 

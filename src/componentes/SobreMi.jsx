@@ -29,7 +29,7 @@ const SobreMi = () => {
         ></span>
         <p className="style-p-sobreMi">
           Hola, soy Marcelo Adrián Wasinger. Estudié Licenciatura en sistemas en
-          la Universidad Nacional de general Sarmiento por el lapso de 2 años.
+          la Universidad Nacional de General Sarmiento por el lapso de 2 años.
           <br />
           Por problemas de caracter personal, tuve que poner en pausa mi
           cursada.

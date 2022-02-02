@@ -4,18 +4,18 @@
   }
 
   .container_dark-grey .style-logo-video {
-    width: 4em;
-    height: 4em;
+    width: 3.7em;
+    height: 3.7em;
     margin-left: 1em;
-    margin-top: 0.6em;
+    margin-top: 0.4em;
   }
 
   .scroll {
     width: 1.3em;
     height: 2.3em;
     border: 2px solid #ffb633;
-    top: 19px;
-    left: 19% !important;
+    top: 16px;
+    left: 13.5vw !important;
   }
 
   .scroll:before {
@@ -50,14 +50,15 @@
 
   .container_header-menu,
   .container_fondos-colores {
-    height: 70vw;
+    height: 77vw;
   }
 
   .container_fondos-colores
     .container_dark-grey
     .container__texto-presentacion {
     width: 100%;
-    margin-top: 24% !important;
+    height: 30vw;
+    margin-top: 27% !important;
     margin-left: 0;
     padding-right: 15px;
   }
@@ -68,12 +69,12 @@
   }
 
   .nombre-apellido {
-    font-size: 8vw !important;
+    font-size: 6.5vw !important;
     letter-spacing: 3px;
   }
 
   .span__text-soy {
-    font-size: 5vw !important;
+    font-size: 4.5vw !important;
     top: 1vw;
     margin-left: 5.5%;
   }
@@ -81,10 +82,10 @@
   .text-deslizable__container {
     width: 51.5vw;
     margin: auto;
-    margin-top: 3%;
-    padding-top: 2.5%;
+    margin-top: 5%;
+    padding-top: 3.5%;
     padding-left: 50%;
-    margin-left: 8.5%;
+    margin-left: 5%;
   }
 
   @keyframes movimiento {
@@ -108,7 +109,7 @@
   .style-frontendJr {
     color: #fff;
     font-family: "Anton", sans-serif;
-    font-size: 4.5vw;
+    font-size: 3vw;
     letter-spacing: 2px;
     margin-left: 4%;
 
@@ -123,7 +124,16 @@
     width: 47vw;
     height: 60vw;
     right: 30%;
-    margin-top: 27%;
+    margin-top: 45%;
     z-index: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .container_dark-grey .style-logo-video {
+    width: 3.2em;
+    height: 3.2em;
+    margin-left: 0.85em;
+    margin-top: 0.5em;
   }
 }

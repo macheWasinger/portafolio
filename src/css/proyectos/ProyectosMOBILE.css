@@ -1,6 +1,7 @@
 @media screen and (max-width: 800px) {
   .container-padre__proyectos {
-    height: 110vw;
+    height: 115vw;
+    padding-top: 3vw;
     background-color: #2a2a2a;
   }
 
@@ -122,5 +123,12 @@
 
   .carousel-control-next-icon {
     left: 79% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .title-proyectos__lineaHorizontal {
+    left: -9vw;
+    top: -0.3vw;
   }
 }

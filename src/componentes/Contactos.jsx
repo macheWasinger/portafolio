@@ -25,7 +25,9 @@ const Contactos = () => {
         <div className="container__datos-contactos">
           <div className="container-mail">
             <span data-aos="zoom-in" data-aos-delay="300">
-              <i class="far fa-envelope style-i"></i>
+              <a href="" className="logo-redSocial__container mail-container">
+                <i class="fas fa-envelope style-i"></i>
+              </a>
             </span>
             <p className="style-p">marcelo_wasinger@hotmail.com</p>
           </div>
@@ -37,11 +39,11 @@ const Contactos = () => {
               data-aos-offset="100"
             >
               <a
+                className="logo-redSocial__container whatsapp-container"
                 href="https://wa.me/541130911213"
-                class="whatsapp"
                 target="_blank"
               >
-                <i class="fab fa-whatsapp whatsapp-icon"></i>
+                <i className="fab fa-whatsapp whatsapp-icon style-i"></i>
               </a>
             </span>
             <p className="style__text-hazme-click">Click aquí</p>
@@ -56,36 +58,35 @@ const Contactos = () => {
             </span>
           </div>
           <div className="container__logos-redes">
-            {/* <p className="style-seguimeEnRedes">
-              Seguime en mis redes sociales:
-            </p> */}
-
             <video className="style__animation-seguime" autoPlay loop muted>
               <source src={seguime} />
             </video>
 
             <div className="container-logos">
               <a
-                href="https://github.com/macheWasinger"
+                className="logo-redSocial__container linkedin-container"
+                href="https://www.linkedin.com/in/marcelowasinger/"
                 target="_blank"
                 data-aos="zoom-in"
                 data-aos-delay="500"
                 data-aos-duration="300"
                 data-aos-offset="100"
               >
-                <i class="fab fa-github style-i"></i>
+                <i class="fab fa-linkedin-in style-i"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/marcelowasinger/"
+                className="logo-redSocial__container github-container"
+                href="https://github.com/macheWasinger"
                 target="_blank"
                 data-aos="zoom-in"
                 data-aos-delay="650"
                 data-aos-duration="300"
                 data-aos-offset="100"
               >
-                <i class="fab fa-linkedin-in style-i"></i>
+                <i class="fab fa-github style-i"></i>
               </a>
               <a
+                className="logo-redSocial__container twitter-container"
                 href="https://twitter.com/maw_2018"
                 target="_blank"
                 data-aos="zoom-in"
@@ -96,6 +97,7 @@ const Contactos = () => {
                 <i class="fab fa-twitter style-i"></i>
               </a>
               <a
+                className="logo-redSocial__container instagram-container"
                 href="https://www.instagram.com/machewasinger90/"
                 target="_blank"
                 data-aos="zoom-in"
@@ -106,6 +108,7 @@ const Contactos = () => {
                 <i class="fab fa-instagram style-i"></i>
               </a>
               <a
+                className="logo-redSocial__container facebook-container"
                 href="https://www.facebook.com/profile.php?id=100070072241358"
                 target="_blank"
                 data-aos="zoom-in"
@@ -123,14 +126,14 @@ const Contactos = () => {
       <div className="container__site-footer">
         <Link to="Home" smooth={true}>
           <div className="style-button__return">
-            <i class="fas fa-chevron-circle-up"></i>
+            <i class="fas fa-angle-up arrow-up"></i>
           </div>
         </Link>
         <div className="container-datos__siteFooter">
-          <img src={logo} alt="" />
           <p className="style__text-desarrollador">
             © 2021 Creado por Marcelo Adrián Wasinger
           </p>
+          <img src={logo} alt="" />
         </div>
       </div>
     </div>

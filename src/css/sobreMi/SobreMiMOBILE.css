@@ -1,12 +1,12 @@
 @media screen and (max-width: 800px) {
   .container-padre_sobreMi {
-    height: 100vw;
+    height: 115vw;
     padding-top: 8%;
     justify-content: space-around;
   }
 
   .container_small-picture {
-    width: 43.5vw;
+    width: 41.5vw;
     height: 52vw;
     top: 0;
     left: 3%;
@@ -75,6 +75,11 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 768px) {
+  .container-text_sobreMi .style-span_linea-horizontal {
+    top: 3.8vw;
+    left: -18.8vw !important;
+  }
+
   .style-p-sobreMi {
     top: 11vw !important;
   }
