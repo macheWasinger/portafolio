@@ -58,6 +58,20 @@
     left: 8%;
   }
 
+  @keyframes animarButtonMobile {
+    0% {
+      border-radius: 0 3vw 0 3vw;
+    }
+
+    50% {
+      border-radius: 3vw 0 3vw 0;
+    }
+
+    100% {
+      border-radius: 0 3vw 0 3vw;
+    }
+  }
+
   .style-button-descargarCV {
     width: 23.7vw;
     height: 7.5vw;
@@ -71,6 +85,7 @@
 
   .style-button-descargarCV:hover {
     transition: all 0.3s;
+    animation: animarButtonMobile 1.5s alternate;
   }
 }
 

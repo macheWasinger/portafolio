@@ -94,7 +94,15 @@
 .style-button-descargarCV {
   width: 9.3vw;
   height: 3vw;
-  background-color: #ffb633;
+
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffb633),
+    to(#b97900)
+  );
+
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -112,7 +120,13 @@
 
 .style-button-descargarCV:hover {
   color: #fff;
-  background-color: #3a3a3a;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#6d6d6d),
+    to(#3a3a3a)
+  );
   transition: all 0.7s;
   /* border-radius: 0 1.4vw 0 1.4vw; */
   animation: animarButton 1.5s alternate;
