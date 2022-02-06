@@ -1,6 +1,6 @@
 import React from "react";
 
-const AnimatedCover = () => {
+const AnimatedCover = (props) => {
   const [active, setActive] = React.useState(true);
 
   return (
@@ -145,7 +145,16 @@ const AnimatedCover = () => {
         </section>
 
         <button
-          onClick={() => setActive(!true)}
+          onClick={() => {
+            setActive(!true);
+            setTimeout(() => {
+              props.onPress();
+            }, 2000);
+
+            // setTimeout(() => {
+            //   props.onPressButtonIngresar();
+            // }, 3000);
+          }}
           className={`button-enter-portafolio ${
             active === !true ? "hide-button" : ""
           }`}

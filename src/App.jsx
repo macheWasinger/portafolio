@@ -37,8 +37,8 @@ function App() {
   const [active, setActive] = React.useState(true);
 
   return (
-    <div className={`App ${active === !true ? "enable-scroll" : ""}`}>
-      <AnimatedCover />
+    <div className={`App ${active === true ? "disable-scroll" : ""}`}>
+      <AnimatedCover onPress={() => setActive(false)} />
       <Home />
       <SobreMi />
       <Conocimientos />

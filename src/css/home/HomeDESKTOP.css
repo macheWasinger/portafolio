@@ -78,14 +78,14 @@
 }
 
 .container_fondos-colores .container_dark-grey .container__texto-presentacion {
-  width: 49vw;
+  width: 63vw;
   height: 17vw;
   margin-top: 15%;
-  margin-left: 6%;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* background-color: blue; */
 }
 
 .container_fondos-colores .container-orange {
@@ -116,60 +116,128 @@ a,
   position: relative;
 }
 
-.text-deslizable__container {
-  width: 45vw;
-  overflow: hidden;
-  margin: auto;
-  position: relative;
-  left: 2vw;
-}
-
 .style-h1-home {
-  width: 100vw;
+  width: auto;
   font-family: "Anton", sans-serif;
   letter-spacing: 5px;
-
-  animation: movimiento 10s linear infinite;
-  display: flex;
-  justify-content: flex-end;
   margin-top: 2%;
 }
 
-@keyframes movimiento {
-  0% {
-    transform: translate(100%);
-  }
-
-  100% {
-    transform: translate(0) !important;
-  }
-
-  0% {
-    transform: translate(0);
-  }
-
-  100% {
-    transform: translate(-110%);
-  }
+.bloqueDeslizable-container {
+  width: 42vw;
+  /* background-color: green; */
+  margin: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  overflow: hidden;
+  /* display: none; */
 }
 
-.nombre-apellido {
+/* .showAnimationNombreApellido {
+  display: flex;
+} */
+
+.nombre::before,
+.apellido::before {
+  content: "";
+  position: absolute;
+  top: -0.85vw;
+  height: 6.8vw;
+}
+
+.nombre::before {
+  width: 48%;
+  left: -0.4vw;
+  border-right: 4.5px solid #ffb633;
+  animation: animarNombre 2.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  background-color: #2a2a2a;
+}
+
+.apellido::before {
+  width: 52%;
+  right: -0.1vw;
+  border-left: 4.5px solid #ffb633;
+  animation: animarApellido 2.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  background-color: #2a2a2a;
+}
+
+.nombre,
+.apellido {
+  /* background-color: red; */
   font-size: 4.5vw !important;
   font-weight: 600;
   text-transform: uppercase !important;
-  color: #ffb633 !important;
+}
+
+.nombre {
+  animation: changeColorNombre 2.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+.apellido {
+  animation: changeColorApellido 2.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+@keyframes changeColorNombre {
+  0% {
+    color: #ffffff;
+  }
+
+  100% {
+    color: #ffb633;
+    text-shadow: 1px 2px 3px #000000;
+  }
+}
+
+@keyframes changeColorApellido {
+  0% {
+    color: #ffffff;
+  }
+
+  100% {
+    color: #ffb633;
+    text-shadow: 1px 2px 3px #000000;
+  }
+}
+
+@keyframes animarNombre {
+  0% {
+    left: -0.4vw;
+  }
+
+  100% {
+    left: -49.5%;
+    border-color: #2a2a2a;
+  }
+}
+
+@keyframes animarApellido {
+  0% {
+    right: -0.1vw;
+  }
+
+  100% {
+    right: -53.5%;
+    border-color: #2a2a2a;
+  }
 }
 
 .span__text-soy {
   font-family: "Anton", sans-serif;
-  font-size: 2.5vw;
+  font-size: 2.3vw;
   color: #fff;
   text-transform: none;
   letter-spacing: 3px;
-  margin-left: 1.5%;
 }
 
-.nombre-apellido,
 .span__text-soy {
   text-shadow: 1px 2px 3px #000000;
 }
@@ -202,7 +270,9 @@ a,
   margin-top: 1vw;
   transition: all 0.5s;
 
-  animation: changeColorFrontendJr 5s alternate infinite;
+  animation: changeColorFrontendJr 5s alternate 2;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes animarBottom {
@@ -230,5 +300,11 @@ a,
 
   0% {
     transform: translateX(0px);
+  }
+}
+
+@media only screen and (min-width: 2560px) and (max-width: 2560px) {
+  .text-deslizable__container {
+    padding-right: 51vw !important;
   }
 }

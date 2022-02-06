@@ -27,7 +27,12 @@ const SobreMi = () => {
           data-aos-offset="200"
           data-aos="slide-left"
         ></span>
-        <p className="style-p-sobreMi">
+        <p
+          className="style-p-sobreMi"
+          data-aos="zoom-in"
+          data-aos-duration="400"
+          data-aos-offset="200"
+        >
           Hola, soy Marcelo Adrián Wasinger. Estudié Licenciatura en sistemas en
           la Universidad Nacional de General Sarmiento por el lapso de 2 años.
           <br />

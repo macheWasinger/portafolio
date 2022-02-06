@@ -25,7 +25,10 @@ const Contactos = () => {
         <div className="container__datos-contactos">
           <div className="container-mail">
             <span data-aos="zoom-in" data-aos-delay="300">
-              <a href="" className="logo-redSocial__container mail-container">
+              <a
+                href="mailto: marcelo_wasinger@hotmail.com"
+                className="logo-redSocial__container mail-container"
+              >
                 <i class="fas fa-envelope style-i"></i>
               </a>
             </span>

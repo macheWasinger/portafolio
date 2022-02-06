@@ -65,45 +65,33 @@
 
   .style-h1-home {
     margin-top: 0;
-    animation: movimiento 10s linear infinite !important;
   }
 
-  .nombre-apellido {
-    font-size: 6.5vw !important;
+  .nombre,
+  .apellido {
+    font-size: 5.5vw !important;
     letter-spacing: 3px;
   }
 
+  .nombre::before,
+  .apellido::before {
+    content: "";
+    position: absolute;
+    top: -0.85vw;
+    height: 12vw;
+    border-width: 3.5px;
+  }
+
   .span__text-soy {
-    font-size: 4.5vw !important;
+    font-size: 4vw !important;
     top: 1vw;
     margin-left: 5.5%;
   }
 
-  .text-deslizable__container {
-    width: 51.5vw;
-    margin: auto;
-    margin-top: 5%;
-    padding-top: 3.5%;
-    padding-left: 50%;
-    margin-left: 5%;
-  }
-
-  @keyframes movimiento {
-    0% {
-      transform: translate(100%) !important;
-    }
-
-    100% {
-      transform: translate(0) !important;
-    }
-
-    0% {
-      transform: translate(0);
-    }
-
-    100% {
-      transform: translate(-130%);
-    }
+  .bloqueDeslizable-container {
+    width: 55.5vw !important;
+    height: 9vw;
+    margin-left: 6%;
   }
 
   .style-frontendJr {
@@ -113,7 +101,9 @@
     letter-spacing: 2px;
     margin-left: 4%;
 
-    animation: changeColorFrontendJr 4s alternate infinite;
+    animation: changeColorFrontendJr 5s alternate 2;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
   }
 
   .container_fondos-colores .container-orange {
@@ -123,17 +113,86 @@
   .container_fondos-colores .container-orange img {
     width: 47vw;
     height: 60vw;
-    right: 30%;
+    right: 33%;
     margin-top: 45%;
     z-index: 0;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 500px) {
+@media only screen and (min-width: 320px) and (max-width: 425px) {
   .container_dark-grey .style-logo-video {
     width: 3.2em;
     height: 3.2em;
     margin-left: 0.85em;
     margin-top: 0.5em;
+  }
+
+  /* @keyframes movimiento {
+    0% {
+      transform: translate(100%) !important;
+    }
+
+    100% {
+      transform: translate(0) !important;
+    }
+
+    0% {
+      transform: translate(0) !important;
+    }
+
+    100% {
+      transform: translate(-70.5%);
+    }
+  } */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+  .container_fondos-colores .container-orange img {
+    right: 29%;
+  }
+
+  .nombre,
+  .apellido {
+    font-size: 5.2vw !important;
+  }
+
+  .nombre::before,
+  .apellido::before {
+    height: 9vw;
+    position: absolute;
+    top: 1.5vw;
+  }
+
+  .span__text-soy {
+    top: 2.5vw;
+  }
+
+  .bloqueDeslizable-container {
+    height: 10vw;
+  }
+
+  /* .style-frontendJr {
+    position: relative;
+    top: -1vw;
+  } */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .nombre::before,
+  .apellido::before {
+    height: 9.5vw;
+  }
+
+  .span__text-soy {
+    top: 2vw;
+  }
+
+  .bloqueDeslizable-container {
+    height: 6.7vw;
+  }
+
+  .style-frontendJr {
+    position: relative;
+    top: -2vw;
   }
 }

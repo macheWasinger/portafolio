@@ -6,8 +6,11 @@ import Menu from "./header/Menu";
 // IMPORTO IMAGEN Y VIDEO
 import maw from "../img/maw.png";
 import logoAnimado from "../video/logo-mw.mp4";
+import { setActiveLink } from "react-scroll/modules/mixins/scroller";
 
 const Home = () => {
+  const [active, setActive] = React.useState(false);
+
   return (
     <div className="container-padre">
       <a name="Home"></a>
@@ -21,9 +24,17 @@ const Home = () => {
 
           <div className="container__texto-presentacion">
             <span className="span__text-soy">¡Hola!, soy</span>
-            <div className="text-deslizable__container">
+            <div
+              className="bloqueDeslizable-container"
+
+              // className={`bloqueDeslizable-container ${
+              //   active === true ? "showAnimationNombreApellido" : ""
+              // }`}
+              // onPressButtonIngresar={() => setActive(true)}
+            >
               <h1 className="style-h1-home">
-                <span className="nombre-apellido">Marcelo Wasinger</span>
+                <span className="nombre">Marcelo </span>
+                <span className="apellido">Wasinger</span>
               </h1>
             </div>
 

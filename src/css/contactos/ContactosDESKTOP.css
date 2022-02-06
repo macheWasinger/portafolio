@@ -154,10 +154,6 @@
   flex-wrap: wrap;
 }
 
-.container-mail .style-i {
-  cursor: none !important;
-}
-
 .container-mail {
   height: 2vw;
   display: flex;
