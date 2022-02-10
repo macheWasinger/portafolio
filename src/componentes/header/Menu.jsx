@@ -71,14 +71,14 @@ const Menu = () => {
             className="logo-redSocial__container github-container"
             target="_blank"
           >
-            <i class="fab fa-linkedin-in style-i"></i>
+            <i class="fab fa-github style-i"></i>
           </a>
           <a
             href="https://github.com/macheWasinger"
             className="logo-redSocial__container linkedin-container"
             target="_blank"
           >
-            <i class="fab fa-github style-i"></i>
+            <i class="fab fa-linkedin-in style-i"></i>
           </a>
           <a
             href="https://twitter.com/maw_2018"
