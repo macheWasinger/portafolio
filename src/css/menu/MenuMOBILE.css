@@ -13,7 +13,6 @@
   }
 
   .item-li a {
-    
   }
 
   .menu-activado > .style-logo-video {
@@ -125,16 +124,123 @@
     margin-bottom: 12px;
   }
 
-  nav > .container-logos > a > .style-i {
+  /* nav > .container-logos > a > .style-i {
     font-size: 25px !important;
     color: #ffb633;
     cursor: pointer;
     border-radius: 100%;
+  } */
+
+  nav > .container-logos {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  nav > .container-logos > .logo-redSocial__container {
+    width: 33px !important;
+    height: 33px !important;
+    box-shadow: 0.2vw 0.3vw 0.4vw #000000;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#ffc04b),
+      to(#cc8500)
+    );
+  }
+
+  nav > .container-logos > .linkedin-container .style-i,
+  nav > .container-logos > .twitter-container .style-i,
+  nav > .container-logos > .instagram-container .style-i {
+    font-size: 4.7vw !important;
+  }
+
+  nav > .container-logos > .github-container .style-i,
+  nav > .container-logos > .whatsapp-container .style-i {
+    font-size: 5.1vw !important;
+  }
+
+  nav > .container-logos > .mail-container .style-i {
+    font-size: 4.3vw !important;
+  }
+
+  .mail-container,
+  .container-whatsapp,
+  .whatsapp-container,
+  .style__text-hazme-click {
+    position: relative !important;
+    bottom: 0 !important;
+  }
+
+  .whatsapp-container {
+    margin-top: 0 !important;
   }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 760px) {
   .container-Padre_menu .burger {
     margin-top: 55px;
+  }
+
+  nav > .container-logos > .mail-container .style-i {
+    font-size: 4.25vw !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  nav > .container-logos {
+    width: 80vw !important;
+    position: relative;
+    left: 0vw;
+  }
+
+  nav > .container-logos > .linkedin-container .style-i,
+  nav > .container-logos > .twitter-container .style-i,
+  nav > .container-logos > .instagram-container .style-i {
+    font-size: 3vw !important;
+  }
+
+  nav > .container-logos > .github-container .style-i,
+  nav > .container-logos > .whatsapp-container .style-i {
+    font-size: 3.4vw !important;
+  }
+
+  nav > .container-logos > .mail-container .style-i {
+    font-size: 2.5vw !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+  nav > .container-logos > .logo-redSocial__container {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  nav > .container-logos {
+    min-width: 285px !important;
+    position: relative;
+    left: -63px !important;
+  }
+
+  nav > .container-logos > .linkedin-container .style-i,
+  nav > .container-logos > .twitter-container .style-i,
+  nav > .container-logos > .instagram-container .style-i {
+    font-size: 6.4vw !important;
+  }
+
+  nav > .container-logos > .github-container .style-i,
+  nav > .container-logos > .whatsapp-container .style-i {
+    font-size: 6.8vw !important;
+  }
+
+  nav > .container-logos > .mail-container .style-i {
+    font-size: 6vw !important;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  nav > .container-logos > .logo-redSocial__container {
+    width: 27px !important;
+    height: 27px !important;
   }
 }

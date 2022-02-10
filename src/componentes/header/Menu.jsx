@@ -66,20 +66,46 @@ const Menu = () => {
           </div>
         </ul>
         <div className="container-logos">
-          <a href="https://github.com/macheWasinger" target="_blank">
-            <i class="fab fa-github style-i"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/marcelowasinger/">
+          <a
+            href="https://www.linkedin.com/in/marcelowasinger/"
+            className="logo-redSocial__container github-container"
+            target="_blank"
+          >
             <i class="fab fa-linkedin-in style-i"></i>
           </a>
-          <a href="https://twitter.com/maw_2018" target="_blank">
+          <a
+            href="https://github.com/macheWasinger"
+            className="logo-redSocial__container linkedin-container"
+            target="_blank"
+          >
+            <i class="fab fa-github style-i"></i>
+          </a>
+          <a
+            href="https://twitter.com/maw_2018"
+            className="logo-redSocial__container twitter-container"
+            target="_blank"
+          >
             <i class="fab fa-twitter style-i"></i>
           </a>
-          <a href="https://www.instagram.com/machewasinger90/">
+          <a
+            className="logo-redSocial__container instagram-container"
+            href="https://www.instagram.com/machewasinger90/"
+            target="_blank"
+          >
             <i class="fab fa-instagram style-i"></i>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100070072241358">
-            <i class="fab fa-facebook-f style-i"></i>
+          <a
+            className="logo-redSocial__container whatsapp-container"
+            href="https://wa.me/541130911213"
+            target="_blank"
+          >
+            <i className="fab fa-whatsapp whatsapp-icon style-i"></i>
+          </a>
+          <a
+            href="mailto: marcelo_wasinger@hotmail.com"
+            className="logo-redSocial__container mail-container"
+          >
+            <i class="fas fa-envelope style-i"></i>
           </a>
         </div>
       </nav>

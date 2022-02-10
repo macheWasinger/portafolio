@@ -238,23 +238,6 @@
     right: 1vw !important;
   }
 
-  .mail-container:hover,
-  .whatsapp-container:hover,
-  .github-container:hover,
-  .linkedin-container:hover,
-  .twitter-container:hover,
-  .instagram-container:hover,
-  .facebook-container:hover {
-    border: none;
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#ffc04b),
-      to(#cc8500)
-    );
-  }
-
   .linkedin-container .style-i,
   .twitter-container .style-i,
   .facebook-container .style-i {
