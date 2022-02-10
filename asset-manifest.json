@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.603a876c.chunk.css",
-    "main.js": "/portafolio/static/js/main.f9354c89.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.f9354c89.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.ee1d0be2.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.ee1d0be2.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.d97de6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portafolio/static/css/2.0a9ec390.chunk.css",
@@ -15,7 +15,7 @@
     "static/media/CV-MarceloWasinger-MaquetadorWeb.2d116d07.pdf": "/portafolio/static/media/CV-MarceloWasinger-MaquetadorWeb.2d116d07.pdf",
     "static/media/backend.57f1aa17.png": "/portafolio/static/media/backend.57f1aa17.png",
     "static/media/canva.3c3e6d67.png": "/portafolio/static/media/canva.3c3e6d67.png",
-    "static/media/design3.d2d57485.png": "/portafolio/static/media/design3.d2d57485.png",
+    "static/media/design.d2d57485.png": "/portafolio/static/media/design.d2d57485.png",
     "static/media/destinoArg.0ecdf01f.jpg": "/portafolio/static/media/destinoArg.0ecdf01f.jpg",
     "static/media/frontend.f7a742be.png": "/portafolio/static/media/frontend.f7a742be.png",
     "static/media/grid.6c1bf4b0.png": "/portafolio/static/media/grid.6c1bf4b0.png",
@@ -37,6 +37,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.27ff2264.chunk.js",
     "static/css/main.603a876c.chunk.css",
-    "static/js/main.f9354c89.chunk.js"
+    "static/js/main.ee1d0be2.chunk.js"
   ]
 }
