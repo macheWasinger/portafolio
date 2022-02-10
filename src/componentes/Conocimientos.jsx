@@ -14,7 +14,7 @@ import canva from "../img/canva.png";
 import java from "../img/java.png";
 import python from "../img/python.png";
 import frontend from "../img/frontend.png";
-import design from "../img/design3.png";
+import design from "../img/design.png";
 import backend from "../img/backend.png";
 import refresh from "../img/refresh.png";
 
