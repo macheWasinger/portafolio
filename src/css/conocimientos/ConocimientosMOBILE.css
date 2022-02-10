@@ -110,6 +110,10 @@
     height: 110px;
   }
 
+  .image-title-tech__container:hover .iconImage__tech {
+    transform: scale(1.05);
+  }
+
   .container__logo-title-tech {
     margin-top: 7vw;
   }

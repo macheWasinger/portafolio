@@ -21,10 +21,10 @@
   display: block;
   width: 0;
   height: 35px;
-  background-color: #2c2c2c;
+  background-color: #fff;
   position: absolute;
   transition: all 0.7s;
-  opacity: 0.15;
+  opacity: 0.2;
   border-radius: 0 20px 0 20px;
 }
 
