@@ -81,13 +81,6 @@ const Menu = () => {
             <i class="fab fa-linkedin-in style-i"></i>
           </a>
           <a
-            href="https://twitter.com/maw_2018"
-            className="logo-redSocial__container twitter-container"
-            target="_blank"
-          >
-            <i class="fab fa-twitter style-i"></i>
-          </a>
-          <a
             className="logo-redSocial__container instagram-container"
             href="https://www.instagram.com/machewasinger90/"
             target="_blank"

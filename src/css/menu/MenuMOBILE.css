@@ -162,6 +162,15 @@
     margin-top: 0 !important;
   }
 
+  nav > .container-logos > .mail-container,
+  nav > .container-logos > .whatsapp-container,
+  nav > .container-logos > .github-container,
+  nav > .container-logos > .linkedin-container,
+  nav > .container-logos > .twitter-container,
+  nav > .container-logos > .instagram-container {
+    border-radius: 40% !important;
+  }
+
   nav > .container-logos > .mail-container {
     background: -webkit-gradient(
       linear,
