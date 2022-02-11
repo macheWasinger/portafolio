@@ -152,7 +152,7 @@ a,
   border-right: 4.5px solid #ffb633;
   animation: animarNombre 2.5s;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 5s;
   background-color: #2a2a2a;
 }
 
@@ -162,7 +162,7 @@ a,
   border-left: 4.5px solid #ffb633;
   animation: animarApellido 2.5s;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 5s;
   background-color: #2a2a2a;
 }
 
@@ -177,13 +177,13 @@ a,
 .nombre {
   animation: changeColorNombre 2.5s;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 5s;
 }
 
 .apellido {
   animation: changeColorApellido 2.5s;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 5s;
 }
 
 @keyframes changeColorNombre {

@@ -325,7 +325,7 @@
   height: 3vw;
   left: 5%;
   animation-duration: 3s;
-  animation-delay: 1.5s;
+  animation-delay: 0.5s;
 }
 
 .burbuja:nth-child(2) {
@@ -333,7 +333,7 @@
   height: 4vw;
   left: 35%;
   animation-duration: 3s;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 
 .burbuja:nth-child(3) {
@@ -341,7 +341,7 @@
   height: 1.5vw;
   left: 15%;
   animation-duration: 2.5s;
-  animation-delay: 4.5s;
+  animation-delay: 3.5s;
 }
 
 .burbuja:nth-child(4) {
@@ -349,7 +349,7 @@
   height: 2.5vw;
   left: 90%;
   animation-duration: 6s;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 
 .burbuja:nth-child(5) {
@@ -357,7 +357,7 @@
   height: 3.5vw;
   left: 65%;
   animation-duration: 3s;
-  animation-delay: 1s;
+  animation-delay: 0s;
 }
 
 .burbuja:nth-child(6) {
@@ -365,7 +365,7 @@
   height: 2vw;
   left: 50%;
   animation-duration: 4s;
-  animation-delay: 3.5s;
+  animation-delay: 2.5s;
 }
 
 .burbuja:nth-child(7) {
@@ -373,7 +373,7 @@
   height: 1.5vw;
   left: 50%;
   animation-duration: 4s;
-  animation-delay: 4s;
+  animation-delay: 3s;
   color: #ffb633;
 }
 
@@ -382,7 +382,7 @@
   height: 4vw;
   left: 52%;
   animation-duration: 5s;
-  animation-delay: 5s;
+  animation-delay: 4s;
 }
 
 .burbuja:nth-child(9) {
@@ -390,7 +390,7 @@
   height: 3.5vw;
   left: 45%;
   animation-duration: 3s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .burbuja:nth-child(10) {
@@ -398,7 +398,7 @@
   height: 2.5vw;
   left: 35%;
   animation-duration: 3s;
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
 .burbuja:nth-child(11) {
@@ -406,7 +406,7 @@
   height: 1.5vw;
   left: 70%;
   animation-duration: 5s;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 
 .burbuja:nth-child(12) {
@@ -414,7 +414,7 @@
   height: 3vw;
   left: 40%;
   animation-duration: 4s;
-  animation-delay: 1.5s;
+  animation-delay: 0.5s;
 }
 
 @keyframes burbujas {
