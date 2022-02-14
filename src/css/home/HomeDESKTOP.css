@@ -135,7 +135,7 @@ a,
 }
 
 /* .showAnimationNombreApellido {
-  display: flex;
+  display: flex !important;
 } */
 
 .nombre::before,

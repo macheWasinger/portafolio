@@ -115,7 +115,7 @@
   }
 
   .container__logo-title-tech {
-    margin-top: 7vw;
+    margin-top: 4vw;
   }
 
   .style-text__title-tech {
@@ -161,6 +161,10 @@
 
   .designIcon-container .card__title {
     top: -2vw !important;
+  }
+
+  .container__logo-title-tech {
+    margin-top: 6vw;
   }
 }
 

@@ -26,7 +26,6 @@ const Home = () => {
             <span className="span__text-soy">¡Hola!, soy</span>
             <div
               className="bloqueDeslizable-container"
-
               // className={`bloqueDeslizable-container ${
               //   active === true ? "showAnimationNombreApellido" : ""
               // }`}

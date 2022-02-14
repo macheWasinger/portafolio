@@ -153,7 +153,7 @@ const AnimatedCover = (props) => {
 
             // setTimeout(() => {
             //   props.onPressButtonIngresar();
-            // }, 3000);
+            // }, 5000);
           }}
           className={`button-enter-portafolio ${
             active === !true ? "hide-button" : ""
