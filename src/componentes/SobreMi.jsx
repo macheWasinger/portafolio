@@ -1,7 +1,7 @@
 import React from "react";
 
 import smallImage from "../img/maw.png";
-import cv from "../cv/CV-MarceloWasinger-MaquetadorWeb.pdf";
+import cv from "../cv/CV-WasingerMarcelo2022.pdf";
 
 const SobreMi = () => {
   return (
@@ -42,7 +42,7 @@ const SobreMi = () => {
           Momentáneamente, estudio de manera autodidacta.
         </p>
         <a
-          download="CV-MarceloWasinger"
+          download="CV-WasingerMarcelo2022"
           href={cv}
           className="style-button-descargarCV"
         >
