@@ -5,6 +5,8 @@ import imageDestinoArg from "../img/destinoArg.jpg";
 import imageMaquetado from "../img/maquetado.jpg";
 
 const Proyectos = () => {
+  const [active, setActive] = React.useState(false);
+
   const letter = document.querySelector(".style-h1__proyectos");
 
   return (

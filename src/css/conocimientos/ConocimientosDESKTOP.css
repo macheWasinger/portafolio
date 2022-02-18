@@ -161,6 +161,12 @@
   width: 6.5vw;
   height: 6.5vw;
   margin: 12% 1.1vw;
+  transition-duration: 0.5s;
+}
+
+.style-logo-tech:hover {
+  transform: rotate(10deg);
+  transition-duration: 0.5s;
 }
 
 .container-design .style-text__title-tech {
