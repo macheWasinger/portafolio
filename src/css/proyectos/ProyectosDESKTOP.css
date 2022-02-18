@@ -108,10 +108,23 @@
   padding-left: 4.5%;
 }
 
+.style-a__project > .style-image__product {
+  transition-delay: 0.2s;
+}
+
+.style-a__project:hover .style-image__product {
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+
 .style-a__project:hover .container__text-tech__project-2,
 .container-project:hover .container__text-tech__project-3 {
   width: 80%;
   padding-left: 13%;
+}
+
+.container-project {
+  overflow: hidden;
 }
 
 .style-a__project:hover .container__text-tech__project-1,

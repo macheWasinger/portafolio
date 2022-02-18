@@ -150,9 +150,9 @@ a,
   width: 48%;
   left: -0.4vw;
   border-right: 4.5px solid #ffb633;
-  animation: animarNombre 2.5s;
+  animation: animarNombre 2s;
   animation-fill-mode: forwards;
-  animation-delay: 5s;
+  animation-delay: 1s;
   background-color: #2a2a2a;
 }
 
@@ -160,9 +160,9 @@ a,
   width: 52%;
   right: -0.1vw;
   border-left: 4.5px solid #ffb633;
-  animation: animarApellido 2.5s;
+  animation: animarApellido 2s;
   animation-fill-mode: forwards;
-  animation-delay: 5s;
+  animation-delay: 1s;
   background-color: #2a2a2a;
 }
 
@@ -175,15 +175,15 @@ a,
 }
 
 .nombre {
-  animation: changeColorNombre 2.5s;
+  animation: changeColorNombre 2s;
   animation-fill-mode: forwards;
-  animation-delay: 5s;
+  animation-delay: 1s;
 }
 
 .apellido {
-  animation: changeColorApellido 2.5s;
+  animation: changeColorApellido 2s;
   animation-fill-mode: forwards;
-  animation-delay: 5s;
+  animation-delay: 1s;
 }
 
 @keyframes changeColorNombre {

@@ -25,11 +25,10 @@ const Home = () => {
           <div className="container__texto-presentacion">
             <span className="span__text-soy">¡Hola!, soy</span>
             <div
-              className="bloqueDeslizable-container"
-              // className={`bloqueDeslizable-container ${
-              //   active === true ? "showAnimationNombreApellido" : ""
-              // }`}
-              // onPressButtonIngresar={() => setActive(true)}
+              // className="bloqueDeslizable-container"
+              className={`bloqueDeslizable-container ${
+                active === !false ? "showAnimationNombreApellido" : ""
+              }`}
             >
               <h1 className="style-h1-home">
                 <span className="nombre">Marcelo </span>
@@ -45,7 +44,13 @@ const Home = () => {
 
         <div className="container-orange">
           <Menu />
-          <img src={maw} alt="" />
+          <img
+            src={maw}
+            alt=""
+            data-aos="slide-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          />
         </div>
       </div>
     </div>
