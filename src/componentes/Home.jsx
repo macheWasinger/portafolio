@@ -14,43 +14,56 @@ const Home = () => {
   return (
     <div className="container-padre">
       <a name="Home"></a>
-      <div className="container_fondos-colores">
-        <div className="container_dark-grey">
+      <div className="container_fondo-presentacion-imageDev">
+        <div className="container-header">
           <video autoPlay loop muted className="style-logo-video">
             <source src={logoAnimado} />
           </video>
 
           <div className="scroll" id="animacionScroll"></div>
 
-          <div className="container__texto-presentacion">
-            <span className="span__text-soy">¡Hola!, soy</span>
-            <div
-              // className="bloqueDeslizable-container"
-              className={`bloqueDeslizable-container ${
-                active === !false ? "showAnimationNombreApellido" : ""
-              }`}
-            >
-              <h1 className="style-h1-home">
-                <span className="nombre">Marcelo </span>
-                <span className="apellido">Wasinger</span>
-              </h1>
-            </div>
+          <Menu />
+        </div>
 
-            <h2 className="style-frontendJr">
+        <div className="container__presentacion-imageDeveloper">
+          <div
+            className="container-imageDeveloper"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <img src={maw} alt="" />
+          </div>
+          <div className="container__texto-presentacion">
+            <span
+              className="span__text-soy"
+              data-aos="slide-left"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+            >
+              ¡Hola!, soy
+            </span>
+
+            <h1
+              className="style-h1-home"
+              data-aos="slide-left"
+              data-aos-duration="1000"
+              data-aos-delay="1100"
+            >
+              <span className="nombre">Marcelo </span>
+
+              <span className="apellido">Wasinger</span>
+            </h1>
+
+            <h2
+              className="style-frontendJr"
+              data-aos="slide-left"
+              data-aos-duration="1000"
+              data-aos-delay="1400"
+            >
               {"{ "} Frontend Jr {" }"}
             </h2>
           </div>
-        </div>
-
-        <div className="container-orange">
-          <Menu />
-          <img
-            src={maw}
-            alt=""
-            data-aos="slide-up"
-            data-aos-duration="1500"
-            data-aos-delay="500"
-          />
         </div>
       </div>
     </div>

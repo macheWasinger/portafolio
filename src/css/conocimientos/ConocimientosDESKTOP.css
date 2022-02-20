@@ -5,13 +5,13 @@
 .container-padre_conocimientos {
   width: 100%;
   height: 43vw;
-  background-image: url("https://wwwhatsnew.com/wp-content/uploads/2020/03/dev_portada-730x548.jpg");
+  background-image: url("../../img/fondoConocimientos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 100%;
   background-attachment: fixed;
-  padding-top: 5%;
   overflow: hidden;
+  padding-top: 5vw;
 }
 
 .title-lineaHorizontal,

@@ -5,8 +5,7 @@
 .container-padre__Contactos {
   width: 100%;
   height: 25vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://einatec.com/wp-content/uploads/2015/02/responsive-design-and-web-devices-P8AJY9U.jpg");
+  background-image: url("../../img/fondoContactos.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

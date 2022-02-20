@@ -117,7 +117,7 @@ const Proyectos = () => {
                 className="style-image__product"
               />
               <div
-                className="container__text-tech__project"
+                className="container__text-tech__project project-1"
                 data-aos="slide-right"
                 data-aos-delay="250"
               >

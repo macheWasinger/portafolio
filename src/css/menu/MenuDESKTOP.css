@@ -64,10 +64,10 @@
   width: 2.5vw;
   height: 1.7em;
   color: #fff;
-  margin-top: 4.6%;
-  right: 2%;
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: 0%;
+  right: 1%;
+  /* display: flex;
+  justify-content: space-between; */
   z-index: 2;
   cursor: pointer;
 }
@@ -184,6 +184,7 @@
   border-top-left-radius: 100%;
   border-bottom-left-radius: 350%;
   background-color: #ffb633;
+  box-shadow: 2px 2px 15px #000000;
   z-index: 1;
 }
 
