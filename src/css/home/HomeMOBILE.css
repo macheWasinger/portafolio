@@ -119,74 +119,10 @@
     font-size: 2.7vw;
     letter-spacing: 2px;
     margin-left: 4%;
-
-    animation: changeColorFrontendJr 5s alternate 2;
-    animation-delay: 2.5s;
-    animation-fill-mode: forwards;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 768px) {
-  .container-header {
-    height: 12vw !important;
-  }
-
-  .container_fondo-presentacion-imageDev .style-logo-video {
-    width: 10vw;
-    height: 10vw;
-    margin-left: 2%;
-    margin-top: 0.7%;
-  }
-
-  .scroll {
-    width: 1.8em;
-    height: 3.4em;
-    border: 3px solid #ffb633;
-    margin-top: 19px !important;
-  }
-
-  .scroll:before {
-    width: 0.2em;
-    height: 0.6em;
-    position: relative;
-    top: 3px;
-    animation: animarUp 2.5s infinite;
-  }
-
-  .container_fondo-presentacion-imageDev {
-    height: 105vw;
-  }
-
-  .container__presentacion-imageDeveloper {
-    height: 69vw;
-    /* background-color: blue; */
-    margin-top: 11.5% !important;
-  }
-
-  .container_fondo-presentacion-imageDev .container__texto-presentacion {
-    width: 60vw;
-    height: 19vw;
-    /* background-color: red; */
-  }
-
-  .container-imageDeveloper {
-    width: 45vw;
-    height: 45vw;
-    background-color: #ffffff;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-
-  .container__presentacion-imageDeveloper img {
-    width: 38vw;
-    height: 48vw;
-    position: relative;
-    bottom: 0.5vw;
-    z-index: 1;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .container_fondo-presentacion-imageDev {
     height: 125vw;
     background-position: center;
@@ -237,5 +173,9 @@
     position: relative;
     bottom: 0.5vw;
     z-index: 1;
+  }
+
+  .style-frontendJr {
+    font-size: 3.5vw;
   }
 }

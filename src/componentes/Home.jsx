@@ -37,7 +37,7 @@ const Home = () => {
           <div className="container__texto-presentacion">
             <span
               className="span__text-soy"
-              data-aos="slide-left"
+              data-aos="flip-right"
               data-aos-duration="1000"
               data-aos-delay="800"
             >
@@ -46,7 +46,7 @@ const Home = () => {
 
             <h1
               className="style-h1-home"
-              data-aos="slide-left"
+              data-aos="flip-right"
               data-aos-duration="1000"
               data-aos-delay="1100"
             >
@@ -57,7 +57,7 @@ const Home = () => {
 
             <h2
               className="style-frontendJr"
-              data-aos="slide-left"
+              data-aos="flip-right"
               data-aos-duration="1000"
               data-aos-delay="1400"
             >

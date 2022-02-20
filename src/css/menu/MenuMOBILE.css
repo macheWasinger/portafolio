@@ -138,16 +138,16 @@
   nav > .container-logos > .linkedin-container .style-i,
   nav > .container-logos > .twitter-container .style-i,
   nav > .container-logos > .instagram-container .style-i {
-    font-size: 4.7vw !important;
+    font-size: 20px !important;
   }
 
   nav > .container-logos > .github-container .style-i,
   nav > .container-logos > .whatsapp-container .style-i {
-    font-size: 5.1vw !important;
+    font-size: 26px !important;
   }
 
   nav > .container-logos > .mail-container .style-i {
-    font-size: 4.3vw !important;
+    font-size: 23px !important;
   }
 
   .mail-container,
@@ -245,63 +245,6 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 768px) {
-  .container-Padre_menu .burger {
-    width: 2.5em;
-    height: 1.7em;
-  }
-
-  .label-menu {
-    width: 2.5em;
-    height: 1.7em;
-  }
-
-  .label-menu #span-1,
-  .label-menu #span-2,
-  .label-menu #span-3 {
-    width: 2.5em;
-    height: 0.15em;
-  }
-
-  /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
-  #btn-menu:checked ~ .label-menu #span-1,
-  #btn-menu:checked ~ .label-menu #span-3 {
-    width: 2.5em;
-    height: 0.15em;
-    margin-top: 5px;
-  }
-
-  #btn-menu:checked ~ .label-menu #span-1 {
-    top: 9px;
-  }
-
-  .menu-navegacion ul li a {
-    font-size: 1.3em;
-  }
-
-  nav > .container-logos {
-    width: 80vw !important;
-    position: relative;
-    left: -1.8vw;
-    /* background-color: white; */
-  }
-
-  nav > .container-logos > .linkedin-container .style-i,
-  nav > .container-logos > .twitter-container .style-i,
-  nav > .container-logos > .instagram-container .style-i {
-    font-size: 3vw !important;
-  }
-
-  nav > .container-logos > .github-container .style-i,
-  nav > .container-logos > .whatsapp-container .style-i {
-    font-size: 3.4vw !important;
-  }
-
-  nav > .container-logos > .mail-container .style-i {
-    font-size: 2.5vw !important;
-  }
-}
-
 @media only screen and (min-width: 320px) and (max-width: 320px) {
   .container-Padre_menu .burger {
     width: 1.8em;
@@ -377,7 +320,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .menu-activado > .style-logo-video {
     width: 3.5em;
     height: 3.5em;
@@ -392,17 +335,3 @@
     margin-left: 3.5%;
   }
 }
-
-/* @media only screen and (min-width: 425px) and (max-width: 426px) {
-  .menu-activado > .style-logo-video {
-    width: 3.8em !important;
-    height: 3.45em;
-    margin-left: 0.55em;
-    margin-top: 0.1em;
-  }
-
-  nav > .container-logos {
-    width: 80vw !important;
-    margin-left: 3.6%;
-  }
-} */

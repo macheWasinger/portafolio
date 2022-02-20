@@ -202,10 +202,6 @@ a,
   letter-spacing: 2px;
   margin-top: 1vw;
   transition: all 0.5s;
-
-  animation: changeColorFrontendJr 5s alternate 2;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
 }
 
 @keyframes animarBottom {
