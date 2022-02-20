@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.b733f01e.chunk.css",
-    "main.js": "/portafolio/static/js/main.42ba43c4.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.42ba43c4.chunk.js.map",
+    "main.css": "/portafolio/static/css/main.2c3144fa.chunk.css",
+    "main.js": "/portafolio/static/js/main.bf350206.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.bf350206.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.d97de6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portafolio/static/css/2.0a9ec390.chunk.css",
@@ -10,16 +10,19 @@
     "static/js/2.fc114352.chunk.js.map": "/portafolio/static/js/2.fc114352.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/portafolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.b733f01e.chunk.css.map": "/portafolio/static/css/main.b733f01e.chunk.css.map",
+    "static/css/main.2c3144fa.chunk.css.map": "/portafolio/static/css/main.2c3144fa.chunk.css.map",
     "static/js/2.fc114352.chunk.js.LICENSE.txt": "/portafolio/static/js/2.fc114352.chunk.js.LICENSE.txt",
     "static/media/CV-WasingerMarcelo2022.be875340.pdf": "/portafolio/static/media/CV-WasingerMarcelo2022.be875340.pdf",
     "static/media/backend.57f1aa17.png": "/portafolio/static/media/backend.57f1aa17.png",
     "static/media/canva.3c3e6d67.png": "/portafolio/static/media/canva.3c3e6d67.png",
     "static/media/design.d2d57485.png": "/portafolio/static/media/design.d2d57485.png",
     "static/media/destinoArg.0ecdf01f.jpg": "/portafolio/static/media/destinoArg.0ecdf01f.jpg",
+    "static/media/ConocimientosMOBILE.css": "/portafolio/static/media/fondoConocimientos.c1100208.jpg",
+    "static/media/ContactosDESKTOP.css": "/portafolio/static/media/fondoContactos.ff66f893.jpg",
     "static/media/frontend.f7a742be.png": "/portafolio/static/media/frontend.f7a742be.png",
     "static/media/grid.6c1bf4b0.png": "/portafolio/static/media/grid.6c1bf4b0.png",
     "static/media/hand.f168f2da.png": "/portafolio/static/media/hand.f168f2da.png",
+    "static/media/HomeDESKTOP.css": "/portafolio/static/media/imageFondoInicio.40f102d1.png",
     "static/media/java.74329a08.png": "/portafolio/static/media/java.74329a08.png",
     "static/media/logo-mw-black.9a40d3b3.mp4": "/portafolio/static/media/logo-mw-black.9a40d3b3.mp4",
     "static/media/logo-mw.2e2ff5b6.mp4": "/portafolio/static/media/logo-mw.2e2ff5b6.mp4",
@@ -36,7 +39,7 @@
     "static/js/runtime-main.d97de6e3.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.fc114352.chunk.js",
-    "static/css/main.b733f01e.chunk.css",
-    "static/js/main.42ba43c4.chunk.js"
+    "static/css/main.2c3144fa.chunk.css",
+    "static/js/main.bf350206.chunk.js"
   ]
 }
