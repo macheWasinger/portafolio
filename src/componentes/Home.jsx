@@ -6,6 +6,7 @@ import Menu from "./header/Menu";
 // IMPORTO IMAGEN Y VIDEO
 import maw from "../img/maw.png";
 import logoAnimado from "../video/logo-mw.mp4";
+import iconFrontend from "../img/icon-frontend.png";
 import { setActiveLink } from "react-scroll/modules/mixins/scroller";
 
 const Home = () => {
@@ -55,14 +56,17 @@ const Home = () => {
               <span className="apellido">Wasinger</span>
             </h1>
 
-            <h2
-              className="style-frontendJr"
+            <div
+              className="container-textFrontendJR-iconFrontend"
               data-aos="flip-right"
               data-aos-duration="1000"
               data-aos-delay="1400"
             >
-              {"{ "} Frontend Jr {" }"}
-            </h2>
+              <h2 className="style-frontendJr">
+                {"{ "} Frontend Jr {" }"}
+              </h2>
+              <img src={iconFrontend} alt="" />
+            </div>
           </div>
         </div>
       </div>

@@ -335,3 +335,30 @@
     margin-left: 3.5%;
   }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .container-Padre_menu .burger {
+    width: 1.8em;
+    height: 1.2em;
+    right: 14px;
+    margin-top: 1px !important;
+    /* background-color: red !important; */
+  }
+
+  .label-menu {
+    width: 1.8em;
+    height: 1.2em;
+    /* background-color: green !important; */
+  }
+
+  .label-menu #span-1,
+  .label-menu #span-2,
+  .label-menu #span-3 {
+    width: 1.8em;
+    height: 0.15em;
+  }
+
+  #btn-menu:checked ~ .label-menu #span-3 {
+    top: -6px;
+  }
+}
