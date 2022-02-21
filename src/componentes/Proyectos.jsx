@@ -35,10 +35,12 @@ const Proyectos = () => {
             className="style-a__project"
           >
             <img
+              loading="lazy"
               src={imageDestinoArg}
               alt=""
               className="style-image__product"
-            />
+            />{" "}
+            loading="lazy"
             <div className="container__text-tech__project-1">
               <span className="style-span__text-tech">JavaScript</span>
               <span className="style-span__text-tech">CSS</span>
@@ -62,7 +64,12 @@ const Proyectos = () => {
             target="_blank"
             className="style-a__project"
           >
-            <img src={imageMeli} alt="" className="style-image__product" />
+            <img
+              loading="lazy"
+              src={imageMeli}
+              alt=""
+              className="style-image__product"
+            />
             <div className="container__text-tech__project-2">
               <span className="style-span__text-tech">JavaScript</span>
               <span className="style-span__text-tech">CSS</span>
@@ -82,7 +89,12 @@ const Proyectos = () => {
             target="_blank"
             className="style-a__project"
           >
-            <img src={imageMaquetado} alt="" className="style-image__product" />
+            <img
+              loading="lazy"
+              src={imageMaquetado}
+              alt=""
+              className="style-image__product"
+            />
             <div className="container__text-tech__project-3">
               <span className="style-span__text-tech">JavaScript</span>
               <span className="style-span__text-tech">CSS</span>
@@ -112,6 +124,7 @@ const Proyectos = () => {
               className="style-a__project"
             >
               <img
+                loading="lazy"
                 src={imageDestinoArg}
                 alt=""
                 className="style-image__product"
@@ -138,7 +151,12 @@ const Proyectos = () => {
               target="_blank"
               className="style-a__project"
             >
-              <img src={imageMeli} alt="" className="style-image__product" />
+              <img
+                loading="lazy"
+                src={imageMeli}
+                alt=""
+                className="style-image__product"
+              />
               <div className="container__text-tech__project project-2">
                 <span className="style-span__text-tech">JavaScript</span>
                 <span className="style-span__text-tech">CSS</span>
@@ -154,6 +172,7 @@ const Proyectos = () => {
               className="style-a__project"
             >
               <img
+                loading="lazy"
                 src={imageMaquetado}
                 alt=""
                 className="style-image__product"

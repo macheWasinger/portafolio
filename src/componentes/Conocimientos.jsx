@@ -22,7 +22,7 @@ const Conocimientos = () => {
   const [active, setActive] = React.useState(3);
 
   return (
-    <div className="container-padre_conocimientos">
+    <div loading="lazy" className="container-padre_conocimientos">
       <a name="Conocimientos"></a>
       <h1 className="style-h1-title color-white title-font">Conocimientos</h1>
       <div
@@ -45,7 +45,12 @@ const Conocimientos = () => {
           }`}
           onClick={() => setActive(0)}
         >
-          <img src={frontend} className="iconImage__tech" alt="" />
+          <img
+            loading="lazy"
+            src={frontend}
+            className="iconImage__tech"
+            alt=""
+          />
           <h2
             className="card__title"
             data-aos="zoom-in"
@@ -59,31 +64,61 @@ const Conocimientos = () => {
           <div className="container-frontend">
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">HTML</h3>
-              <img src={html} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={html}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">CSS</h3>
-              <img src={css} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={css}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">GRID</h3>
-              <img src={grid} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={grid}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">JAVASCRIPT</h3>
-              <img src={js} alt="" className="style-logo-tech" />
+              <img loading="lazy" src={js} alt="" className="style-logo-tech" />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">RESPONSIVE</h3>
-              <img src={responsive} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={responsive}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">REACT</h3>
-              <img src={react} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={react}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">BOOTSTRAP</h3>
-              <img src={bootstrap} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={bootstrap}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
           </div>
         </div>
@@ -94,7 +129,7 @@ const Conocimientos = () => {
           }`}
           onClick={() => setActive(1)}
         >
-          <img src={design} className="iconImage__tech" alt="" />
+          <img loading="lazy" src={design} className="iconImage__tech" alt="" />
           <h2
             className="card__title"
             data-aos="zoom-in"
@@ -108,15 +143,30 @@ const Conocimientos = () => {
           <div className="container-design">
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">PHOTOSHOP</h3>
-              <img src={photoshop} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={photoshop}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">FIGMA</h3>
-              <img src={figma} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={figma}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">CANVA</h3>
-              <img src={canva} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={canva}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
           </div>
         </div>
@@ -127,7 +177,12 @@ const Conocimientos = () => {
           }`}
           onClick={() => setActive(2)}
         >
-          <img src={backend} className="iconImage__tech" alt="" />
+          <img
+            loading="lazy"
+            src={backend}
+            className="iconImage__tech"
+            alt=""
+          />
           <h2
             className="card__title"
             data-aos="zoom-in"
@@ -141,17 +196,28 @@ const Conocimientos = () => {
           <div className="container-backend">
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">JAVA</h3>
-              <img src={java} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={java}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
             <div className="container__logo-title-tech">
               <h3 className="style-text__title-tech">PYTHON</h3>
-              <img src={python} alt="" className="style-logo-tech" />
+              <img
+                loading="lazy"
+                src={python}
+                alt=""
+                className="style-logo-tech"
+              />
             </div>
           </div>
         </div>
       </div>
       <div className="iconRefresh-container" onClick={() => setActive(3)}>
         <img
+          loading="lazy"
           src={refresh}
           alt=""
           className={`icon-refresh__style ${

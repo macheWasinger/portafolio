@@ -10,6 +10,7 @@ const SobreMi = () => {
       <div className="container_small-picture">
         <div className="container-image">
           <img
+            loading="lazy"
             src={smallImage}
             className="style-smallImage"
             data-aos="fade-down-right"

@@ -8,7 +8,7 @@ import seguime from "../video/seguimeRedes.mp4";
 
 const Contactos = () => {
   return (
-    <div className="container-padre__Contactos">
+    <div loading="lazy" className="container-padre__Contactos">
       <a name="Contactos"></a>
       <div className="container-hijo__contactos">
         <div className="container__title-lineaHorizontal">
@@ -57,11 +57,17 @@ const Contactos = () => {
               data-aos-duration="300"
               data-aos-offset="100"
             >
-              <img src={hand} alt="" />
+              <img loading="lazy" src={hand} alt="" />
             </span>
           </div>
           <div className="container__logos-redes">
-            <video className="style__animation-seguime" autoPlay loop muted>
+            <video
+              loading="lazy"
+              className="style__animation-seguime"
+              autoPlay
+              loop
+              muted
+            >
               <source src={seguime} />
             </video>
 
@@ -136,7 +142,7 @@ const Contactos = () => {
           <p className="style__text-desarrollador">
             © 2021 Creado por Marcelo Adrián Wasinger
           </p>
-          <img src={logo} alt="" />
+          <img loading="lazy" src={logo} alt="" />
         </div>
       </div>
     </div>

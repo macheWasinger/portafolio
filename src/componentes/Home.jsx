@@ -15,9 +15,15 @@ const Home = () => {
   return (
     <div className="container-padre">
       <a name="Home"></a>
-      <div className="container_fondo-presentacion-imageDev">
+      <div loading="lazy" className="container_fondo-presentacion-imageDev">
         <div className="container-header">
-          <video autoPlay loop muted className="style-logo-video">
+          <video
+            loading="lazy"
+            autoPlay
+            loop
+            muted
+            className="style-logo-video"
+          >
             <source src={logoAnimado} />
           </video>
 
@@ -33,7 +39,7 @@ const Home = () => {
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            <img src={maw} alt="" />
+            <img loading="lazy" src={maw} alt="" />
           </div>
           <div className="container__texto-presentacion">
             <span
@@ -65,7 +71,7 @@ const Home = () => {
               <h2 className="style-frontendJr">
                 {"{ "} Frontend Jr {" }"}
               </h2>
-              <img src={iconFrontend} alt="" />
+              <img loading="lazy" src={iconFrontend} alt="" />
             </div>
           </div>
         </div>
