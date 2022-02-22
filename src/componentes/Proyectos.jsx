@@ -29,28 +29,27 @@ const Proyectos = () => {
           data-aos-offset="100"
           data-aos-delay="300"
         >
+          <img
+            loading="lazy"
+            src={imageDestinoArg}
+            alt=""
+            className="style-image__product"
+          />{" "}
+          loading="lazy"
+          <div className="container__text-tech__project-1">
+            <span className="style-span__text-tech">JavaScript</span>
+            <span className="style-span__text-tech">CSS</span>
+            <span className="style-span__text-tech">HTML</span>
+            <span className="style-span__text-tech">React</span>
+            <span className="style-span__text-tech">Bootstrap</span>
+            <span className="style-span__text-tech">Responsive Web Design</span>
+          </div>
           <a
             href="https://machewasinger.github.io/destinoarg/"
             target="_blank"
             className="style-a__project"
           >
-            <img
-              loading="lazy"
-              src={imageDestinoArg}
-              alt=""
-              className="style-image__product"
-            />{" "}
-            loading="lazy"
-            <div className="container__text-tech__project-1">
-              <span className="style-span__text-tech">JavaScript</span>
-              <span className="style-span__text-tech">CSS</span>
-              <span className="style-span__text-tech">HTML</span>
-              <span className="style-span__text-tech">React</span>
-              <span className="style-span__text-tech">Bootstrap</span>
-              <span className="style-span__text-tech">
-                Responsive Web Design
-              </span>
-            </div>
+            <i class="fa-solid fa-eye"></i>
           </a>
         </div>
         <div
@@ -59,23 +58,24 @@ const Proyectos = () => {
           data-aos-offset="100"
           data-aos-delay="450"
         >
+          <img
+            loading="lazy"
+            src={imageMeli}
+            alt=""
+            className="style-image__product"
+          />
+          <div className="container__text-tech__project-2">
+            <span className="style-span__text-tech">JavaScript</span>
+            <span className="style-span__text-tech">CSS</span>
+            <span className="style-span__text-tech">HTML</span>
+            <span className="style-span__text-tech">Bootstrap</span>
+          </div>
           <a
             href="https://machewasinger.github.io/MaquetadoMeli.github.io/"
             target="_blank"
-            className="style-a__project"
+            className="style-a__project style-a-project2"
           >
-            <img
-              loading="lazy"
-              src={imageMeli}
-              alt=""
-              className="style-image__product"
-            />
-            <div className="container__text-tech__project-2">
-              <span className="style-span__text-tech">JavaScript</span>
-              <span className="style-span__text-tech">CSS</span>
-              <span className="style-span__text-tech">HTML</span>
-              <span className="style-span__text-tech">Bootstrap</span>
-            </div>
+            <i class="fa-solid fa-eye"></i>
           </a>
         </div>
         <div
@@ -84,23 +84,24 @@ const Proyectos = () => {
           data-aos-offset="100"
           data-aos-delay="600"
         >
+          <img
+            loading="lazy"
+            src={imageMaquetado}
+            alt=""
+            className="style-image__product"
+          />
+          <div className="container__text-tech__project-3">
+            <span className="style-span__text-tech">JavaScript</span>
+            <span className="style-span__text-tech">CSS</span>
+            <span className="style-span__text-tech">HTML</span>
+            <span className="style-span__text-tech">Bootstrap</span>
+          </div>
           <a
             href="https://machewasinger.github.io/Maquetado.github.io/"
             target="_blank"
-            className="style-a__project"
+            className="style-a__project style-a-project3"
           >
-            <img
-              loading="lazy"
-              src={imageMaquetado}
-              alt=""
-              className="style-image__product"
-            />
-            <div className="container__text-tech__project-3">
-              <span className="style-span__text-tech">JavaScript</span>
-              <span className="style-span__text-tech">CSS</span>
-              <span className="style-span__text-tech">HTML</span>
-              <span className="style-span__text-tech">Bootstrap</span>
-            </div>
+            <i class="fa-solid fa-eye"></i>
           </a>
         </div>
       </div>
