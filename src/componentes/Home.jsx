@@ -27,8 +27,6 @@ const Home = () => {
             <source src={logoAnimado} />
           </video>
 
-          <div className="scroll" id="animacionScroll"></div>
-
           <Menu />
         </div>
 
@@ -73,6 +71,9 @@ const Home = () => {
               </h2>
               <img loading="lazy" src={iconFrontend} alt="" />
             </div>
+          </div>
+          <div className="container-arrowDown">
+            <i class="fa-solid fa-arrow-down"></i>
           </div>
         </div>
       </div>
