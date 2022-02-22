@@ -72,7 +72,12 @@ const Home = () => {
               <img loading="lazy" src={iconFrontend} alt="" />
             </div>
           </div>
-          <div className="container-arrowDown">
+          <div
+            className="container-arrowDown"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="1700"
+          >
             <i class="fa-solid fa-arrow-down"></i>
           </div>
         </div>
