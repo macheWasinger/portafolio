@@ -1,13 +1,9 @@
 @media screen and (max-width: 800px) {
   .container-padre_conocimientos {
-    width: 100%;
-    height: 100%;
-    background-image: url("../../img/fondoConocimientos.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 275vw;
+    background-image: url("../../img/fondoConocimientosMobile.png");
     background-position: center;
-    background-attachment: unset;
-    overflow: none;
+    overflow: none !important;
     padding-top: 0vw;
   }
 
@@ -27,91 +23,47 @@
     display: none;
   }
 
-  .column-general {
-    width: 100% !important;
-    height: 650px;
-    margin-top: 8%;
-    display: flex !important;
-    flex-direction: column;
-    align-items: center !important;
-  }
-
-  .frontendIcon-container,
-  .designIcon-container,
-  .backendIcon-container {
-    width: 175px;
-    height: 175px;
-  }
-
-  .frontendIcon-container > img,
-  .backendIcon-container > img {
-    width: 165px;
+  .column-general__tech {
+    width: 84%;
+    height: auto;
+    max-width: 1250px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3%;
+    align-items: start;
+    /* background-color : red; */
   }
 
-  .designIcon-container > img {
-    width: 165px;
-    height: 165px !important;
-    margin: auto;
-    position: relative;
-    bottom: 0.5vw;
-  }
-
-  .container-tech {
-    width: auto;
-    height: 105px;
-    padding: 0;
-    /* padding-top: 3vw; */
-    background-color: #474747;
-    /* margin-top: 3%; */
-  }
-
-  .iconRefresh-container {
-    width: 40px;
-    margin-top: 15% !important;
-    margin-bottom: 10% !important;
-    margin: auto;
-  }
-
-  .iconRefresh-container > img {
-    width: 40px !important;
-  }
-
-  .refreshAnimation {
-    transform: rotate(360deg);
-    transition: all 0.3s;
+  .container__logo-title-tech {
+    width: 40vw;
+    height: 33vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    background-image: linear-gradient(
+      to left bottom,
+      #1f1f1f,
+      #303030,
+      #424242,
+      #555555,
+      #696969
+    );
+    box-shadow: 1px 2px 3px #000000;
+    border-radius: 4px;
   }
 
   .style-logo-tech {
-    width: 52px;
-    height: 52px;
+    width: 25vw;
+    height: 25vw;
   }
 
   .card__title {
     font-size: 25px;
     font-weight: 600;
-  }
-
-  .frontendIcon-container .card__title,
-  .backendIcon-container .card__title {
-    position: relative;
-    top: -2vw !important;
-  }
-
-  .designIcon-container .card__title {
-    position: relative !important;
-    top: -3vw !important;
-  }
-
-  .container-frontend {
-    width: 328px;
-  }
-
-  .container-design,
-  .container-backend,
-  .container-frontend {
-    display: flex;
-    height: 110px;
   }
 
   .image-title-tech__container:hover .iconImage__tech {
@@ -148,69 +100,13 @@
     top: -0.3vw;
   }
 
-  .container-frontend .style-logo-tech {
-    margin: 2vw 1.95vw !important;
-    bottom: 2vw !important;
-  }
-
-  .container-design .style-logo-tech {
-    margin: 3.7vw 17px !important;
-    bottom: 3vw !important;
-  }
-
-  .container-backend .style-logo-tech {
-    margin: 4.3vw 17px !important;
-    bottom: 3.3vw !important;
-  }
-
-  .designIcon-container {
-    padding-bottom: 0.3% !important;
-  }
-
-  .designIcon-container .card__title {
-    top: -2vw !important;
-  }
-
   .container__logo-title-tech {
     margin-top: 6vw;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .container-frontend .style-logo-tech {
-    margin: 1vw 3.6vw;
-    bottom: 0.7vw;
-  }
-
-  .container-design .style-logo-tech,
-  .container-backend .style-logo-tech {
-    margin: 3.5vw 17px;
-    bottom: 2.5vw;
-  }
-}
-
 @media only screen and (max-width: 320px) {
-  .container-frontend .style-logo-tech {
-    margin: -0.5vw 3.5vw;
-    top: 0.5vw;
-  }
-
-  .container-tech {
-    width: auto;
-  }
-
-  .container-frontend {
-    width: 300px;
-  }
-
   .style-text__title-tech {
     font-size: 3vw;
-  }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 400px) {
-  .container-frontend .style-logo-tech {
-    margin: 2.5vw 3.7vw;
-    bottom: 2vw;
   }
 }

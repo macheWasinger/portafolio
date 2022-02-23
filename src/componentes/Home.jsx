@@ -74,7 +74,7 @@ const Home = () => {
           </div>
           <div
             className="container-arrowDown"
-            data-aos="flip-right"
+            data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="1700"
           >

@@ -19,7 +19,7 @@
   .container_fondo-presentacion-imageDev {
     height: 130vw;
     background-position: center;
-    background-attachment: unset;
+    background-attachment: unset !important;
   }
 
   .container__presentacion-imageDeveloper {
@@ -38,6 +38,12 @@
     height: 90vw;
     /* background-color: blue; */
     margin-top: 12% !important;
+  }
+
+  .container-arrowDown {
+    position: relative;
+    bottom: 4vw;
+    /* background-color: red; */
   }
 
   .container-arrowDown > .fa-arrow-down {
