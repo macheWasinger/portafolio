@@ -118,14 +118,15 @@
   width: auto;
   height: auto;
   padding: 2.5%;
-  background-color: #000;
+  background-color: #2a2a2a;
   font-size: 1.5vw;
   font-weight: 600;
   color: #ffffff;
   border-style: solid;
   border-right: 3px;
   border-top: 3px;
-  border-color: #ffffff;
+  border-color: #000000;
+  border-radius: 5px;
   /* border-radius: 5px; */
   /* box-shadow: 0 0 7px #000; */
   transition-delay: 0.3s;
@@ -156,8 +157,8 @@
   padding: 0.5vw;
   font-size: 1vw;
   text-shadow: 1px 2px 3px #000000;
-  color: #ffffff;
-  border: 3px solid #ffffff;
+  color: #ffb633;
+  border: 2px solid #fbb633;
   border-radius: 50px;
   font-weight: 600;
 }
@@ -167,6 +168,7 @@
   transition-duration: 0.5s;
   background-color: #ffb633;
   border: 3px solid #ffb633;
+  color: #fff;
   box-shadow: 1px 2px 3px #000000;
   cursor: pointer !important;
 }
