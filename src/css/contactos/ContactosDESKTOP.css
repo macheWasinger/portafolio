@@ -202,7 +202,7 @@
   place-items: center;
   border-radius: 50%;
   transition-duration: 0.5s;
-  border: 1px solid #ffb633;
+  border: 2px solid #ffb633;
 }
 
 .mail-container:hover {
