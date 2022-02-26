@@ -39,7 +39,7 @@ const Proyectos = () => {
           <div className="container-tech container__text-tech__project-4">
             <h3 className="title-project">Portafolio</h3>
             <span className="style-span__text-tech">
-              JavaScript - CSS - HTML - React - Bootstrap - Responsive Web
+              HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
               Design
             </span>
             <div className="container-ver">
@@ -67,7 +67,7 @@ const Proyectos = () => {
           <div className="container-tech container__text-tech__project-1">
             <h3 className="title-project">Copia Meli</h3>
             <span className="style-span__text-tech">
-              JavaScript - CSS - HTML - Bootstrap
+              HTML - CSS - JavaScript - Bootstrap
             </span>
             <div className="container-ver">
               <a
@@ -102,7 +102,7 @@ const Proyectos = () => {
           <div className="container-tech container__text-tech__project-2">
             <h3 className="title-project">Destino ARG</h3>
             <span className="style-span__text-tech">
-              JavaScript - CSS - HTML - React - Bootstrap - Responsive Web
+              HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
               Design
             </span>
             <div className="container-ver">
@@ -138,7 +138,7 @@ const Proyectos = () => {
           <div className="container-tech container__text-tech__project-3">
             <h3 className="title-project">Maquetado</h3>
             <span className="style-span__text-tech">
-              JavaScript - CSS - HTML - Bootstrap
+              HTML - CSS - JavaScript - Bootstrap
             </span>
             <div className="container-ver">
               <a
@@ -182,7 +182,7 @@ const Proyectos = () => {
               <div className="container-tech container__text-tech__project-4">
                 <h3 className="title-project">Portafolio</h3>
                 <span className="style-span__text-tech">
-                  JavaScript - CSS - HTML - React - Bootstrap - Responsive Web
+                  HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
                   Design
                 </span>
                 <div className="container-ver">
@@ -211,7 +211,7 @@ const Proyectos = () => {
               <div className="container-tech container__text-tech__project-1">
                 <h3 className="title-project">Copia Meli</h3>
                 <span className="style-span__text-tech">
-                  JavaScript - CSS - HTML - Bootstrap
+                  HTML - CSS - JavaScript - Bootstrap
                 </span>
                 <div className="container-ver">
                   <a
@@ -247,7 +247,7 @@ const Proyectos = () => {
               <div className="container-tech container__text-tech__project-2">
                 <h3 className="title-project">Destino ARG</h3>
                 <span className="style-span__text-tech">
-                  JavaScript - CSS - HTML - React - Bootstrap - Responsive Web
+                  HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
                   Design
                 </span>
                 <div className="container-ver">
@@ -284,7 +284,7 @@ const Proyectos = () => {
               <div className="container-tech container__text-tech__project-3">
                 <h3 className="title-project">Maquetado</h3>
                 <span className="style-span__text-tech">
-                  JavaScript - CSS - HTML - Bootstrap
+                  HTML - CSS - JavaScript - Bootstrap
                 </span>
                 <div className="container-ver">
                   <a
