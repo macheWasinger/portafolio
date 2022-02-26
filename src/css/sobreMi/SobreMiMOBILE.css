@@ -1,15 +1,16 @@
 @media screen and (max-width: 800px) {
   .container-padre_sobreMi {
-    height: 115vw;
-    padding-top: 8%;
+    height: 125vw;
+    padding-top: 1%;
     justify-content: space-around;
   }
 
-  .container_small-picture {
+  .container_small-picture_downloadCV {
     width: 41.5vw;
-    height: 52vw;
-    top: 0;
+    height: auto;
+    margin-top: 15%;
     left: 3%;
+    /* background-color: red; */
   }
 
   .container-image {
@@ -32,12 +33,27 @@
     height: 90vw;
     left: 0% !important;
     bottom: 5%;
+    /* background-color: blue; */
+  }
+
+  .container__title-text-hobbies {
+    width: 100vw;
+    height: auto !important;
+    position: relative;
+    right: 44vw;
+    top: 10vw;
+    /* background-color: green; */
   }
 
   .style-h1-sobreMi {
     font-size: 8vw;
-    right: 53%;
+    right: 41%;
     top: 5%;
+  }
+
+  .title-hobbies {
+    font-size: 6vw;
+    margin-top: 0;
   }
 
   .container-text_sobreMi .style-span_linea-horizontal {
@@ -50,12 +66,20 @@
   }
 
   .style-p-sobreMi {
+    top: 11.5%;
+  }
+
+  .text-hobbies {
+    bottom: 1vw !important;
+  }
+
+  .style-p-sobreMi,
+  .text-hobbies {
     width: 85%;
     padding: 3px;
     font-size: 3vw;
     color: rgb(192, 192, 192);
-    top: 11.5%;
-    left: 8%;
+    /* left: 8%; */
   }
 
   @keyframes animarButtonMobile {
@@ -75,9 +99,9 @@
   .style-button-descargarCV {
     width: 23.7vw;
     height: 7.5vw;
-    top: 6%;
-    left: -4%;
-    margin: auto;
+    margin-top: 55% !important;
+    position: relative;
+    left: 23vw;
     /* border-radius: 0 3.4vw 0 3.4vw; */
     font-size: 2.7vw;
     box-shadow: 0 0 10px #2a2a2a;
@@ -97,5 +121,11 @@
 
   .style-p-sobreMi {
     top: 11vw !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .style-button-descargarCV {
+    top: 2vw;
   }
 }

@@ -7,7 +7,7 @@ const SobreMi = () => {
   return (
     <div className="container-padre_sobreMi">
       <a name="SobreMi"></a>
-      <div className="container_small-picture">
+      <div className="container_small-picture_downloadCV">
         <div className="container-image">
           <img
             loading="lazy"
@@ -19,6 +19,13 @@ const SobreMi = () => {
             alt=""
           />
         </div>
+        <a
+          download="CV-WasingerMarcelo2022"
+          href={cv}
+          className="style-button-descargarCV"
+        >
+          Descargar CV
+        </a>
       </div>
       <div className="container-text_sobreMi">
         <h1 className="style-h1-sobreMi title-font">Sobre mí</h1>
@@ -42,13 +49,24 @@ const SobreMi = () => {
           <br />
           Momentáneamente, estudio de manera autodidacta.
         </p>
-        <a
-          download="CV-WasingerMarcelo2022"
-          href={cv}
-          className="style-button-descargarCV"
-        >
-          Descargar CV
-        </a>
+        <div className="container__title-text-hobbies">
+          <h2
+            className="title-hobbies"
+            data-aos="zoom-in"
+            data-aos-duration="400"
+            data-aos-delay="150"
+          >
+            Hobbies
+          </h2>
+          <p
+            className="text-hobbies"
+            data-aos="zoom-in"
+            data-aos-duration="400"
+            data-aos-delay="300"
+          >
+            Familia | Amigos | Perros | Entrenar | Viajar | Escuchar música
+          </p>
+        </div>
       </div>
     </div>
   );
