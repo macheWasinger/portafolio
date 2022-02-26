@@ -54,21 +54,28 @@
 }
 
 .container-proyectos {
-  width: 80vw;
+  width: 95vw;
   height: auto;
   margin: auto;
   margin-top: 7%;
   display: flex;
-  background-color: #2a2a2a;
-  box-shadow: 1px 2px 9px #000000;
+  /* background-color: red !important; */
+  /* box-shadow: 1px 2px 9px #000000; */
 }
 
 .container-hijo__proyecto1,
 .container-hijo__proyecto2,
-.container-hijo__proyecto3 {
-  width: 30vw;
-  height: 21vw;
+.container-hijo__proyecto3,
+.container-hijo__proyecto4 {
+  width: 20vw;
+  height: 12vw;
   margin: auto;
+  /* background-color: red; */
+}
+
+.container-text-tech {
+  width: auto !important;
+  height: auto !important;
 }
 
 .style-image__product {
@@ -76,116 +83,90 @@
   height: 100%;
 }
 
-.container-project:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 0;
-  background-color: black;
-  opacity: 0.8;
-  display: block;
-  transition: all 0.3s;
-  transition-delay: 0.2s;
-  z-index: 1;
-}
-
-.container-project:hover:before {
-  height: 21.1vw;
-  cursor: pointer;
-}
-
-.style-a__project .fa-eye {
-  color: #ffffff;
-  font-size: 0;
-}
-
-.container-project:hover .style-a__project .fa-eye {
-  position: relative;
-  bottom: 11vw;
-  z-index: 10;
-  font-size: 1.5vw;
-  transition: all 0.3s;
+.container-project > .style-image__product {
   transition-delay: 0.2s;
 }
 
-.style-a-project2 .fa-eye,
-.style-a-project3 .fa-eye {
-  bottom: 9.5vw !important;
-}
-
-.container-project:hover .style-a__project .fa-eye:hover {
-  font-size: 1.7vw;
-  transition: all 0.3s;
+.style-image__product:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
 }
 
 .container__text-tech__project-1,
 .container__text-tech__project-2,
 .container__text-tech__project-3,
-.style-span__text-tech {
-  font-size: 0;
-  z-index: 1;
-}
-
-.container-project:hover .container__text-tech__project-1 {
+.container__text-tech__project-4 {
   width: 90%;
-  padding-left: 4.5%;
-}
-
-.container-project > .style-image__product {
-  transition-delay: 0.2s;
-}
-
-.container-project:hover .style-image__product {
-  transform: scale(1.05);
-  transition: all 0.5s;
-}
-
-.container-project:hover .container__text-tech__project-2,
-.container-project:hover .container__text-tech__project-3 {
-  width: 80%;
-  padding-left: 13%;
-}
-
-.container-project {
-  overflow: hidden;
-}
-
-.container-project:hover .container__text-tech__project-1,
-.container-project:hover .container__text-tech__project-2,
-.container-project:hover .container__text-tech__project-3 {
   height: 23%;
-  margin: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   position: relative;
-}
-
-.container-project:hover .container__text-tech__project-1 {
-  bottom: 70%;
-}
-
-.container-project:hover .container__text-tech__project-2,
-.container-project:hover .container__text-tech__project-3 {
-  bottom: 62%;
-}
-
-.style-a__project .fa-eye {
   z-index: 10 !important;
 }
 
-.container-project:hover .style-span__text-tech {
+.container-tech {
+  width: auto !important;
+  height: 8.5vw !important;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+  /* background-color: blue; */
+}
+
+.title-project {
   width: auto;
-  height: 2vw;
-  padding: 0 2%;
-  margin-left: 2%;
-  background-color: #4d4c4c;
-  font-size: 1.2vw;
+  height: auto;
+  padding: 2.5%;
+  background-color: #000;
+  font-size: 1.5vw;
   font-weight: 600;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 7px #000;
+  color: #ffffff;
+  border-style: solid;
+  border-right: 3px;
+  border-top: 3px;
+  border-color: #ffffff;
+  /* border-radius: 5px; */
+  /* box-shadow: 0 0 7px #000; */
   transition-delay: 0.3s;
+}
+
+.style-span__text-tech {
+  width: auto !important;
+  height: auto !important;
+  padding: 0 2%;
+  margin-bottom: 3%;
+  font-size: 1vw;
+  font-weight: 600;
+  color: rgb(192, 192, 192);
+  border-radius: 5px;
+  /* box-shadow: 0 0 7px #000; */
+  transition-delay: 0.3s;
+}
+
+.container-ver {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: green; */
+}
+
+.verProyecto,
+.verCodigo {
+  padding: 0.5vw;
+  font-size: 1vw;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.verProyecto:hover,
+.verCodigo:hover {
+  transition-duration: 0.5s;
+  background-color: #ffb633;
+  border: 3px solid #ffb633;
+  cursor: pointer !important;
 }
 
 .carousel {

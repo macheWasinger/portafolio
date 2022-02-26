@@ -183,7 +183,7 @@
   transition: all 1.5s;
   border-top-left-radius: 100%;
   border-bottom-left-radius: 350%;
-  background-color: #ffb633;
+  background-color: #5b5b5b;
   box-shadow: 2px 2px 15px #000000;
   z-index: 1;
 }

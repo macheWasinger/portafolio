@@ -91,11 +91,6 @@
   border-radius: 4px;
 }
 
-.image-title-tech__container:hover .iconImage__tech {
-  transform: scale(1.1);
-  transition: all 0.2s;
-}
-
 .image-title-tech__container:hover .card__title {
   text-shadow: 0.05vw 0.1vw 0.15vw #000000 !important;
   transition: all 0.5s !important;
