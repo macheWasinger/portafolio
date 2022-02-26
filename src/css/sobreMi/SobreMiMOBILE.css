@@ -1,7 +1,8 @@
 @media screen and (max-width: 800px) {
   .container-padre_sobreMi {
-    height: 125vw;
-    padding-top: 1%;
+    height: 128vw;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
     justify-content: space-around;
   }
 
@@ -41,28 +42,20 @@
     height: auto !important;
     position: relative;
     right: 44vw;
-    top: 10vw;
+    top: 12vw;
     /* background-color: green; */
   }
 
   .style-h1-sobreMi {
     font-size: 8vw;
-    right: 41%;
+    right: 45%;
     top: 5%;
   }
 
   .title-hobbies {
     font-size: 6vw;
     margin-top: 0;
-  }
-
-  .container-text_sobreMi .style-span_linea-horizontal {
-    width: 19.5vw !important;
-    height: 0.3vw !important;
-    background-color: #ffb633;
-    border-radius: 25px;
-    top: 3vw;
-    left: -19.8vw !important;
+    margin-left: 28.5vw;
   }
 
   .style-p-sobreMi {
@@ -80,6 +73,15 @@
     font-size: 3vw;
     color: rgb(192, 192, 192);
     /* left: 8%; */
+  }
+
+  .container-text_sobreMi .style-span_linea-horizontal {
+    width: 19.5vw !important;
+    height: 0.3vw !important;
+    background-color: #ffb633;
+    border-radius: 25px;
+    top: 3vw;
+    left: -20.5vw !important;
   }
 
   @keyframes animarButtonMobile {
@@ -101,7 +103,8 @@
     height: 7.5vw;
     margin-top: 55% !important;
     position: relative;
-    left: 23vw;
+    left: 20.8vw;
+    top: 2.5vw;
     /* border-radius: 0 3.4vw 0 3.4vw; */
     font-size: 2.7vw;
     box-shadow: 0 0 10px #2a2a2a;
@@ -113,7 +116,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 800px) {
   .container-text_sobreMi .style-span_linea-horizontal {
     top: 3.8vw;
     left: -18.8vw !important;
@@ -121,6 +124,11 @@
 
   .style-p-sobreMi {
     top: 11vw !important;
+  }
+
+  .container__title-text-hobbies {
+    top: 16vw;
+    /* background-color: green; */
   }
 }
 
