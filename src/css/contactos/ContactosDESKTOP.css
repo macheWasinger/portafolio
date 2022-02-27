@@ -40,6 +40,7 @@
 .logo-redSocial__container:hover .title-logo {
   position: static;
   font-size: 1.1vw;
+  text-shadow: 0.05vw 0.1vw 0.15vw #000000;
 }
 
 .style-h1__title-contactos {
@@ -128,6 +129,7 @@
 .container-whatsapp {
   width: 3.2vw;
   height: 3.2vw;
+  border-radius: 40% !important;
   background: -webkit-gradient(
     linear,
     left top,

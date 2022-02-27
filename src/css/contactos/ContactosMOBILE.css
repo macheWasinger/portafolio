@@ -103,6 +103,7 @@
   .container-whatsapp {
     width: 8vw;
     height: 8vw;
+    border-radius: 40%;
     margin-top: 1.6% !important;
     margin-right: 5.2% !important;
   }
