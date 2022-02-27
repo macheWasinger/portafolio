@@ -29,12 +29,6 @@ const SobreMi = () => {
       </div>
       <div className="container-text_sobreMi">
         <h1 className="style-h1-sobreMi title-font">Sobre mí</h1>
-        <span
-          className="style-span_linea-horizontal"
-          data-aos-duration="600"
-          data-aos-offset="200"
-          data-aos="slide-left"
-        ></span>
         <p
           className="style-p-sobreMi"
           data-aos="zoom-in"

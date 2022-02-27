@@ -21,15 +21,9 @@ const Conocimientos = () => {
     <div loading="lazy" className="container-padre_conocimientos">
       <a name="Conocimientos"></a>
       <h1 className="style-h1-title color-white title-font">Conocimientos</h1>
-      <div
-        className="title-lineaHorizontal"
-        data-aos="slide-left"
-        data-aos-duration="1000"
-        data-aos-offset="220"
-      ></div>
-      <h3 className="style-h3-subtitulo color-white">
+      {/* <h3 className="style-h3-subtitulo color-white">
         Mis conocimientos de software
-      </h3>
+      </h3> */}
       <div className="column-general__tech">
         <div
           className="container__logo-title-tech"

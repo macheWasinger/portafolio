@@ -14,12 +14,6 @@ const Proyectos = () => {
     <div className="container-padre__proyectos">
       <a name="Proyectos"></a>
       <h1 className="style-h1__proyectos title-font">Proyectos</h1>
-      <div
-        className="title-proyectos__lineaHorizontal"
-        data-aos="slide-left"
-        data-aos-duration="700"
-        data-aos-offset="220"
-      ></div>
       <h3 className="style-h3-subtitulo__proyectos">
         Estos son algunos de mis proyectos
       </h3>
