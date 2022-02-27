@@ -1,49 +1,57 @@
 @media screen and (max-width: 800px) {
   .container-padre__Contactos {
-    height: 76vw;
-    background-attachment: scroll;
+    width: 100%;
+    height: auto;
+    background-color: #5c5c5c;
+    padding-top: 0;
   }
 
-  .container-hijo__contactos:before {
-    width: 46vw;
-    height: 46vw;
-  }
-
-  .container-hijo__contactos {
-    width: 89.5vw;
-    height: 46vw;
-    top: 12%;
-    border-left: 2vw !important;
-    border-bottom: 2vw !important;
-    border-style: solid !important;
-    border-color: #ffb633 !important;
-  }
-
-  .container__title-lineaHorizontal {
-    height: 9.5vw;
-    padding-left: 7.5%;
-    top: 6%;
+  .container-logos {
+    width: 100%;
+    height: 150vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0.2vw;
+    background-color: yellow;
   }
 
   .style-h1__title-contactos {
-    font-size: 8vw;
-    line-height: 7.2vw;
+    font-size: 5vw;
+    margin-bottom: 8vw;
   }
 
-  .title-lineaHorizontal__contactos {
-    width: 20vw !important;
-    height: 0.3vw !important;
-    left: -9.5vw;
-    top: -0.4vw;
+  .logo-redSocial__container {
+    width: 50vw !important;
+  }
+
+  .logo-redSocial__container .style-i {
+    font-size: 6.5vw;
+    color: #ffffff;
+  }
+
+  .logo-redSocial__container:hover .title-logo {
+    position: static;
+    font-size: 4vw;
+  }
+
+  .container__site-footer {
+    height: 12vw;
+  }
+
+  .container-mail,
+  .container-datos__siteFooter,
+  .style-button__return,
+  .style__text-desarrollador {
+    position: relative;
   }
 
   .container__site-footer {
     width: 100% !important;
     height: 12vw;
-    top: 20vw;
     background-color: #2a2a2a;
     display: flex;
-    justify-content: space-between !important;
+    /* justify-content: space-between !important; */
     /* align-items: center; */
   }
 
@@ -56,15 +64,16 @@
   }
 
   .container-datos__siteFooter {
-    width: 66vw;
+    width: 63vw;
     height: 7.5vw;
+    margin-left: 9.7%;
+    /* background-color: green; */
   }
 
   .container__site-footer img {
-    width: 9vw;
-    height: 5.4vw;
+    width: 8vw;
+    height: 4.4vw;
     top: 1vw;
-    left: 8.5vw;
   }
 
   .style-button__return {
@@ -92,281 +101,50 @@
     margin: auto;
   }
 
-  .container__datos-contactos {
-    width: 100%;
-    height: 25vw;
-    margin: auto;
-    display: flex;
-    margin-top: 8%;
+  .container-whatsapp {
+    width: 8vw;
+    height: 8vw;
+    margin-top: 1.6% !important;
+    margin-right: 5.2% !important;
   }
 
-  .container-redSocial {
-    width: 90%;
-    height: auto;
-  }
-
-  .logo-redSocial__container {
-    width: 6.5vw;
-    height: 6.5vw;
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#ffc04b),
-      to(#cc8500)
-    );
-    border-radius: 40%;
-    box-shadow: 0.2vw 0.3vw 0.4vw #000000;
-    border: none;
-  }
-
-  .logo-redSocial__container .style-i {
-    color: #ffffff;
-  }
-
-  .container-mail {
-    width: auto !important;
-    height: 6vw !important;
-    margin-left: 2.7%;
-  }
-
-  .container-mail .style-p {
-    left: 1.5vw;
-  }
-
-  .container__datos-contactos .style-p {
-    font-size: 2.9vw !important;
-  }
-
-  .container__logos-redes {
-    height: auto;
-    margin: auto;
-    margin-bottom: 0;
-  }
-
-  .style-seguimeEnRedes {
-    width: 100%;
-    font-size: 3vw !important;
-    text-align: left;
-    margin-bottom: 0%;
-    bottom: 3.5vw;
-  }
-
-  .style__animation-seguime,
-  .container-logos {
+  .whatsapp-container {
     position: relative;
+    top: 0.2vw;
+    display: flex !important ;
   }
 
-  .style__animation-seguime {
-    width: 37vw;
-    right: 2vw;
+  .whatsapp-container .style-i {
+    font-size: 6.5vw;
+    color: #fff;
   }
+}
 
-  .container-logos {
-    width: 98%;
-    justify-content: space-between;
-    margin-top: 2.5%;
-  }
-
-  .container__datos-contactos .style-i {
-    font-size: 4.5vw !important;
-  }
-
-  .container__datos-contactos .container__logos-redes .style-i:hover {
-    pointer-events: none;
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .style-h1__title-contactos {
+    padding-top: 7vw !important;
   }
 
   .container-whatsapp {
-    margin-top: 0.5% !important;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: 1.6% !important;
+    margin-right: 5.2% !important;
   }
 
-  .whatsapp {
-    width: 3.3em;
-    height: 3.3em;
-    left: 2.5vw;
+  .whatsapp-container {
+    position: relative;
+    top: 0.1vw;
   }
 
-  /* .whatsapp-icon {
-    font-size: 5.5vw !important;
-  } */
-
-  .whatsapp-icon:hover {
+  .whatsapp-container .style-i {
+    font-size: 5vw;
     color: #fff;
   }
-
-  .content-hand {
-    width: 5vw;
-    height: 5vw;
-    position: relative;
-    bottom: 2vw;
-    left: 19vw !important;
-    animation: handAnimationMobile 3s alternate infinite;
-  }
-
-  .content-hand > img {
-    width: 5.5vw !important;
-    transform: rotate(120deg);
-  }
-
-  @keyframes handAnimationMobile {
-    0% {
-      transform: translate(-2vw, -6vw);
-    }
-
-    50% {
-      transform: translate(0.5vw, 0.3vw);
-    }
-
-    75% {
-      transform: rotate(20deg);
-    }
-
-    85% {
-      position: relative;
-      right: 0.5vw;
-    }
-
-    100% {
-      position: relative;
-      right: 0;
-    }
-  }
-
-  .style__text-hazme-click {
-    font-size: 3vw;
-    position: relative;
-    top: 0.35vw;
-    right: 1vw !important;
-  }
-
-  .linkedin-container .style-i,
-  .twitter-container .style-i,
-  .facebook-container .style-i {
-    font-size: 4.7vw !important;
-  }
-
-  .github-container .style-i,
-  .instagram-container .style-i,
-  .whatsapp-container .style-i {
-    font-size: 5.1vw !important;
-  }
-
-  .mail-container {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#30a9ff),
-      to(#006fbe)
-    ) !important;
-  }
-
-  .whatsapp-container {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#83ff8f),
-      to(#248f34)
-    ) !important;
-  }
-
-  .github-container {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#343d47),
-      to(#0c0c0c)
-    ) !important;
-  }
-
-  .linkedin-container {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#1ca7ec),
-      to(#016a9e)
-    ) !important;
-  }
-
-  .twitter-container {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#61bffa),
-      to(#0fa3ff)
-    ) !important;
-  }
-
-  .instagram-container {
-    background: #d6249f;
-    background: radial-gradient(
-      circle at 30% 107%,
-      #fdf497 0%,
-      #fdf497 5%,
-      #fd5949 45%,
-      #d6249f 60%,
-      #285aeb 90%
-    ) !important;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
-  }
-
-  .facebook-container {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#56bffc),
-      to(#0064d6)
-    ) !important;
-  }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 768px) {
-  .title-lineaHorizontal__contactos {
-    width: 20vw !important;
-    height: 0.3vw !important;
-    left: -9vw;
-    top: 0.4vw;
-  }
-
-  .whatsapp-container {
-    margin-top: 17%;
-  }
-
-  .style__text-hazme-click {
-    width: 15vw !important;
-    margin-top: 4%;
-    left: 0.5vw !important;
-    font-size: 2.5vw !important;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .style__animation-seguime {
-    width: 30vw !important;
-    right: 1.5vw !important;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 600px) {
-  .whatsapp-container {
-    margin-top: 17%;
-  }
-
-  .style__text-hazme-click {
-    width: 15vw !important;
-    margin-top: 4%;
-    left: 0.5vw !important;
-    font-size: 2.5vw !important;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 320px) {
-  .container-mail {
-    margin-top: 1.2%;
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .style-h1__title-contactos {
+    margin-top: -6vw;
   }
 }

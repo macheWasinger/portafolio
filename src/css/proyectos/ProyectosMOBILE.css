@@ -1,8 +1,11 @@
 @media screen and (max-width: 800px) {
   .container-padre__proyectos {
     height: 150vw;
-    padding-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #2a2a2a;
+    overflow: hidden;
   }
 
   .style-h1__proyectos {
@@ -14,7 +17,7 @@
     width: 20vw !important;
     height: 0.3vw !important;
     left: -10vw;
-    top: -1.2vw;
+    top: -4.5vw;
   }
 
   .style-h3-subtitulo__proyectos {
@@ -26,31 +29,10 @@
     display: none;
   }
 
-  /* .style-a__project:hover:before {
-    height: 0;
-  }
-
-  .style-a__project:hover .style-span__text-tech {
-    height: 5.2vw;
-    padding: 0 5px;
-    padding-right: 7px;
-    padding-top: 1px;
-    margin-left: 4.8px;
-    margin-top: 5.5px;
-    font-size: 3vw;
-    box-shadow: 0 0 5px #fff;
-    transition: all 0.7s;
-  } */
-
-  /* .style-a__project .fa-eye {
-    font-size: 0 !important;
-  } */
-
   .carousel {
     display: block;
     width: 95% !important;
     margin: auto;
-    margin-top: 13%;
   }
 
   .caousel-item {
