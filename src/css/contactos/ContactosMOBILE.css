@@ -24,14 +24,25 @@
     width: 50vw !important;
   }
 
+  .title-logo {
+    right: 0;
+  }
+
   .logo-redSocial__container .style-i {
     font-size: 6.5vw;
     color: #ffffff;
+    position: relative;
   }
 
   .logo-redSocial__container:hover .title-logo {
-    position: static;
-    font-size: 4vw;
+    font-size: 0;
+    margin-left: 0;
+    top: 0;
+  }
+
+  .logo-redSocial__container:hover .style-i {
+    bottom: 0vw;
+    right: 0;
   }
 
   .container__site-footer {

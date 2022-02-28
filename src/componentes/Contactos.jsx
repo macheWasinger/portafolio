@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-scroll";
 
 import logo from "../img/logo-mw.png";
-import hand from "../img/hand.png";
 
 const Contactos = () => {
   return (

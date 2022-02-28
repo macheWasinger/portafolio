@@ -28,18 +28,25 @@
 .logo-redSocial__container .style-i {
   font-size: 2vw;
   color: #ffffff;
+  position: relative;
 }
 
 .title-logo {
   font-size: 0;
   color: #fff;
   position: absolute;
-  right: 10.4vw;
 }
 
 .logo-redSocial__container:hover .title-logo {
-  position: static;
+  /* position: static; */
   font-size: 1.1vw;
+  top: 12.8vw;
+  margin-left: 1vw;
+  transition: all 0.5s;
+}
+
+.logo-redSocial__container:hover .style-i {
+  right: 1.5vw;
 }
 
 .style-h1__title-contactos {
@@ -128,7 +135,7 @@
 .container-whatsapp {
   width: 3.2vw;
   height: 3.2vw;
-  border-radius: 40% !important;
+  border-radius: 40%;
   background: -webkit-gradient(
     linear,
     left top,
@@ -136,7 +143,6 @@
     from(#83ff8f),
     to(#248f34)
   );
-  border-radius: 50%;
   margin-top: 1% !important;
   display: flex;
   flex-direction: row-reverse;
@@ -144,6 +150,11 @@
   margin: auto;
   display: grid;
   place-items: center;
+}
+
+.container-whatsapp:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.05);
 }
 
 .whatsapp-container {
