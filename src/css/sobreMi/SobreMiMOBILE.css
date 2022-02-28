@@ -24,7 +24,7 @@
   .style-smallImage {
     width: 100%;
     height: 100%;
-    border: 1.5vw solid #3a3a3a;
+    /* border: 1.5vw solid #3a3a3a; */
     left: 0;
     bottom: 0;
   }
@@ -84,20 +84,6 @@
     left: -20.5vw !important;
   }
 
-  @keyframes animarButtonMobile {
-    0% {
-      border-radius: 0 3vw 0 3vw;
-    }
-
-    50% {
-      border-radius: 3vw 0 3vw 0;
-    }
-
-    100% {
-      border-radius: 0 3vw 0 3vw;
-    }
-  }
-
   .style-button-descargarCV {
     width: 23.7vw;
     height: 7.5vw;
@@ -105,9 +91,8 @@
     position: relative;
     left: 20.8vw;
     top: 2.5vw;
-    border-radius: 0 3.4vw 0 3.4vw;
+    border-radius: 56% 34% 48% 25% / 74% 40% 99% 58%;
     font-size: 2.7vw;
-    text-shadow: 0.25vw 0.3vw 0.35vw #2a2a2a;
     box-shadow: 0 0 10px #2a2a2a;
   }
 

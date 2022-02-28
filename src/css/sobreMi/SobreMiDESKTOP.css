@@ -39,16 +39,20 @@
 
 .container-image {
   width: 19vw;
-  height: 23.9vw;
+  height: 23vw;
   border: 0.7vw solid #ffb633;
-  top: 8%;
+  border-radius: 56% 34% 48% 25% / 74% 40% 99% 58%;
+  /* position: relative; */
+  right: 2%;
+  top: 0;
 }
 
 .style-smallImage {
   width: 19vw;
   height: 23.8vw;
-  border: 0.8vw solid #3a3a3a;
-  left: 9%;
+  /* border: 0.8vw solid #3a3a3a; */
+  border-radius: 56% 34% 48% 25% / 74% 40% 99% 58%;
+  left: 10%;
   bottom: 13%;
   padding-top: 2px;
   background-color: #ffffff;
@@ -87,15 +91,6 @@
   text-align: left;
 }
 
-.container-text_sobreMi .style-span_linea-horizontal {
-  width: 18%;
-  height: 0.2vw;
-  background-color: #ffb633;
-  border-radius: 25px;
-  top: -0.3vw;
-  left: 0.25vw;
-}
-
 .style-p-sobreMi,
 .text-hobbies {
   color: rgb(192, 192, 192);
@@ -127,11 +122,12 @@
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   box-shadow: 1px 2px 3px #000000;
   margin-top: 1.5vw;
   position: relative;
-  left: 2.2vw;
+  left: 18.2vw;
+  border-radius: 56% 34% 48% 25% / 74% 40% 99% 58%;
 }
 
 .style-button-descargarCV:hover {
@@ -144,12 +140,12 @@
     to(#3a3a3a)
   );
   transition: all 0.7s;
-  /* border-radius: 0 1.4vw 0 1.4vw; */
-  animation: animarButton 1.5s alternate;
-  animation-delay: 0.2s;
+  border-radius: 74% 40% 99% 58% / 56% 34% 48% 25%;
+  /* animation: animarButton 1.5s alternate;
+  animation-delay: 0.2s; */
 }
 
-@keyframes animarButton {
+/* @keyframes animarButton {
   0% {
     border-radius: 0 1.4vw 0 1.4vw;
   }
@@ -161,7 +157,7 @@
   100% {
     border-radius: 0 1.4vw 0 1.4vw;
   }
-}
+} */
 
 @media only screen and (min-width: 2560px) {
   .style-p-sobreMi,
