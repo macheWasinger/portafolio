@@ -105,19 +105,19 @@
   }
 
   .container-textFrontendJR-iconFrontend {
-    width: 43vw;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: auto;
+    margin: 0 !important;
     position: relative;
     bottom: 0.5vw;
-    /* background-color: red; */
   }
 
   .container-textFrontendJR-iconFrontend > img {
     width: 7vw !important;
     height: 7vw !important;
+    margin-left: 0;
     position: relative;
     top: -3px !important;
   }
@@ -127,7 +127,7 @@
     font-family: "Anton", sans-serif;
     font-size: 2.7vw;
     letter-spacing: 2px;
-    margin-left: 4%;
+    /* margin-left: 4%; */
   }
 }
 

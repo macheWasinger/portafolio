@@ -67,7 +67,7 @@ const Home = () => {
               data-aos-delay="1400"
             >
               <h2 className="style-frontendJr">
-                {"{ "} Frontend Jr {" }"}
+                {"{ "} Frontend Developer Jr {" }"}
               </h2>
               <img loading="lazy" src={iconFrontend} alt="" />
             </div>

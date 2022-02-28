@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   text-decoration: none !important;
 }
 
@@ -84,13 +84,10 @@
   height: 100%;
 }
 
-.container-project > .style-image__product {
-  transition-delay: 0.2s;
-}
-
 .style-image__product:hover {
   transform: scale(1.05);
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 .container__text-tech__project-1,

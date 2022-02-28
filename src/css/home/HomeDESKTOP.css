@@ -116,7 +116,7 @@ a,
 }
 
 .container-textFrontendJR-iconFrontend {
-  width: 13vw;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -129,6 +129,7 @@ a,
 .container-textFrontendJR-iconFrontend > img {
   width: 2vw;
   height: 2vw;
+  margin-left: 1vw;
   position: relative;
   top: 0;
 }
