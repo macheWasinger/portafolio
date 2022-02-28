@@ -159,13 +159,6 @@
   }
 } */
 
-@media only screen and (min-width: 2560px) and (max-width: 2560) {
-  .style-p-sobreMi,
-  .text-hobbies {
-    font-size: 1.2vw;
-  }
-}
-
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
   .container-padre_sobreMi {
     height: 50vw;
@@ -186,10 +179,24 @@
     width: 25vw;
     height: 30vw;
   }
+
+  .style-button-descargarCV {
+    width: 10vw;
+    height: 3.7vw;
+    font-size: 1.1vw;
+    position: relative;
+    left: 22.8vw;
+  }
 }
 
 @media only screen and (min-width: 1301px) and (max-width: 2560px) {
   .container-padre_sobreMi {
     padding-top: 1.5vw;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
+  .container-text_sobreMi p {
+    font-size: 1.2vw;
   }
 }
