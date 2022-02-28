@@ -40,7 +40,6 @@
 .logo-redSocial__container:hover .title-logo {
   position: static;
   font-size: 1.1vw;
-  text-shadow: 0.05vw 0.1vw 0.15vw #000000;
 }
 
 .style-h1__title-contactos {
