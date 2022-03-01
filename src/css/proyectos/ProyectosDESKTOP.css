@@ -49,7 +49,7 @@
 .style-h3-subtitulo__proyectos {
   text-transform: uppercase;
   font-size: 1.6vw;
-  margin-top: 4vw;
+  margin-top: 3.5vw;
   letter-spacing: 3px;
 }
 
@@ -57,7 +57,7 @@
   width: 95vw;
   height: auto;
   margin: auto;
-  margin-top: 5vw;
+  margin-top: 4vw;
   display: flex;
   /* background-color: red !important; */
   /* box-shadow: 1px 2px 9px #000000; */
@@ -69,7 +69,7 @@
   border-radius: 10px;
   margin: auto;
   padding-top: 0.5vw;
-  background-color: #595959;
+  background-color: #575757;
 }
 
 .container-project:hover {
