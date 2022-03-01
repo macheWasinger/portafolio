@@ -30,17 +30,6 @@
   letter-spacing: 2px;
 }
 
-.title-proyectos__lineaHorizontal {
-  background-color: #ffb633 !important;
-  width: 8% !important;
-  height: 0.2vw !important;
-  border-radius: 5px;
-  margin: auto;
-  position: relative;
-  right: 4.5vw;
-  top: -0.3vw;
-}
-
 .style-h1__proyectos,
 .style-h3-subtitulo__proyectos {
   text-shadow: 1px 2px 3px #000000;
@@ -48,9 +37,11 @@
 
 .style-h3-subtitulo__proyectos {
   text-transform: uppercase;
-  font-size: 1.6vw;
-  margin-top: 3.5vw;
-  letter-spacing: 3px;
+  font-size: 1.5vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 3vw;
+  letter-spacing: 2px;
+  color: rgb(192, 192, 192) !important;
 }
 
 .container-proyectos {
