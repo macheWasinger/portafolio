@@ -15,7 +15,7 @@ const Proyectos = () => {
       <a name="Proyectos"></a>
       <h1 className="style-h1__proyectos title-font">Proyectos</h1>
       <h3 className="style-h3-subtitulo__proyectos">
-        Estos son algunos de mis proyectos
+        Son algunos de mis proyectos
       </h3>
       <div className="container-proyectos">
         <div
