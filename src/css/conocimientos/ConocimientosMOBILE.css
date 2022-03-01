@@ -37,16 +37,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 2%;
-    background-image: linear-gradient(
-      to left bottom,
-      #1f1f1f,
-      #303030,
-      #424242,
-      #555555,
-      #696969
-    );
-    box-shadow: 1px 2px 3px #000000;
-    border-radius: 4px;
+  }
+
+  .container__logo-title-tech::before {
+    width: 40vw;
+    height: 33vw;
+    opacity: 0.15;
   }
 
   .style-logo-tech {

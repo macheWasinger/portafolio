@@ -66,6 +66,7 @@
 .container-project:hover {
   box-shadow: 2px 3px 4px #2a2a2a;
   transition: all 0.3s !important;
+  cursor: pointer;
 }
 
 .container-text-tech {
@@ -76,12 +77,6 @@
 .style-image__product {
   width: 20vw;
   height: 12vw;
-}
-
-.style-image__product:hover {
-  transform: scale(1.05);
-  transition: all 0.5s;
-  cursor: pointer;
 }
 
 .container__text-tech__project-1,
