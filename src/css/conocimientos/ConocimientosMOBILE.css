@@ -12,6 +12,17 @@
     font-size: 8vw;
   }
 
+  .marco-separator-conocimientos {
+    width: 100%;
+    height: 10vw;
+    margin-top: -2.5vw !important;
+    position: relative;
+    bottom: 2vw;
+    clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 34%, 0 24%);
+    background-color: #5a5a5a;
+    /* opacity: 0.2; */
+  }
+
   /* .style-h3-subtitulo {
     font-size: 2.5vw;
   } */

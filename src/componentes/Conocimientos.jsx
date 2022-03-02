@@ -20,6 +20,7 @@ const Conocimientos = () => {
   return (
     <div loading="lazy" className="container-padre_conocimientos">
       <a name="Conocimientos"></a>
+      <div className="marco-separator-conocimientos"></div>
       <h1 className="style-h1-title color-white title-font">Conocimientos</h1>
       {/* <h3 className="style-h3-subtitulo color-white">
         Mis conocimientos de software

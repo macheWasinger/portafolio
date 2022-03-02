@@ -4,7 +4,7 @@
 
 .container-padre {
   width: 100%;
-  height: 47vw;
+  height: 43vw;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -29,7 +29,7 @@
 
 .container_fondo-presentacion-imageDev {
   width: 100%;
-  height: 47vw;
+  height: 43vw;
   background-image: url("../../img/imageFondoInicio.png");
   background-size: cover;
   background-position-y: 100%;
@@ -45,7 +45,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 6% !important;
+  margin-top: 4.8% !important;
   position: relative;
   left: 12px;
   margin: auto;
