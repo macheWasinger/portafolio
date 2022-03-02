@@ -11,7 +11,7 @@
   background-position: 100%;
   background-attachment: fixed;
   /* overflow: hidden; */
-  padding-top: 6vw;
+  padding-top: 6vw !important;
 }
 
 .marco-separator-conocimientos {

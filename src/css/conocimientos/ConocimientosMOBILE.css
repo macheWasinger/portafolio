@@ -4,11 +4,11 @@
     background-image: url("../../img/fondoConocimientosMobile.png");
     background-position: center;
     overflow: none !important;
-    padding-top: 0vw;
+    padding-top: 0vw !important;
   }
 
   .style-h1-title {
-    margin-top: 18%;
+    margin-top: 12%;
     font-size: 8vw;
   }
 
