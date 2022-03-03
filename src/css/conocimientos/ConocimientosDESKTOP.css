@@ -120,8 +120,11 @@
 }
 
 .style-logo-tech {
-  width: 6.5vw;
-  height: 6.5vw;
+  width: 5.5vw;
+  height: 5.5vw;
+  padding: 0.2vw;
+  background-color: #fff;
+  border-radius: 68% 74% 100% 100% / 65% 63% 68% 67%;
   transition-duration: 0.5s;
 }
 
@@ -146,10 +149,11 @@
   color: #fff;
   text-shadow: 1px 2px 3px #000;
   font-size: 1vw;
-  font-weight: 600;
+  font-weight: 400 !important;
   letter-spacing: 1px;
   /* text-transform: uppercase; */
   position: relative;
+  top: 0.5vw;
 }
 
 @media only screen and (min-width: 2560px) {
