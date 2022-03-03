@@ -5,7 +5,7 @@
 
 .container-padre__proyectos {
   width: 100%;
-  height: 48vw;
+  height: 51vw;
   background-image: linear-gradient(
     to bottom,
     #2a2a2a,
@@ -14,7 +14,7 @@
     #4f4f4f,
     #5c5c5c
   );
-  padding-top: 5vw;
+  padding-top: 8vw;
   /* overflow: hidden; */
 }
 
