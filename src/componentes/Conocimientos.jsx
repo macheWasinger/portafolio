@@ -47,7 +47,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-left"
         >
-          <h3 className="style-text__title-tech">GRID</h3>
+          <h3 className="style-text__title-tech">Grid</h3>
           <img loading="lazy" src={grid} alt="" className="style-logo-tech" />
         </div>
         <div
@@ -55,7 +55,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-left"
         >
-          <h3 className="style-text__title-tech">JAVASCRIPT</h3>
+          <h3 className="style-text__title-tech">JavaScript</h3>
           <img loading="lazy" src={js} alt="" className="style-logo-tech" />
         </div>
         <div
@@ -63,7 +63,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-right"
         >
-          <h3 className="style-text__title-tech">RESPONSIVE</h3>
+          <h3 className="style-text__title-tech">Responsive</h3>
           <img
             loading="lazy"
             src={responsive}
@@ -76,7 +76,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-right"
         >
-          <h3 className="style-text__title-tech">REACT</h3>
+          <h3 className="style-text__title-tech">React</h3>
           <img loading="lazy" src={react} alt="" className="style-logo-tech" />
         </div>
         <div
@@ -84,7 +84,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-left"
         >
-          <h3 className="style-text__title-tech">BOOTSTRAP</h3>
+          <h3 className="style-text__title-tech">Bootstrap</h3>
           <img
             loading="lazy"
             src={bootstrap}
@@ -97,7 +97,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-left"
         >
-          <h3 className="style-text__title-tech">PHOTOSHOP</h3>
+          <h3 className="style-text__title-tech">Photoshop</h3>
           <img
             loading="lazy"
             src={photoshop}
@@ -110,7 +110,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-right"
         >
-          <h3 className="style-text__title-tech">FIGMA</h3>
+          <h3 className="style-text__title-tech">Figma</h3>
           <img loading="lazy" src={figma} alt="" className="style-logo-tech" />
         </div>
         <div
@@ -118,7 +118,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-right"
         >
-          <h3 className="style-text__title-tech">CANVA</h3>
+          <h3 className="style-text__title-tech">Canva</h3>
           <img loading="lazy" src={canva} alt="" className="style-logo-tech" />
         </div>
         <div
@@ -126,7 +126,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-left"
         >
-          <h3 className="style-text__title-tech">JAVA</h3>
+          <h3 className="style-text__title-tech">Java</h3>
           <img loading="lazy" src={java} alt="" className="style-logo-tech" />
         </div>
         <div
@@ -134,7 +134,7 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-left"
         >
-          <h3 className="style-text__title-tech">PYTHON</h3>
+          <h3 className="style-text__title-tech">Python</h3>
           <img loading="lazy" src={python} alt="" className="style-logo-tech" />
         </div>
       </div>

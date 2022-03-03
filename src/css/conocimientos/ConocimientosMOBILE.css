@@ -1,10 +1,20 @@
 @media screen and (max-width: 800px) {
   .container-padre_conocimientos {
     height: 275vw;
-    background-image: url("../../img/fondoConocimientosMobile.png");
-    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     overflow: none !important;
     padding-top: 0vw !important;
+  }
+
+  .container-padre_conocimientos::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 275vw;
+    background-image: url("../../img/fondoConocimientosMobile.jpg");
+    background-attachment: fixed;
+    background-position: center;
   }
 
   .style-h1-title {
@@ -75,7 +85,7 @@
   }
 
   .style-text__title-tech {
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
 
   .image-title-tech__container:hover .card__title {
