@@ -138,6 +138,7 @@ const Conocimientos = () => {
           <img loading="lazy" src={python} alt="" className="style-logo-tech" />
         </div>
       </div>
+      <div className="marco-separator-inferior-conocimientos"></div>
     </div>
   );
 };

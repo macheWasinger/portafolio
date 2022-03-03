@@ -6,10 +6,9 @@
   width: 100%;
   height: auto;
   background-color: #5c5c5c;
-  /* padding-top: 17vw; */
-  /* margin-top: 17vw; */
   position: relative;
-  bottom: 0.5vw;
+  bottom: 1vw;
+  padding-top: 1vw;
 }
 
 .container-logos {

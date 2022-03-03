@@ -3,7 +3,9 @@
     width: 100%;
     height: auto;
     background-color: #5c5c5c;
-    padding-top: 0;
+    /* position: relative; */
+    bottom: 0vw;
+    /* padding-top: 1vw; */
   }
 
   .container-logos {

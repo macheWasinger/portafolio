@@ -6,11 +6,12 @@
     justify-content: space-between;
     background-color: #fff !important;
     overflow: hidden;
+    padding-top: 9vw !important;
   }
 
   .style-h1__proyectos {
     font-size: 8vw;
-    margin-top: 12%;
+    margin-top: 3%;
   }
 
   .style-h3-subtitulo__proyectos {

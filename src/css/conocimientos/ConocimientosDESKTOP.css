@@ -26,14 +26,26 @@
   background-size: cover;
 }
 
-.marco-separator-conocimientos {
+.marco-separator-conocimientos,
+.marco-separator-inferior-conocimientos {
   width: 100%;
   height: 6vw;
-  margin-top: -2.5vw !important;
   position: relative;
   bottom: 0.5vw;
   clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 34%, 0 24%);
+}
+
+.marco-separator-conocimientos {
+  margin-top: -2.5vw !important;
   background-color: #585858;
+  /* opacity: 0.2; */
+}
+
+.marco-separator-inferior-conocimientos {
+  margin-top: 4vw !important;
+  clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 34%, 0 24%);
+  transform: rotateX(180deg);
+  background-color: #2e2e2e;
   /* opacity: 0.2; */
 }
 
