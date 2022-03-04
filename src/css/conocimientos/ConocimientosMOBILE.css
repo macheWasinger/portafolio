@@ -14,8 +14,8 @@
     height: 275vw;
     /* background-image: url("../../img/fondoConocimientosMobile.jpg"); */
     /* background-attachment: unset; */
-    background-position: center;
-    background-position-x: 23%;
+    background-position: center center !important;
+    /* background-position-x: 23%; */
   }
 
   .style-h1-title {
