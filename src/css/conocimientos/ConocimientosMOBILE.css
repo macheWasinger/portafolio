@@ -12,9 +12,10 @@
     position: absolute;
     left: 0;
     height: 275vw;
-    background-image: url("../../img/fondoConocimientosMobile.jpg");
-    background-attachment: fixed;
+    /* background-image: url("../../img/fondoConocimientosMobile.jpg"); */
+    /* background-attachment: unset; */
     background-position: center;
+    background-position-x: 23%;
   }
 
   .style-h1-title {
