@@ -35,6 +35,7 @@
   }
 
   .container-arrowDown {
+    display: flex !important;
     position: relative;
     bottom: 4vw;
     /* background-color: red; */
