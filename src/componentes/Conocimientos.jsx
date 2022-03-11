@@ -7,6 +7,8 @@ import grid from "../img/grid.png";
 import js from "../img/js.png";
 import bootstrap from "../img/bootstrap.png";
 import react from "../img/react.png";
+import git from "../img/git.png";
+import github from "../img/github.png";
 import responsive from "../img/responsiveWebDesign.png";
 import photoshop from "../img/photoshop.png";
 import figma from "../img/figma.png";
@@ -47,16 +49,16 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-left"
         >
-          <h3 className="style-text__title-tech">Grid</h3>
-          <img loading="lazy" src={grid} alt="" className="style-logo-tech" />
+          <h3 className="style-text__title-tech">JavaScript</h3>
+          <img loading="lazy" src={js} alt="" className="style-logo-tech" />
         </div>
         <div
           className="container__logo-title-tech"
           data-aos-duration="700"
           data-aos="flip-left"
         >
-          <h3 className="style-text__title-tech">JavaScript</h3>
-          <img loading="lazy" src={js} alt="" className="style-logo-tech" />
+          <h3 className="style-text__title-tech">Grid</h3>
+          <img loading="lazy" src={grid} alt="" className="style-logo-tech" />
         </div>
         <div
           className="container__logo-title-tech"
@@ -97,6 +99,38 @@ const Conocimientos = () => {
           data-aos-duration="700"
           data-aos="flip-left"
         >
+          <h3 className="style-text__title-tech">Git</h3>
+          <img loading="lazy" src={git} alt="" className="style-logo-tech" />
+        </div>
+        <div
+          className="container__logo-title-tech"
+          data-aos-duration="700"
+          data-aos="flip-left"
+        >
+          <h3 className="style-text__title-tech">GitHub</h3>
+          <img loading="lazy" src={github} alt="" className="style-logo-tech" />
+        </div>
+        <div
+          className="container__logo-title-tech"
+          data-aos-duration="700"
+          data-aos="flip-left"
+        >
+          <h3 className="style-text__title-tech">Java</h3>
+          <img loading="lazy" src={java} alt="" className="style-logo-tech" />
+        </div>
+        <div
+          className="container__logo-title-tech"
+          data-aos-duration="700"
+          data-aos="flip-left"
+        >
+          <h3 className="style-text__title-tech">Python</h3>
+          <img loading="lazy" src={python} alt="" className="style-logo-tech" />
+        </div>
+        <div
+          className="container__logo-title-tech"
+          data-aos-duration="700"
+          data-aos="flip-left"
+        >
           <h3 className="style-text__title-tech">Photoshop</h3>
           <img
             loading="lazy"
@@ -120,22 +154,6 @@ const Conocimientos = () => {
         >
           <h3 className="style-text__title-tech">Canva</h3>
           <img loading="lazy" src={canva} alt="" className="style-logo-tech" />
-        </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
-          <h3 className="style-text__title-tech">Java</h3>
-          <img loading="lazy" src={java} alt="" className="style-logo-tech" />
-        </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
-          <h3 className="style-text__title-tech">Python</h3>
-          <img loading="lazy" src={python} alt="" className="style-logo-tech" />
         </div>
       </div>
       <div className="marco-separator-inferior-conocimientos"></div>
