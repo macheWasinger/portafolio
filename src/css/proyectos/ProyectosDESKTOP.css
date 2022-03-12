@@ -67,6 +67,7 @@
 .container-project:hover {
   box-shadow: 2px 3px 4px #2a2a2a;
   transition: all 0.3s !important;
+  transform: rotate;
 }
 
 .container-text-tech {
@@ -110,19 +111,24 @@
 .title-project {
   width: auto;
   height: auto;
-  padding: 2.5%;
-  background-color: #2a2a2a;
+  padding: 1%;
+  /* background-color: #2a2a2a; */
+  background: linear-gradient(#ffb633, #fff);
   font-size: 1.5vw;
   font-weight: 600;
-  text-shadow: 1px 2px 3px #000;
+  /* text-shadow: 1px 2px 3px #000; */
   color: #ffffff;
-  border-style: solid;
+  /* border-style: solid;
   border-right: 3px;
-  border-top: 3px;
-  border-color: #000000;
-  border-radius: 5px;
+  border-top: 3px; */
+  /* border-color: #000000; */
+  /* border-radius: 5px; */
   /* border-radius: 5px; */
   /* box-shadow: 0 0 7px #000; */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
   transition-delay: 0.3s;
 }
 
