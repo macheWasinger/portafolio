@@ -108,7 +108,7 @@
 
   .style-span__text-tech {
     /* width: auto !important;
-  height: auto !important;
+  height: auto !important;                                                        
   padding: 0 2%;
   margin-bottom: 3%; */
     font-size: 3.7vw !important;
@@ -125,10 +125,31 @@
   justify-content: space-evenly;
 } */
 
-  .verProyecto,
-  .verCodigo {
+  .container__icons-techs,
+  .container__iconTechs-NoResponsive {
+    margin-bottom: 0;
+    margin-top: 1vw;
+    /* background-color: blue; */
+  }
+
+  .container__icons-techs img,
+  .container__iconTechs-NoResponsive img {
+    width: 9vw;
+    height: 9vw;
+  }
+
+  .icon-js,
+  .icon-react,
+  .icon-responsive {
+    width: 8.15vw !important;
+    height: 8.15vw !important;
+  }
+
+  .verDemo,
+  .verRepo {
     padding: 1.3vw !important;
     padding-top: 1vw !important;
+    margin-top: 3vw;
     font-size: 3.5vw !important;
     /* color: #000000;
     border: 3px solid #000000;

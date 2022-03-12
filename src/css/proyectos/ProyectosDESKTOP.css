@@ -100,11 +100,11 @@
 
 .container-tech {
   width: auto !important;
-  height: 8.5vw !important;
+  height: 10vw !important;
   display: flex;
   justify-content: space-between;
   margin-top: 1vw;
-  /* background-color: blue; */
+  /* background-color: red; */
 }
 
 .title-project {
@@ -146,9 +146,43 @@
   /* background-color: green; */
 }
 
-.verProyecto,
-.verCodigo {
+.container__icons-techs {
+  width: 100%;
+  height: auto;
+}
+
+.container__iconTechs-NoResponsive {
+  width: 70%;
+  height: auto;
+}
+
+.container__icons-techs,
+.container__iconTechs-NoResponsive {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 0.5vw;
+  /* background-color: blue; */
+}
+
+.container__icons-techs img,
+.container__iconTechs-NoResponsive img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.icon-js,
+.icon-react,
+.icon-responsive {
+  width: 2.25vw !important;
+  height: 2.25vw !important;
+}
+
+.verDemo,
+.verRepo {
   padding: 0.5vw;
+  padding-top: 0.2vw;
+  padding-bottom: 0.4vw;
   font-size: 1vw;
   text-shadow: 1px 2px 3px #000000;
   color: #ffb633;
@@ -157,8 +191,8 @@
   font-weight: 600;
 }
 
-.verProyecto:hover,
-.verCodigo:hover {
+.verDemo:hover,
+.verRepo:hover {
   transition-duration: 0.5s;
   background-color: #ffb633;
   border: 2px solid #ffb633;

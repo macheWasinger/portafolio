@@ -5,6 +5,13 @@ import responsive from "../img/responsive.png";
 import desktopMaquetado from "../img/desktopMaquetado.png";
 import responsivePortafolio from "../img/responsivePortafolio.png";
 
+import html from "../img/html.png";
+import css from "../img/css.png";
+import js from "../img/js.png";
+import react from "../img/react.png";
+import iconResponsive from "../img/responsiveWebDesign.png";
+import bootstrap from "../img/bootstrap.png";
+
 const Proyectos = () => {
   const [active, setActive] = React.useState(false);
 
@@ -32,16 +39,20 @@ const Proyectos = () => {
           />
           <div className="container-tech container__text-tech__project-4">
             <h3 className="title-project">Portafolio</h3>
-            <span className="style-span__text-tech">
-              HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
-              Design
-            </span>
+            <div className="container__icons-techs">
+              <img src={html} alt="" />
+              <img src={css} alt="" />
+              <img src={js} className="icon-js" alt="" />
+              <img src={react} className="icon-react" alt="" />
+              <img src={iconResponsive} className="icon-responsive" alt="" />
+              <img src={bootstrap} alt="" />
+            </div>
             <div className="container-ver">
               <a
                 href="https://github.com/macheWasinger/portafolio"
                 target="_blank"
               >
-                <h3 className="verCodigo">Ver código</h3>
+                <h3 className="verRepo">Repo</h3>
               </a>
             </div>
           </div>
@@ -60,23 +71,31 @@ const Proyectos = () => {
           />
           <div className="container-tech container__text-tech__project-1">
             <h3 className="title-project">Copia Meli</h3>
-            <span className="style-span__text-tech">
+            {/* <span className="style-span__text-tech">
               HTML - CSS - JavaScript - Bootstrap
-            </span>
+            </span> */}
+
+            <div className="container__iconTechs-NoResponsive">
+              <img src={html} alt="" />
+              <img src={css} alt="" />
+              <img src={js} className="icon-js" alt="" />
+              <img src={bootstrap} alt="" />
+            </div>
+
             <div className="container-ver">
               <a
                 href="https://machewasinger.github.io/MaquetadoMeli.github.io/"
                 target="_blank"
                 className="style-a__project style-a-project2"
               >
-                <h3 className="verProyecto">Ver proyecto</h3>
+                <h3 className="verDemo">Demo</h3>
               </a>
 
               <a
                 href="https://github.com/macheWasinger/MaquetadoMeli.github.io"
                 target="_blank"
               >
-                <h3 className="verCodigo">Ver código</h3>
+                <h3 className="verRepo">Repo</h3>
               </a>
             </div>
           </div>
@@ -95,24 +114,28 @@ const Proyectos = () => {
           />{" "}
           <div className="container-tech container__text-tech__project-2">
             <h3 className="title-project">Destino ARG</h3>
-            <span className="style-span__text-tech">
-              HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
-              Design
-            </span>
+            <div className="container__icons-techs">
+              <img src={html} alt="" />
+              <img src={css} alt="" />
+              <img src={js} className="icon-js" alt="" />
+              <img src={react} className="icon-react" alt="" />
+              <img src={iconResponsive} className="icon-responsive" alt="" />
+              <img src={bootstrap} alt="" />
+            </div>
             <div className="container-ver">
               <a
                 href="https://machewasinger.github.io/destinoarg/"
                 target="_blank"
                 className="style-a__project"
               >
-                <h3 className="verProyecto">Ver proyecto</h3>
+                <h3 className="verDemo">Demo</h3>
               </a>
 
               <a
                 href="https://github.com/macheWasinger/destinoarg"
                 target="_blank"
               >
-                <h3 className="verCodigo">Ver Código</h3>
+                <h3 className="verRepo">Repo</h3>
               </a>
             </div>
           </div>
@@ -131,22 +154,29 @@ const Proyectos = () => {
           />
           <div className="container-tech container__text-tech__project-3">
             <h3 className="title-project">Maquetado</h3>
-            <span className="style-span__text-tech">
+            {/* <span className="style-span__text-tech">
               HTML - CSS - JavaScript - Bootstrap
-            </span>
+            </span> */}
+
+            <div className="container__iconTechs-NoResponsive">
+              <img src={html} alt="" />
+              <img src={css} alt="" />
+              <img src={js} className="icon-js" alt="" />
+              <img src={bootstrap} alt="" />
+            </div>
             <div className="container-ver">
               <a
                 href="https://machewasinger.github.io/Maquetado.github.io/"
                 target="_blank"
                 className="style-a__project style-a-project3"
               >
-                <h3 className="verProyecto">Ver proyecto</h3>
+                <h3 className="verDemo">Demo</h3>
               </a>
               <a
                 href="https://github.com/macheWasinger/Maquetado.github.io"
                 target="_blank"
               >
-                <h3 className="verCodigo">Ver código</h3>
+                <h3 className="verRepo">Repo</h3>
               </a>
             </div>
           </div>
@@ -175,16 +205,29 @@ const Proyectos = () => {
               />
               <div className="container-tech container__text-tech__project-4">
                 <h3 className="title-project">Portafolio</h3>
-                <span className="style-span__text-tech">
+                {/* <span className="style-span__text-tech">
                   HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
                   Design
-                </span>
+                </span> */}
+
+                <div className="container__icons-techs">
+                  <img src={html} alt="" />
+                  <img src={css} alt="" />
+                  <img src={js} className="icon-js" alt="" />
+                  <img src={react} className="icon-react" alt="" />
+                  <img
+                    src={iconResponsive}
+                    className="icon-responsive"
+                    alt=""
+                  />
+                  <img src={bootstrap} alt="" />
+                </div>
                 <div className="container-ver">
                   <a
                     href="https://github.com/macheWasinger/portafolio"
                     target="_blank"
                   >
-                    <h3 className="verCodigo">Ver código</h3>
+                    <h3 className="verRepo">Repo</h3>
                   </a>
                 </div>
               </div>
@@ -204,23 +247,30 @@ const Proyectos = () => {
               />
               <div className="container-tech container__text-tech__project-1">
                 <h3 className="title-project">Copia Meli</h3>
-                <span className="style-span__text-tech">
+                {/* <span className="style-span__text-tech">
                   HTML - CSS - JavaScript - Bootstrap
-                </span>
+                </span> */}
+
+                <div className="container__iconTechs-NoResponsive">
+                  <img src={html} alt="" />
+                  <img src={css} alt="" />
+                  <img src={js} className="icon-js" alt="" />
+                  <img src={bootstrap} alt="" />
+                </div>
                 <div className="container-ver">
                   <a
                     href="https://machewasinger.github.io/MaquetadoMeli.github.io/"
                     target="_blank"
                     className="style-a__project style-a-project2"
                   >
-                    <h3 className="verProyecto">Ver proyecto</h3>
+                    <h3 className="verDemo">Demo</h3>
                   </a>
 
                   <a
                     href="https://github.com/macheWasinger/MaquetadoMeli.github.io"
                     target="_blank"
                   >
-                    <h3 className="verCodigo">Ver código</h3>
+                    <h3 className="verRepo">Repo</h3>
                   </a>
                 </div>
               </div>
@@ -240,24 +290,37 @@ const Proyectos = () => {
               />
               <div className="container-tech container__text-tech__project-2">
                 <h3 className="title-project">Destino ARG</h3>
-                <span className="style-span__text-tech">
+                {/* <span className="style-span__text-tech">
                   HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
                   Design
-                </span>
+                </span> */}
+
+                <div className="container__icons-techs">
+                  <img src={html} alt="" />
+                  <img src={css} alt="" />
+                  <img src={js} className="icon-js" alt="" />
+                  <img src={react} className="icon-react" alt="" />
+                  <img
+                    src={iconResponsive}
+                    className="icon-responsive"
+                    alt=""
+                  />
+                  <img src={bootstrap} alt="" />
+                </div>
                 <div className="container-ver">
                   <a
                     href="https://machewasinger.github.io/destinoarg/"
                     target="_blank"
                     className="style-a__project"
                   >
-                    <h3 className="verProyecto">Ver proyecto</h3>
+                    <h3 className="verDemo">Demo</h3>
                   </a>
 
                   <a
                     href="https://github.com/macheWasinger/destinoarg"
                     target="_blank"
                   >
-                    <h3 className="verCodigo">Ver Código</h3>
+                    <h3 className="verRepo">Repo</h3>
                   </a>
                 </div>
               </div>
@@ -277,22 +340,29 @@ const Proyectos = () => {
               />
               <div className="container-tech container__text-tech__project-3">
                 <h3 className="title-project">Maquetado</h3>
-                <span className="style-span__text-tech">
+                {/* <span className="style-span__text-tech">
                   HTML - CSS - JavaScript - Bootstrap
-                </span>
+                </span> */}
+
+                <div className="container__iconTechs-NoResponsive">
+                  <img src={html} alt="" />
+                  <img src={css} alt="" />
+                  <img src={js} className="icon-js" alt="" />
+                  <img src={bootstrap} alt="" />
+                </div>
                 <div className="container-ver">
                   <a
                     href="https://machewasinger.github.io/Maquetado.github.io/"
                     target="_blank"
                     className="style-a__project style-a-project3"
                   >
-                    <h3 className="verProyecto">Ver proyecto</h3>
+                    <h3 className="verDemo">Demo</h3>
                   </a>
                   <a
                     href="https://github.com/macheWasinger/Maquetado.github.io"
                     target="_blank"
                   >
-                    <h3 className="verCodigo">Ver código</h3>
+                    <h3 className="verRepo">Repo</h3>
                   </a>
                 </div>
               </div>

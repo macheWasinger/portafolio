@@ -3,13 +3,13 @@ import React from "react";
 /********** IMPORTO LOGOS **********/
 import html from "../img/html.png";
 import css from "../img/css.png";
-import grid from "../img/grid.png";
 import js from "../img/js.png";
-import bootstrap from "../img/bootstrap.png";
 import react from "../img/react.png";
+import responsive from "../img/responsiveWebDesign.png";
+import grid from "../img/grid.png";
+import bootstrap from "../img/bootstrap.png";
 import git from "../img/git.png";
 import github from "../img/github.png";
-import responsive from "../img/responsiveWebDesign.png";
 import photoshop from "../img/photoshop.png";
 import figma from "../img/figma.png";
 import canva from "../img/canva.png";
