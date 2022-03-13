@@ -27,7 +27,7 @@
 }
 
 .logo-redSocial__container .style-i {
-  font-size: 2vw;
+  font-size: 2.7vw;
   color: #ffffff;
   position: relative;
 }
@@ -48,6 +48,9 @@
 
 .logo-redSocial__container:hover .style-i {
   right: 1.5vw;
+  top: 0.1vw;
+  font-size: 2vw;
+  transition: all 0.5s;
 }
 
 .style-h1__title-contactos {

@@ -31,7 +31,7 @@
   }
 
   .logo-redSocial__container .style-i {
-    font-size: 6.5vw;
+    font-size: 7vw;
     color: #ffffff;
     position: relative;
   }
@@ -45,6 +45,7 @@
   .logo-redSocial__container:hover .style-i {
     bottom: 0vw;
     right: 0;
+    font-size: 7vw;
   }
 
   .container__site-footer {
