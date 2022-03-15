@@ -91,14 +91,22 @@
     position: relative;
     left: 20.8vw;
     top: 2.5vw;
-    border-radius: 56% 34% 48% 25% / 74% 40% 99% 58%;
+    border-radius: 10px 2px 10px 2px;
     font-size: 2.7vw;
     box-shadow: 0 0 10px #2a2a2a;
   }
 
   .style-button-descargarCV:hover {
     transition: all 0.3s;
-    animation: animarButtonMobile 1.5s alternate;
+    border-radius: 2px 10px 2px 10px;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#ffb633),
+      to(#b97900)
+    );
+    /* animation: animarButtonMobile 1.5s alternate; */
   }
 }
 

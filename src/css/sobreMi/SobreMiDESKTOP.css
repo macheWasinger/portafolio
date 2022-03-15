@@ -117,7 +117,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.7s;
+  transition: all 0.5s;
   font-size: 1vw;
   font-weight: 600;
   color: #fff;
@@ -127,7 +127,7 @@
   margin-top: 1.5vw;
   position: relative;
   left: 18.2vw;
-  border-radius: 56% 34% 48% 25% / 74% 40% 99% 58%;
+  border-radius: 20px 5px 20px 5px;
 }
 
 .style-button-descargarCV:hover {
@@ -139,8 +139,8 @@
     from(#6d6d6d),
     to(#3a3a3a)
   );
-  transition: all 0.7s;
-  border-radius: 74% 40% 99% 58% / 56% 34% 48% 25%;
+  transition: all 0.5s;
+  border-radius: 5px 20px 5px 20px;
   /* animation: animarButton 1.5s alternate;
   animation-delay: 0.2s; */
 }
