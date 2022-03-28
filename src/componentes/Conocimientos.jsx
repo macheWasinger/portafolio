@@ -15,6 +15,8 @@ import figma from "../img/figma.png";
 import canva from "../img/canva.png";
 import java from "../img/java.png";
 import python from "../img/python.png";
+import vscode from "../img/vscode.png";
+import terminal from "../img/terminal.png";
 
 const Conocimientos = () => {
   const [active, setActive] = React.useState(3);
@@ -154,6 +156,27 @@ const Conocimientos = () => {
         >
           <h3 className="style-text__title-tech">Canva</h3>
           <img loading="lazy" src={canva} alt="" className="style-logo-tech" />
+        </div>
+        <div
+          className="container__logo-title-tech"
+          data-aos-duration="700"
+          data-aos="flip-right"
+        >
+          <h3 className="style-text__title-tech">VS Code</h3>
+          <img loading="lazy" src={vscode} alt="" className="style-logo-tech" />
+        </div>
+        <div
+          className="container__logo-title-tech"
+          data-aos-duration="700"
+          data-aos="flip-right"
+        >
+          <h3 className="style-text__title-tech">Terminal</h3>
+          <img
+            loading="lazy"
+            src={terminal}
+            alt=""
+            className="style-logo-tech"
+          />
         </div>
       </div>
       <div className="marco-separator-inferior-conocimientos"></div>
