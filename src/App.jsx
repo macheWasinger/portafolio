@@ -15,8 +15,10 @@ import "./App.css";
 import "./css/home/HomeDESKTOP.css";
 import "./css/home/HomeMOBILE.css";
 
-import "./css/menu/MenuDESKTOP.css";
-import "./css/menu/MenuMOBILE.css";
+import "./css/menu/Menu-desktop.css";
+import "./css/menu/Menu-mobile.css";
+// import "./css/menu/MenuDESKTOP.css";
+// import "./css/menu/MenuMOBILE.css";
 
 import "./css/sobreMi/SobreMiDESKTOP.css";
 import "./css/sobreMi/SobreMiMOBILE.css";

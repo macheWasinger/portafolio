@@ -7,10 +7,10 @@ import Menu from "./header/Menu";
 import maw from "../img/maw.png";
 import logoAnimado from "../video/logo-mw.mp4";
 import iconFrontend from "../img/icon-frontend.png";
-import { setActiveLink } from "react-scroll/modules/mixins/scroller";
+import MenuDesktop from "./header/MenuDesktop";
 
 const Home = () => {
-  const [active, setActive] = React.useState(false);
+  // const [active, setActive] = React.useState(false);
 
   return (
     <div className="container-padre">
@@ -80,6 +80,7 @@ const Home = () => {
           >
             <i class="fa-solid fa-arrow-down"></i>
           </div>
+          <MenuDesktop />
         </div>
       </div>
     </div>

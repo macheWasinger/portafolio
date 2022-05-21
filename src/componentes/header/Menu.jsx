@@ -1,17 +1,17 @@
 import React from "react";
-import { Link } from "react-scroll";
 import { useState } from "react";
 
 import logoAnimado from "../../video/logo-mw-black.mp4";
 
 const Menu = () => {
-  const [isActive, setActive] = useState(false);
+  const [active, setActive] = React.useState(0);
+  const [isActive, setIsActive] = useState(false);
   const toggleMenu = () => {
-    setActive(!isActive);
+    setIsActive(!isActive);
   };
 
   return (
-    <div className="container-Padre_menu">
+    <div className="container-Padre_menu" style={{ display: "none" }}>
       <div className="burger">
         <input
           type="checkbox"
@@ -36,35 +36,79 @@ const Menu = () => {
         >
           <source src={logoAnimado} />
         </video>
-        <ul>
-          <div className="items-container">
-            <li className="item-li" onClick={toggleMenu}>
-              <a href="#Home" smooth={true}>
-                Inicio
-              </a>
-            </li>
-            <li className="item-li" onClick={toggleMenu}>
-              <a href="#SobreMi" smooth={true}>
-                Sobre mí
-              </a>
-            </li>
-            <li className="item-li" onClick={toggleMenu}>
-              <a href="#Conocimientos" smooth={true}>
-                Conocimientos
-              </a>
-            </li>
-            <li className="item-li" onClick={toggleMenu}>
-              <a href="#Proyectos" smooth={true}>
-                Proyectos
-              </a>
-            </li>
-            <li className="item-li li-contactos" onClick={toggleMenu}>
-              <a href="#Contactos" smooth={true}>
-                Contactos
-              </a>
-            </li>
-          </div>
-        </ul>
+
+        <div className="container-menuMobile shadow">
+          <article
+            className="article-menu w-25 rounded-pill"
+            onClick={toggleMenu}
+          >
+            <a
+              href="#Home"
+              onClick={() => setActive(0)}
+              className={`rounded-pill ${active === 0 ? "ancla_activo" : ""}`}
+              smooth={true}
+            >
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </article>
+
+          <article
+            className="article-menu w-25 rounded-pill"
+            onClick={toggleMenu}
+          >
+            <a
+              href="#SobreMi"
+              onClick={() => setActive(1)}
+              className={`rounded-pill ${active === 1 ? "ancla_activo" : ""}`}
+              smooth={true}
+            >
+              <i class="fa-solid fa-user-tie"></i>
+            </a>
+          </article>
+
+          <article
+            className="article-menu w-25 rounded-pill"
+            onClick={toggleMenu}
+          >
+            <a
+              href="#Conocimientos"
+              onClick={() => setActive(2)}
+              className={`rounded-pill ${active === 2 ? "ancla_activo" : ""}`}
+              smooth={true}
+            >
+              <i class="fa-solid fa-code"></i>
+            </a>
+          </article>
+
+          <article
+            className="article-menu w-25 rounded-pill"
+            onClick={toggleMenu}
+          >
+            <a
+              href="#Proyectos"
+              onClick={() => setActive(3)}
+              className={`rounded-pill ${active === 3 ? "ancla_activo" : ""}`}
+              smooth={true}
+            >
+              <i class="fa-solid fa-laptop-code"></i>
+            </a>
+          </article>
+
+          <article
+            className="article-menu w-25 rounded-pill"
+            onClick={toggleMenu}
+          >
+            <a
+              href="#Contactos"
+              onClick={() => setActive(4)}
+              className={`rounded-pill ${active === 4 ? "ancla_activo" : ""}`}
+              smooth={true}
+            >
+              <i class="fa-solid fa-address-card"></i>
+            </a>
+          </article>
+        </div>
+
         <div className="container-logos">
           <a
             href="https://www.linkedin.com/in/marcelowasinger/"

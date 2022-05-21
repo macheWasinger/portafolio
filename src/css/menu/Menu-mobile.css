@@ -1,0 +1,178 @@
+@media screen and (max-width: 800px) {
+    .container-menuDesktop {
+        display: none !important;
+    }
+  
+  .container-Padre_menu {
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .container-menuMobile {
+    width: 25vw !important;
+    height: 90vw !important;
+    border-radius: 10em;
+    background-color: #2A2A2A !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    position: fixed !important;
+    z-index: 100;
+}
+
+a {
+    color: #fff;
+}
+
+
+.container-menuMobile article {
+    width: 10vw !important;
+    height: 10vw !important;
+    background-color: #2f2f2f;
+}
+
+.container-menuMobile article a {
+    width: 10vw !important;
+    height: 10vw !important;
+    display: grid;
+    place-items: center;
+    font-size: 5vw !important;
+    color: #fff;
+}
+
+  
+  .container-Padre_menu .burger {
+    position: fixed;
+    width: 9vw;
+    height: 1.7em;
+    color: #fff;
+    margin-bottom: 0%;
+    right: 3.8%;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .label-menu {
+    width: 9vw;
+    height: 1.7em;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .label-menu #span-1,
+  #span-2,
+  #span-3 {
+    content: "";
+    background-color: #fff;
+    width: 9vw;
+    height: 0.15em;
+    box-shadow: 2px 2px 2px #555555;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+  
+  #btn-menu {
+    display: none;
+  }
+  
+  /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
+  #btn-menu:checked ~ .label-menu #span-1 {
+    transform: rotate(140deg);
+  }
+  
+  #btn-menu:checked ~ .label-menu #span-2 {
+    opacity: 0;
+  }
+  
+  #btn-menu:checked ~ .label-menu #span-3 {
+    transform: rotate(-140deg);
+  }
+  
+  #btn-menu:checked ~ .label-menu #span-1,
+  #btn-menu:checked ~ .label-menu #span-3 {
+    width: 2em;
+    height: 0.15em;
+    margin-top: 5px;
+    position: relative;
+    box-shadow: none;
+ 
+  }
+
+
+  #btn-menu:checked ~ .label-menu #span-1 {
+    top: 9px ;
+  }
+
+  #btn-menu:checked ~ .label-menu #span-3 {
+    top: -10px !important;
+  }
+
+  .container-Padre_menu .menu-navegacion {
+    top: 0;
+    width: 100vw !important;
+    padding-bottom: 0 !important;
+    height: 100% !important;
+    transition: all 0.5s !important;
+    border-radius: 0;
+    display: grid;
+    place-items: center;
+  }
+
+  .menu-navegacion:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100vw;
+      height: 101%;
+      /* opacity: 0.8; */
+      background-color: #131613;
+  }
+  
+  .container-Padre_menu .hide {
+    display: none !important;
+  }
+  
+  .container-Padre_menu .menu-activado {
+    transition: all 1s;
+  }
+  
+  .container-Padre_menu .menu-navegacion {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    transition: all 1s;
+    z-index: 1;
+  }
+
+  
+  }
+  
+
+  @media only screen and (min-width: 320px) and (max-width: 470px) {
+    .container-menuMobile {
+        width: 50vw !important;
+        height: 150vw !important;
+    }
+    
+    .container-menuMobile article {
+        width: 18vw !important;
+        height: 18vw !important;
+        background-color: #2f2f2f;
+    }
+    
+    .container-menuMobile article a {
+        width: 18vw !important;
+        height: 18vw !important;
+        display: grid;
+        place-items: center;
+        font-size: 8vw !important;
+        color: #fff;
+    }
+  }
