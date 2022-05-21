@@ -179,3 +179,65 @@ a {
         color: #fff;
     }
   }
+
+
+  @media only screen and (min-width: 530px) and (max-width: 800px) {
+    .container-Padre_menu .burger {
+      position: fixed;
+      width: 5.5vw;
+      height: 1.7em;
+      color: #fff;
+      margin-bottom: 0%;
+      right: 2.5%;
+      z-index: 2;
+      cursor: pointer;
+    }
+    
+    .label-menu {
+      width: 5.5vw;
+      height: 1.7em;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .label-menu #span-1,
+    #span-2,
+    #span-3 {
+      content: "";
+      background-color: #fff;
+      width: 5.5vw;
+      height: 0.15em;
+      box-shadow: 2px 2px 2px #555555;
+      border-radius: 4px;
+      transition: all 0.4s;
+    }
+    
+    #btn-menu {
+      display: none;
+    }
+    
+    /* Cuando hago click en el "checkbox", va a producirse el siguiente efecto: */
+    #btn-menu:checked ~ .label-menu #span-1 {
+      transform: rotate(140deg);
+    }
+    
+    #btn-menu:checked ~ .label-menu #span-2 {
+      opacity: 0;
+    }
+    
+    #btn-menu:checked ~ .label-menu #span-3 {
+      transform: rotate(-140deg);
+    }
+    
+    #btn-menu:checked ~ .label-menu #span-1,
+    #btn-menu:checked ~ .label-menu #span-3 {
+      width: 2em;
+      height: 0.15em;
+      margin-top: 5px;
+      position: relative;
+      box-shadow: none;
+   
+    }
+  }
