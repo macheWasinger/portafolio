@@ -129,7 +129,6 @@ a {
       top: 0;
       width: 100vw;
       height: 101%;
-      /* opacity: 0.8; */
       background-color: #131613;
   }
   
@@ -151,6 +150,10 @@ a {
     z-index: 1;
   }
 
+  
+  .menu-navegacion > .container-logos {
+    display: none;
+  }
   
   }
   
