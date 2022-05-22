@@ -95,7 +95,7 @@
   .container-datos__siteFooter {
     width: 63vw;
     height: 7.5vw;
-    margin-left: 9.7%;
+    margin-left: 7.5%;
     /* background-color: green; */
   }
 
@@ -135,7 +135,8 @@
     height: 8vw;
     border-radius: 40%;
     margin-top: 1.6% !important;
-    margin-right: 5.2% !important;
+    margin-left: 3.5vw;
+    /* margin-right: 5.2% !important; */
   }
 
   .whatsapp-container {
@@ -159,7 +160,7 @@
     width: 6.5vw;
     height: 6.5vw;
     margin-top: 1.6% !important;
-    margin-right: 5.2% !important;
+    margin-right: 1% !important;
   }
 
   .whatsapp-container {

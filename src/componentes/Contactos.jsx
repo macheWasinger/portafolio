@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Contactos = () => {
   return (
@@ -54,17 +54,12 @@ const Contactos = () => {
       </div>
 
       <div className="container__site-footer">
-        <Link to="Home" smooth={true}>
+        {/* <Link to="Home" smooth={true}>
           <div className="style-button__return">
             <i class="fas fa-angle-up arrow-up"></i>
           </div>
-        </Link>
-        <div className="container-datos__siteFooter">
-          <p className="style__text-desarrollador">
-            © 2021 Creado por Marcelo Adrián Wasinger
-          </p>
-          {/* <img loading="lazy" src={logo} alt="" /> */}
-        </div>
+        </Link> */}
+
         <div className="container-whatsapp">
           <span>
             <a
@@ -75,6 +70,13 @@ const Contactos = () => {
               <i className="fab fa-whatsapp whatsapp-icon style-i"></i>
             </a>
           </span>
+        </div>
+
+        <div className="container-datos__siteFooter">
+          <p className="style__text-desarrollador">
+            © 2021 Creado por Marcelo Adrián Wasinger
+          </p>
+          {/* <img loading="lazy" src={logo} alt="" /> */}
         </div>
       </div>
     </div>
