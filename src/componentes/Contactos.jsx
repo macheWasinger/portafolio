@@ -2,25 +2,23 @@ import React from "react";
 
 import { Link } from "react-scroll";
 
-// import logo from "../img/logo-mw.png";
-
 const Contactos = () => {
   return (
     <div loading="lazy" className="container-padre__Contactos">
       <a name="Contactos"></a>
       <div className="container-hijo__contactos">
         <h1 className="style-h1__title-contactos color-white title-font">
-          ¿Hablamos sobre trabajar juntos?
+          CONTÁCTAME
         </h1>
-        <div className="container-logos">
+        <div className="container-logos container-fluid col-11">
           <a
             className="logo-redSocial__container linkedin-container"
             href="https://www.linkedin.com/in/marcelowasinger/"
             target="_blank"
           >
             <div className="container_redSocial_title-logo">
-              <p className="title-logo">LinkedIn</p>
               <i class="fab fa-linkedin-in style-i"></i>
+              <p className="title-logo">LinkedIn</p>
             </div>
           </a>
           <a
@@ -29,8 +27,8 @@ const Contactos = () => {
             target="_blank"
           >
             <div className="container_redSocial_title-logo">
-              <p className="title-logo">GitHub</p>
               <i class="fab fa-github style-i"></i>
+              <p className="title-logo">GitHub</p>
             </div>
           </a>
           <a
@@ -39,8 +37,8 @@ const Contactos = () => {
             target="_blank"
           >
             <div className="container_redSocial_title-logo">
-              <p className="title-logo">Instagram</p>
               <i class="fab fa-instagram style-i"></i>
+              <p className="title-logo">Instagram</p>
             </div>
           </a>
           <a
@@ -48,8 +46,8 @@ const Contactos = () => {
             href="mailto: marcelo_wasinger@hotmail.com"
           >
             <div className="container_redSocial_title-logo">
-              <p className="title-logo">Hotmail</p>
               <i class="fas fa-envelope style-i"></i>
+              <p className="title-logo">Hotmail</p>
             </div>
           </a>
         </div>

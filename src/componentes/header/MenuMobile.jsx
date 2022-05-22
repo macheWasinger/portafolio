@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
-import logoAnimado from "../../video/logo-mw-black.mp4";
-
-const Menu = () => {
+const MenuMobile = () => {
   const [active, setActive] = React.useState(0);
   const [isActive, setIsActive] = useState(false);
   const toggleMenu = () => {
@@ -27,16 +26,6 @@ const Menu = () => {
       </div>
 
       <nav className={`menu-navegacion ${isActive ? "menu-activado" : "hide"}`}>
-        <video
-          autoPlay
-          loop
-          muted
-          className="style-logo-video"
-          style={{ display: "none" }}
-        >
-          <source src={logoAnimado} />
-        </video>
-
         <div className="container-menuMobile shadow">
           <article
             className="article-menu w-25 rounded-pill"
@@ -150,4 +139,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MenuMobile;

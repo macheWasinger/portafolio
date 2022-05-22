@@ -3,18 +3,21 @@
     width: 100%;
     height: auto;
     background-color: #5c5c5c;
-    /* position: relative; */
-    bottom: 1vw;
-    /* padding-top: 1vw; */
+    bottom: 0;
+    /* padding-top: 7vw; */
   }
 
   .container-logos {
     width: 100%;
-    height: 150vw;
+    height: auto;
+    padding: 2vw;
+    margin-bottom: 3vw;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     top: 0.2vw;
+    /* background-color: red; */
+
   }
 
   .style-h1__title-contactos {
@@ -22,21 +25,27 @@
     margin-bottom: 8vw;
   }
 
-  .logo-redSocial__container {
-    width: 50vw !important;
+  .logo-redSocial__container,
+  .logo-redSocial__container:hover {
+    width: 32vw !important;
+    height: 25vw;
+    transform: scale(1);
+  
   }
 
   .title-logo {
-    right: 0;
+   font-size: 3.5vw;
+   top: 2.5vw;
   }
 
-  .logo-redSocial__container .style-i {
-    font-size: 7vw;
+  .logo-redSocial__container .style-i,
+  .logo-redSocial__container:hover .style-i {
+    font-size: 10vw;
     color: #ffffff;
-    position: relative;
+    top: 1.5vw;
   }
 
-  .logo-redSocial__container:hover .title-logo {
+  /* .logo-redSocial__container:hover .title-logo {
     font-size: 0;
     margin-left: 0;
     top: 0;
@@ -46,10 +55,17 @@
     bottom: 0vw;
     right: 0;
     font-size: 7vw;
+  } */
+
+ 
+
+  .mail-container, .instagram-container {
+    margin-top: 6vw; 
   }
 
   .container__site-footer {
     height: 12vw;
+    /* margin-top: 2vw; */
   }
 
   .container-mail,

@@ -102,17 +102,6 @@
 }
 
  .style-button-descargarCV {
-  /* width: 9.3vw;
-  height: 3vw; */
-  /* margin: auto; */
-  /* background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ffb633),
-    to(#b97900)
-  ); */
-
   text-decoration: none;
   display: flex;
   align-items: center;

@@ -1,7 +1,7 @@
 import React from "react";
 
 // IMPORTO LOS COMPONENTES
-import Menu from "./header/Menu";
+import MenuMobile from "./header/MenuMobile";
 
 // IMPORTO IMAGEN Y VIDEO
 import maw from "../img/maw.png";
@@ -27,7 +27,7 @@ const Home = () => {
             <source src={logoAnimado} />
           </video>
 
-          <Menu />
+          <MenuMobile />
         </div>
 
         <div className="container__presentacion-imageDeveloper">

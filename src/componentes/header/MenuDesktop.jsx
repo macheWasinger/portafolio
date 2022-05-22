@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const MenuDesktop = () => {
   const [active, setActive] = React.useState(0);
@@ -6,53 +7,58 @@ const MenuDesktop = () => {
   return (
     <div className="container-menuDesktop shadow">
       <article className="w-25 rounded-pill">
-        <a
-          href="#Home"
+        <Link
+          to="Home"
+          smooth={true}
           onClick={() => setActive(0)}
           className={`rounded-pill ${active === 0 ? "ancla_activo" : ""}`}
         >
           <i class="fa-solid fa-house"></i>
-        </a>
+        </Link>
       </article>
 
       <article className="w-25 rounded-pill">
-        <a
-          href="#SobreMi"
+        <Link
+          to="SobreMi"
+          smooth={true}
           onClick={() => setActive(1)}
           className={`rounded-pill ${active === 1 ? "ancla_activo" : ""}`}
         >
           <i class="fa-solid fa-user-tie"></i>
-        </a>
+        </Link>
       </article>
 
       <article className="w-25 rounded-pill">
-        <a
-          href="#Conocimientos"
+        <Link
+          to="Conocimientos"
+          smooth={true}
           onClick={() => setActive(2)}
           className={`rounded-pill ${active === 2 ? "ancla_activo" : ""}`}
         >
           <i class="fa-solid fa-code"></i>
-        </a>
+        </Link>
       </article>
 
       <article className="w-25 rounded-pill">
-        <a
-          href="#Proyectos"
+        <Link
+          to="Proyectos"
+          smooth={true}
           onClick={() => setActive(3)}
           className={`rounded-pill ${active === 3 ? "ancla_activo" : ""}`}
         >
           <i class="fa-solid fa-laptop-code"></i>
-        </a>
+        </Link>
       </article>
 
       <article className="w-25 rounded-pill">
-        <a
-          href="#Contactos"
+        <Link
+          to="Contactos"
+          smooth={true}
           onClick={() => setActive(4)}
           className={`rounded-pill ${active === 4 ? "ancla_activo" : ""}`}
         >
           <i class="fa-solid fa-address-card"></i>
-        </a>
+        </Link>
       </article>
     </div>
   );
