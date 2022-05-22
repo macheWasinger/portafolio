@@ -26,9 +26,6 @@ a {
     width: 3vw !important;
     height: 3vw !important;
     background-color: #2f2f2f;
-    /* box-shadow: 0.05em 0.1em 0.15em #000; */
-   
-    
 }
 
 .container-menuDesktop article a {
@@ -42,7 +39,6 @@ a {
 
 .ancla_activo {
     cursor: pointer;
-    /* box-shadow: 0.05em 0.1em 0.15em #000; */
     border: 0.05em solid #ffb633;
     color: #ffb633 !important;
 }

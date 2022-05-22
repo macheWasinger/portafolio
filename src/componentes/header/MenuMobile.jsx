@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-scroll";
 
 const MenuMobile = () => {
   const [active, setActive] = React.useState(0);
