@@ -26,7 +26,7 @@ const Proyectos = () => {
       </h3>
       <div className="container-proyectos">
         <div
-          className="container-hijo__proyecto4 container-project"
+          className="container-hijo__proyecto4 container-project shadow-sm"
           data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="300"
@@ -58,7 +58,7 @@ const Proyectos = () => {
           </div>
         </div>
         <div
-          className="container-hijo__proyecto1 container-project"
+          className="container-hijo__proyecto1 container-project shadow-sm"
           data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="450"
@@ -101,7 +101,7 @@ const Proyectos = () => {
           </div>
         </div>
         <div
-          className="container-hijo__proyecto2 container-project"
+          className="container-hijo__proyecto2 container-project shadow-sm"
           data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="600"
@@ -141,7 +141,7 @@ const Proyectos = () => {
           </div>
         </div>
         <div
-          className="container-hijo__proyecto3 container-project"
+          className="container-hijo__proyecto3 container-project shadow-sm"
           data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="750"

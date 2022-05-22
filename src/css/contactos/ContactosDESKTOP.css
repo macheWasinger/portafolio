@@ -80,11 +80,12 @@
 }
 
 .container-datos__siteFooter {
-  width: 33%;
-  height: 2.6vw;
-  margin-left: 31%;
+  /* width: 33%; */
+  margin-left: 36%;
+  /* margin: auto; */
   display: flex;
   justify-content: space-between;
+  /* background-color: red; */
 }
 
 .container__site-footer img {
@@ -126,6 +127,7 @@
   color: #ffffff;
   font-size: 1.1vw;
   font-weight: 300 !important;
+  letter-spacing: 1px;
   top: 0.15vw;
 }
 

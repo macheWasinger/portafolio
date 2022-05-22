@@ -58,7 +58,7 @@
 .container-project {
   width: 21vw;
   height: 24vw;
-  box-shadow: 2px 3px 4px #2a2a2a;
+  /* box-shadow: 2px 3px 4px #2a2a2a; */
   border-radius: 10px;
   margin: auto;
   padding-top: 0.5vw;
@@ -211,33 +211,3 @@
 .carousel {
   display: none;
 }
-
-/* .container-project {
-  width: 21vw;
-  height: 24vw;
-  border-radius: 10px;
-  margin: auto;
-  padding-top: 0.5vw;
-  background-color: #595959;
-}
-
-.container-project:hover {
-  box-shadow: 2px 3px 4px #2a2a2a;
-  transition: all 0.3s !important;
-}
-
-.container-text-tech {
-  width: auto !important;
-  height: auto !important;
-}
-
-.style-image__product {
-  width: 20vw;
-  height: 12vw;
-}
-
-.style-image__product:hover {
-  transform: scale(1.05);
-  transition: all 0.5s;
-  cursor: pointer;
-} */
