@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.c90a1e2a.chunk.css",
-    "main.js": "/portafolio/static/js/main.871f3df2.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.871f3df2.chunk.js.map",
+    "main.css": "/portafolio/static/css/main.a1adb1eb.chunk.css",
+    "main.js": "/portafolio/static/js/main.7c46999e.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.7c46999e.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.d97de6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portafolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.0aa3a21e.chunk.js": "/portafolio/static/js/2.0aa3a21e.chunk.js",
-    "static/js/2.0aa3a21e.chunk.js.map": "/portafolio/static/js/2.0aa3a21e.chunk.js.map",
+    "static/js/2.e6ea170d.chunk.js": "/portafolio/static/js/2.e6ea170d.chunk.js",
+    "static/js/2.e6ea170d.chunk.js.map": "/portafolio/static/js/2.e6ea170d.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/portafolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.c90a1e2a.chunk.css.map": "/portafolio/static/css/main.c90a1e2a.chunk.css.map",
-    "static/js/2.0aa3a21e.chunk.js.LICENSE.txt": "/portafolio/static/js/2.0aa3a21e.chunk.js.LICENSE.txt",
+    "static/css/main.a1adb1eb.chunk.css.map": "/portafolio/static/css/main.a1adb1eb.chunk.css.map",
+    "static/js/2.e6ea170d.chunk.js.LICENSE.txt": "/portafolio/static/js/2.e6ea170d.chunk.js.LICENSE.txt",
     "static/media/CV-WasingerMarcelo2022.be875340.pdf": "/portafolio/static/media/CV-WasingerMarcelo2022.be875340.pdf",
     "static/media/canva.3c3e6d67.png": "/portafolio/static/media/canva.3c3e6d67.png",
     "static/media/desktopMaquetado.098535e9.png": "/portafolio/static/media/desktopMaquetado.098535e9.png",
@@ -21,7 +21,6 @@
     "static/media/icon-frontend.ea630633.png": "/portafolio/static/media/icon-frontend.ea630633.png",
     "static/media/HomeDESKTOP.css": "/portafolio/static/media/imageFondoInicio.eb6a812f.jpg",
     "static/media/java.74329a08.png": "/portafolio/static/media/java.74329a08.png",
-    "static/media/logo-mw-black.9a40d3b3.mp4": "/portafolio/static/media/logo-mw-black.9a40d3b3.mp4",
     "static/media/logo-mw.2e2ff5b6.mp4": "/portafolio/static/media/logo-mw.2e2ff5b6.mp4",
     "static/media/maw.6a85ac48.png": "/portafolio/static/media/maw.6a85ac48.png",
     "static/media/react.c8fd069d.png": "/portafolio/static/media/react.c8fd069d.png",
@@ -31,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.d97de6e3.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.0aa3a21e.chunk.js",
-    "static/css/main.c90a1e2a.chunk.css",
-    "static/js/main.871f3df2.chunk.js"
+    "static/js/2.e6ea170d.chunk.js",
+    "static/css/main.a1adb1eb.chunk.css",
+    "static/js/main.7c46999e.chunk.js"
   ]
 }
