@@ -27,7 +27,69 @@
   background-color: #777777;
 }
 
-/* .title-font {
-  text-transform: uppercase;
-  font-size: 7.5vw !important;
+* {
+  box-sizing: border-box;
+}
+
+/* Creo esta clase para que me funcione el "scrollspy" de Bootstrap */
+
+.container {
+  overflow: scroll;
+  position: relative;
+}
+
+
+.container-menuDesktop {
+  width: 5.5vw !important;
+  height: 25vw !important;
+  margin-right: 2vw;
+  border-radius: 10em;
+  background-color: #2A2A2A !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  position: fixed !important;
+  z-index: 100;
+  right: 1vw;
+  top: 12vw;
+}
+
+a {
+  color: #fff;
+}
+
+
+
+.container-menuDesktop article {
+  width: 3vw !important;
+  height: 3vw !important;
+  background-color: #2f2f2f;
+}
+
+.container-menuDesktop article:hover {
+  cursor: pointer;
+}
+
+.container-menuDesktop article a {
+  width: 3vw !important;
+  height: 3vw !important;
+  display: grid;
+  place-items: center;
+  font-size: 1.4vw !important;
+  color: #fff;
+}
+
+/* .container-menuDesktop article a:hover {
+  color: #ffb633;
 } */
+
+.ancla_activo {
+  cursor: pointer;
+  color: #ffb633 !important;
+}
+
+.borde-ancla {
+  border: 0.1em solid #ffb633;
+}
+

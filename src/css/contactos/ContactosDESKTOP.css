@@ -4,10 +4,12 @@
 
 .container-padre__Contactos {
   width: 100%;
-  height: auto;
+  height: 45vw;
   background-color: #5c5c5c;
   position: relative;
-  padding-top: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container-logos {
@@ -31,6 +33,7 @@
   border-radius: 1em;
   background-color: #5C5C5C !important;
   box-shadow: 0.1em 0.15em 0.2em #333;
+  transition-duration: 0.5s;
 }
 
 .logo-redSocial__container:hover {
@@ -185,36 +188,6 @@
   width: 3.5vw;
   height: 2.2vw;
 }
-
-/* .style-button__return {
-  width: 2.7vw;
-  height: 2.7vw;
-  border-radius: 50%;
-  box-shadow: 0.05vw 0.1vw 0.15vw #000000;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#808080),
-    to(#414141)
-  );
-  color: #ffffff !important;
-  left: 3.26vw;
-  bottom: 0.15vw;
-  cursor: pointer;
-  transition: all 0.3s;
-  display: grid;
-  place-items: center;
-}
-
-.arrow-up {
-  font-size: 1.8vw;
-}
-
-.style-button__return:hover {
-  color: #fff;
-  transform: scale(1.1);
-} */
 
 .style__text-desarrollador {
   color: #ffffff;

@@ -7,7 +7,7 @@ import MenuMobile from "./header/MenuMobile";
 import maw from "../img/maw.png";
 import logoAnimado from "../video/logo-mw.mp4";
 import iconFrontend from "../img/icon-frontend.png";
-import MenuDesktop from "./header/MenuDesktop";
+// import MenuDesktop from "./header/MenuDesktop";
 
 const Home = () => {
   // const [active, setActive] = React.useState(false);
@@ -80,7 +80,7 @@ const Home = () => {
           >
             <i class="fa-solid fa-arrow-down"></i>
           </div>
-          <MenuDesktop />
+          {/* <MenuDesktop /> */}
         </div>
       </div>
     </div>

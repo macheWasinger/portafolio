@@ -1,7 +1,5 @@
 import React from "react";
 
-// import { Link } from "react-scroll";
-
 const Contactos = () => {
   return (
     <div loading="lazy" className="container-padre__Contactos">
