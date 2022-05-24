@@ -4,7 +4,7 @@
 
 .container-padre {
   width: 100%;
-  height: 43vw;
+  height: 44vw;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -28,7 +28,7 @@
 
 .container_fondo-presentacion-imageDev {
   width: 100%;
-  height: 43vw;
+  height: 44vw;
   background-image: url("../../img/imageFondoInicio.jpg");
   background-size: cover;
   background-position-y: 100%;

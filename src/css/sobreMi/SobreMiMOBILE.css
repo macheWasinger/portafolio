@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
   .container-padre_sobreMi {
-    height: 128vw;
+    height: 135vw;
     padding-bottom: 1.5%;
     padding-left: 3%;
     justify-content: space-around;
@@ -42,7 +42,7 @@
     height: auto !important;
     position: relative;
     right: 44vw;
-    top: 12vw;
+    margin-top: 1vw;
     /* background-color: green; */
   }
 
@@ -63,7 +63,7 @@
   }
 
   .text-hobbies {
-    bottom: 1vw !important;
+    top: 1vw !important;
   }
 
   .style-p-sobreMi,
@@ -75,20 +75,11 @@
     /* left: 8%; */
   }
 
-  .container-text_sobreMi .style-span_linea-horizontal {
-    width: 19.5vw !important;
-    height: 0.3vw !important;
-    background-color: #ffb633;
-    border-radius: 25px;
-    top: 3vw;
-    left: -20.5vw !important;
-  }
-
   .style-button-descargarCV {
     margin-top: 55% !important;
     position: relative;
     left: 20.8vw;
-    top: 2.5vw;
+    top: 5vw;
     border-radius: 10px 2px 10px 2px;
     font-size: 3.2vw;
     box-shadow: 0 0 10px #2a2a2a;
@@ -128,7 +119,18 @@
     top: 10vw;
   }
 
+  .text-hobbies {
+    top: 0 !important;
+  }
+
   .style-button-descargarCV {
-    top: 2vw;
+    top: 5vw;
+  }
+}
+
+
+@media only screen and (min-width: 377px) and (max-width: 768px) {
+  .container__title-text-hobbies {
+    top: 14vw;
   }
 }

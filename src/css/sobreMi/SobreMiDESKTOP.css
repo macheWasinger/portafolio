@@ -12,7 +12,7 @@
     #5c5c5c
   );
   width: 100%;
-  height: 44vw;
+  height: 55vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,10 +67,15 @@
   width: 38vw;
   height: auto;
   left: 0.5%;
-  margin-bottom: 8.5vw;
+  margin-bottom: 7.5vw;
   display: flex;
   flex-direction: column;
   /* background-color: red; */
+}
+
+.container__title-text-hobbies {
+  /* background-color: blue; */
+  margin-top: 6vw;
 }
 
 .style-h1-sobreMi {
@@ -97,6 +102,11 @@
   text-align: left;
 }
 
+.text-hobbies {
+  line-height: 2.5vw;
+  /* background-color: green; */
+}
+
 .style-p-sobreMi {
   margin-top: 0.8vw;
 }
@@ -112,9 +122,9 @@
   color: #fff !important;
   text-transform: uppercase;
   box-shadow: 1px 2px 3px #000000;
-  margin-top: 1.5vw;
   position: relative;
   left: 23vw;
+  top: 4vw;
   border-radius: 20px 5px 20px 5px;
 }
 
@@ -133,7 +143,7 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
   .container-padre_sobreMi {
-    height: 50vw;
+    /* height: 50vw; */
     padding-top: 3vw;
   }
 
