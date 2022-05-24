@@ -5,7 +5,7 @@ import MenuMobile from "./header/MenuMobile";
 
 // IMPORTO IMAGEN Y VIDEO
 import maw from "../img/maw.png";
-import logoAnimado from "../video/logo-mw.mp4";
+import logoAnimado from "../video/logo-mw2.mp4";
 import iconFrontend from "../img/icon-frontend.png";
 // import MenuDesktop from "./header/MenuDesktop";
 
