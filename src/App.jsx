@@ -58,8 +58,8 @@ function App() {
           <Link
             to="Home"
             smooth={true}
-            className={`rounded-pill ${
-              activeSection === 0 ? "ancla_activo borde-ancla" : ""
+            className={`title_section-home rounded-pill ${
+              activeSection === 0 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
             <i class="fa-solid fa-house"></i>
@@ -74,8 +74,8 @@ function App() {
           <Link
             to="SobreMi"
             smooth={true}
-            className={`rounded-pill ${
-              activeSection === 1 ? "ancla_activo borde-ancla" : ""
+            className={`title_section-sobreMi rounded-pill ${
+              activeSection === 1 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
             <i class="fa-solid fa-user-tie"></i>
@@ -90,8 +90,8 @@ function App() {
           <Link
             to="Conocimientos"
             smooth={true}
-            className={`rounded-pill ${
-              activeSection === 2 ? "ancla_activo borde-ancla" : ""
+            className={`title_section-conocimientos rounded-pill ${
+              activeSection === 2 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
             <i class="fa-solid fa-code"></i>
@@ -106,8 +106,8 @@ function App() {
           <Link
             to="Proyectos"
             smooth={true}
-            className={`rounded-pill ${
-              activeSection === 3 ? "ancla_activo borde-ancla" : ""
+            className={`title_section-proyectos rounded-pill ${
+              activeSection === 3 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
             <i class="fa-solid fa-laptop-code"></i>
@@ -122,8 +122,8 @@ function App() {
           <Link
             to="Contactos"
             smooth={true}
-            className={`rounded-pill ${
-              activeSection === 4 ? "ancla_activo borde-ancla" : ""
+            className={`title_section-contactos rounded-pill ${
+              activeSection === 4 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
             <i class="fa-solid fa-address-card"></i>
