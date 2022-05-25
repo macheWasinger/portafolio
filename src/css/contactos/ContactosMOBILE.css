@@ -34,13 +34,14 @@
   }
   
   .title-logo {
-    font-size: 0;
+    font-size: 4.3vw;
+    top: 2.5vw;
     color: #fff;
     transition-duration: 0.5s;
   }
   
   .container-logos .card:hover .title-logo {
-    font-size: 3.5vw;
+    font-size: 4vw;
     margin-top: 0.5vw;
   }
 
@@ -57,11 +58,9 @@
   }
   
   .container-logos .card .style-i {
-    /* width: 4vw;
-    height: 4vw; */
     line-height: 4vw;
-    font-size: 7.5vw;
-    color: #ffffff;
+    font-size: 15vw;
+    color: #fff;
     text-align: center;
     border-radius: 50%;
     margin-top: 4vw;
@@ -69,7 +68,7 @@
   }
   
   .container-logos .card:hover .style-i {
-    font-size: 10vw;
+    font-size: 12vw;
   }
 
   .style-h1__title-contactos {
@@ -77,12 +76,6 @@
     margin-bottom: 2vw;
   }
 
-
-  .title-logo {
-   font-size: 3.5vw;
-   top: 2.5vw;
-  }
- 
 
   .mail-container, .instagram-container {
     margin-top: 6vw; 
