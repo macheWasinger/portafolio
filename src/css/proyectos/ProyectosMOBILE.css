@@ -9,6 +9,55 @@
     padding-top: 9vw !important;
   }
 
+
+  .container-project-mobile {
+    width: 98vw !important;
+    height: 100vw !important;
+    position: relative !important;
+    overflow: hidden !important;
+    border-radius: 20px !important;
+    position: relative;
+    right: 1.7vw;
+    padding-top: 7.5vw;
+  }
+  
+  .container-project-mobile::before {
+    content: "" !important;
+    position: absolute !important;
+    width: 40vw !important;
+    height: 150vw !important;
+    background: linear-gradient(#fff, #ffb633) !important;
+    animation: animate 4s linear infinite !important;
+    top: -27vw;
+    right: 30vw;
+  }
+  
+  .container-project-mobile::after {
+    content: "" !important;
+    position: absolute !important;
+    inset: 4px !important;
+    background-image: linear-gradient(
+    to bottom,
+    #5c5c5c,
+    #5c5c5c,
+    #585858,
+    #585858,
+    #585858
+  );
+    border-radius: 16px !important;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
   .style-h1__proyectos {
     font-size: 8vw;
     margin-top: 3%;
@@ -22,6 +71,17 @@
 
   .container-proyectos {
     display: none;
+  }
+
+  .container-ver a {
+    font-size: 4vw;
+    width: 17vw;
+    height: 7.2vw;
+    margin-top: 5vw;
+  }
+  
+  .container-ver a::before {
+    height: 7.2vw;
   }
 
   .style-a__project .style-image__product {
@@ -45,7 +105,6 @@
     width: auto;
     height: auto;
     overflow: visible;
-    /* background-color: red; */
   }
 
   .style-a__project {
@@ -73,63 +132,25 @@
   .container__text-tech__project-3,
   .container__text-tech__project-4 {
     height: auto;
-    /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  z-index: 10 !important; */
   }
 
   .container-tech {
-    /* width: auto !important; */
     height: auto !important;
-    /* display: flex;
-  justify-content: space-between; */
     margin-top: 5vw;
-    /* background-color: blue; */
   }
 
   .title-project {
-    /* width: auto;
-  height: auto;
-  padding: 2.5%; */
-    /* background-color: #000; */
     font-size: 4.5vw !important;
-    /* font-weight: 600;
-  color: #ffffff;
-  border-style: solid;
-  border-right: 3px;
-  border-top: 3px;
-  border-color: #ffffff; */
-    /* border-radius: 5px; */
-    /* box-shadow: 0 0 7px #000; */
-    /* transition-delay: 0.3s; */
   }
 
   .style-span__text-tech {
-    /* width: auto !important;
-  height: auto !important;                                                        
-  padding: 0 2%;
-  margin-bottom: 3%; */
     font-size: 3.7vw !important;
-    /* font-weight: 600;
-  color: rgb(192, 192, 192);
-  border-radius: 5px; */
-    /* box-shadow: 0 0 7px #000; */
-    /* transition-delay: 0.3s; */
   }
-
-  /* .container-ver {
-  width: 100% !important;
-  display: flex;
-  justify-content: space-evenly;
-} */
 
   .container__icons-techs,
   .container__iconTechs-NoResponsive {
     margin-bottom: 0;
     margin-top: 1vw;
-    /* background-color: blue; */
   }
 
   .container__icons-techs img,
@@ -151,25 +172,8 @@
     padding-top: 1vw !important;
     margin-top: 3vw;
     font-size: 3.5vw !important;
-    /* color: #000000;
-    border: 3px solid #000000;
-    border-radius: 50px;
-    font-weight: 600; */
   }
 }
-
-/* @media only screen and (min-width: 320px) and (max-width: 767px) {
-  .container-padre__proyectos {
-    height: 155vw;
-    padding-top: 3vw;
-    background-color: #2a2a2a;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    z-index: 0 !important;
-  }
-} */
 
 @media only screen and (min-width: 320px) and (max-width: 400px) {
   .carousel-inner {
@@ -182,15 +186,11 @@
   .style-h3-subtitulo__proyectos {
     font-size: 3.2vw;
     position: relative;
-    top: 4vw;
+    top: 0;
   }
-}
 
-@media only screen and (min-width: 401px) and (max-width: 767px) {
-  .style-h3-subtitulo__proyectos {
-    font-size: 3.2vw;
-    position: relative;
-    top: 6vw;
+  .container-project-mobile {
+    margin-top: -5vw !important;
   }
 }
 
@@ -204,10 +204,16 @@
     overflow: hidden;
   }
 
+  .container-project-mobile {
+    height: 92vw !important;
+    margin-top: 23vw;
+    padding-top: 3.7vw;
+  }
+
   .style-h3-subtitulo__proyectos {
     font-size: 3.2vw;
     position: relative;
-    top: 5vw;
+    top: 0vw;
   }
 
   .carousel-inner {

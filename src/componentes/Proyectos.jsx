@@ -26,7 +26,7 @@ const Proyectos = () => {
       </h3>
       <div className="container-proyectos">
         <div
-          className="container-hijo__proyecto4 container-project shadow-sm"
+          className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="300"
@@ -52,13 +52,14 @@ const Proyectos = () => {
                 href="https://github.com/macheWasinger/portafolio"
                 target="_blank"
               >
-                <h3 className="verRepo">Repo</h3>
+                {/* <h3 className="verRepo">Repo</h3> */}
+                Repo
               </a>
             </div>
           </div>
         </div>
         <div
-          className="container-hijo__proyecto1 container-project shadow-sm"
+          className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="450"
@@ -88,20 +89,22 @@ const Proyectos = () => {
                 target="_blank"
                 className="style-a__project style-a-project2"
               >
-                <h3 className="verDemo">Demo</h3>
+                {/* <h3 className="verDemo">Demo</h3> */}
+                Demo
               </a>
 
               <a
                 href="https://github.com/macheWasinger/MaquetadoMeli.github.io"
                 target="_blank"
               >
-                <h3 className="verRepo">Repo</h3>
+                {/* <h3 className="verRepo">Repo</h3> */}
+                Repo
               </a>
             </div>
           </div>
         </div>
         <div
-          className="container-hijo__proyecto2 container-project shadow-sm"
+          className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="600"
@@ -128,20 +131,22 @@ const Proyectos = () => {
                 target="_blank"
                 className="style-a__project"
               >
-                <h3 className="verDemo">Demo</h3>
+                {/* <h3 className="verDemo">Demo</h3> */}
+                Demo
               </a>
 
               <a
                 href="https://github.com/macheWasinger/destinoarg"
                 target="_blank"
               >
-                <h3 className="verRepo">Repo</h3>
+                {/* <h3 className="verRepo">Repo</h3> */}
+                Repo
               </a>
             </div>
           </div>
         </div>
         <div
-          className="container-hijo__proyecto3 container-project shadow-sm"
+          className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="750"
@@ -170,13 +175,15 @@ const Proyectos = () => {
                 target="_blank"
                 className="style-a__project style-a-project3"
               >
-                <h3 className="verDemo">Demo</h3>
+                {/* <h3 className="verDemo">Demo</h3> */}
+                Demo
               </a>
               <a
                 href="https://github.com/macheWasinger/Maquetado.github.io"
                 target="_blank"
               >
-                <h3 className="verRepo">Repo</h3>
+                {/* <h3 className="verRepo">Repo</h3> */}
+                Repo
               </a>
             </div>
           </div>
@@ -195,7 +202,7 @@ const Proyectos = () => {
           data-aos-delay="200"
           data-aos-offset="200"
         >
-          <div class="carousel-item active">
+          <div class="container-project-mobile carousel-item active">
             <a href="" target="_blank" className="style-a__project">
               <img
                 loading="lazy"
@@ -205,11 +212,6 @@ const Proyectos = () => {
               />
               <div className="container-tech container__text-tech__project-4">
                 <h3 className="title-project">Portafolio</h3>
-                {/* <span className="style-span__text-tech">
-                  HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
-                  Design
-                </span> */}
-
                 <div className="container__icons-techs">
                   <img src={html} alt="" />
                   <img src={css} alt="" />
@@ -227,13 +229,13 @@ const Proyectos = () => {
                     href="https://github.com/macheWasinger/portafolio"
                     target="_blank"
                   >
-                    <h3 className="verRepo">Repo</h3>
+                    Repo
                   </a>
                 </div>
               </div>
             </a>
           </div>
-          <div class="carousel-item">
+          <div class="container-project-mobile carousel-item">
             <a
               href="https://machewasinger.github.io/MaquetadoMeli.github.io/"
               target="_blank"
@@ -247,10 +249,6 @@ const Proyectos = () => {
               />
               <div className="container-tech container__text-tech__project-1">
                 <h3 className="title-project">Copia Meli</h3>
-                {/* <span className="style-span__text-tech">
-                  HTML - CSS - JavaScript - Bootstrap
-                </span> */}
-
                 <div className="container__iconTechs-NoResponsive">
                   <img src={html} alt="" />
                   <img src={css} alt="" />
@@ -261,22 +259,22 @@ const Proyectos = () => {
                   <a
                     href="https://machewasinger.github.io/MaquetadoMeli.github.io/"
                     target="_blank"
-                    className="style-a__project style-a-project2"
+                    className="style-a__project"
                   >
-                    <h3 className="verDemo">Demo</h3>
+                    Demo
                   </a>
 
                   <a
                     href="https://github.com/macheWasinger/MaquetadoMeli.github.io"
                     target="_blank"
                   >
-                    <h3 className="verRepo">Repo</h3>
+                    Repo
                   </a>
                 </div>
               </div>
             </a>
           </div>
-          <div class="carousel-item">
+          <div class="container-project-mobile carousel-item">
             <a
               href="https://machewasinger.github.io/destinoarg/"
               target="_blank"
@@ -290,11 +288,6 @@ const Proyectos = () => {
               />
               <div className="container-tech container__text-tech__project-2">
                 <h3 className="title-project">Destino ARG</h3>
-                {/* <span className="style-span__text-tech">
-                  HTML - CSS - JavaScript - React - Bootstrap - Responsive Web
-                  Design
-                </span> */}
-
                 <div className="container__icons-techs">
                   <img src={html} alt="" />
                   <img src={css} alt="" />
@@ -313,20 +306,20 @@ const Proyectos = () => {
                     target="_blank"
                     className="style-a__project"
                   >
-                    <h3 className="verDemo">Demo</h3>
+                    Demo
                   </a>
 
                   <a
                     href="https://github.com/macheWasinger/destinoarg"
                     target="_blank"
                   >
-                    <h3 className="verRepo">Repo</h3>
+                    Repo
                   </a>
                 </div>
               </div>
             </a>
           </div>
-          <div class="carousel-item">
+          <div class="container-project-mobile carousel-item">
             <a
               href="https://machewasinger.github.io/Maquetado.github.io/"
               target="_blank"
@@ -340,10 +333,6 @@ const Proyectos = () => {
               />
               <div className="container-tech container__text-tech__project-3">
                 <h3 className="title-project">Maquetado</h3>
-                {/* <span className="style-span__text-tech">
-                  HTML - CSS - JavaScript - Bootstrap
-                </span> */}
-
                 <div className="container__iconTechs-NoResponsive">
                   <img src={html} alt="" />
                   <img src={css} alt="" />
@@ -354,15 +343,15 @@ const Proyectos = () => {
                   <a
                     href="https://machewasinger.github.io/Maquetado.github.io/"
                     target="_blank"
-                    className="style-a__project style-a-project3"
+                    className="style-a__project"
                   >
-                    <h3 className="verDemo">Demo</h3>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/macheWasinger/Maquetado.github.io"
                     target="_blank"
                   >
-                    <h3 className="verRepo">Repo</h3>
+                    Repo
                   </a>
                 </div>
               </div>
