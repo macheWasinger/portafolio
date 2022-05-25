@@ -4,7 +4,7 @@
 
 .container-padre__Contactos {
   width: 100%;
-  height: 45vw;
+  height: 41vw;
   background-image: linear-gradient(
     to bottom,
     #5c5c5c,
@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 10vw;
+  padding-top: 2vw;
 }
 
 .container-logos {
