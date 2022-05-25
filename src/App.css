@@ -83,7 +83,7 @@ a {
 } */
 
 .ancla_activo {
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #ffb633 !important;
 }
 

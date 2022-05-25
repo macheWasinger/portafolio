@@ -65,6 +65,7 @@
   align-items: center;
   overflow: hidden;
   border-radius: 20px;
+  box-shadow: 0.1em 0.15em 0.2em #2a2a2a;
 }
 
 .container-project::before {
