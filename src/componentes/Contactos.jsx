@@ -8,41 +8,45 @@ const Contactos = () => {
         <h1 className="style-h1__title-contactos color-white title-font">
           CONTÁCTAME
         </h1>
-        <div className="container-logos container-fluid col-11">
+        <div className="container-logos">
           <a
-            className="logo-redSocial__container linkedin-container"
+            className="card linkedin-container"
             href="https://www.linkedin.com/in/marcelowasinger/"
             target="_blank"
           >
+            <span></span>
             <div className="container_redSocial_title-logo">
               <i class="fab fa-linkedin-in style-i"></i>
               <p className="title-logo">LinkedIn</p>
             </div>
           </a>
           <a
-            className="logo-redSocial__container github-container"
+            className="card github-container"
             href="https://github.com/macheWasinger"
             target="_blank"
           >
+            <span></span>
             <div className="container_redSocial_title-logo">
               <i class="fab fa-github style-i"></i>
               <p className="title-logo">GitHub</p>
             </div>
           </a>
           <a
-            className="logo-redSocial__container instagram-container"
+            className="card instagram-container"
             href="https://www.instagram.com/machewasinger90/"
             target="_blank"
           >
+            <span></span>
             <div className="container_redSocial_title-logo">
               <i class="fab fa-instagram style-i"></i>
               <p className="title-logo">Instagram</p>
             </div>
           </a>
           <a
-            className="logo-redSocial__container mail-container"
+            className="card mail-container"
             href="mailto: marcelo_wasinger@hotmail.com"
           >
+            <span></span>
             <div className="container_redSocial_title-logo">
               <i class="fas fa-envelope style-i"></i>
               <p className="title-logo">Hotmail</p>

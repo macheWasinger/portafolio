@@ -17,60 +17,106 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 10vw;
 }
 
 .container-logos {
   /* width: 100%; */
+  max-width: 65vw;
+  position: relative;
   height: auto;
   padding: 2vw;
   display: flex;
   flex-direction: row;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
+  transform-style: preserve-3d;
+  margin: auto;
+  /* background-color: red; */
 
 }
 
-
-.logo-redSocial__container {
-  width: 15vw !important;
-  height: 15vw;
-  margin: 0 1em;
+.container-logos .card {
+  position: relative;
+  width: 13vw !important;
+  height: 13vw;
+  background-color: #aaaaaa !important;
+  /* margin: 0 1em; */
+  margin: 15px;
   display: grid;
   place-items: center;
-  border-radius: 1em;
-  background-color: #8e8e8e !important;
-  /* box-shadow: 0.1em 0.15em 0.2em #333; */
-  box-shadow: 4px -3px 7px rgba(0, 0, 0, 0.1);
-  transition-duration: 0.5s;
+  /* border-radius: 1em; */
+  /* box-shadow: 4px -3px 7px rgba(0, 0, 0, 0.1); */
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+  border-radius: 6px;
+  transition: 0.5s;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  border: 1px solid #8E8E8E;
 }
 
-.logo-redSocial__container:hover {
-  transform: scale(1.3);
-  /* background-color: #555555 !important; */
-  transition-duration: 0.5s;
-  box-shadow: none;
-  z-index: 1;
+.container-logos .card span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  opacity: 0.95;
+  z-index: -1;
+  transition: width 0.5s, height 0.5s;
 }
 
-.logo-redSocial__container .style-i {
-  font-size: 4vw;
-  color: #ffffff;
-  position: relative;
+.container-logos .card:hover span {
+  width: 150%;
+  height: 150%;
 }
 
 .title-logo {
-  font-size: 1.3vw;
+  font-size: 0;
   color: #fff;
-  position: relative;
-  top: 1.5vw;
+  font-family: 'anton', sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 0.05em 0.1em 0.15em #2a2a2a;
+  transition-duration: 0.5s;
 }
 
-.logo-redSocial__container:hover .style-i {
-  font-size: 5vw;
-  transition: all 0.5s;
+.container-logos .card:hover .title-logo {
+  transition-duration: 0.5s;
+  display: block !important;
+  font-size: 1.3vw;
+  margin-top: 1.5vw;
 }
 
-.linkedin-container:hover {
+.container-logos:hover .card {
+  transform: perspective(15vw) rotateY(30deg);
+}
+
+.container-logos .card:hover {
+  transform: perspective(15vw) rotateY(0deg);
+}
+
+.container-logos .card:hover ~ .card {
+  transform: perspective(15vw) rotateY(-30deg);
+}
+
+.container-logos .card .style-i {
+  line-height: 4vw;
+  font-size: 7.5vw;
+  color: #8e8e8e;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 1vw;
+  transition: box-shadow 0.5s;
+}
+
+.container-logos .card:hover .style-i {
+  font-size: 4vw;
+  color: #fff;
+}
+
+.linkedin-container span {
   background: -webkit-gradient(
     linear,
     left top,
@@ -80,7 +126,7 @@
   );
 }
 
-.mail-container:hover {
+.mail-container span {
   background: -webkit-gradient(
     linear,
     left top,
@@ -90,7 +136,7 @@
   );
 }
 
-.github-container:hover {
+.github-container span {
   background: -webkit-gradient(
     linear,
     left top,
@@ -100,7 +146,7 @@
   );
 }
 
-.instagram-container:hover {
+.instagram-container span {
   background: #d6249f;
   background: radial-gradient(
     circle at 30% 107%,
@@ -110,7 +156,6 @@
     #d6249f 60%,
     #285aeb 90%
   );
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 .container-whatsapp,
@@ -205,3 +250,15 @@
   letter-spacing: 1px;
   top: 0.15vw;
 }
+
+/* @media only screen and (min-width: 801px) and (max-width: 1024px) {
+  .container-logos {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2560px) {
+  .container-logos {
+    max-width: 1000px
+  }
+} */
