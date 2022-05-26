@@ -1,12 +1,14 @@
 import React from "react";
+import BarrasVerticales from "./BarrasVerticales";
 
 const Contactos = () => {
   return (
     <div loading="lazy" className="container-padre__Contactos">
+      <BarrasVerticales />
       <a name="Contactos"></a>
       <div className="container-hijo__contactos">
         <h1 className="style-h1__title-contactos color-white title-font">
-          CONTÁCTAME
+          Contactarme a través de:
         </h1>
         <div className="container-logos">
           <a
