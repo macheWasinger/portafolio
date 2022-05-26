@@ -84,6 +84,12 @@
   inset: 4px;
   background-color: #5c5c5c;
   border-radius: 16px;
+  transition: all 0.5s;
+}
+
+.container-project:hover::after {
+  background-color: #464646;
+  transition: all 0.5s;
 }
 
 @keyframes animate {
