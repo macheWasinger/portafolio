@@ -7,22 +7,18 @@
   }
 
   .barras-separadoras {
-    height: 3.5vw;
-    bottom: 3.5vw;
+    position: relative;
+    bottom: 1.5vw;
   }
   
   .barras-separadoras article {
-    width: 3.1vw;
-    height: 3.5vw;
-  }
-  
-  .barrita-vertical {
-    width: 0.65vw !important;
-    height: 3.5vw !important;
+    width: 4.2vw;
+    height: 15.2vw;
+    bottom: 4.3vw;
   }
 
   .container-logos {
-    width: 95%;
+    width: 85%;
     height: auto;
     padding: 2vw;
     margin-bottom: 8vw;
@@ -31,46 +27,16 @@
     position: relative;
     top: 0.2vw;
     margin-top: 5vw;
-    /* background-color: red; */
   }
 
   .container-logos .card {
-    width: 37vw !important;
-    height: 27vw;
-  }
-  
-  .container-logos .card:hover span {
-    width: 150%;
-    height: 150%;
+    width: 30vw !important;
+    height: 30vw;
+    border: 0.9vw solid #fff;
   }
 
   .instagram-container, .mail-container {
-    margin-top: 5vw !important;
-  }
-  
-  .title-logo {
-    font-size: 4.3vw;
-    top: 2.5vw;
-    color: #2a2a2a;
-    transition-duration: 0.5s;
-    text-shadow: none;
-  }
-  
-  .container-logos .card:hover .title-logo {
-    font-size: 4vw;
-    margin-top: 0.5vw;
-  }
-
-  .container-logos:hover .card {
-    transform: perspective(35vw) rotateY(20deg);
-  }
-  
-  .container-logos .card:hover {
-    transform: perspective(35vw) rotateY(0deg);
-  }
-  
-  .container-logos .card:hover ~ .card {
-    transform: perspective(35vw) rotateY(-20deg);
+    margin-top: 2vw !important;
   }
   
   .container-logos .card .style-i {
@@ -79,19 +45,13 @@
     color: #2a2a2a;
     text-align: center;
     border-radius: 50%;
-    margin-top: 4vw;
-    transition: box-shadow 0.5s;
-  }
-  
-  .container-logos .card:hover .style-i {
-    font-size: 12vw;
   }
 
   .style-h1__title-contactos {
     font-size: 6vw;
-    margin-bottom: 2vw;
+    margin-bottom: 0% !important;
+    margin-top: 15vw !important;
   }
-
 
   .mail-container, .instagram-container {
     margin-top: 6vw; 
@@ -113,8 +73,6 @@
     height: 12vw;
     background-color: #2a2a2a;
     display: flex;
-    /* justify-content: space-between !important; */
-    /* align-items: center; */
   }
 
   .container__site-footer,
@@ -129,7 +87,6 @@
     width: 63vw;
     height: 7.5vw;
     margin-left: 7.5%;
-    /* background-color: green; */
   }
 
   .container__site-footer img {
@@ -169,7 +126,6 @@
     border-radius: 40%;
     margin-top: 1.6% !important;
     margin-left: 3.5vw;
-    /* margin-right: 5.2% !important; */
   }
 
   .whatsapp-container {
@@ -188,11 +144,6 @@
 @media only screen and (min-width: 375px) and (max-width: 800px) {
   .container-logos {
     max-width: 100vw;
-    /* background-color: red; */
-  }
-
-  .style-h1__title-contactos {
-    padding-top: 7vw !important;
   }
 
   .container-whatsapp {
@@ -214,40 +165,16 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
+
   .container-logos {
     max-width: 70vw;
+    margin-top: 15vw;
   }
 
   .container-logos .card {
     width: 55vw !important;
     height: 42vw;
   }
-
-  
-  .container-logos:hover .card {
-    transform: perspective(60vw) rotateY(20deg);
-  }
-  
-  .container-logos .card:hover {
-    transform: perspective(60vw) rotateY(0deg);
-  }
-  
-  .container-logos .card:hover ~ .card {
-    transform: perspective(60vw) rotateY(-20deg);
-  }
-
-  .container-logos .card .style-i {
-    font-size: 15vw;
-  }
-
-  .container-logos .card:hover .style-i {
-    font-size: 15vw;
-  }
-
-  .title-logo {
-    font-size: 5vw;
-    margin-top: 2vw;
-   }
 
   .container-logos .card:hover .title-logo {
     font-size: 5vw;
@@ -256,18 +183,34 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 400px) {
-  .barras-separadoras {
-    height: 4vw;
-  }
-  
   .barras-separadoras article {
-    width: 3.1vw;
-    height: 4vw;
-  }
-  
-  .barrita-vertical {
-    width: 0.75vw !important;
-    height: 4vw !important;
+    width: 5vw;
+    height: 16vw;
+    bottom: 4.5vw;
   }
 
+  .style-h1__title-contactos {
+    font-size: 10vw;
+    margin-bottom: 0% !important;
+    margin-top: 20vw !important;
+  }
+
+  .style-h1__title-contactos::before {
+    font-size: 10vw;
+    left: 0;
+  }
+
+  .container-logos {
+    margin-top: 7.5vw;
+  }
+
+  .container-logos .card {
+    width: 50vw !important;
+    height: 50vw;
+    border: 1.5vw solid #fff;
+  }
+
+  .container-logos .card .style-i {
+    font-size: 25vw;
+  }
 }

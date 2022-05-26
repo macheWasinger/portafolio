@@ -1,47 +1,23 @@
 import React from "react";
+import clip from "../img/clip.png";
 
 const BarrasVerticales = () => {
   return (
     <div className="barras-separadoras">
       <article>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
+        <img src={clip} alt="" />
       </article>
       <article>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
+        <img src={clip} alt="" />
       </article>
       <article>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
+        <img src={clip} alt="" />
       </article>
       <article>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
+        <img src={clip} alt="" />
       </article>
       <article>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-      </article>
-      <article>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-      </article>
-      <article>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-      </article>
-      <article>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
-        <div className="barrita-vertical"></div>
+        <img src={clip} alt="" />
       </article>
     </div>
   );
