@@ -16,7 +16,6 @@
   background-color: #2a2a2a;
   display: flex;
   justify-content: space-between !important;
-  /* background-color: #fff; */
 }
 
 .container_fondo-presentacion-imageDev .style-logo-video {
@@ -39,7 +38,6 @@
 .container__presentacion-imageDeveloper {
   width: 46%;
   height: 27.5vw;
-  /* background-color: blue; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -48,7 +46,6 @@
   position: relative;
   left: 12px;
   margin: auto;
-  /* overflow: hidden; */
 }
 
 .container_fondo-presentacion-imageDev .container__texto-presentacion {
@@ -57,7 +54,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: blue; */
 }
 
 .container-imageDeveloper {
@@ -97,7 +93,6 @@ a,
 
 .nombre,
 .apellido {
-  /* background-color: red; */
   font-size: 2.7vw !important;
   font-weight: 600;
   text-transform: uppercase !important;
@@ -122,7 +117,6 @@ a,
   margin: auto;
   position: relative;
   bottom: 0.5vw;
-  /* background-color: red; */
 }
 
 .container-textFrontendJR-iconFrontend > img {

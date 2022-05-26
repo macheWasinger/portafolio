@@ -26,44 +26,29 @@ const Conocimientos = () => {
       <a name="Conocimientos"></a>
       <div className="marco-separator-conocimientos"></div>
       <h1 className="style-h1-title color-white title-font">Conocimientos</h1>
-      <div className="column-general__tech">
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-right"
-        >
+      <div
+        className="column-general__tech"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">HTML</h3>
           <img loading="lazy" src={html} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-right"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">CSS</h3>
           <img loading="lazy" src={css} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">JavaScript</h3>
           <img loading="lazy" src={js} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Grid</h3>
           <img loading="lazy" src={grid} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-right"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Responsive</h3>
           <img
             loading="lazy"
@@ -72,19 +57,11 @@ const Conocimientos = () => {
             className="style-logo-tech"
           />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-right"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">React</h3>
           <img loading="lazy" src={react} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Bootstrap</h3>
           <img
             loading="lazy"
@@ -93,43 +70,23 @@ const Conocimientos = () => {
             className="style-logo-tech"
           />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Git</h3>
           <img loading="lazy" src={git} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">GitHub</h3>
           <img loading="lazy" src={github} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Java</h3>
           <img loading="lazy" src={java} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Python</h3>
           <img loading="lazy" src={python} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-left"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Photoshop</h3>
           <img
             loading="lazy"
@@ -138,35 +95,19 @@ const Conocimientos = () => {
             className="style-logo-tech"
           />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-right"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Figma</h3>
           <img loading="lazy" src={figma} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-right"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Canva</h3>
           <img loading="lazy" src={canva} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-right"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">VS Code</h3>
           <img loading="lazy" src={vscode} alt="" className="style-logo-tech" />
         </div>
-        <div
-          className="container__logo-title-tech"
-          data-aos-duration="700"
-          data-aos="flip-right"
-        >
+        <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Terminal</h3>
           <img
             loading="lazy"

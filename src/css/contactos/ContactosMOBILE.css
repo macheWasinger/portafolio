@@ -4,7 +4,7 @@
     height: auto;
     background-color: #5c5c5c;
     bottom: 0;
-    /* padding-top: 7vw; */
+    overflow: auto !important;
   }
 
   .container-logos {

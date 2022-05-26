@@ -10,8 +10,6 @@ import iconFrontend from "../img/icon-frontend.png";
 // import MenuDesktop from "./header/MenuDesktop";
 
 const Home = () => {
-  // const [active, setActive] = React.useState(false);
-
   return (
     <div className="container-padre">
       <a name="Home"></a>
