@@ -112,32 +112,43 @@
 }
 
  .style-button-descargarCV {
+   width: 15vw;
+   height: 3vw;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.5s;
-  font-size: 1vw;
-  font-weight: 600;
+  font-size: 1.2vw;
+  font-family: "anton", sans-serif;
+  letter-spacing: 2px;
   color: #fff !important;
   text-transform: uppercase;
-  box-shadow: 1px 2px 3px #000000;
+  text-shadow: 0.05em 0.1em 0.15em #333;
+  box-shadow: 0.1em 0.15em 0.2em #333;
   position: relative;
   left: 23vw;
   top: 4vw;
-  border-radius: 20px 5px 20px 5px;
+  border-radius: 1.1vw 0.3vw 1.1vw 0.3vw;
+  border: 0.15em solid #ffb633;
+  z-index: 1;
 }
 
-.style-button-descargarCV:hover {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#6d6d6d),
-    to(#3a3a3a)
-  );
+.style-button-descargarCV::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 15vw;
+  height: 0;
+  border-radius: 1.1vw 0.3vw 1.1vw 0.3vw;
+  z-index: -1;
   transition: all 0.5s;
-  border-radius: 5px 20px 5px 20px;
+}
+
+.style-button-descargarCV:hover::before {
+  background-color: #ffb633;
+  height: 108%;
+  transition: all 0.5s;
 }
 
 

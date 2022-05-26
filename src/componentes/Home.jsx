@@ -25,7 +25,7 @@ const Home = () => {
             <source src={logoAnimado} />
           </video>
 
-          <MenuMobile />
+          {/* <MenuMobile /> */}
         </div>
 
         <div className="container__presentacion-imageDeveloper">

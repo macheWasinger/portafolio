@@ -22,7 +22,7 @@ const SobreMi = () => {
         <a
           download="CV-WasingerMarcelo2022"
           href={cv}
-          className="style-button-descargarCV btn btn-warning pt-2"
+          className="style-button-descargarCV"
           target="_blank"
           rel="noopener noreferrer"
         >

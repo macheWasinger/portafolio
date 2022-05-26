@@ -1,12 +1,25 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState, useRef } from "react";
+import useScrollSpy from "react-use-scrollspy";
 
 const MenuMobile = () => {
-  const [active, setActive] = React.useState(0);
+  // const [active, setActive] = React.useState(0);
   const [isActive, setIsActive] = useState(false);
   const toggleMenu = () => {
     setIsActive(!isActive);
   };
+
+  const sectionRefs = [
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+  ];
+
+  const activeSection = useScrollSpy({
+    sectionElementRefs: sectionRefs,
+    offsetPx: -80,
+  });
 
   return (
     <div className="container-Padre_menu" style={{ display: "none" }}>
@@ -27,13 +40,16 @@ const MenuMobile = () => {
       <nav className={`menu-navegacion ${isActive ? "menu-activado" : "hide"}`}>
         <div className="container-menuMobile shadow">
           <article
-            className="article-menu w-25 rounded-pill"
+            className={`article-menu w-25 rounded-pill ${
+              activeSection === 0 ? "ancla_activo" : ""
+            }`}
             onClick={toggleMenu}
           >
             <a
               href="#Home"
-              onClick={() => setActive(0)}
-              className={`rounded-pill ${active === 0 ? "ancla_activo" : ""}`}
+              className={`rounded-pill ${
+                activeSection === 0 ? "ancla_activo borde-ancla" : ""
+              }`}
               smooth={true}
             >
               <i class="fa-solid fa-house"></i>
@@ -41,13 +57,16 @@ const MenuMobile = () => {
           </article>
 
           <article
-            className="article-menu w-25 rounded-pill"
+            className={`article-menu w-25 rounded-pill ${
+              activeSection === 1 ? "ancla_activo" : ""
+            }`}
             onClick={toggleMenu}
           >
             <a
               href="#SobreMi"
-              onClick={() => setActive(1)}
-              className={`rounded-pill ${active === 1 ? "ancla_activo" : ""}`}
+              className={`rounded-pill ${
+                activeSection === 1 ? "ancla_activo borde-ancla" : ""
+              }`}
               smooth={true}
             >
               <i class="fa-solid fa-user-tie"></i>
@@ -55,13 +74,16 @@ const MenuMobile = () => {
           </article>
 
           <article
-            className="article-menu w-25 rounded-pill"
+            className={`article-menu w-25 rounded-pill ${
+              activeSection === 2 ? "ancla_activo" : ""
+            }`}
             onClick={toggleMenu}
           >
             <a
               href="#Conocimientos"
-              onClick={() => setActive(2)}
-              className={`rounded-pill ${active === 2 ? "ancla_activo" : ""}`}
+              className={`rounded-pill ${
+                activeSection === 2 ? "ancla_activo borde-ancla" : ""
+              }`}
               smooth={true}
             >
               <i class="fa-solid fa-code"></i>
@@ -69,13 +91,16 @@ const MenuMobile = () => {
           </article>
 
           <article
-            className="article-menu w-25 rounded-pill"
+            className={`article-menu w-25 rounded-pill ${
+              activeSection === 3 ? "ancla_activo" : ""
+            }`}
             onClick={toggleMenu}
           >
             <a
               href="#Proyectos"
-              onClick={() => setActive(3)}
-              className={`rounded-pill ${active === 3 ? "ancla_activo" : ""}`}
+              className={`rounded-pill ${
+                activeSection === 3 ? "ancla_activo borde-ancla" : ""
+              }`}
               smooth={true}
             >
               <i class="fa-solid fa-laptop-code"></i>
@@ -83,13 +108,16 @@ const MenuMobile = () => {
           </article>
 
           <article
-            className="article-menu w-25 rounded-pill"
+            className={`article-menu w-25 rounded-pill ${
+              activeSection === 4 ? "ancla_activo" : ""
+            }`}
             onClick={toggleMenu}
           >
             <a
               href="#Contactos"
-              onClick={() => setActive(4)}
-              className={`rounded-pill ${active === 4 ? "ancla_activo" : ""}`}
+              className={`rounded-pill ${
+                activeSection === 4 ? "ancla_activo borde-ancla" : ""
+              }`}
               smooth={true}
             >
               <i class="fa-solid fa-address-card"></i>

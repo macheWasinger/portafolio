@@ -45,7 +45,11 @@ a {
 
 
 .ancla_activo {
-  border: 0.1em solid #ffb633;
+ color: #ffb633 !important;
+}
+
+.borde-ancla {
+  border: 0.1em solid #ffb633 !important;
 }
 
   
@@ -54,8 +58,9 @@ a {
     width: 9vw;
     height: 1.7em;
     color: #fff;
-    margin-bottom: 0%;
+    /* margin-bottom: 0%; */
     right: 3.8%;
+    top: 2.2%;
     z-index: 2;
     cursor: pointer;
   }
@@ -192,7 +197,7 @@ a {
       width: 5.5vw;
       height: 1.7em;
       color: #fff;
-      margin-bottom: 0%;
+      /* margin-bottom: 0%; */
       right: 2.5%;
       z-index: 2;
       cursor: pointer;

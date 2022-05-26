@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Creo esta clase para que me funcione el "scrollspy" de Bootstrap */
+  
+  .container {
+    overflow: scroll;
+    position: relative;
+  }
+  
+  
+  .container-menuDesktop {
+    width: 5.5vw !important;
+    height: 25vw !important;
+    margin-right: 2vw;
+    border-radius: 10em;
+    background-color: #2A2A2A !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    position: fixed !important;
+    z-index: 100;
+    right: 1vw;
+    top: 11.7vw;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
+  .container-menuDesktop article {
+    width: 3vw !important;
+    height: 3vw !important;
+    background-color: #2f2f2f;
+  }
+  
+  .container-menuDesktop article:hover {
+    cursor: pointer;
+  }
+  
+  .container-menuDesktop article a {
+    width: 3vw !important;
+    height: 3vw !important;
+    display: grid;
+    place-items: center;
+    font-size: 1.4vw !important;
+    color: #fff;
+  }
+  
+  /* .container-menuDesktop article a:hover {
+    color: #ffb633;
+  } */
+  
+  .ancla_activo {
+    color: #ffb633 !important;
+  }
+  
+  .borde-ancla {
+    border: 0.1em solid #ffb633;
+  }
+  
+  .title_section-home:before {
+    content: "Inicio";
+  }
+  
+  .title_section-sobreMi:before {
+    content: "SobreMí"
+  }
+  
+  .title_section-conocimientos:before {
+    content: "Conocimientos";
+  }
+  
+  .title_section-proyectos:before {
+    content: "Proyectos"
+  }
+  
+  .title_section-contactos:before {
+    content: "Contactos";
+  }
+  
+  .title_section-home:before,
+  .title_section-sobreMi:before,
+  .title_section-conocimientos:before,
+  .title_section-proyectos:before,
+  .title_section-contactos:before {
+    position: absolute;
+    /* width: auto; */
+    /* background-color: red; */
+    font-size: 0;
+    font-family: 'anton', sans-serif;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 0.05em 0.1em 0.15em #2a2a2a;
+  }
+  
+  .title_section-home:hover:before,
+  .title_section-sobreMi:hover:before,
+  .title_section-conocimientos:hover:before,
+  .title_section-proyectos:hover:before,
+  .title_section-contactos:hover:before {
+    font-size: 1.3vw;
+    transition-duration: 0.5s;
+  }
+  
+  .title_section-home:hover:before {
+    margin-right: 7.4vw;
+  }
+  
+  .title_section-sobreMi:hover:before {
+    margin-right: 8.9vw;
+  }
+  
+  .title_section-conocimientos:hover:before {
+    margin-right: 12.75vw;
+  }
+  
+  .title_section-proyectos:hover:before,
+  .title_section-contactos:hover:before {
+    margin-right: 9.95vw;
+  }
+  
+  .text-hide:before {
+    display: none !important;
+  }
