@@ -9,9 +9,6 @@ const SobreMi = () => {
   return (
     <div className="container-padre_sobreMi">
       <a name="SobreMi"></a>
-      <article className="container-dots">
-        {/* <img src={dots} alt="" /> */}
-      </article>
       <div className="container_small-picture_downloadCV">
         <div className="container-image">
           <img

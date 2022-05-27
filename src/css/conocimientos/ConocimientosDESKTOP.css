@@ -27,12 +27,26 @@
   position: relative;
   bottom: 1.5vw;
   clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 34%, 0 24%);
+  overflow: hidden;
 }
 
 .marco-separator-conocimientos {
   margin-top: -2.5vw !important;
   background-color: #585858;
   /* opacity: 0.2; */
+}
+
+.marco-separator-conocimientos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45vw;
+  height: 10vw;
+  background-image: url("../../img/puntosGrises.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .marco-separator-inferior-conocimientos {

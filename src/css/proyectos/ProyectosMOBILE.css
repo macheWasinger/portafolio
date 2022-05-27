@@ -121,6 +121,7 @@
     margin-top: 27%;
     background-color: #000000;
     opacity: 0.35 !important;
+    z-index: 0 !important;
   }
 
   .carousel-control-prev-icon,

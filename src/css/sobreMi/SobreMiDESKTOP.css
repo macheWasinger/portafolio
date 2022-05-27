@@ -22,7 +22,7 @@
 .container-padre_sobreMi::before {
   content: "";
   position: absolute;
-  top: 44vw;
+  top: 43vw;
   left: -2.8vw;
   width: 40vw;
   height: 22vw;
@@ -145,7 +145,7 @@
   top: 4vw;
   border-radius: 1.1vw 0.3vw 1.1vw 0.3vw;
   border: 0.30vw solid #fff;
-  z-index: 1;
+  z-index: 0;
   background-color: #fff;
 }
 

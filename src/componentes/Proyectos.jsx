@@ -191,7 +191,7 @@ const Proyectos = () => {
           data-aos-delay="200"
           data-aos-offset="200"
         >
-          <div class="container-project-mobile carousel-item active">
+          <div className="container-project-mobile carousel-item active">
             <a href="" target="_blank" className="style-a__project">
               <img
                 loading="lazy"
@@ -224,7 +224,7 @@ const Proyectos = () => {
               </div>
             </a>
           </div>
-          <div class="container-project-mobile carousel-item">
+          <div className="container-project-mobile carousel-item">
             <a
               href="https://machewasinger.github.io/MaquetadoMeli.github.io/"
               target="_blank"
@@ -263,7 +263,7 @@ const Proyectos = () => {
               </div>
             </a>
           </div>
-          <div class="container-project-mobile carousel-item">
+          <div className="container-project-mobile carousel-item">
             <a
               href="https://machewasinger.github.io/destinoarg/"
               target="_blank"
@@ -308,7 +308,7 @@ const Proyectos = () => {
               </div>
             </a>
           </div>
-          <div class="container-project-mobile carousel-item">
+          <div className="container-project-mobile carousel-item">
             <a
               href="https://machewasinger.github.io/Maquetado.github.io/"
               target="_blank"
@@ -348,7 +348,7 @@ const Proyectos = () => {
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
@@ -356,11 +356,14 @@ const Proyectos = () => {
           data-aos-delay="200"
           data-aos-offset="200"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
@@ -368,8 +371,11 @@ const Proyectos = () => {
           data-aos-delay="200"
           data-aos-offset="200"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>
