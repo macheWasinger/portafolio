@@ -16,9 +16,6 @@ const BarrasVerticales = () => {
       <article>
         <img src={clip} alt="" />
       </article>
-      <article>
-        <img src={clip} alt="" />
-      </article>
     </div>
   );
 };
