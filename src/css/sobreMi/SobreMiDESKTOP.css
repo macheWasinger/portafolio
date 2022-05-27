@@ -136,24 +136,25 @@
   font-size: 1.2vw;
   font-family: "anton", sans-serif;
   letter-spacing: 2px;
-  color: #fff !important;
+  color: #2a2a2a;
   text-transform: uppercase;
-  text-shadow: 0.05em 0.1em 0.15em #333;
+  text-shadow: 0.05em 0.1em 0.15em #838383;
   box-shadow: 0.1em 0.15em 0.2em #333;
   position: relative;
   left: 23vw;
   top: 4vw;
   border-radius: 1.1vw 0.3vw 1.1vw 0.3vw;
-  border: 0.15em solid #ffb633;
+  border: 0.30vw solid #fff;
   z-index: 1;
+  background-color: #fff;
 }
 
 .style-button-descargarCV::before {
   content: "";
   position: absolute;
-  bottom: -2px;
-  left: -1px;
-  width: 15vw;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   height: 0;
   border-radius: 1.1vw 0.3vw 1.1vw 0.3vw;
   z-index: -1;
@@ -162,7 +163,7 @@
 
 .style-button-descargarCV:hover::before {
   background-color: #ffb633;
-  height: 108%;
+  height: 100%;
   transition: all 0.5s;
 }
 
@@ -174,21 +175,28 @@
 .show-iconPDF {
   display: block;
   font-size: 1.3vw;
+  color: #fff;
   transition: all 0.5s;
   position: relative;
   right: 2vw;
+  bottom: 0.05vw;
 }
 
 .hide-iconPDF {
   font-size: 0;
+  color: #2a2a2a;
   position: relative;
-  right: 4.8vw;
+  right: 3.8vw;
+  transition: all 0.5s;
 }
 
 .style-button-descargarCV:hover .text-descargarCV {
   margin-left: 2.1vw;
   transition: all 0.5s;
+  transform: rotateY(360deg);
+  color: #fff;
 }
+
 
 /* .hide-iconOK {
   display: none;
