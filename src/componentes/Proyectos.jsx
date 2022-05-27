@@ -13,7 +13,7 @@ import iconResponsive from "../img/responsiveWebDesign.png";
 import bootstrap from "../img/bootstrap.png";
 
 const Proyectos = () => {
-  const [active, setActive] = React.useState(false);
+  // const [active, setActive] = React.useState(false);
 
   const letter = document.querySelector(".style-h1__proyectos");
 

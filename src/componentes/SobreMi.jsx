@@ -4,9 +4,14 @@ import smallImage from "../img/maw.png";
 import cv from "../cv/CV-WasingerMarcelo2022.pdf";
 
 const SobreMi = () => {
+  const [active, setActive] = React.useState(false);
+
   return (
     <div className="container-padre_sobreMi">
       <a name="SobreMi"></a>
+      <article className="container-dots">
+        {/* <img src={dots} alt="" /> */}
+      </article>
       <div className="container_small-picture_downloadCV">
         <div className="container-image">
           <img
@@ -25,8 +30,21 @@ const SobreMi = () => {
           className="style-button-descargarCV"
           target="_blank"
           rel="noopener noreferrer"
+          onMouseOver={() => setActive(true)}
+          onMouseOut={() => setActive(false)}
         >
-          Descargar CV
+          <span className="text-descargarCV">Descargar CV</span>
+          <span
+            className={`iconPDF ${
+              active === true ? "show-iconPDF" : "hide-iconPDF"
+            }`}
+            onClick={() => setActive(false)}
+          >
+            <i className="fa-solid fa-file-lines"></i>
+          </span>
+          {/* <span className={`icon-OK ${active === false ? "show-iconOK" : ""}`}>
+            <i className="fa-solid fa-circle-check"></i>
+          </span> */}
         </a>
       </div>
       <div className="container-text_sobreMi">

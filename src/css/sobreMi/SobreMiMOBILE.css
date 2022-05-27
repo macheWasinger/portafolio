@@ -6,6 +6,28 @@
     justify-content: space-around;
   }
 
+  .container-padre_sobreMi::before {
+    content: "";
+    position: absolute;
+    top: 44vw;
+    left: -2.8vw;
+    width: 40vw;
+    height: 22vw;
+    background-image: url("../../img/dots.png");
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: center;
+    /* background-color: red !important; */
+  }
+
+  .container-padre_sobreMi::before {
+    top: 91vw;
+    left: -2.8vw;
+    width: 50vw;
+    height: 120vw;
+  }
+  
+
   .container_small-picture_downloadCV {
     width: 41.5vw;
     height: auto;
@@ -79,11 +101,27 @@
  .style-button-descargarCV::before {
    width: 33vw;
    border-radius: 2vw 0.5vw 2vw 0.5vw;
+   left: -2px;
  }
  
  .style-button-descargarCV:hover::before {
    height: 112%;
  }
+
+ .text-descargarCV {
+  margin-left: 6.3vw;
+}
+
+.show-iconPDF {
+  font-size: 3vw;
+}
+
+
+.style-button-descargarCV:hover .text-descargarCV {
+  margin-left: 2.1vw;
+  transition: all 0.5s;
+}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 800px) {
@@ -104,5 +142,15 @@
 
   .style-button-descargarCV {
     top: 7vw;
+  }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+  .container-padre_sobreMi::before {
+    top: 123vw;
+    left: -40vw;
+    width: 90vw;
+    height: 120vw;
   }
 }

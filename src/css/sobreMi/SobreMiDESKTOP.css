@@ -19,6 +19,20 @@
   overflow: hidden;
 }
 
+.container-padre_sobreMi::before {
+  content: "";
+  position: absolute;
+  top: 44vw;
+  left: -2.8vw;
+  width: 40vw;
+  height: 22vw;
+  background-image: url("../../img/dots.png");
+  background-repeat: no-repeat;
+  background-size: 170%;
+  background-position: center;
+  /* background-color: red !important; */
+}
+
 .container_small-picture_downloadCV,
 .container-image,
 .style-smallImage,
@@ -117,7 +131,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   transition: all 0.5s;
   font-size: 1.2vw;
   font-family: "anton", sans-serif;
@@ -138,6 +152,7 @@
   content: "";
   position: absolute;
   bottom: -2px;
+  left: -1px;
   width: 15vw;
   height: 0;
   border-radius: 1.1vw 0.3vw 1.1vw 0.3vw;
@@ -151,6 +166,37 @@
   transition: all 0.5s;
 }
 
+.text-descargarCV {
+  margin-left: 3.4vw;
+  transition: all 0.5s;
+}
+
+.show-iconPDF {
+  display: block;
+  font-size: 1.3vw;
+  transition: all 0.5s;
+  position: relative;
+  right: 2vw;
+}
+
+.hide-iconPDF {
+  font-size: 0;
+  position: relative;
+  right: 4.8vw;
+}
+
+.style-button-descargarCV:hover .text-descargarCV {
+  margin-left: 2.1vw;
+  transition: all 0.5s;
+}
+
+/* .hide-iconOK {
+  display: none;
+}
+
+.show-iconOK {
+  display: block;
+} */
 
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
   .container-padre_sobreMi {
