@@ -1,7 +1,7 @@
 import React from "react";
 
 import smallImage from "../img/maw.png";
-import cv from "../cv/CV-WasingerMarcelo2022.pdf";
+import cv from "../cv/CV-WasingerMarcelo-Mayo2022.pdf";
 
 const SobreMi = () => {
   const [active, setActive] = React.useState(false);
