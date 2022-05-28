@@ -30,7 +30,7 @@ const Conocimientos = () => {
         className="column-general__tech"
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="1500"
       >
         <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">HTML</h3>

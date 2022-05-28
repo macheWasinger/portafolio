@@ -41,7 +41,7 @@
     cursor: pointer;
   }
   
-  .container-menuDesktop article a {
+  .container-menuDesktop article .style-Link {
     width: 3vw !important;
     height: 3vw !important;
     display: grid;
@@ -49,10 +49,6 @@
     font-size: 1.4vw !important;
     color: #fff;
   }
-  
-  /* .container-menuDesktop article a:hover {
-    color: #ffb633;
-  } */
   
   .ancla_activo {
     color: #ffb633 !important;
@@ -88,14 +84,12 @@
   .title_section-proyectos:before,
   .title_section-contactos:before {
     position: absolute;
-    /* width: auto; */
-    /* background-color: red; */
     font-size: 0;
     font-family: 'anton', sans-serif;
-    /* text-transform: uppercase; */
     letter-spacing: 1px;
     color: #fff;
     text-shadow: 0.05em 0.1em 0.15em #2a2a2a;
+    
   }
   
   .title_section-home:hover:before,

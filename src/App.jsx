@@ -64,7 +64,7 @@ function App() {
           <Link
             to="Home"
             smooth={true}
-            className={`title_section-home rounded-pill ${
+            className={`style-Link title_section-home rounded-pill ${
               activeSection === 0 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
@@ -80,7 +80,7 @@ function App() {
           <Link
             to="SobreMi"
             smooth={true}
-            className={`title_section-sobreMi rounded-pill ${
+            className={`style-Link title_section-sobreMi rounded-pill ${
               activeSection === 1 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
@@ -96,7 +96,7 @@ function App() {
           <Link
             to="Conocimientos"
             smooth={true}
-            className={`title_section-conocimientos rounded-pill ${
+            className={`style-Link title_section-conocimientos rounded-pill ${
               activeSection === 2 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
@@ -112,7 +112,7 @@ function App() {
           <Link
             to="Proyectos"
             smooth={true}
-            className={`title_section-proyectos rounded-pill ${
+            className={`style-Link title_section-proyectos rounded-pill ${
               activeSection === 3 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
@@ -128,7 +128,7 @@ function App() {
           <Link
             to="Contactos"
             smooth={true}
-            className={`title_section-contactos rounded-pill ${
+            className={`style-Link title_section-contactos rounded-pill ${
               activeSection === 4 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >

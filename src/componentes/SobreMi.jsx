@@ -39,9 +39,6 @@ const SobreMi = () => {
           >
             <i className="fa-solid fa-file-lines"></i>
           </span>
-          {/* <span className={`icon-OK ${active === false ? "show-iconOK" : ""}`}>
-            <i className="fa-solid fa-circle-check"></i>
-          </span> */}
         </a>
       </div>
       <div className="container-text_sobreMi">
