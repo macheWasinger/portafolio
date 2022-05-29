@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.6b6a5f96.chunk.css",
-    "main.js": "/portafolio/static/js/main.15a0aa9e.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.15a0aa9e.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.b81758c6.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.b81758c6.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.d97de6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portafolio/static/css/2.0a9ec390.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.0a9ec390.chunk.css.map": "/portafolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.6b6a5f96.chunk.css.map": "/portafolio/static/css/main.6b6a5f96.chunk.css.map",
     "static/js/2.7f26d42b.chunk.js.LICENSE.txt": "/portafolio/static/js/2.7f26d42b.chunk.js.LICENSE.txt",
-    "static/media/CV-WasingerMarcelo-Mayo2022.5fe550c3.pdf": "/portafolio/static/media/CV-WasingerMarcelo-Mayo2022.5fe550c3.pdf",
+    "static/media/CV-WasingerMarcelo-Mayo2022.ee9de80c.pdf": "/portafolio/static/media/CV-WasingerMarcelo-Mayo2022.ee9de80c.pdf",
     "static/media/canva.3c3e6d67.png": "/portafolio/static/media/canva.3c3e6d67.png",
     "static/media/clip.fe2acae2.png": "/portafolio/static/media/clip.fe2acae2.png",
     "static/media/desktopMaquetado.098535e9.png": "/portafolio/static/media/desktopMaquetado.098535e9.png",
@@ -35,6 +35,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.7f26d42b.chunk.js",
     "static/css/main.6b6a5f96.chunk.css",
-    "static/js/main.15a0aa9e.chunk.js"
+    "static/js/main.b81758c6.chunk.js"
   ]
 }
