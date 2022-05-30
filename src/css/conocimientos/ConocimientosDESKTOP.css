@@ -201,11 +201,11 @@
 @media only screen and (min-width: 2560px) {
   .container-padre_conocimientos {
     width: 100%;
-    height: 62vw;
+    height: 74vw;
   }
   
   .container-padre_conocimientos::before {
-    height: 77vw;
+    height: 89vw;
   }
 
   .column-general__tech {
