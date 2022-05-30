@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.841f6ed2.chunk.css",
-    "main.js": "/portafolio/static/js/main.eb69a83e.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.eb69a83e.chunk.js.map",
+    "main.css": "/portafolio/static/css/main.4aa1ab3f.chunk.css",
+    "main.js": "/portafolio/static/js/main.e7ae711f.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.e7ae711f.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.d97de6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portafolio/static/css/2.0a9ec390.chunk.css",
@@ -10,17 +10,15 @@
     "static/js/2.7f26d42b.chunk.js.map": "/portafolio/static/js/2.7f26d42b.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/portafolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.841f6ed2.chunk.css.map": "/portafolio/static/css/main.841f6ed2.chunk.css.map",
+    "static/css/main.4aa1ab3f.chunk.css.map": "/portafolio/static/css/main.4aa1ab3f.chunk.css.map",
     "static/js/2.7f26d42b.chunk.js.LICENSE.txt": "/portafolio/static/js/2.7f26d42b.chunk.js.LICENSE.txt",
     "static/media/CV-WasingerMarcelo-Mayo2022.ee9de80c.pdf": "/portafolio/static/media/CV-WasingerMarcelo-Mayo2022.ee9de80c.pdf",
     "static/media/canva.3c3e6d67.png": "/portafolio/static/media/canva.3c3e6d67.png",
-    "static/media/clip.fe2acae2.png": "/portafolio/static/media/clip.fe2acae2.png",
     "static/media/desktopMaquetado.098535e9.png": "/portafolio/static/media/desktopMaquetado.098535e9.png",
     "static/media/desktopMeli.4fa1810d.png": "/portafolio/static/media/desktopMeli.4fa1810d.png",
     "static/media/SobreMiMOBILE.css": "/portafolio/static/media/dots.9b033438.png",
     "static/media/ConocimientosDESKTOP.css": "/portafolio/static/media/fondoConocimientos3.7e750f68.jpg",
     "static/media/grid.6c1bf4b0.png": "/portafolio/static/media/grid.6c1bf4b0.png",
-    "static/media/ContactosDESKTOP.css": "/portafolio/static/media/hojaCuaderno.124e09be.jpg",
     "static/media/icon-frontend.ea630633.png": "/portafolio/static/media/icon-frontend.ea630633.png",
     "static/media/HomeDESKTOP.css": "/portafolio/static/media/imageFondoInicio.eb6a812f.jpg",
     "static/media/java.74329a08.png": "/portafolio/static/media/java.74329a08.png",
@@ -35,7 +33,7 @@
     "static/js/runtime-main.d97de6e3.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.7f26d42b.chunk.js",
-    "static/css/main.841f6ed2.chunk.css",
-    "static/js/main.eb69a83e.chunk.js"
+    "static/css/main.4aa1ab3f.chunk.css",
+    "static/js/main.e7ae711f.chunk.js"
   ]
 }
