@@ -17,6 +17,7 @@ import java from "../img/java.png";
 import python from "../img/python.png";
 import vscode from "../img/vscode.png";
 import terminal from "../img/terminal.png";
+import firebase from "../img/firebase.png";
 
 const Conocimientos = () => {
   // const [active, setActive] = React.useState(3);
@@ -45,8 +46,17 @@ const Conocimientos = () => {
           <img loading="lazy" src={js} alt="" className="style-logo-tech" />
         </div>
         <div className="container__logo-title-tech">
-          <h3 className="style-text__title-tech">Grid</h3>
-          <img loading="lazy" src={grid} alt="" className="style-logo-tech" />
+          <h3 className="style-text__title-tech">React</h3>
+          <img loading="lazy" src={react} alt="" className="style-logo-tech" />
+        </div>
+        <div className="container__logo-title-tech">
+          <h3 className="style-text__title-tech">Firebase</h3>
+          <img
+            loading="lazy"
+            src={firebase}
+            alt=""
+            className="style-logo-tech"
+          />
         </div>
         <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Responsive</h3>
@@ -58,8 +68,8 @@ const Conocimientos = () => {
           />
         </div>
         <div className="container__logo-title-tech">
-          <h3 className="style-text__title-tech">React</h3>
-          <img loading="lazy" src={react} alt="" className="style-logo-tech" />
+          <h3 className="style-text__title-tech">Grid</h3>
+          <img loading="lazy" src={grid} alt="" className="style-logo-tech" />
         </div>
         <div className="container__logo-title-tech">
           <h3 className="style-text__title-tech">Bootstrap</h3>

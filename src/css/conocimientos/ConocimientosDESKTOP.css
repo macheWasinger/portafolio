@@ -107,7 +107,7 @@
 .column-general__tech {
   /* width: 50%; */
   height: auto;
-  max-width: 50vw;
+  max-width: 55vw;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -119,10 +119,11 @@
 .column-general__tech::before {
   content: "";
   position: absolute;
-  top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
+  top: 0;
+  bottom: 0;
+  /* height: 55vw; */
   background-color: #000;
   opacity: .8;
   border-radius: 20px;

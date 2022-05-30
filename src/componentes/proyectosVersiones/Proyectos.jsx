@@ -22,7 +22,8 @@ const Proyectos = () => {
       <h1 className="style-h1__proyectos title-font">Proyectos</h1>
       <article className="container-subtitleProyectos">
         <h3 className="style-h3-subtitulo__proyectos">
-          Son algunos de mis proyectos
+          Para demostrar mi evolución en el código, los proyectos están
+          ordenados de mayor a menor:
         </h3>
       </article>
       <div className="container-proyectos">

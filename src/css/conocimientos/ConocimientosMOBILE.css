@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
   .container-padre_conocimientos {
-    height: 115vw;
+    height: 120vw;
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     overflow: none !important;
@@ -93,6 +93,10 @@
     margin-top: 7%;
     align-items: center;
     /* background-color: green; */
+  }
+
+  .column-general__tech::before {
+    bottom: -4vw;
   }
 
   .container__logo-title-tech {
@@ -214,5 +218,12 @@
 @media only screen and (min-width: 769px) and (max-width: 800px) {
   .style-h1-title {
     margin-top: 3.5%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .column-general__tech::before {
+    top: -1.5vw !important;
+    bottom: -4.5vw;
   }
 }

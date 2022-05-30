@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
   .container-padre__proyectos {
-    height: 150vw !important;
+    height: 167vw !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -64,9 +64,11 @@
   }
 
   .style-h3-subtitulo__proyectos {
+    width: 85%;
     font-size: 4vw !important;
     position: relative;
     top: 0vw;
+    line-height: 5.5vw;
   }
 
 
@@ -219,7 +221,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 426px) {
   .container-padre__proyectos {
-    height: 170vw !important;
+    height: 178vw !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

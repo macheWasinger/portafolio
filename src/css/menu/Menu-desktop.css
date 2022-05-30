@@ -56,6 +56,12 @@
   
   .borde-ancla {
     border: 0.1em solid #ffb633;
+    box-shadow: 0 0 0.5vw #ffb633,
+                0 0 0.55vw #ffb633,
+                0 0 0.6vw #ffb633,
+                0 0 0.65vw #ffb633,
+                0 0 0.7vw #ffb633,
+                0 0 0.95vw #ffb633;
   }
   
   .title_section-home:before {

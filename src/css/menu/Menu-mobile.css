@@ -50,6 +50,12 @@ a {
 
 .borde-ancla {
   border: 0.1em solid #ffb633 !important;
+  box-shadow: 0 0 1vw #ffb633,
+                0 0 1.4vw #ffb633,
+                0 0 1.5vw #ffb633,
+                0 0 1.6vw #ffb633,
+                0 0 1.7vw #ffb633,
+                0 0 1.8vw #ffb633;
 }
 
   
