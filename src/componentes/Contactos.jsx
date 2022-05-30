@@ -1,10 +1,10 @@
 import React from "react";
-import BarrasVerticales from "./BarrasVerticales";
+// import BarrasVerticales from "./BarrasVerticales";
 
 const Contactos = () => {
   return (
     <div loading="lazy" className="container-padre__Contactos">
-      <BarrasVerticales />
+      {/* <BarrasVerticales /> */}
       <a name="Contactos"></a>
       <div className="container-hijo__contactos">
         <h1 className="style-h1__title-contactos color-white title-font">

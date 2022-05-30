@@ -93,7 +93,11 @@
 }
 
 .style-h1-sobreMi {
+  font-family: 'Anton', sans-serif;
   font-size: 3.5vw;
+  color: #ffb633 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.15vw;
 }
 
 .title-hobbies {

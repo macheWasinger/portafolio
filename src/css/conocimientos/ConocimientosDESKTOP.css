@@ -54,20 +54,7 @@
   clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 34%, 0 24%);
   transform: rotateX(180deg);
   background-color: #2e2e2e;
-  /* opacity: 0.2; */
 }
-
-/* .marco-separator-inferior-conocimientos::before {
-  content: "";
-  position: absolute;
-  bottom: 1vw;
-  width: 50vw;
-  height: 7vw;
-  background-image: url("../../img/puntosGrises.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
 
 .title-lineaHorizontal,
 .style-h1-title,
@@ -83,16 +70,18 @@
 
 .card__title,
 .skills__tech,
-.style-h1-title,
 .style-h3-subtitulo {
   color: #fff;
 }
 
 .style-h1-title {
+  font-family: 'Anton', sans-serif;
   font-weight: 700;
   font-size: 3.5vw;
-  letter-spacing: 2px;
+  letter-spacing: 0.15vw;
+  color: #ffb633;
   text-shadow: 1px 2px 3px black;
+  text-transform: uppercase;
   margin-top: 5vw;
 }
 

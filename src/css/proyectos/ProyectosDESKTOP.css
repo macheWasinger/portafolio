@@ -32,7 +32,7 @@
   font-size: 3.5vw;
   letter-spacing: 0.15vw;
   text-transform: uppercase;
-  color: #ffb633;
+  color: #fff;
 }
 
 .style-h1__proyectos,
@@ -78,7 +78,12 @@
   align-items: center;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 0.1em 0.15em 0.2em #2a2a2a;
+  box-shadow: 0 0 0.15vw #2a2a2a,
+              0 0 0.3vw #2a2a2a,
+              0 0 0.6vw #2a2a2a,
+              0 0 0.9vw #2a2a2a,
+              0 0 1.2vw #2a2a2a,
+              0 0 1.5vw #2a2a2a;
 }
 
 .container-project::before {
