@@ -19,7 +19,7 @@ import vscode from "../img/vscode.png";
 import terminal from "../img/terminal.png";
 
 const Conocimientos = () => {
-  const [active, setActive] = React.useState(3);
+  // const [active, setActive] = React.useState(3);
 
   return (
     <div loading="lazy" className="container-padre_conocimientos">

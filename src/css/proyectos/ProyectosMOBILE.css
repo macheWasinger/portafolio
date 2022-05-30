@@ -115,18 +115,39 @@
 
   .carousel-control-prev,
   .carousel-control-next {
-    width: 35px !important;
-    height: 35px !important;
+    width: 10vw !important;
+    height: 10vw !important;
     border-radius: 50%;
-    margin-top: 27%;
+    margin-top: 60%;
     background-color: #000000;
-    opacity: 0.35 !important;
+    opacity: 0.5 !important;
     z-index: 0 !important;
   }
 
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    width: 25px !important;
+    width: 70% !important;
+    z-index: 1;
+  }
+
+  .carousel-control-prev::before,
+  .carousel-control-next::before {
+    content: "";
+    position: absolute;
+    /* bottom: 0; */
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+  }
+
+  .carousel-control-prev:hover::before,
+  .carousel-control-next:hover::before {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    background-color: #7c7c7c;
+    color: #fff;
+    opacity: 2 !important;
   }
 
   .container__text-tech__project-1,
@@ -215,7 +236,15 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #2a2a2a;
+    /* margin-top: 5vw; */
+    /* padding-bottom: 20vw !important; */
     overflow: hidden;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 7vw !important;
+    height: 7vw !important;
   }
 
   .container-project-mobile {
@@ -234,11 +263,6 @@
     position: relative;
     bottom: 16vw;
   }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    margin-top: 0%;
-  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 768px) {
@@ -246,3 +270,11 @@
     padding-top: 12vw !important;
   }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 800px) {
+  .style-h1__proyectos {
+    margin-top: 5%;
+  }
+}
+
+

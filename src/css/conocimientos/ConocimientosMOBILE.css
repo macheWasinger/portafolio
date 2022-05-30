@@ -210,3 +210,9 @@
     background-size: 240% !important;
   }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 800px) {
+  .style-h1-title {
+    margin-top: 3.5%;
+  }
+}

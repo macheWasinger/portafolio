@@ -57,6 +57,18 @@
   /* opacity: 0.2; */
 }
 
+/* .marco-separator-inferior-conocimientos::before {
+  content: "";
+  position: absolute;
+  bottom: 1vw;
+  width: 50vw;
+  height: 7vw;
+  background-image: url("../../img/puntosGrises.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
 .title-lineaHorizontal,
 .style-h1-title,
 .style-h3-subtitulo,

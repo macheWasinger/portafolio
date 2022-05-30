@@ -5,7 +5,7 @@
 
 .container-padre__proyectos {
   width: 100%;
-  height: 57vw;
+  height: auto;
   background-image: linear-gradient(
     to bottom,
     #2a2a2a,
@@ -16,11 +16,13 @@
   );
   padding-top: 9vw;
   margin-top: 10vw;
+  padding-bottom: 8.5vw;
   overflow: hidden !important;
 }
 
 .style-h1__proyectos,
 .style-h3-subtitulo__proyectos {
+  padding: 0.6vw;
   position: relative;
   color: #fff;
 }
@@ -31,26 +33,35 @@
   letter-spacing: 2px;
 }
 
+
 .style-h1__proyectos,
 .style-h3-subtitulo__proyectos {
   text-shadow: 1px 2px 3px #000000;
 }
 
 .style-h3-subtitulo__proyectos {
-  /* text-transform: uppercase; */
+  background-color: #3d3d3d;
+  text-transform: uppercase;
   font-size: 1.5vw;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Anton", sans-serif, Arial, sans-serif;
   margin-top: 3vw;
-  letter-spacing: 3px;
-  color: rgb(192, 192, 192) !important;
+  letter-spacing: 0.3vw;
+  color: #ffb633 !important;
 }
 
 .container-proyectos {
-  width: 95vw;
+  width: 80vw;
   height: auto;
   margin: auto;
-  margin-top: 4vw;
+  margin-top: 3vw;
+  padding-bottom: 3vw;
   display: flex;
+  flex-wrap: wrap;
+  background-color: #424242;
+  /* border-radius: 2vw; */
+  border-top: 0.2vw solid rgba(1, 1, 1, .4);
+  border-left: 0.2vw solid rgba(1, 1, 1, .4);
+  box-shadow: 0.2vw 0.3vw 0.4vw #2a2a2a;
 }
 
 .container-project {
@@ -59,6 +70,7 @@
   height: 24vw;
   background-color: #6d6d6d;
   margin: auto;
+  margin-top: 3vw;
   padding-top: 0.5vw;
   display: flex;
   flex-direction: column;
@@ -92,6 +104,60 @@
   transition: all 0.5s;
 }
 
+.container-project span {
+  z-index: 1;
+}
+
+.container-project span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0 !important;
+  font-size: 0;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0.05vw 0.1vw 0.15vw #000;
+  letter-spacing: 0.1vw;
+  color: #fff;
+  width: 0;
+  height: 0;
+  background-color: rgba(255, 182, 51) !important;
+  display: grid;
+  place-items: center;
+}
+
+.container-project:hover span::before {
+  width: 100%;
+  height: 4vw;
+  top: 0;
+  font-size: 1.5vw;
+  transition: all 0.5s;
+  transform: rotateY(360deg);
+  z-index: 1;
+}
+
+.container-project:hover .span-portafolio::before {
+  content: "Último proyecto";
+}
+
+.container-project:hover .span-responsiveCRUDclinica::before {
+  content: "Cuarto proyecto";
+}
+
+.container-project:hover .span-responsiveDestinoARG::before {
+  content: "Tercer proyecto";
+}
+
+.container-project:hover .span-desktopMaquetado::before {
+  content: "Segundo proyecto";
+}
+
+.container-project:hover .span-desktopMeli::before {
+  content: "Primer proyecto";
+}
+
 @keyframes animate {
   0% {
     transform: rotate(0deg);
@@ -113,16 +179,11 @@
   z-index: 1;
 }
 
-.style-image__product:hover {
-  transform: scale(1.05);
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
 .container__text-tech__project-1,
 .container__text-tech__project-2,
 .container__text-tech__project-3,
-.container__text-tech__project-4 {
+.container__text-tech__project-4,
+.container__text-tech__project-5 {
   width: 90%;
   height: 23%;
   display: flex;

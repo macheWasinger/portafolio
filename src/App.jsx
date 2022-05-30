@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./componentes/Home";
 import SobreMi from "./componentes/SobreMi";
 import Conocimientos from "./componentes/Conocimientos";
-import Proyectos from "./componentes/Proyectos";
+import Proyectos from "./componentes/proyectosVersiones/Proyectos";
 import Contactos from "./componentes/Contactos";
 
 // IMPORTO LOS 'CSS'
