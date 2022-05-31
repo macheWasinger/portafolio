@@ -35,7 +35,14 @@
   color: #fff;
 }
 
-.style-h1__proyectos,
+.style-h1__proyectos::before {
+  content: "proyectos";
+  position: absolute;
+  background: linear-gradient(90deg, #ffb633, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .style-h3-subtitulo__proyectos {
   text-shadow: 1px 2px 3px #000000;
 }

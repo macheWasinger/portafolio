@@ -87,6 +87,7 @@ a,
 .style-h1-home {
   width: auto;
   font-family: "Anton", sans-serif;
+  color: #fff;
   letter-spacing: 0.15vw;
   margin-top: 2%;
   display: flex;

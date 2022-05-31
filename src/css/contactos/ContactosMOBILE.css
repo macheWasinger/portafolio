@@ -4,6 +4,12 @@
     height: auto;
     background-color: #aaaaaa;
     padding-top: 1.5vw;
+    border-top: 0.4vw solid #ffb633;
+  }
+
+  .container-padre__Contactos::before {
+    top: 1vw;
+    border-top: 0.4vw solid #ffb633;
   }
 
   .barras-separadoras {
@@ -51,6 +57,7 @@
     font-size: 6vw;
     margin-bottom: 0% !important;
     margin-top: 12vw !important;
+    
   }
 
   .mail-container, .instagram-container {
@@ -193,6 +200,10 @@
     font-size: 10vw;
     margin-bottom: 0 !important;
     margin-top: 15vw !important;
+  }
+
+  .style-h1__title-contactos::before {
+    left: 0 !important;
   }
 
   .container-logos {

@@ -95,13 +95,22 @@
 .style-h1-sobreMi {
   font-family: 'Anton', sans-serif;
   font-size: 3.5vw;
-  color: #fff !important;
   text-transform: uppercase !important;
-  /* letter-spacing: 0.15vw; */
+  letter-spacing: 0.15vw;
+}
+
+.style-h1-sobreMi::before {
+  content: "sobre mí";
+  position: absolute;
+  background: linear-gradient(90deg, #ffb633, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title-hobbies {
   font-size: 2.5vw;
+  text-shadow: 1px 2px 3px black;
+  color: #fff;
   margin-top: 1vw;
 }
 
@@ -109,8 +118,6 @@
 .title-hobbies {
   color: #fff;
   font-weight: 700;
-  letter-spacing: 0.15vw;
-  text-shadow: 1px 2px 3px black;
   text-align: left;
 }
 
@@ -127,6 +134,7 @@
 
 .style-p-sobreMi {
   margin-top: 0.8vw;
+  letter-spacing: 0.15vw;
 }
 
  .style-button-descargarCV {

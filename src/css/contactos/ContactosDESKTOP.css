@@ -12,38 +12,37 @@
   justify-content: space-between;
   padding-top: 4vw;
   padding-bottom: 5vw;
+  border-top: 0.2vw solid #ffb633;
 }
 
-.barras-separadoras {
-  width: 100%;
-  height: 2vw;
+.container-padre__Contactos::before {
+  content: "";
+  position: absolute;
+  top: 0.4vw;
+  left: 4.8vw;
+  width: 90%;
+  height: 1vw;
   display: flex;
-  justify-content: space-around;
-}
-
-.barras-separadoras article {
-  width: 2.2vw;
-  height: 7.5vw;
-  position: relative;
-  bottom: 2.2vw;
-  display: flex;
-  justify-content: space-between;
-}
-
-.barras-separadoras article img {
-  width: 100% !important;
-  height: 100% !important;
+  /* background-color: blue; */
+  border-top: 0.2vw solid #ffb633;
 }
 
 .style-h1__title-contactos {
   font-weight: 700;
   font-size: 3.5vw;
   color: #fff;
-  letter-spacing: 0.15vw;
-  text-shadow: 0.3vw 0.3vw 0.3vw #2a2a2a;
+  letter-spacing: 0.05vw;
   text-transform: uppercase;
   margin-bottom: 4%;
   margin-top: 3vw;
+}
+
+.style-h1__title-contactos::before {
+  content: "contactarme a través de:";
+  position: absolute;
+  background: linear-gradient(90deg, #ffb633, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .container-logos {
@@ -57,13 +56,11 @@
   align-items: center;
   transform-style: preserve-3d;
   margin: auto;
-  /* border-top: 0.2em solid #838383; */
   border-bottom: 0.2em solid #838383;
   border-right: 0.2em solid #838383;
   border-radius: 2vw 0 2vw 0;
   box-shadow: 0.15em 0.3em 0.6em #2a2a2a;
   margin-bottom: 3vw;
-  /* background-color: #fff; */
 }
 
 .container-logos .card {
@@ -141,12 +138,6 @@
   transition: all 0.5s;
 }
 
-.container-logos .card:hover .style-i {
-  transform: rotateY(360deg);
-  transition: all 0.5s;
-  color: #fff;
-}
-
 .container-logos .card .style-i {
   line-height: 4vw;
   font-size: 6.5vw;
@@ -154,6 +145,12 @@
   text-align: center;
   border-radius: 50%;
   transition: all 0.5s;
+}
+
+.container-logos .card:hover .style-i {
+  transform: rotateY(360deg);
+  transition: all 0.5s;
+  color: #fff;
 }
 
 .container-whatsapp,
