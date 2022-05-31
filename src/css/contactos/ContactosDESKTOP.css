@@ -4,7 +4,7 @@
 
 .container-padre__Contactos {
   width: 100%;
-  background: linear-gradient(to right, #2a2a2a 0%, #2a2a2a 50%, #5c5c5c 50%, #5c5c5c 100%);
+  background: linear-gradient(to bottom, #2a2a2a 0%, #2a2a2a 50%, #5c5c5c 50%, #5c5c5c 100%);
 
   position: relative;
   display: flex;
@@ -12,19 +12,6 @@
   justify-content: space-between;
   padding-top: 4vw;
   padding-bottom: 5vw;
-}
-
-.container-padre__Contactos::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20%;
-  height: 4vw;
-  background-image: url("../../img/puntosGrises.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .barras-separadoras {
@@ -57,7 +44,6 @@
   text-transform: uppercase;
   margin-bottom: 4%;
   margin-top: 3vw;
-  z-index: 1000 !important;
 }
 
 .container-logos {
