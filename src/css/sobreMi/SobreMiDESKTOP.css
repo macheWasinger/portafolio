@@ -84,6 +84,7 @@
   margin-bottom: 7.5vw;
   display: flex;
   flex-direction: column;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   /* background-color: red; */
 }
 
@@ -96,7 +97,6 @@
   font-family: 'Anton', sans-serif;
   font-size: 3.5vw;
   text-transform: uppercase !important;
-  letter-spacing: 0.15vw;
 }
 
 .style-h1-sobreMi::before {
@@ -119,6 +119,7 @@
   color: #fff;
   font-weight: 700;
   text-align: left;
+  letter-spacing: 0.15vw;
 }
 
 .style-p-sobreMi,
@@ -134,7 +135,6 @@
 
 .style-p-sobreMi {
   margin-top: 0.8vw;
-  letter-spacing: 0.15vw;
 }
 
  .style-button-descargarCV {
@@ -209,14 +209,6 @@
   color: #fff;
 }
 
-
-/* .hide-iconOK {
-  display: none;
-}
-
-.show-iconOK {
-  display: block;
-} */
 
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
   .container-padre_sobreMi {
