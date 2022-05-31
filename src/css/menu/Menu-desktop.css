@@ -35,6 +35,7 @@
     width: 3vw !important;
     height: 3vw !important;
     background-color: #2f2f2f;
+    border-radius: 50%;
   }
   
   .container-menuDesktop article:hover {
@@ -55,13 +56,29 @@
   }
   
   .borde-ancla {
-    border: 0.1em solid #ffb633;
-    box-shadow: 0 0 0.5vw #ffb633,
+    animation: animatedNeonBorder 2.5s infinite;
+  }
+
+  @keyframes animatedNeonBorder {
+    0% {
+      border: 0;
+     border-shadow: none;
+    }
+
+    50% {
+      border: 0.1em solid #ffb633;
+      box-shadow: 0 0 0.5vw #ffb633,
                 0 0 0.55vw #ffb633,
                 0 0 0.6vw #ffb633,
                 0 0 0.65vw #ffb633,
                 0 0 0.7vw #ffb633,
                 0 0 0.95vw #ffb633;
+    }
+
+    100% {
+     border: 0;
+     box-shadow: none;
+    }
   }
   
   .title_section-home:before {

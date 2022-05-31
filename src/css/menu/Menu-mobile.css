@@ -32,6 +32,7 @@ a {
     width: 10vw !important;
     height: 10vw !important;
     background-color: #2f2f2f;
+    border-radius: 50%;
 }
 
 .container-menuMobile article a {
@@ -49,15 +50,30 @@ a {
 }
 
 .borde-ancla {
-  border: 0.1em solid #ffb633 !important;
-  box-shadow: 0 0 1vw #ffb633,
-                0 0 1.4vw #ffb633,
-                0 0 1.5vw #ffb633,
-                0 0 1.6vw #ffb633,
-                0 0 1.7vw #ffb633,
-                0 0 1.8vw #ffb633;
+  animation: animatedNeonBorder 2.5s infinite;
 }
 
+@keyframes animatedNeonBorder {
+  0% {
+    border: 0;
+    border-shadow: none;
+  }
+
+  50% {
+    border: 0.1em solid #ffb633 !important;
+    box-shadow: 0 0 1.2vw #ffb633,
+    0 0 1.6vw #ffb633,
+    0 0 1.7vw #ffb633,
+    0 0 1.8vw #ffb633,
+    0 0 1.9vw #ffb633,
+    0 0 2vw #ffb633;
+  }
+
+  100% {
+    border: 0;
+    box-shadow: none;
+  }
+}
   
   .container-Padre_menu .burger {
     position: fixed;
@@ -184,6 +200,7 @@ a {
         width: 18vw !important;
         height: 18vw !important;
         background-color: #2f2f2f;
+        border-radius: 50%;
     }
     
     .container-menuMobile article a {
