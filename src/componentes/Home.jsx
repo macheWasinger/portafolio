@@ -38,37 +38,32 @@ const Home = () => {
             <img loading="lazy" src={maw} alt="" />
           </div>
           <div className="container__texto-presentacion">
-            <span
-              className="span__text-soy"
-              data-aos="flip-right"
-              data-aos-duration="1000"
-              data-aos-delay="800"
-            >
-              ¡Hola!, soy
-            </span>
-
-            <h1
-              className="style-h1-home"
-              data-aos="flip-right"
-              data-aos-duration="1000"
-              data-aos-delay="1100"
-            >
-              <span className="nombre">Marcelo </span>
-
-              <span className="apellido">Wasinger</span>
+            <h1 className="style-h1-home">
+              <span
+                className="span__text-soy"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+                data-aos-delay="800"
+              >
+                ¡Hola!, soy
+              </span>
+              <span
+                className="nombreApellido"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+                data-aos-delay="1100"
+              >
+                Marcelo Wasinger
+              </span>
+              <span
+                className="style-frontendJr"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+                data-aos-delay="1400"
+              >
+                Frontend Developer Jr
+              </span>
             </h1>
-
-            <div
-              className="container-textFrontendJR-iconFrontend"
-              data-aos="flip-right"
-              data-aos-duration="1000"
-              data-aos-delay="1400"
-            >
-              <h2 className="style-frontendJr">
-                {"{ "} Frontend Developer Jr {" }"}
-              </h2>
-              <img loading="lazy" src={iconFrontend} alt="" />
-            </div>
           </div>
           <div
             className="container-arrowDown"

@@ -88,15 +88,18 @@
     margin-top: 0;
   }
 
-  .nombre,
-  .apellido {
-    font-size: 4.8vw !important;
-    letter-spacing: 3px;
+  .span__text-soy {
+    font-size: 4.5vw !important;
   }
 
-  .span__text-soy {
-    font-size: 3.7vw !important;
-    margin-left: 5.5%;
+
+  .nombreApellido {
+    font-size: 6.5vw !important;
+    margin-top: 1.5vw;
+  }
+
+  .style-frontendJr {
+    font-size: 4vw;
   }
 
   .container-textFrontendJR-iconFrontend {
@@ -115,14 +118,6 @@
     height: 7vw !important;
     position: relative;
     top: -3px !important;
-  }
-
-  .style-frontendJr {
-    color: #fff;
-    font-family: "Anton", sans-serif;
-    font-size: 2.7vw;
-    letter-spacing: 0.15em;
-    /* margin-left: 4%; */
   }
 }
 
@@ -167,11 +162,11 @@
     z-index: 1;
   }
 
-  .style-frontendJr {
+  /* .style-frontendJr {
     font-size: 3.5vw;
     position: relative;
     top: 3px;
-  }
+  } */
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {

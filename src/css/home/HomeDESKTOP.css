@@ -78,7 +78,7 @@ a,
 .container__lineas-horizontales,
 .style-span_linea-horizontal-home1,
 .style-span_linea-horizontal-home2,
-.nombre-apellido,
+.nombreApellido,
 .span__text-soy,
 .style-logo-video {
   position: relative;
@@ -87,29 +87,69 @@ a,
 .style-h1-home {
   width: auto;
   font-family: "Anton", sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 0.15vw;
   margin-top: 2%;
+  display: flex;
+  flex-direction: column;
 }
 
-.nombre,
-.apellido {
-  font-size: 2.7vw !important;
-  font-weight: 600;
-  text-transform: uppercase !important;
-  color: #ffb633;
-  text-shadow: 1px 2px 3px #000000;
+.style-h1-home span {
+  padding: 0 12px;
 }
 
 .span__text-soy {
-  font-family: "Anton", sans-serif;
-  font-size: 1.5vw;
-  color: #fff;
+  font-size: 2vw;
   text-transform: none;
-  letter-spacing: 3px;
-  text-shadow: 1px 2px 3px #000000;
 }
 
-.container-textFrontendJR-iconFrontend {
+.nombreApellido {
+  font-size: 3vw !important;
+  font-weight: 600;
+  text-transform: uppercase !important;
+  margin-top: 0.8vw;
+}
+
+.style-frontendJr {
+  font-size: 1.6vw;
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.style-frontendJr > u {
+  position: relative !important;
+  left: 0 !important;
+}
+
+.span__text-soy::before {
+  content: "¡Hola!, soy";
+  inset: 0;
+  background: linear-gradient(90deg, #fff, #ffe0a8);
+}
+
+.nombreApellido::before {
+  content: "Marcelo Wasinger";
+  inset: 0;
+  background: linear-gradient(90deg, #ffb633, #fff);
+}
+
+.style-frontendJr::before {
+  content: "Frontend Developer Jr";
+  /* text-align: center; */
+  /* left: 2.8vw; */
+  background-color: #ffb633;
+}
+
+.span__text-soy::before, 
+.nombreApellido::before, 
+.style-frontendJr::before {
+ position: absolute;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+
+/* .container-textFrontendJR-iconFrontend {
   width: auto;
   display: flex;
   align-items: center;
@@ -117,26 +157,17 @@ a,
   margin: auto;
   position: relative;
   bottom: 0.5vw;
-}
+} */
 
-.container-textFrontendJR-iconFrontend > img {
+/* .container-textFrontendJR-iconFrontend > img {
   width: 2vw;
   height: 2vw;
   margin-left: 1vw;
   position: relative;
   top: 0;
-}
+} */
 
-.style-frontendJr {
-  color: #fff;
-  font-family: "Anton", sans-serif;
-  font-size: 1.2vw;
-  letter-spacing: 2px;
-  margin-top: 1vw;
-  transition: all 0.5s;
-}
-
-@keyframes animarBottom {
+/* @keyframes animarBottom {
   0% {
     transform: translateX(0px);
   }
@@ -162,7 +193,7 @@ a,
   0% {
     transform: translateX(0px);
   }
-}
+} */
 
 .container-arrowDown {
   display: none !important;
