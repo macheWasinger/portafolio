@@ -172,7 +172,7 @@
   );
   box-shadow: 0.1em 0.15em 0.2em #333;
   
-  margin-top: 1% !important;
+  margin-top: 0.65vw !important;
   display: flex;
   flex-direction: row-reverse;
   margin-left: 2vw;
