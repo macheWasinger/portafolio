@@ -45,6 +45,7 @@
   .container-menuDesktop article .style-Link {
     width: 3vw !important;
     height: 3vw !important;
+    border-radius: 50%;
     display: grid;
     place-items: center;
     font-size: 1.4vw !important;

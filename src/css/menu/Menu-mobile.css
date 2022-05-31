@@ -38,6 +38,7 @@ a {
 .container-menuMobile article a {
     width: 10vw !important;
     height: 10vw !important;
+    border-radius: 50%;
     display: grid;
     place-items: center;
     font-size: 5vw !important;
@@ -50,10 +51,17 @@ a {
 }
 
 .borde-ancla {
-  animation: animatedNeonBorder 2.5s infinite;
+    animation: none;
+    border: 0.1em solid #ffb633 !important;
+    box-shadow: 0 0 1.2vw #ffb633,
+    0 0 1.6vw #ffb633,
+    0 0 1.7vw #ffb633,
+    0 0 1.8vw #ffb633,
+    0 0 1.9vw #ffb633,
+    0 0 2vw #ffb633;
 }
 
-@keyframes animatedNeonBorder {
+/* @keyframes animatedNeonBorder {
   0% {
     border: 0;
     border-shadow: none;
@@ -73,7 +81,7 @@ a {
     border: 0;
     box-shadow: none;
   }
-}
+} */
   
   .container-Padre_menu .burger {
     position: fixed;
@@ -199,8 +207,6 @@ a {
     .container-menuMobile article {
         width: 18vw !important;
         height: 18vw !important;
-        background-color: #2f2f2f;
-        border-radius: 50%;
     }
     
     .container-menuMobile article a {
