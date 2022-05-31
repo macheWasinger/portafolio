@@ -159,7 +159,7 @@
 }
 
 .container-project:hover .span-portafolio::before {
-  content: "Último proyecto";
+  content: "5° y último proyecto";
 }
 
 .container-project:hover .span-responsiveCRUDclinica::before {
