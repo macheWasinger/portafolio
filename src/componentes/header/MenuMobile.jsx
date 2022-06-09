@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import useScrollSpy from "react-use-scrollspy";
 
-const MenuMobile = () => {
+const MenuMobile = (props) => {
   // const [active, setActive] = React.useState(0);
   const [isActive, setIsActive] = useState(false);
   const toggleMenu = () => {
@@ -162,6 +162,18 @@ const MenuMobile = () => {
           </a>
         </div>
       </nav>
+
+      <section ref={props.referenciaHome}>{/* <Home /> */}</section>
+
+      <section ref={props.referenciaSobreMi}>{/* <SobreMi /> */}</section>
+
+      <section ref={props.referenciaConocimientos}>
+        {/* <Conocimientos /> */}
+      </section>
+
+      <section ref={sectionRefs[3]}>{/* <Proyectos /> */}</section>
+
+      <section ref={sectionRefs[4]}>{/* <Contactos /> */}</section>
     </div>
   );
 };

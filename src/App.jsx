@@ -55,7 +55,12 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container-menuDesktop shadow">
+      <div
+        className="container-menuDesktop shadow"
+        data-aos="zoom-in"
+        data-aos-duration="600"
+        data-aos-delay="1800"
+      >
         <article
           className={`w-25 rounded-pill ${
             activeSection === 0 ? "ancla_activo" : ""
