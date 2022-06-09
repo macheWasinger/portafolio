@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.e1372957.chunk.css",
-    "main.js": "/portafolio/static/js/main.6101ca56.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.6101ca56.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.3eaa4e6b.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.3eaa4e6b.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.d97de6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portafolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.7f26d42b.chunk.js": "/portafolio/static/js/2.7f26d42b.chunk.js",
-    "static/js/2.7f26d42b.chunk.js.map": "/portafolio/static/js/2.7f26d42b.chunk.js.map",
+    "static/js/2.91b7ec35.chunk.js": "/portafolio/static/js/2.91b7ec35.chunk.js",
+    "static/js/2.91b7ec35.chunk.js.map": "/portafolio/static/js/2.91b7ec35.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/portafolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.e1372957.chunk.css.map": "/portafolio/static/css/main.e1372957.chunk.css.map",
-    "static/js/2.7f26d42b.chunk.js.LICENSE.txt": "/portafolio/static/js/2.7f26d42b.chunk.js.LICENSE.txt",
+    "static/js/2.91b7ec35.chunk.js.LICENSE.txt": "/portafolio/static/js/2.91b7ec35.chunk.js.LICENSE.txt",
     "static/media/CV-WasingerMarcelo-Mayo2022.732d30a1.pdf": "/portafolio/static/media/CV-WasingerMarcelo-Mayo2022.732d30a1.pdf",
     "static/media/api.e5735fed.png": "/portafolio/static/media/api.e5735fed.png",
     "static/media/canva.3c3e6d67.png": "/portafolio/static/media/canva.3c3e6d67.png",
@@ -20,7 +20,6 @@
     "static/media/SobreMiMOBILE.css": "/portafolio/static/media/dots.9b033438.png",
     "static/media/ConocimientosDESKTOP.css": "/portafolio/static/media/fondoConocimientos3.7e750f68.jpg",
     "static/media/grid.6c1bf4b0.png": "/portafolio/static/media/grid.6c1bf4b0.png",
-    "static/media/icon-frontend.ea630633.png": "/portafolio/static/media/icon-frontend.ea630633.png",
     "static/media/HomeDESKTOP.css": "/portafolio/static/media/imageFondoInicio.eb6a812f.jpg",
     "static/media/java.74329a08.png": "/portafolio/static/media/java.74329a08.png",
     "static/media/logo-mw2.1fbddd08.mp4": "/portafolio/static/media/logo-mw2.1fbddd08.mp4",
@@ -33,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.d97de6e3.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.7f26d42b.chunk.js",
+    "static/js/2.91b7ec35.chunk.js",
     "static/css/main.e1372957.chunk.css",
-    "static/js/main.6101ca56.chunk.js"
+    "static/js/main.3eaa4e6b.chunk.js"
   ]
 }
