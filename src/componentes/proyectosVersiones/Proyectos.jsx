@@ -44,7 +44,7 @@ const Proyectos = () => {
             />
           </span>
           <div className="container-tech container__text-tech__project-1">
-            <h3 className="title-project">API-meli</h3>
+            <h3 className="title-project">Api Meli</h3>
             <div className="container__icons-techs">
               <img src={html} alt="" />
               <img src={css} alt="" />

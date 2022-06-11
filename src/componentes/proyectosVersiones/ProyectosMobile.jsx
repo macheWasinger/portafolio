@@ -5,6 +5,7 @@ import responsive from "../../img/responsive.png";
 import desktopMaquetado from "../../img/desktopMaquetado.png";
 import responsivePortafolio from "../../img/responsivePortafolio.png";
 import responsiveCRUDclinica from "../../img/responsiveCRUDclinica.png";
+import APImeli from "../../img/APImeli.png";
 
 import html from "../../img/html.png";
 import css from "../../img/css.png";
@@ -12,6 +13,7 @@ import js from "../../img/js.png";
 import react from "../../img/react.png";
 import iconResponsive from "../../img/responsiveWebDesign.png";
 import bootstrap from "../../img/bootstrap.png";
+import iconApi from "../../img/api.png";
 
 const ProyectosMobile = () => {
   return (
@@ -30,11 +32,49 @@ const ProyectosMobile = () => {
           <a href="" target="_blank" className="style-a__project">
             <img
               loading="lazy"
-              src={responsivePortafolio}
+              src={APImeli}
               alt=""
               className="style-image__product"
             />
             <div className="container-tech container__text-tech__project-1">
+              <h3 className="title-project">API Meli</h3>
+              <div className="container__icons-techs">
+                <img src={html} alt="" />
+                <img src={css} alt="" />
+                <img src={js} className="icon-js" alt="" />
+                <img src={react} className="icon-react" alt="" />
+                <img src={iconResponsive} className="icon-responsive" alt="" />
+                <img src={bootstrap} alt="" />
+                <img src={iconApi} alt="" />
+              </div>
+              <div className="container-ver">
+                <a
+                  href="https://machewasinger.github.io/apiMeli/"
+                  target="_blank"
+                  className="style-a__project"
+                >
+                  Demo
+                </a>
+
+                <a
+                  href="https://github.com/macheWasinger/apiMeli"
+                  target="_blank"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="container-project-mobile carousel-item">
+          <a href="" target="_blank" className="style-a__project">
+            <img
+              loading="lazy"
+              src={responsivePortafolio}
+              alt=""
+              className="style-image__product"
+            />
+            <div className="container-tech container__text-tech__project-2">
               <h3 className="title-project">Portafolio</h3>
               <div className="container__icons-techs">
                 <img src={html} alt="" />
@@ -63,7 +103,7 @@ const ProyectosMobile = () => {
               alt=""
               className="style-image__product"
             />
-            <div className="container-tech container__text-tech__project-2">
+            <div className="container-tech container__text-tech__project-3">
               <h3 className="title-project">CRUD Clínica</h3>
               <div className="container__icons-techs">
                 <img src={html} alt="" />
@@ -103,7 +143,7 @@ const ProyectosMobile = () => {
               alt=""
               className="style-image__product"
             />
-            <div className="container-tech container__text-tech__project-3">
+            <div className="container-tech container__text-tech__project-4">
               <h3 className="title-project">Destino ARG</h3>
               <div className="container__icons-techs">
                 <img src={html} alt="" />
@@ -144,7 +184,7 @@ const ProyectosMobile = () => {
               alt=""
               className="style-image__product"
             />
-            <div className="container-tech container__text-tech__project-4">
+            <div className="container-tech container__text-tech__project-5">
               <h3 className="title-project">Maquetado</h3>
               <div className="container__iconTechs-NoResponsive">
                 <img src={html} alt="" />
@@ -182,7 +222,7 @@ const ProyectosMobile = () => {
               alt=""
               className="style-image__product"
             />
-            <div className="container-tech container__text-tech__project-5">
+            <div className="container-tech container__text-tech__project-6">
               <h3 className="title-project">Copia Meli</h3>
               <div className="container__iconTechs-NoResponsive">
                 <img src={html} alt="" />
