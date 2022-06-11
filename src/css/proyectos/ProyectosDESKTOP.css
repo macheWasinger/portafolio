@@ -158,8 +158,12 @@
               0 0 1.5vw #000;
 }
 
+.container-project:hover .span-APImeli::before {
+  content: "6° y último proyecto";
+}
+
 .container-project:hover .span-portafolio::before {
-  content: "5° y último proyecto";
+  content: "5° proyecto";
 }
 
 .container-project:hover .span-responsiveCRUDclinica::before {

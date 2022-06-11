@@ -7,6 +7,7 @@ import responsive from "../../img/responsive.png";
 import desktopMaquetado from "../../img/desktopMaquetado.png";
 import responsivePortafolio from "../../img/responsivePortafolio.png";
 import responsiveCRUDclinica from "../../img/responsiveCRUDclinica.png";
+import APImeli from "../../img/APImeli.png";
 
 import html from "../../img/html.png";
 import css from "../../img/css.png";
@@ -14,6 +15,7 @@ import js from "../../img/js.png";
 import react from "../../img/react.png";
 import iconResponsive from "../../img/responsiveWebDesign.png";
 import bootstrap from "../../img/bootstrap.png";
+import iconApi from "../../img/api.png";
 
 const Proyectos = () => {
   return (
@@ -27,6 +29,49 @@ const Proyectos = () => {
         </h3>
       </article>
       <div className="container-proyectos">
+        <div
+          className="container-project"
+          data-aos="zoom-in"
+          data-aos-offset="100"
+          data-aos-delay="600"
+        >
+          <span className="span-APImeli">
+            <img
+              loading="lazy"
+              src={APImeli}
+              alt=""
+              className="style-image__product"
+            />
+          </span>
+          <div className="container-tech container__text-tech__project-1">
+            <h3 className="title-project">API-meli</h3>
+            <div className="container__icons-techs">
+              <img src={html} alt="" />
+              <img src={css} alt="" />
+              <img src={js} className="icon-js" alt="" />
+              <img src={react} className="icon-react" alt="" />
+              <img src={iconResponsive} className="icon-responsive" alt="" />
+              <img src={bootstrap} alt="" />
+              <img src={iconApi} alt="" />
+            </div>
+            <div className="container-ver">
+              <a
+                href="https://machewasinger.github.io/apiMeli/"
+                target="_blank"
+                className="style-a__project"
+              >
+                Demo
+              </a>
+
+              <a
+                href="https://github.com/macheWasinger/apiMeli"
+                target="_blank"
+              >
+                Repo
+              </a>
+            </div>
+          </div>
+        </div>
         <div
           className="container-project"
           data-aos="zoom-in"
@@ -66,7 +111,7 @@ const Proyectos = () => {
           className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
-          data-aos-delay="450"
+          data-aos-delay="600"
         >
           <span className="span-responsiveCRUDclinica">
             <img
@@ -107,8 +152,7 @@ const Proyectos = () => {
         <div
           className="container-project"
           data-aos="zoom-in"
-          data-aos-offset="100"
-          data-aos-delay="600"
+          data-aos-delay="800"
         >
           <span className="span-responsiveDestinoARG">
             <img
@@ -149,6 +193,7 @@ const Proyectos = () => {
         <div
           className="container-project"
           data-aos="zoom-in"
+          data-aos-offset="100"
           data-aos-delay="300"
         >
           <span className="span-desktopMaquetado">
@@ -189,7 +234,7 @@ const Proyectos = () => {
         <div
           className="container-project"
           data-aos="zoom-in"
-          data-aos-delay="600"
+          data-aos-delay="800"
         >
           <span className="span-desktopMeli">
             <img
