@@ -207,7 +207,8 @@
 .container__text-tech__project-2,
 .container__text-tech__project-3,
 .container__text-tech__project-4,
-.container__text-tech__project-5 {
+.container__text-tech__project-5,
+.container__text-tech__project-6 {
   width: 90%;
   height: 23%;
   display: flex;

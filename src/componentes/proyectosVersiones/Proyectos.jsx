@@ -86,7 +86,7 @@ const Proyectos = () => {
               className="style-image__product"
             />
           </span>
-          <div className="container-tech container__text-tech__project-1">
+          <div className="container-tech container__text-tech__project-2">
             <h3 className="title-project">Portafolio</h3>
             <div className="container__icons-techs">
               <img src={html} alt="" />
@@ -121,7 +121,7 @@ const Proyectos = () => {
               className="style-image__product"
             />
           </span>
-          <div className="container-tech container__text-tech__project-2">
+          <div className="container-tech container__text-tech__project-3">
             <h3 className="title-project">CRUD Clínica</h3>
             <div className="container__icons-techs">
               <img src={html} alt="" />
@@ -162,7 +162,7 @@ const Proyectos = () => {
               className="style-image__product"
             />
           </span>
-          <div className="container-tech container__text-tech__project-3">
+          <div className="container-tech container__text-tech__project-4">
             <h3 className="title-project">Destino ARG</h3>
             <div className="container__icons-techs">
               <img src={html} alt="" />
@@ -204,7 +204,7 @@ const Proyectos = () => {
               className="style-image__product"
             />
           </span>
-          <div className="container-tech container__text-tech__project-4">
+          <div className="container-tech container__text-tech__project-5">
             <h3 className="title-project">Maquetado</h3>
 
             <div className="container__iconTechs-NoResponsive">
@@ -222,7 +222,7 @@ const Proyectos = () => {
                 Demo
               </a>
               <a
-                href="https://github.com/macheWasinger/Maquetado.github.io"
+                href="https://github.com/macheWasinger/Maquetado.github.io/"
                 target="_blank"
               >
                 Repo
@@ -244,7 +244,7 @@ const Proyectos = () => {
               className="style-image__product"
             />
           </span>
-          <div className="container-tech container__text-tech__project-5">
+          <div className="container-tech container__text-tech__project-6">
             <h3 className="title-project">Copia Meli</h3>
 
             <div className="container__iconTechs-NoResponsive">

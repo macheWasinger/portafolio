@@ -49,13 +49,13 @@ const SobreMi = () => {
           data-aos-duration="400"
           data-aos-offset="200"
         >
-          Hola, soy Marcelo Adrián Wasinger. Estudié Licenciatura en sistemas en
-          la Universidad Nacional de General Sarmiento por el lapso de 2 años.
+          Soy estudiante de Sistemas en la Universidad Nacional de Gral.
+          Sarmiento, pero mi cursada está en stand by. Así que, estudio de
+          manera autodidacta.
           <br />
-          Por problemas de caracter personal, tuve que poner en pausa mi
-          cursada.
           <br />
-          Momentáneamente, estudio de manera autodidacta.
+          Por otro lado, me gustan los desafíos para sumar e innovar tanto en lo
+          laboral como en lo personal.
         </p>
         <div className="container__title-text-hobbies">
           <h2

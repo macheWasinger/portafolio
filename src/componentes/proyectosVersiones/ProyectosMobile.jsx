@@ -29,7 +29,7 @@ const ProyectosMobile = () => {
         data-aos-offset="200"
       >
         <div className="container-project-mobile carousel-item active">
-          <a href="" target="_blank" className="style-a__project">
+          <section className="style-a__project">
             <img
               loading="lazy"
               src={APImeli}
@@ -64,10 +64,10 @@ const ProyectosMobile = () => {
                 </a>
               </div>
             </div>
-          </a>
+          </section>
         </div>
         <div className="container-project-mobile carousel-item">
-          <a href="" target="_blank" className="style-a__project">
+          <section className="style-a__project">
             <img
               loading="lazy"
               src={responsivePortafolio}
@@ -93,10 +93,10 @@ const ProyectosMobile = () => {
                 </a>
               </div>
             </div>
-          </a>
+          </section>
         </div>
         <div className="container-project-mobile carousel-item">
-          <a href="" target="_blank" className="style-a__project">
+          <section className="style-a__project">
             <img
               loading="lazy"
               src={responsiveCRUDclinica}
@@ -128,15 +128,11 @@ const ProyectosMobile = () => {
                 </a>
               </div>
             </div>
-          </a>
+          </section>
         </div>
 
         <div className="container-project-mobile carousel-item">
-          <a
-            href="https://machewasinger.github.io/destinoarg/"
-            target="_blank"
-            className="style-a__project"
-          >
+          <section className="style-a__project">
             <img
               loading="lazy"
               src={responsive}
@@ -170,14 +166,10 @@ const ProyectosMobile = () => {
                 </a>
               </div>
             </div>
-          </a>
+          </section>
         </div>
         <div className="container-project-mobile carousel-item">
-          <a
-            href="https://machewasinger.github.io/Maquetado.github.io/"
-            target="_blank"
-            className="style-a__project"
-          >
+          <section className="style-a__project">
             <img
               loading="lazy"
               src={desktopMaquetado}
@@ -208,14 +200,10 @@ const ProyectosMobile = () => {
                 </a>
               </div>
             </div>
-          </a>
+          </section>
         </div>
         <div className="container-project-mobile carousel-item">
-          <a
-            href="https://machewasinger.github.io/MaquetadoMeli.github.io/"
-            target="_blank"
-            className="style-a__project"
-          >
+          <section className="style-a__project">
             <img
               loading="lazy"
               src={desktopMeli}
@@ -223,7 +211,7 @@ const ProyectosMobile = () => {
               className="style-image__product"
             />
             <div className="container-tech container__text-tech__project-6">
-              <h3 className="title-project">Copia Meli</h3>
+              <h3 className="title-project">Maquetado Meli</h3>
               <div className="container__iconTechs-NoResponsive">
                 <img src={html} alt="" />
                 <img src={css} alt="" />
@@ -238,16 +226,15 @@ const ProyectosMobile = () => {
                 >
                   Demo
                 </a>
-
                 <a
-                  href="https://github.com/macheWasinger/MaquetadoMeli.github.io"
+                  href="https://github.com/macheWasinger/MaquetadoMeli.github.io/"
                   target="_blank"
                 >
                   Repo
                 </a>
               </div>
             </div>
-          </a>
+          </section>
         </div>
       </div>
       <button

@@ -156,7 +156,9 @@
   .container__text-tech__project-1,
   .container__text-tech__project-2,
   .container__text-tech__project-3,
-  .container__text-tech__project-4 {
+  .container__text-tech__project-4,
+  .container__text-tech__project-5,
+  .container__text-tech__project-6 {
     height: auto;
   }
 

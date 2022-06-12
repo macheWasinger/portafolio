@@ -97,6 +97,7 @@
   font-family: 'Anton', sans-serif;
   font-size: 3.5vw;
   text-transform: uppercase !important;
+  margin-top: 2vw;
 }
 
 .style-h1-sobreMi::before {
@@ -111,7 +112,6 @@
   font-size: 2.5vw;
   text-shadow: 1px 2px 3px black;
   color: #fff;
-  margin-top: 1vw;
 }
 
 .style-h1-sobreMi,
@@ -130,11 +130,10 @@
 
 .text-hobbies {
   line-height: 2.5vw;
-  /* background-color: green; */
 }
 
 .style-p-sobreMi {
-  margin-top: 0.8vw;
+  margin-top: 1vw;
 }
 
  .style-button-descargarCV {
