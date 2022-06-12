@@ -49,13 +49,12 @@ const SobreMi = () => {
           data-aos-duration="400"
           data-aos-offset="200"
         >
-          Soy estudiante de Sistemas en la Universidad Nacional de Gral.
-          Sarmiento, pero mi cursada está en stand by. Así que, estudio de
-          manera autodidacta.
+          Descrubrí la Programación en la Universidad Nacional de General
+          Sarmiento pero, Desarrollo Web, gracias a un amigo.
           <br />
-          <br />
-          Por otro lado, me gustan los desafíos para sumar e innovar tanto en lo
-          laboral como en lo personal.
+          Momentáneamente, mi cursada está en stand by. Así que, estudio
+          intensivamente de manera autodidacta y creé proyectos propios para
+          agilizar y mejorar mi código.
         </p>
         <div className="container__title-text-hobbies">
           <h2

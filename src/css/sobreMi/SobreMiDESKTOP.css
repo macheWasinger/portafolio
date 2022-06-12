@@ -81,16 +81,13 @@
   width: 38vw;
   height: auto;
   left: 0.5%;
-  margin-bottom: 7.5vw;
+  margin-bottom: 8.5vw;
   display: flex;
   flex-direction: column;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-  /* background-color: red; */
 }
 
 .container__title-text-hobbies {
-  /* background-color: blue; */
-  margin-top: 6vw;
+  margin-top: 3.5vw;
 }
 
 .style-h1-sobreMi {

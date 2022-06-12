@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
   .container-padre_sobreMi {
-    height: 135vw;
+    height: 143vw;
     padding-bottom: 1.5%;
     padding-left: 3%;
     justify-content: space-around;
@@ -98,6 +98,7 @@
    text-shadow: 0.05em 0.1em 0.15em #838383;
    border-radius: 2vw 0.5vw 2vw 0.5vw;
    border: 0.2em solid #fff;
+   margin-top: 10vw !important;
  }
  
  .style-button-descargarCV::before {
@@ -144,6 +145,7 @@
 
   .style-button-descargarCV {
     top: 7vw;
+    margin-bottom: -7vw !important;
   }
 
   .text-descargarCV {
