@@ -49,7 +49,7 @@ const SobreMi = () => {
           data-aos-duration="400"
           data-aos-offset="200"
         >
-          Descrubrí la Programación en la Universidad Nacional de General
+          Descubrí la Programación en la Universidad Nacional de General
           Sarmiento pero, Desarrollo Web, gracias a un amigo.
           <br />
           Momentáneamente, mi cursada está en stand by. Así que, estudio
