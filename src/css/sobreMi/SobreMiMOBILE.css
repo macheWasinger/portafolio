@@ -136,16 +136,27 @@
   .style-p-sobreMi {
     top: 11vw !important;
   }
+
+  .style-button-descargarCV {
+   position: relative;
+   top: 7vw;
+ }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 376px) {
+  .container-padre_sobreMi {
+    height: 140vw;
+    padding-bottom: 1.5%;
+  }
+
   .text-hobbies {
     top: 0 !important;
+    margin-top: -1vw !important;
   }
 
   .style-button-descargarCV {
-    top: 7vw;
-    margin-bottom: -7vw !important;
+    top: 5vw;
+    margin-bottom: -13vw !important;
   }
 
   .text-descargarCV {
@@ -160,6 +171,11 @@
     left: -40vw;
     width: 90vw;
     height: 120vw;
+  }
+
+  .style-button-descargarCV {
+    top: 7vw;
+    margin-bottom: -7vw;
   }
 
   .text-descargarCV {

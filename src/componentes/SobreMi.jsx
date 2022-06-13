@@ -49,12 +49,13 @@ const SobreMi = () => {
           data-aos-duration="400"
           data-aos-offset="200"
         >
-          Descubrí la Programación en la Universidad Nacional de General
-          Sarmiento pero, Desarrollo Web, gracias a un amigo.
+          Descubrí la Programación en la UNGS. Sin embargo, mi cursada
           <br />
-          Momentáneamente, mi cursada está en stand by. Así que, estudio
-          intensivamente de manera autodidacta y creé proyectos propios para
-          agilizar y mejorar mi código.
+          está en stand by.
+          <br />
+          Además, estudié Desarrollo Web Frontend mediante cursos y sigo
+          capacitándome intensivamente de forma autodidacta creando proyectos
+          propios para agilizar y perfeccionar mi código.
         </p>
         <div className="container__title-text-hobbies">
           <h2
