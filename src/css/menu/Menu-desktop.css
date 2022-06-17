@@ -114,7 +114,8 @@
     letter-spacing: 1px;
     color: #fff;
     text-shadow: 0.05em 0.1em 0.15em #2a2a2a;
-    
+    opacity: 0;
+    transition-duration: 0.5s;
   }
   
   .title_section-home:hover:before,
@@ -123,6 +124,7 @@
   .title_section-proyectos:hover:before,
   .title_section-contactos:hover:before {
     font-size: 1.3vw;
+    opacity: 1;
     transition-duration: 0.5s;
   }
   
