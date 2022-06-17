@@ -9,7 +9,7 @@ const SobreMi = () => {
   return (
     <div className="container-padre_sobreMi">
       <a name="SobreMi"></a>
-      <div className="container_small-picture_downloadCV">
+      <div className="container_small-picture">
         <div className="container-image">
           <img
             loading="lazy"
@@ -21,25 +21,6 @@ const SobreMi = () => {
             alt=""
           />
         </div>
-        <a
-          download="CV-WasingerMarcelo2022"
-          href={cv}
-          className="style-button-descargarCV"
-          target="_blank"
-          rel="noopener noreferrer"
-          onMouseOver={() => setActive(true)}
-          onMouseOut={() => setActive(false)}
-        >
-          <span className="text-descargarCV">Descargar CV</span>
-          <span
-            className={`iconPDF ${
-              active === true ? "show-iconPDF" : "hide-iconPDF"
-            }`}
-            // onClick={() => setActive(false)}
-          >
-            <i className="fa-solid fa-file-lines"></i>
-          </span>
-        </a>
       </div>
       <div className="container-text_sobreMi">
         <h1 className="style-h1-sobreMi title-font">Sobre mí</h1>
@@ -75,6 +56,25 @@ const SobreMi = () => {
             Familia | Amigos | Perros | Entrenar | Viajar | Escuchar música
           </p>
         </div>
+        <a
+          download="CV-WasingerMarcelo2022"
+          href={cv}
+          className="style-button-descargarCV"
+          target="_blank"
+          rel="noopener noreferrer"
+          onMouseOver={() => setActive(true)}
+          onMouseOut={() => setActive(false)}
+        >
+          <span className="text-descargarCV">Descargar CV</span>
+          <span
+            className={`iconPDF ${
+              active === true ? "show-iconPDF" : "hide-iconPDF"
+            }`}
+            // onClick={() => setActive(false)}
+          >
+            <i className="fa-solid fa-file-lines"></i>
+          </span>
+        </a>
       </div>
     </div>
   );

@@ -1,230 +1,115 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .container-padre_conocimientos {
-    height: 120vw;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    overflow: none !important;
+    width: 100vw;
+    height: 285vw;
     padding-top: 0vw !important;
+    padding-bottom: 6vw;
+    /* background-color: blue; */
   }
 
   .container-padre_conocimientos::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 130vw;
-    /* background-image: url("../../img/fondoConocimientosMobile.jpg"); */
-    /* background-attachment: unset; */
-    background-position: center center !important;
-    /* background-position-x: 23%; */
+    height: 220vw;
+    background-size: cover;
+    background-position: inherit;
+    margin-top: 20vw !important;
   }
 
   .style-h1-title {
     margin-top: 12%;
     font-size: 8vw;
     letter-spacing: 0.25vw;
+    left: 25% !important;
   }
-  
-  .container__logo-title-tech {
-    width: 18vw !important;
-    height: 19vw !important;
-    border-radius: 5px;
+
+  .container-info-tecnologias {
+    width: 100% !important;
+    height: 206vw;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    /* justify-content: unset !important; */
+    margin-top: 28vw;
+    /* margin-left: 5vw; */
     /* background-color: red; */
-    margin-top: 10vw !important;
+    overflow: none;
   }
   
-  .container__logo-title-tech::before {
-    content: "";
-    position: absolute;
-    border-radius: 5px;
-    top: 0;
+  .container__smartphone-videoMW {
+    display: none;
   }
 
-  .style-logo-tech {
-    width: 9vw !important;
-    height: 9vw !important;
-  }
-  
-  /* .image-title-tech__container:hover .card__title {
-    text-shadow: 0.05vw 0.1vw 0.15vw #000000 !important;
-    transition: all 0.5s !important;
-  } */
-
-  .marco-separator-conocimientos,
-  .marco-separator-inferior-conocimientos {
-    width: 100%;
-    height: 10vw;
-    position: relative;
-  }
-
-  .marco-separator-conocimientos {
-    margin-top: -2.5vw !important;
-    bottom: 2vw;
-    background-color: #5a5a5a;
-    /* opacity: 0.2; */
-  }
-
-  .marco-separator-conocimientos::before {
-    width: 50vw;
-    top: -1vw;
-    background-size: 200% !important;
-  }
-
-  .marco-separator-inferior-conocimientos {
-    /* opacity: 0.2; */
-    background-color: #2c2c2c;
-    margin-top: 12.5vw !important;
-  }
-
-  /* .style-h3-subtitulo {
-    font-size: 2.5vw;
-  } */
-
-  .column-general__tech {
-    width: 80vw;
-    height: 82vw !important;
-    max-width: 81.4vw;
-    margin: auto;
+  .main-container-left, .main-container-right {
+    width: auto;
+    height: 100vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    margin-top: 7%;
-    align-items: center;
+    padding-left: 5vw;
+    top: 0;
     /* background-color: green; */
   }
-
-  .column-general__tech::before {
-    bottom: -4vw;
+  
+  .main-container-left {
+    margin-left: 0;
   }
 
-  .container__logo-title-tech {
-    width: 17vw !important;
-    height: 17vw !important;
+  .main-container-right {
+    margin-right: 0;
+  }
+  
+
+  .container-tech-left, .container-tech-right {
+    width: 90vw;
+    height: auto !important;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin: auto !important;
-    /* position: relative;
-    bottom: 4.5vw; */
+    justify-content: space-around;
   }
 
-  .container__logo-title-tech::before {
-    width: 40vw;
-    height: 33vw;
-    opacity: 0.15;
+  .container-tech-left::before, .container-tech-right::before {
+    content: "";
+    width: 100%;
+    height: 28vw;
+    border-radius: 25px;
+    background-color: #fff;
+    opacity: .5;
   }
 
+  .style-text__title-tech {
+    font-size: 4vw;
+  }
+  
   .style-logo-tech {
-    width: 17vw;
-    height: 17vw;
+    width: 21vw;
+    height: 21vw;
+    padding: 0vw;
   }
-
-  .card__title {
-    font-size: 25px;
-    font-weight: 600;
-  }
-
-  .image-title-tech__container:hover .iconImage__tech {
-    transform: scale(1.05);
-  }
-
+  
   .container__logo-title-tech {
-    margin-top: 4vw;
+      border-radius: 5px;
+      display: grid;
+      place-items: center;
+      align-items: center;
+      margin: 0;
   }
 
-  .style-text__title-tech {
-    font-size: 2vw !important;
-    top: 2vw;
+  .container-data-estudios {
+    height: auto;
+    display: grid;
+    place-items: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 5vw;
+    /* background-color: orange; */
   }
-
-  .image-title-tech__container:hover .card__title {
-    text-shadow: 0.15vw 0.2vw 0.25vw #000000 !important;
-    transition: all 0.5s !important;
+  
+  .title-estudios {
+    font-weight: bold;
+    font-size: 5vw;
+    /* color: #fff; */
   }
-}
-
-@media only screen and (min-width: 668px) and (max-width: 768px) {
-  .style-text__title-tech {
-    font-size: 1.5vw;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 768px) {
-  .container-padre_conocimientos {
-    padding-bottom: 0 !important;
-  }
-
-  .container-padre_conocimientos::before {
-    margin-top: 10vw !important;
-  }
-
-  .marco-separator-conocimientos {
-    margin-top: -11.5vw !important;
-    top: 7vw;
-  }
-
-  .marco-separator-inferior-conocimientos {
-    top: -2vw !important;
-  }
-
-  .container__logo-title-tech {
-    margin-top: 6vw;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 375px) {
-
-  .marco-separator-inferior-conocimientos {
-    margin-top: 0vw !important;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-  .style-text__title-tech {
-    font-size: 3vw !important;
-    top: 2vw;
-  }
-
-  .container-padre_conocimientos {
-    height: 130vw;
-    padding-top: 0vw !important;
-  }
-
-  .container-padre_conocimientos::before {
-    height: 145vw;
-  }
-
-  .marco-separator-inferior-conocimientos {
-    margin-top: 16.5vw !important;
-  }
-
-  .column-general__tech {
-    margin-bottom: 15vw;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 500px) {
-  .marco-separator-conocimientos::before {
-    width: 50vw;
-    height: 10vw !important;
-    top: -0.5vw;
-    background-size: 240% !important;
-  }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 800px) {
-  .style-h1-title {
-    margin-top: 3.5%;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 425px) {
-  .column-general__tech::before {
-    top: -1.5vw !important;
-    bottom: -4.5vw;
+  
+  .text-estudios {
+    width: 77%;
+    font-size: 3vw;
+    /* color: #fff; */
+    /* background-color: white; */
   }
 }

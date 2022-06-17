@@ -22,12 +22,20 @@ const Proyectos = () => {
     <div className="container-padre__proyectos">
       <a name="Proyectos"></a>
       <h1 className="style-h1__proyectos title-font">Proyectos</h1>
-      <article className="container-subtitleProyectos">
-        <h3 className="style-h3-subtitulo__proyectos">
+
+      <article
+        className="container-subtitleProyectos d-flex flex-column"
+        data-aos="zoom-out"
+        data-aos-duration="300"
+        data-aos-delay="300"
+      >
+        <h4 className="title-practica">Práctica</h4>
+        <p className="text-subtitulo__proyectos">
           Los proyectos están ordenados de mayor a menor. En ellos, se puede ver
           la evolución de mi código.
-        </h3>
+        </p>
       </article>
+
       <div className="container-proyectos">
         <div
           className="container-project"
@@ -276,6 +284,21 @@ const Proyectos = () => {
 
       {/***********  RESPONSIVE ***********/}
       <ProyectosMobile />
+      <article
+        className="container-data-experiencia d-flex flex-column"
+        data-aos="zoom-out"
+        data-aos-duration="300"
+        data-aos-delay="300"
+      >
+        <h4 className="title-experiencia">Experiencia</h4>
+        <p className="text-experiencia">
+          Tengo 6 meses de experiencia laboral IT de manera Freelance.
+          <br />
+          Mi tarea consistió en maquetar las versiones Desktop y Mobile de la
+          página web "Mooveshark" utilizando las tecnologías: HTML, CSS,
+          JavaScript, React y Flexbox.
+        </p>
+      </article>
     </div>
   );
 };

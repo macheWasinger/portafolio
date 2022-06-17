@@ -8,15 +8,14 @@
   height: auto;
   background-image: linear-gradient(
     to bottom,
-    #2a2a2a,
-    #363636,
-    #424242,
-    #4f4f4f,
-    #5c5c5c
+    #494949,
+    #494949,
+    #585858,
+    #898989,
+    #9e9e9e
   );
-  padding-top: 9vw;
-  margin-top: 10vw;
-  padding-bottom: 11vw;
+  padding-top: 6vw;
+  padding-bottom: 4vw;
   overflow: hidden !important;
 }
 
@@ -47,21 +46,54 @@
   text-shadow: 1px 2px 3px #000000;
 }
 
-.style-h3-subtitulo__proyectos {
-  width: 50%;
-  font-size: 1.5vw;
-  margin-top: 2vw !important;
+.container-subtitleProyectos,
+.container-data-experiencia {
+  /* height: 8.5vw; */
+  width: 30%;
+  display: grid;
+  place-items: center;
+  font-family: "Inter", sans-serif;
   margin: auto;
-  letter-spacing: 0.2vw;
-  line-height: 2.2vw;
-  color: #fff !important;
+  margin-top: 2.5vw;
+  /* background-color: red; */
 }
+
+.container-data-experiencia {
+  margin-top: 4vw;
+}
+
+.title-practica,
+.title-experiencia {
+  font-weight: bold;
+  font-size: 1.7vw;
+}
+
+.text-subtitulo__proyectos,
+.text-experiencia {
+  width: 100%;
+  font-size: 1vw;
+  font-weight: 300 !important;
+  text-align: center !important;
+  line-height: 1.6;
+}
+
+.title-practica,
+.text-subtitulo__proyectos {
+  color: #fff;
+}
+
+.title-experiencia, 
+.text-experiencia {
+  color: #000;
+}
+
+
 
 .container-proyectos {
   width: 80vw;
   height: auto;
   margin: auto;
-  margin-top: 3vw;
+  margin-top: 1vw;
   padding-bottom: 3vw;
   display: flex;
   flex-wrap: wrap;

@@ -36,6 +36,7 @@
     height: 3vw !important;
     background-color: #2f2f2f;
     border-radius: 50%;
+    position: relative;
   }
   
   .container-menuDesktop article:hover {

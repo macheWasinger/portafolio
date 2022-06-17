@@ -66,7 +66,6 @@ const Home = () => {
           >
             <i class="fa-solid fa-arrow-down"></i>
           </div>
-          {/* <MenuDesktop /> */}
         </div>
       </div>
     </div>

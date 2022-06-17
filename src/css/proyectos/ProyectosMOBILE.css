@@ -1,14 +1,58 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .container-padre__proyectos {
-    height: 167vw !important;
+    height: 200vw !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff !important;
-    overflow: hidden;
-    padding-top: 9vw !important;
   }
 
+  .container-data-experiencia,
+.container-subtitleProyectos {
+  margin: auto;
+}
+
+.container-subtitleProyectos {
+ width: 85%;
+ margin-top: 4vw;
+}
+
+.container-data-experiencia {
+  width: 95%;
+  margin-top: 8vw;
+}
+
+.title-practica,
+.title-experiencia {
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.title-practica {
+  color: #fff;
+}
+
+.title-experiencia {
+  color: #000;
+}
+
+.text-experiencia,
+.text-subtitulo__proyectos {
+  width: 100%;
+  font-size: 3.2vw;
+  font-weight: 300 !important;
+  text-align: center !important;
+  line-height: 1.6;
+  /* background-color: green; */
+}
+
+.text-experiencia {
+  color: #000;
+}
+
+.text-subtitulo__proyectos {
+  color: #fff;
+}
 
   .container-project-mobile {
     width: 98vw !important;
@@ -203,7 +247,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 400px) {
+@media only screen and (min-width: 320px) and (max-width: 375px) {
   .carousel-inner {
     width: 100%;
     height: 450px;
@@ -220,17 +264,27 @@
   .container-project-mobile {
     margin-top: -5vw !important;
   }
+
+  .container-data-experiencia {
+    margin-top: -15vw;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+  .container-data-experiencia {
+    margin-top: -3vw;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 426px) {
   .container-padre__proyectos {
-    height: 178vw !important;
+    /* height: 178vw !important; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff !important;
     overflow: hidden;
-    padding-top: 9vw !important;
+    padding-top: 4vw !important;
   }
 }
 
@@ -281,5 +335,3 @@
     margin-top: 5%;
   }
 }
-
-

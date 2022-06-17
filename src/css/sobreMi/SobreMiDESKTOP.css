@@ -33,7 +33,7 @@
   /* background-color: red !important; */
 }
 
-.container_small-picture_downloadCV,
+.container_small-picture,
 .container-image,
 .style-smallImage,
 .container-text_sobreMi,
@@ -44,7 +44,7 @@
   position: relative;
 }
 
-.container_small-picture_downloadCV {
+.container_small-picture {
   width: auto;
   height: auto;
   margin-right: 3.5%;
@@ -79,11 +79,13 @@
 
 .container-text_sobreMi {
   width: 38vw;
-  height: auto;
-  left: 0.5%;
+  height: 33vw;
+  margin-left: 1.5vw;
+  margin-top: 5vw;
   margin-bottom: 8.5vw;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .container__title-text-hobbies {
@@ -94,7 +96,7 @@
   font-family: 'Anton', sans-serif;
   font-size: 3.5vw;
   text-transform: uppercase !important;
-  margin-top: 2vw;
+  /* margin-top: 2vw; */
 }
 
 .style-h1-sobreMi::before {
@@ -107,6 +109,7 @@
 
 .title-hobbies {
   font-size: 2.5vw;
+  font-family: "Inter", sans-serif;
   text-shadow: 1px 2px 3px black;
   color: #fff;
 }
@@ -121,27 +124,25 @@
 
 .style-p-sobreMi,
 .text-hobbies {
+  /* font-size: 1.1vw !important; */
+  font-family: "Inter", sans-serif;
   color: rgb(192, 192, 192);
   text-align: left;
+  line-height: 1.6;
 }
 
-.text-hobbies {
-  line-height: 2.5vw;
-}
-
-.style-p-sobreMi {
+/* .style-p-sobreMi {
   margin-top: 1vw;
-}
+} */
 
  .style-button-descargarCV {
    width: 15vw;
-   height: 3vw;
+   height: 3.5vw;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: all 0.5s;
-  font-size: 1.2vw;
   font-family: "anton", sans-serif;
   letter-spacing: 2px;
   color: #2a2a2a;
@@ -149,8 +150,8 @@
   text-shadow: 0.05em 0.1em 0.15em #838383;
   box-shadow: 0.1em 0.15em 0.2em #333;
   position: relative;
-  left: 23vw;
-  top: 4vw;
+  /* left: 23vw; */
+  top: 3vw;
   border-radius: 1.1vw 0.3vw 1.1vw 0.3vw;
   border: 0.30vw solid #fff;
   z-index: 0;
@@ -176,8 +177,18 @@
 }
 
 .text-descargarCV {
-  margin-left: 3.4vw;
+  font-size: 1.25vw;
+  margin-left: 2.7vw;
   transition: all 0.5s;
+  color: #2a2a2a;
+  position: relative;
+  left: 0.5vw;
+  
+}
+
+.style-button-descargarCV:hover .text-descargarCV {
+  margin-left: 1.4vw !important;
+  /* transition: all 0.5s; */
 }
 
 .show-iconPDF {
@@ -186,13 +197,13 @@
   color: #fff;
   transition: all 0.5s;
   position: relative;
-  right: 2vw;
+  right: 1.85vw;
   bottom: 0.05vw;
 }
 
 .hide-iconPDF {
   font-size: 0;
-  color: #2a2a2a;
+  /* color: #2a2a2a; */
   position: relative;
   right: 3.8vw;
   transition: all 0.5s;
@@ -206,13 +217,12 @@
 }
 
 
-@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+/* @media only screen and (min-width: 1024px) and (max-width: 1300px) {
   .container-padre_sobreMi {
-    /* height: 50vw; */
     padding-top: 3vw;
   }
 
-  .container_small-picture_downloadCV {
+  .container_small-picture {
     margin-right: 5%;
   }
 
@@ -236,9 +246,10 @@
     padding-top: 1.5vw;
   }
 }
+*/
 
 @media only screen and (min-width: 1441px) and (max-width: 2560px) {
   .container-text_sobreMi p {
-    font-size: 1.2vw;
+    font-size: 1.25vw;
   }
-}
+} 
