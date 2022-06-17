@@ -357,9 +357,8 @@ const Conocimientos = (props) => {
       >
         <h4 className="title-estudios">Estudios</h4>
         <p className="text-estudios">
-          En la Universidad he aprendido Python y Java. En cambio, todo lo
-          demás, lo aprendí a través de varios cursos online en plataformas
-          digitales.
+          En la Universidad he aprendido Python y Java. Todo lo demás, lo
+          aprendí a través de varios cursos online en plataformas digitales.
         </p>
       </div>
     </div>
