@@ -73,7 +73,7 @@ function App() {
               activeSection === 0 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
-            <i class="fa-solid fa-house"></i>
+            <i className="fa-solid fa-house"></i>
           </Link>
         </article>
 
@@ -89,7 +89,7 @@ function App() {
               activeSection === 1 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
-            <i class="fa-solid fa-user-tie"></i>
+            <i className="fa-solid fa-user-tie"></i>
           </Link>
         </article>
 
@@ -105,7 +105,7 @@ function App() {
               activeSection === 2 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
-            <i class="fa-solid fa-code"></i>
+            <i className="fa-solid fa-code"></i>
           </Link>
         </article>
 
@@ -121,7 +121,7 @@ function App() {
               activeSection === 3 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
-            <i class="fa-solid fa-laptop-code"></i>
+            <i className="fa-solid fa-laptop-code"></i>
           </Link>
         </article>
 
@@ -137,7 +137,7 @@ function App() {
               activeSection === 4 ? "ancla_activo borde-ancla text-hide" : ""
             }`}
           >
-            <i class="fa-solid fa-address-card"></i>
+            <i className="fa-solid fa-address-card"></i>
           </Link>
         </article>
       </div>
@@ -175,7 +175,7 @@ function App() {
                 }`}
                 smooth={true}
               >
-                <i class="fa-solid fa-house"></i>
+                <i className="fa-solid fa-house"></i>
               </a>
             </article>
 
@@ -192,7 +192,7 @@ function App() {
                 }`}
                 smooth={true}
               >
-                <i class="fa-solid fa-user-tie"></i>
+                <i className="fa-solid fa-user-tie"></i>
               </a>
             </article>
 
@@ -209,7 +209,7 @@ function App() {
                 }`}
                 smooth={true}
               >
-                <i class="fa-solid fa-code"></i>
+                <i className="fa-solid fa-code"></i>
               </a>
             </article>
 
@@ -226,7 +226,7 @@ function App() {
                 }`}
                 smooth={true}
               >
-                <i class="fa-solid fa-laptop-code"></i>
+                <i className="fa-solid fa-laptop-code"></i>
               </a>
             </article>
 
@@ -243,7 +243,7 @@ function App() {
                 }`}
                 smooth={true}
               >
-                <i class="fa-solid fa-address-card"></i>
+                <i className="fa-solid fa-address-card"></i>
               </a>
             </article>
           </div>
@@ -261,14 +261,14 @@ function App() {
               className="logo-redSocial__container linkedin-container"
               target="_blank"
             >
-              <i class="fab fa-linkedin-in style-i"></i>
+              <i className="fab fa-linkedin-in style-i"></i>
             </a>
             <a
               className="logo-redSocial__container instagram-container"
               href="https://www.instagram.com/machewasinger90/"
               target="_blank"
             >
-              <i class="fab fa-instagram style-i"></i>
+              <i className="fab fa-instagram style-i"></i>
             </a>
             <a
               className="logo-redSocial__container whatsapp-container"
@@ -281,7 +281,7 @@ function App() {
               href="mailto: marcelo_wasinger@hotmail.com"
               className="logo-redSocial__container mail-container"
             >
-              <i class="fas fa-envelope style-i"></i>
+              <i className="fas fa-envelope style-i"></i>
             </a>
           </div>
         </nav>
