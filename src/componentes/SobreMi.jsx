@@ -34,9 +34,9 @@ const SobreMi = () => {
           <br />
           está en stand by.
           <br />
-          Además, estudié Desarrollo Web Frontend mediante cursos y sigo
-          capacitándome intensivamente de forma autodidacta creando proyectos
-          propios para agilizar y perfeccionar mi código.
+          Hace aproximadamente dos años que estoy en constante capacitación en
+          Desarrollo Web Frontend mediante cursos y de manera autodidacta para
+          seguir ampliando mis conocimientos.
         </p>
         <div className="container__title-text-hobbies">
           <h2

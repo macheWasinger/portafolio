@@ -31,8 +31,11 @@ const Proyectos = () => {
       >
         <h4 className="title-practica">Práctica</h4>
         <p className="text-subtitulo__proyectos">
-          Los proyectos están ordenados de mayor a menor. En ellos, se puede ver
-          la evolución de mi código.
+          A medida que fui adquiriendo conocimientos, lo plasmé en diferentes
+          proyectos propios para demostrar la evolución en la sintáxis de mi
+          código.
+          <br />
+          Los proyectos, están ordenados de Mayor a Menor.
         </p>
       </article>
 

@@ -357,9 +357,9 @@ const Conocimientos = (props) => {
       >
         <h4 className="title-estudios">Estudios</h4>
         <p className="text-estudios">
-          Estudié Desarrollo Web Frontend mediante cursos online en plataformas
-          digitales. Además, me capacito constantemente para ampliar mis
-          conocimientos.
+          En la Universidad he aprendido Python y Java. En cambio, todo lo
+          demás, lo aprendí a través de varios cursos online en plataformas
+          digitales.
         </p>
       </div>
     </div>

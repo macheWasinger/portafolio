@@ -48,14 +48,12 @@
 
 .container-subtitleProyectos,
 .container-data-experiencia {
-  /* height: 8.5vw; */
-  width: 30%;
+  width: 40%;
   display: grid;
   place-items: center;
   font-family: "Inter", sans-serif;
   margin: auto;
   margin-top: 2.5vw;
-  /* background-color: red; */
 }
 
 .container-data-experiencia {
