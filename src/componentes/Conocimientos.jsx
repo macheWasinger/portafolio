@@ -19,7 +19,7 @@ import vscode from "../img/vscode.png";
 import terminal from "../img/terminal.png";
 import firebase from "../img/firebase.png";
 import api from "../img/api.png";
-import iphone from "../img/smartphone.png";
+import smartphone from "../img/smartphone.png";
 import logoMW from "../video/logo-mw2.mp4";
 import app1 from "../img/app1.png";
 import app2 from "../img/app2.png";
@@ -188,7 +188,7 @@ const Conocimientos = (props) => {
 
         <div className="container__smartphone-videoMW">
           <div className="container-smartphone">
-            <img src={iphone} alt="" />
+            <img src={smartphone} alt="" />
           </div>
           <div className="container__notifications-videoMW-apps">
             <div className="container-notificactions d-flex justify-content-between align-items-center">

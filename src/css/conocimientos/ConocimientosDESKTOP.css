@@ -111,15 +111,20 @@
   /* background-color: red; */
 }
 
+.container-smartphone {
+  width: 22vw;
+  height: 45vw;
+}
+
 .container-smartphone::before {
   content: "";
   position: absolute;
   /* bottom: 3vw;
   left: 2.5vw; */
   top: 0.5vw;
-  right: 38.5vw;
-  width: 22vw;
-  height: 45vw;
+  right: 40.5vw;
+  width: 20vw;
+  height: 43vw;
   border-radius: 2vw;
   background-color: #2a2a2a;
 }
@@ -132,13 +137,14 @@
 }
 
 .container__notifications-videoMW-apps {
-  width: 21vw;
-  height: 45vw;
+  width: 20vw;
+  height: 43vw;
   border-radius: 2vw;
   /* background-color: blue; */
   position: absolute;
   top: 0.5vw;
-  left: 39.5vw;
+  /* left: 38.9vw; */
+  left: 39.2%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -148,13 +154,13 @@
 }
 
 .container-notificactions {
-  width: 18vw;
+  width: 17.3vw;
   color: #fff;
   font-weight: 400;
   /* background-color: green; */
   position: relative;
-  bottom: 2.7vw;
-  left: 0.5vw;
+  bottom: 2.4vw;
+  left: 0.8vw;
 }
 
 .container-top-left {
@@ -264,15 +270,15 @@
   height: 10.42vw;
   position: relative;
   top: 3vw;
-  left: 0.5vw;
+  left: 0.8vw;
 }
 
 .container-image-smartphoneApps {
-  width: 20vw;
+  width: 18.5vw;
   /* height: 4vw; */
   position: relative;
   top: 8.5vw;
-  left: 0.5vw;
+  left: 0.81vw;
   /* background-color: orange; */
 }
 
@@ -281,8 +287,8 @@
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  left: 0.5vw;
-  top: 3.1vw;
+  left: 0.8vw;
+  top: 2.6vw;
   /* background-color: orange; */
 }
 
