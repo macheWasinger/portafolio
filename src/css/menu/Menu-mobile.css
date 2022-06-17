@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .container-menuDesktop {
         display: none !important;
     }
@@ -8,12 +8,12 @@
     display: flex !important;
     align-items: center;
     z-index: 1;
-    background-color: blue !important;
+    /* background-color: blue !important; */
   }
 
   .container-menuMobile {
-    width: 25vw !important;
-    height: 83vw !important;
+    width: 33vw !important;
+    height: 130vw !important;
     border-radius: 10em;
     background-color: #2A2A2A !important;
     display: flex !important;
@@ -177,3 +177,9 @@ a {
   
   }
  
+  @media only screen and (min-width: 768px) and (max-width: 768px) {
+    .container-menuMobile {
+      width: 25vw !important;
+      height: 80vw !important;
+  }
+  }

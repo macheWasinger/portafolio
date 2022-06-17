@@ -44,7 +44,7 @@
 
   .container-text_sobreMi {
     width: 48%;
-    height: 108vw;
+    height: 106vw;
     left: 0 !important;
     margin-bottom: 0 !important;
     margin-top: 7vw !important;
@@ -125,4 +125,30 @@
   transition: all 0.5s;
 }
 
+}
+
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+  .container-padre_sobreMi {
+    height: 52vw;
+    padding-bottom: 0 !important;
+    padding-left: 0;
+    justify-content: space-around;
+  }
+
+
+  .container-text_sobreMi {
+    width: 48%;
+    height: 40vw;
+    left: -5vw !important;
+    margin-bottom: 2vw !important;
+    margin-top: 0 !important;
+    padding-top: 0;
+    /* background-color: green; */
+  }
+
+  .style-p-sobreMi,
+  .text-hobbies {
+    font-size: 1.3vw;
+  }
 }

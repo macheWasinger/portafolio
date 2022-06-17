@@ -217,37 +217,6 @@
 }
 
 
-/* @media only screen and (min-width: 1024px) and (max-width: 1300px) {
-  .container-padre_sobreMi {
-    padding-top: 3vw;
-  }
-
-  .container_small-picture {
-    margin-right: 5%;
-  }
-
-  .container-image {
-    width: 25vw;
-    height: 30vw;
-  }
-
-  .style-smallImage {
-    width: 25vw;
-    height: 30vw;
-  }
-
-  .style-button-descargarCV {
-    font-size: 1.1vw;
-  }
-}
-
-@media only screen and (min-width: 1301px) and (max-width: 2560px) {
-  .container-padre_sobreMi {
-    padding-top: 1.5vw;
-  }
-}
-*/
-
 @media only screen and (min-width: 1441px) and (max-width: 2560px) {
   .container-text_sobreMi p {
     font-size: 1.25vw;
