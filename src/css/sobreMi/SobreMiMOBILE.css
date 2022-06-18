@@ -58,7 +58,7 @@
     position: relative;
     top: 2vw;
     right: 48vw;
-    margin-top: 0;
+    margin-top: 2vw;
     /* background-color: blue; */
   }
 
@@ -76,14 +76,14 @@
   }
 
   .style-p-sobreMi {
-    top: 1.5vw;
+    top: 2vw;
     right: 1.5vw;
   }
 
   .style-p-sobreMi,
   .text-hobbies {
-    padding: 3px;
-    font-size: 3vw;
+    line-height: 1.8 !important;
+    font-size: 3vw !important;
     color: rgb(192, 192, 192);
   }
 

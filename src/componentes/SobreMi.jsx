@@ -70,7 +70,6 @@ const SobreMi = () => {
             className={`iconPDF ${
               active === true ? "show-iconPDF" : "hide-iconPDF"
             }`}
-            // onClick={() => setActive(false)}
           >
             <i className="fa-solid fa-file-lines"></i>
           </span>

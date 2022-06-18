@@ -55,7 +55,7 @@
   width: 19vw;
   height: 23vw;
   border: 0.7vw solid #ffb633;
-  border-radius: 56% 34% 48% 25% / 74% 40% 99% 58%;
+  border-radius: 56% 34% 30% 25% / 74% 40% 99% 58%;
   /* position: relative; */
   right: 2%;
   top: 0;
@@ -65,7 +65,7 @@
   width: 19vw;
   height: 23.8vw;
   /* border: 0.8vw solid #3a3a3a; */
-  border-radius: 56% 34% 48% 25% / 74% 40% 99% 58%;
+  border-radius: 56% 34% 30% 25% / 74% 40% 99% 58%;
   left: 10%;
   bottom: 13%;
   padding-top: 2px;
@@ -79,9 +79,9 @@
 
 .container-text_sobreMi {
   width: 38vw;
-  height: 33vw;
+  height: 36vw;
   margin-left: 1.5vw;
-  margin-top: 5vw;
+  margin-top: 8vw;
   margin-bottom: 8.5vw;
   display: flex;
   flex-direction: column;
@@ -89,7 +89,7 @@
 }
 
 .container__title-text-hobbies {
-  margin-top: 3.5vw;
+  margin-top: 1vw;
 }
 
 .style-h1-sobreMi {
@@ -124,20 +124,20 @@
 
 .style-p-sobreMi,
 .text-hobbies {
-  /* font-size: 1.1vw !important; */
+  font-size: 1.1vw !important;
   font-family: "Inter", sans-serif;
   color: rgb(192, 192, 192);
   text-align: left;
   line-height: 1.6;
 }
 
-/* .style-p-sobreMi {
-  margin-top: 1vw;
-} */
+.style-p-sobreMi {
+  margin-top: -1vw;
+}
 
  .style-button-descargarCV {
    width: 15vw;
-   height: 3.5vw;
+   height: 3vw;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -151,7 +151,7 @@
   box-shadow: 0.1em 0.15em 0.2em #333;
   position: relative;
   /* left: 23vw; */
-  top: 3vw;
+  /* top: 3vw; */
   border-radius: 1.1vw 0.3vw 1.1vw 0.3vw;
   border: 0.30vw solid #fff;
   z-index: 0;
