@@ -179,7 +179,7 @@
   font-size: 1.5vw;
   transition: all 0.5s;
   transform: rotateY(360deg);
-  z-index: 0 !important;
+  z-index: 1 !important;
   box-shadow: 0 0 0.15vw #000,
               0 0 0.3vw #000,
               0 0 0.6vw #000,
