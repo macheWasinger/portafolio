@@ -61,7 +61,7 @@
     overflow: hidden !important;
     border-radius: 20px !important;
     position: relative;
-    right: 1.7vw;
+    right: 1.6vw;
     padding-top: 7.5vw;
   }
   
@@ -74,6 +74,7 @@
     animation: animate 4s linear infinite !important;
     top: -27vw;
     right: 30vw;
+    z-index: 0 !important;
   }
   
   .container-project-mobile::after {
