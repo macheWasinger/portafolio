@@ -29,12 +29,12 @@
 
 .style-h1__title-contactos {
   font-weight: 700;
-  font-size: 3.5vw;
-  color: #fff;
+  font-size: 4vw;
   letter-spacing: 0.05vw;
   text-transform: uppercase;
-  margin-bottom: 4%;
-  margin-top: 3vw;
+  margin-bottom: 4% !important;
+  /* margin-top: 3vw; */
+  margin: auto;
 }
 
 .style-h1__title-contactos::before {

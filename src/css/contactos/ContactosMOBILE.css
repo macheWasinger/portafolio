@@ -54,11 +54,16 @@
   }
 
   .style-h1__title-contactos {
-    font-size: 6vw;
+    font-size: 9vw !important;
     margin-bottom: 0% !important;
     margin-top: 12vw !important;
-    
+
   }
+
+  .style-h1__title-contactos::before {
+    left: 0;
+  }
+  
 
   .mail-container, .instagram-container {
     margin-top: 6vw; 

@@ -5,8 +5,6 @@
 .container-padre {
   width: 100%;
   height: 44vw;
-  /* display: flex;
-  flex-direction: column; */
   overflow: hidden;
 }
 
@@ -60,12 +58,9 @@
 }
 
 .container_fondo-presentacion-imageDev .container__texto-presentacion {
-  /* width: auto; */
-  /* height: 10vw; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: green; */
 }
 
 .container-imageDeveloper {
@@ -75,7 +70,6 @@
   border-radius: 50%;
   box-shadow: 5px -1px 9px #000000;
   overflow: hidden;
-  /* background-color: red; */
 }
 
 .container__presentacion-imageDeveloper img {
@@ -149,8 +143,6 @@ a,
 
 .style-frontendJr::before {
   content: "Frontend Developer Jr";
-  /* text-align: center; */
-  /* left: 2.8vw; */
   background-color: #ffb633;
 }
 

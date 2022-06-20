@@ -28,10 +28,10 @@
 
 .style-h1__proyectos {
   font-weight: 700;
-  font-size: 3.5vw;
-  letter-spacing: 0.15vw;
+  font-size: 4vw;
+  letter-spacing: 0.1vw;
   text-transform: uppercase;
-  color: #fff;
+  /* color: #2a2a2a; */
 }
 
 .style-h1__proyectos::before {

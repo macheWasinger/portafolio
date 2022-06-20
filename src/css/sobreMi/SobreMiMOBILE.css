@@ -59,14 +59,13 @@
     top: 2vw;
     right: 48vw;
     margin-top: 2vw;
-    /* background-color: blue; */
   }
 
   .style-h1-sobreMi {
-    font-size: 8vw;
+    font-size: 9vw;
     right: 45%;
     top: -6vw;
-    letter-spacing: 0.25vw;
+    letter-spacing: 0.3vw !important;
   }
 
   .title-hobbies {
