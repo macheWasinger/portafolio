@@ -66,17 +66,6 @@ const Conocimientos = (props) => {
 
     updateTime();
     setInterval(updateTime, 1000);
-
-    // const progress = document.querySelector(".progress");
-    // const percentage = document.querySelector(".percentage");
-
-    // navigator.getBattery().then(function (battery) {
-    //   console.log(bateryManager);
-    //   let level = battery.level * 100;
-    //   progress.style.width = `${level}%`;
-    //   percentage.textContent = level + "%";
-    //   console.log(Math.floor(level));
-    // });
   }, []);
 
   return (
@@ -357,8 +346,9 @@ const Conocimientos = (props) => {
       >
         <h4 className="title-estudios">Estudios</h4>
         <p className="text-estudios">
-          En la Universidad he aprendido Python y Java. Todo lo demás, lo
-          aprendí a través de varios cursos online en plataformas digitales.
+          En la universidad aprendí Python, Java, POO y diagramas de flujo. Todo
+          lo demás, lo aprendí a través de varios cursos online en plataformas
+          digitales.
         </p>
       </div>
     </div>

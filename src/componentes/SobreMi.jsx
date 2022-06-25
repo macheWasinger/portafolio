@@ -1,7 +1,7 @@
 import React from "react";
 
 import smallImage from "../img/maw.png";
-import cv from "../cv/CV-WasingerMarcelo-Junio2022.pdf";
+import cv from "../cv/CV-WasingerMarcelo-2022.pdf";
 
 const SobreMi = () => {
   const [active, setActive] = React.useState(false);
@@ -30,13 +30,13 @@ const SobreMi = () => {
           data-aos-duration="400"
           data-aos-offset="200"
         >
-          Descubrí la Programación en la UNGS. Sin embargo, mi cursada
+          Estudiante de sistemas proactivo y curioso, con muchas ganas de poner
+          en práctica mi experiencia y de aprender nuevas tecnologías.
           <br />
-          está en stand by.
           <br />
-          Hace aproximadamente dos años que estoy en constante capacitación en
-          Desarrollo Web Frontend mediante cursos y de manera autodidacta para
-          seguir ampliando mis conocimientos.
+          Me encanta trabajar en equipo, compartir mis conocimientos, ser
+          organizado y planificador, y lo que me falta en conocimiento y
+          experiencia, lo complemento con las ganas y empuje que tengo.
         </p>
         <div className="container__title-text-hobbies">
           <h2

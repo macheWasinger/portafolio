@@ -142,8 +142,9 @@ a,
 }
 
 .style-frontendJr::before {
-  content: "Frontend Developer Jr";
-  background-color: #ffb633;
+  content: "Desarrollador web Front-end";
+  inset: 0;
+  background-color: #ffb633;;
 }
 
 .span__text-soy::before, 

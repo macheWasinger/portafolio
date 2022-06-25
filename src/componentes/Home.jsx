@@ -54,7 +54,7 @@ const Home = () => {
                 data-aos-duration="1000"
                 data-aos-delay="1400"
               >
-                Frontend Developer Jr
+                Desarrollador web Front-end
               </span>
             </h1>
           </div>

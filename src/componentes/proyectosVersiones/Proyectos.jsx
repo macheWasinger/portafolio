@@ -295,11 +295,9 @@ const Proyectos = () => {
       >
         <h4 className="title-experiencia">Experiencia</h4>
         <p className="text-experiencia">
-          Tengo 6 meses de experiencia laboral IT de manera Freelance.
-          <br />
-          Mi tarea consistió en maquetar las versiones Desktop y Mobile de la
-          página web "Mooveshark" utilizando las tecnologías: HTML, CSS,
-          JavaScript, React y Flexbox.
+          Entre la experiencia práctica que tengo, se encuentra maquetar las
+          versiones Desktop y Mobile de la página web "Mooveshark" utilizando
+          las tecnologías: HTML, CSS, JavaScript, React y Flexbox.
         </p>
       </article>
     </div>
