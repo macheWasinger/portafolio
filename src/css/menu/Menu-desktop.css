@@ -104,7 +104,7 @@
   }
   
   .title_section-sobreMi:before {
-    content: "SobreMí"
+    content: "SobreMí";
   }
   
   .title_section-conocimientos:before {
@@ -128,10 +128,46 @@
     font-size: 0;
     font-family: 'anton', sans-serif;
     letter-spacing: 1px;
-    color: #fff;
-    text-shadow: 0.05em 0.1em 0.15em #2a2a2a;
+    color: #2a2a2a;
+    text-shadow: 0.05em 0.1em 0.15em #c3c3c3;
     opacity: 0;
     transition-duration: 0.5s;
+    padding: 0.3vw 0.5vw 0.3vw 0.5vw;
+    border-radius: 0.33vw;
+    background-color: #fff;
+    box-shadow: 0.2vw 0.3vw 0.4vw #2a2a2a;
+  }
+
+  .title_section-home:after,
+  .title_section-sobreMi:after,
+  .title_section-conocimientos:after,
+  .title_section-proyectos:after,
+  .title_section-contactos:after {
+    content: "";
+    position: absolute;
+    left: -1vw;
+    top: 50%;
+    width: 0;
+    height: 0;
+    transition-duration: 0.3s;
+    transform: rotate(90deg);
+    border-right: 0 solid transparent;
+    border-left: 0 solid transparent;
+    border-bottom: 0 solid #fff;
+    margin-left: 2vw;
+  }
+
+  .title_section-home:hover:after,
+  .title_section-sobreMi:hover:after,
+  .title_section-conocimientos:hover:after,
+  .title_section-proyectos:hover:after,
+  .title_section-contactos:hover:after {
+    top: 30%;
+    transition-duration: 0.3s;
+    border-right: 0.6vw solid transparent;
+    border-left: 0.6vw solid transparent;
+    border-bottom: 1.2vw solid #fff;
+    margin-left: 0;
   }
   
   .title_section-home:hover:before,
@@ -139,17 +175,17 @@
   .title_section-conocimientos:hover:before,
   .title_section-proyectos:hover:before,
   .title_section-contactos:hover:before {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     opacity: 1;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
   }
   
   .title_section-home:hover:before {
-    margin-right: 7.4vw;
+    margin-right: 7.9vw;
   }
   
   .title_section-sobreMi:hover:before {
-    margin-right: 8.9vw;
+    margin-right: 9.3vw;
   }
   
   .title_section-conocimientos:hover:before {
@@ -158,9 +194,9 @@
   
   .title_section-proyectos:hover:before,
   .title_section-contactos:hover:before {
-    margin-right: 9.95vw;
+    margin-right: 10.2vw;
   }
   
-  .text-hide:before {
+  .text-hide:before, .text-hide:after {
     display: none !important;
   }
