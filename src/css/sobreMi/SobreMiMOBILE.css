@@ -1,7 +1,8 @@
 @media screen and (max-width: 800px) {
   .container-padre_sobreMi {
-    height: 143vw;
-    padding-bottom: 14vw !important;
+    height: auto;
+    padding-top: 2.7rem;
+    padding-bottom: 6.3rem !important;
     padding-left: 3%;
     justify-content: space-around;
   }
@@ -62,8 +63,8 @@
   }
 
   .style-h1-sobreMi {
-    font-size: 9vw;
-    right: 45%;
+    font-size: 2.8rem;
+    right: 47%;
     top: -6vw;
     letter-spacing: 0.3vw !important;
   }
@@ -149,5 +150,30 @@
   .style-p-sobreMi,
   .text-hobbies {
     font-size: 1.3vw;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 800px) {
+
+  .container-padre_sobreMi {
+    padding-top: 2rem;
+    padding-bottom: 9rem !important;
+  }
+
+  .style-h1-sobreMi {
+    font-size: 3.9rem;
+    right: 43%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+  .container-padre_sobreMi {
+    padding-top: 3rem;
+    padding-bottom: 5.8rem !important;
+  }
+
+  .style-h1-sobreMi {
+    font-size: 2.5rem;
+    right: 56%;
   }
 }

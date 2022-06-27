@@ -1,14 +1,14 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .container-padre_conocimientos {
     width: 100vw;
-    height: 285vw;
+    height: 287vw;
     padding-top: 0vw !important;
-    padding-bottom: 6vw;
+    padding-bottom: 5vw;
     /* background-color: blue; */
   }
 
   .container-padre_conocimientos::before {
-    height: 220vw;
+    height: 222vw;
     background-size: cover;
     background-position: inherit;
     margin-top: 20vw !important;
@@ -16,9 +16,9 @@
 
   .style-h1-title {
     margin-top: 12%;
-    font-size: 9vw;
+    font-size: 11.5vw;
     letter-spacing: 0.25vw;
-    left: 22% !important;
+    left: 14.5% !important;
   }
 
   .container-info-tecnologias {
@@ -26,7 +26,7 @@
     height: 206vw;
     display: flex;
     flex-direction: column;
-    margin-top: 28vw;
+    margin-top: 35vw;
     overflow: none;
   }
   
@@ -92,20 +92,27 @@
     display: grid;
     place-items: center;
     font-family: "Inter", sans-serif;
-    margin-bottom: 5vw;
+    /* margin-bottom: 2vw; */
     /* background-color: orange; */
   }
   
   .title-estudios {
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 5.5vw;
     /* color: #fff; */
   }
   
   .text-estudios {
-    width: 77%;
-    font-size: 3vw;
+    width: 95%;
+    font-size: 3.5vw;
     /* color: #fff; */
     /* background-color: white; */
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+
+  .container-padre_conocimientos {
+    height: 279vw;
   }
 }
