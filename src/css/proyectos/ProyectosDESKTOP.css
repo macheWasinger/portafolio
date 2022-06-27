@@ -212,7 +212,7 @@
 
 .container-proyectos > .container-project > span {
   width: 45%;
-  height: 93%;
+  height: 88%;
   display: flex;
   align-items: center;
   margin-right: 3.4vw;
@@ -227,8 +227,8 @@
   right: 0;
   width: 20%;
   height: 87%;
-  margin-right: 2vw;
-  margin-top: 0.5vw;
+  margin-right: 2.1vw;
+  margin-top: 1.15vw;
   border-top: 0.8vw double #ffb633;
   border-right: 0.8vw double #ffb633;
   /* background-color: blue; */
@@ -242,8 +242,8 @@
   left: 51.4%;
   width: 20%;
   height: 87%;
-  margin-left: -1.25vw !important;
-  margin-top: 3.05vw;
+  margin-left: -1.15vw !important;
+  margin-top: 2.3vw;
   border-bottom: 0.8vw double #ffb633;
   border-left: 0.8vw double #ffb633;
   /* background-color: blue; */
