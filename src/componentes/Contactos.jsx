@@ -6,7 +6,7 @@ const Contactos = () => {
     <div loading="lazy" className="container-padre__Contactos">
       <a name="Contactos"></a>
       <div className="container-hijo__contactos">
-        <h1 className="style-h1__title-contactos">Contactarme a través de:</h1>
+        <h1 className="style-h1__title-contactos">Contáctame</h1>
         <div className="container-logos">
           <a
             className="card linkedin-container"

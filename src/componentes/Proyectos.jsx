@@ -19,7 +19,8 @@ const Proyectos = () => {
   return (
     <div className="container-padre__proyectos">
       <a name="Proyectos"></a>
-      <h1 className="style-h1__proyectos title-font">Mis proyectos</h1>
+      {/* <span className="bloque-diagonal"></span> */}
+      <h1 className="style-h1__proyectos title-font">Proyectos</h1>
 
       <article
         className="container-subtitleProyectos d-flex flex-column"

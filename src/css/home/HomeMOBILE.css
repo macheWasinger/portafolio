@@ -36,22 +36,11 @@
     position: relative;
     left: 0;
   }
-/* 
-  .container_fondo-presentacion-imageDev {
-    width: 100%;
-    height: 125vw;
-    background-image: url("../../img/imageFondoInicio.jpg");
-    background-size: cover;
-    background-position-y: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed !important;
-  } */
 
   .container-arrowDown {
     display: flex !important;
     position: relative;
     bottom: 4vw;
-    /* background-color: red; */
   }
 
   .container-arrowDown > .fa-arrow-down {
@@ -108,12 +97,12 @@
 
 
   .nombreApellido {
-    font-size: 6.5vw !important;
+    font-size: 8.5vw !important;
     margin-top: 1.5vw;
   }
 
   .style-frontendJr {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   .container-textFrontendJR-iconFrontend {

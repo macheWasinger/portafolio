@@ -54,7 +54,7 @@
   }
 
   .style-h1__title-contactos {
-    font-size: 2.5rem !important;
+    font-size: 10vw !important;
     line-height: 1.25;
     letter-spacing: 1px;
     margin-bottom: 0% !important;
@@ -68,7 +68,6 @@
 
   .container-mail,
   .container-datos__siteFooter,
-  .style-button__return,
   .style__text-desarrollador {
     position: relative;
   }
@@ -80,16 +79,15 @@
 
   .container__site-footer,
   .container-datos__siteFooter,
-  .style-button__return,
   .style__text-desarrollador,
   img {
     position: relative;
   }
 
   .container-datos__siteFooter {
-    width: 63vw;
+    width: 77%;
     height: 7.5vw;
-    margin-left: 7.5%;
+    margin-left: 6%;
     /* background-color: red; */
   }
 
@@ -99,27 +97,13 @@
     top: 1vw;
   }
 
-  .style-button__return {
-    width: 6.5vw;
-    height: 6.5vw;
-    font-size: 4vw;
-    left: 5vw;
-    cursor: pointer;
-    transition: all 0.5s;
-  }
-
   .arrow-up {
     font-size: 4vw;
   }
 
-  .style-button__return:hover {
-    color: #fff;
-    transform: scale(1.1);
-  }
-
   .style__text-desarrollador {
     color: #fff;
-    font-size: 2.6vw;
+    font-size: 3.2vw;
     font-weight: 300 !important;
     margin: auto;
     top: 0;
@@ -130,7 +114,7 @@
     height: 2.6rem;
     border-radius: 40%;
     margin-top: 0 !important;
-    margin-left: 3.5vw;
+    margin-left: 4.1vw;
   }
 
   .whatsapp-container {
@@ -140,86 +124,24 @@
   }
 
   .whatsapp-container .style-i {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: #fff;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 519px) {
-  .style-h1__title-contactos::before {
-    left: 0;
-  }
-  
-}
-
-/* @media only screen and (min-width: 375px) and (max-width: 800px) {
-  .container-logos {
-    max-width: 100vw;
-  }
-
+@media only screen and (min-width: 650px) and (max-width: 768px) {
   .container-whatsapp {
-    width: 6.5vw;
-    height: 6.5vw;
-    margin-right: 1% !important;
-  }
-
-  .whatsapp-container {
-    position: relative;
-    top: 0.1vw;
+    width: 3em;
+    height: 3rem;
+    margin-left: 4.1vw;
   }
 
   .whatsapp-container .style-i {
-    font-size: 6vw;
+    font-size: 2.6rem;
     color: #fff;
   }
-} */
 
-/* @media only screen and (min-width: 320px) and (max-width: 374px) {
-
-  .container-logos {
-    max-width: 70vw;
-    margin-top: 15vw;
+  .style__text-desarrollador {
+    font-size: 2.2vw;
   }
-
-  .container-logos .card {
-    width: 55vw !important;
-    height: 42vw;
-  }
-
-  .container-logos .card:hover .title-logo {
-    font-size: 5vw;
-    margin-top: 2vw;
-  }
-} */
-
-/* @media only screen and (min-width: 320px) and (max-width: 400px) {
-  .barras-separadoras article {
-    width: 5vw;
-    height: 16vw;
-    bottom: 4.5vw;
-  }
-
-  .style-h1__title-contactos {
-    font-size: 10vw;
-    margin-bottom: 0 !important;
-    margin-top: 15vw !important;
-  }
-
-  .style-h1__title-contactos::before {
-    left: 0 !important;
-  }
-
-  .container-logos {
-    margin-top: 7.5vw;
-  }
-
-  .container-logos .card {
-    width: 50vw !important;
-    height: 50vw;
-    border: 1.5vw solid #fff;
-  }
-
-  .container-logos .card .style-i {
-    font-size: 25vw;
-  }
-} */
+}

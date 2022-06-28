@@ -56,17 +56,6 @@
   .effectMove {
     animation: moveIcon 1s forwards;
   }
-
-  /* @keyframes moveIcon {
-    from {
-     position: relative;
-     bottom: 0;
-    }
-
-    to {
-      bottom: 1vw;
-    }
-  } */
   
   .ancla_activo {
     color: #ffb633 !important;
