@@ -4,7 +4,6 @@ import React from "react";
 const Contactos = () => {
   return (
     <div loading="lazy" className="container-padre__Contactos">
-      {/* <BarrasVerticales /> */}
       <a name="Contactos"></a>
       <div className="container-hijo__contactos">
         <h1 className="style-h1__title-contactos">Contactarme a través de:</h1>
@@ -14,10 +13,8 @@ const Contactos = () => {
             href="https://www.linkedin.com/in/marcelowasinger/"
             target="_blank"
           >
-            {/* <span></span> */}
             <div className="container_redSocial_title-logo">
               <i class="fab fa-linkedin-in style-i"></i>
-              {/* <p className="title-logo">LinkedIn</p> */}
             </div>
           </a>
           <a
@@ -25,10 +22,8 @@ const Contactos = () => {
             href="https://github.com/macheWasinger"
             target="_blank"
           >
-            {/* <span></span> */}
             <div className="container_redSocial_title-logo">
               <i class="fab fa-github style-i"></i>
-              {/* <p className="title-logo">GitHub</p> */}
             </div>
           </a>
           <a
@@ -36,32 +31,22 @@ const Contactos = () => {
             href="https://www.instagram.com/machewasinger90/"
             target="_blank"
           >
-            {/* <span></span> */}
             <div className="container_redSocial_title-logo">
               <i class="fab fa-instagram style-i"></i>
-              {/* <p className="title-logo">Instagram</p> */}
             </div>
           </a>
           <a
             className="card mail-container"
             href="mailto: marcelo_wasinger@hotmail.com"
           >
-            {/* <span></span> */}
             <div className="container_redSocial_title-logo">
               <i class="fas fa-envelope style-i"></i>
-              {/* <p className="title-logo">Hotmail</p> */}
             </div>
           </a>
         </div>
       </div>
 
       <div className="container__site-footer">
-        {/* <Link to="Home" smooth={true}>
-          <div className="style-button__return">
-            <i class="fas fa-angle-up arrow-up"></i>
-          </div>
-        </Link> */}
-
         <div className="container-whatsapp">
           <span>
             <a
@@ -78,7 +63,6 @@ const Contactos = () => {
           <p className="style__text-desarrollador">
             © 2021 Creado por Marcelo Adrián Wasinger
           </p>
-          {/* <img loading="lazy" src={logo} alt="" /> */}
         </div>
       </div>
     </div>
