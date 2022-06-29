@@ -39,7 +39,6 @@ const Proyectos = () => {
           className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
-          data-aos-delay="600"
         >
           <span className="span-APImeli">
             <img
@@ -90,7 +89,6 @@ const Proyectos = () => {
           className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
-          data-aos-delay="300"
         >
           <span className="span-portafolio">
             <img
@@ -138,7 +136,6 @@ const Proyectos = () => {
           className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
-          data-aos-delay="600"
         >
           <span className="span-responsiveCRUDclinica">
             <img
@@ -184,11 +181,7 @@ const Proyectos = () => {
           </div>
         </article>
 
-        <article
-          className="container-project"
-          data-aos="zoom-in"
-          data-aos-delay="800"
-        >
+        <article className="container-project" data-aos="zoom-in">
           <span className="span-responsiveDestinoARG">
             <img
               loading="lazy"
@@ -238,7 +231,6 @@ const Proyectos = () => {
           className="container-project"
           data-aos="zoom-in"
           data-aos-offset="100"
-          data-aos-delay="300"
         >
           <span className="span-desktopMaquetado">
             <img
@@ -282,11 +274,7 @@ const Proyectos = () => {
           </div>
         </article>
 
-        <article
-          className="container-project"
-          data-aos="zoom-in"
-          data-aos-delay="800"
-        >
+        <article className="container-project" data-aos="zoom-in">
           <span className="span-desktopMeli">
             <img
               loading="lazy"
