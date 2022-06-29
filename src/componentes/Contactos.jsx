@@ -14,7 +14,7 @@ const Contactos = () => {
             target="_blank"
           >
             <div className="container_redSocial_title-logo">
-              <i class="fab fa-linkedin-in style-i"></i>
+              <i className="fab fa-linkedin-in style-i"></i>
             </div>
           </a>
           <a
@@ -23,7 +23,7 @@ const Contactos = () => {
             target="_blank"
           >
             <div className="container_redSocial_title-logo">
-              <i class="fab fa-github style-i"></i>
+              <i className="fab fa-github style-i"></i>
             </div>
           </a>
           <a
@@ -32,7 +32,7 @@ const Contactos = () => {
             target="_blank"
           >
             <div className="container_redSocial_title-logo">
-              <i class="fab fa-instagram style-i"></i>
+              <i className="fab fa-instagram style-i"></i>
             </div>
           </a>
           <a
@@ -40,7 +40,7 @@ const Contactos = () => {
             href="mailto: marcelo_wasinger@hotmail.com"
           >
             <div className="container_redSocial_title-logo">
-              <i class="fas fa-envelope style-i"></i>
+              <i className="fas fa-envelope style-i"></i>
             </div>
           </a>
         </div>
