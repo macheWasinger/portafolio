@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.0188415e.chunk.css",
-    "main.js": "/portafolio/static/js/main.d0942438.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.d0942438.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.f2e52f52.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.f2e52f52.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.d97de6e3.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portafolio/static/css/2.0a9ec390.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.0a9ec390.chunk.css.map": "/portafolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.0188415e.chunk.css.map": "/portafolio/static/css/main.0188415e.chunk.css.map",
     "static/js/2.5739b384.chunk.js.LICENSE.txt": "/portafolio/static/js/2.5739b384.chunk.js.LICENSE.txt",
-    "static/media/CV-WasingerMarcelo-2022.48b1a2db.pdf": "/portafolio/static/media/CV-WasingerMarcelo-2022.48b1a2db.pdf",
+    "static/media/CV-WasingerMarcelo-2022.e7b3ed11.pdf": "/portafolio/static/media/CV-WasingerMarcelo-2022.e7b3ed11.pdf",
     "static/media/api-search-meli.dd1957d6.png": "/portafolio/static/media/api-search-meli.dd1957d6.png",
     "static/media/api.e5735fed.png": "/portafolio/static/media/api.e5735fed.png",
     "static/media/app1.b551bfee.png": "/portafolio/static/media/app1.b551bfee.png",
@@ -40,6 +40,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.5739b384.chunk.js",
     "static/css/main.0188415e.chunk.css",
-    "static/js/main.d0942438.chunk.js"
+    "static/js/main.f2e52f52.chunk.js"
   ]
 }
