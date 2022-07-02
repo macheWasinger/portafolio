@@ -73,11 +73,11 @@
 }
 
 .container__presentacion-imageDeveloper img {
-  width: 13vw;
   height: 16vw;
   position: relative;
   bottom: 0.5vw;
   z-index: 1;
+  object-fit: contain;
 }
 
 .style-h1-home,

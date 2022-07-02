@@ -52,40 +52,80 @@
 }
 
 .container-image {
-  width: 19vw;
+  width: 18vw;
   height: 23vw;
   border: 0.7vw solid #ffb633;
   border-radius: 56% 34% 30% 25% / 74% 40% 99% 58%;
-  /* position: relative; */
-  right: 2%;
+  /* right: 2%; */
+  left: 1vw;
   top: 0;
+  /* background-color: red; */
 }
 
-.style-smallImage {
-  width: 19vw;
-  height: 23.8vw;
-  /* border: 0.8vw solid #3a3a3a; */
+.image_container {
+  width: 16vw;
+  height: 23vw;
+  background-color: #fff;
+  position: relative;
+  bottom: 2.2vw;
+  left: 1.8vw;
   border-radius: 56% 34% 30% 25% / 74% 40% 99% 58%;
-  left: 10%;
-  bottom: 13%;
-  padding-top: 2px;
-  background-color: #ffffff;
+  box-shadow: 1px 2px 3px #000000;
+  overflow: hidden;
 }
 
-/* .container-image, */
-.style-smallImage {
-  box-shadow: 1px 2px 3px #000000;
+.main-style-image {
+  height: 100%;
+  animation: effectMawAnimado 0.5s;
+  margin-top: 2.5px;
 }
+
+.show-maw {
+  animation: effectMaw 0.5s;
+}
+
+.container-image:hover .main-style-image {
+  animation: effectMaw 0.5s;
+}
+
+@keyframes effectMaw {
+  from {
+    transform: rotateY(180deg)
+  }
+
+  to {
+    display: none;
+  }
+}
+
+
+@keyframes effectMawAnimado {
+  from {
+    transform: rotateY(180deg)
+  }
+
+  to {
+    display: block;
+  }
+}
+
+.container-image-texts {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5vw;
+  /* background-color: red; */
+}
+
 
 .container-text_sobreMi {
   width: 38vw;
-  height: 41vw;
+  height: 30vw;
   margin-left: 1.5vw;
-  margin-top: 7vw;
-  margin-bottom: 8.5vw;
+  /* margin-top: 7vw; */
+  /* margin-bottom: 8.5vw; */
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   /* background-color: green; */
 }
 
@@ -143,7 +183,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   transition: all 0.5s;
   font-family: "anton", sans-serif;
   letter-spacing: 2px;
@@ -172,25 +212,37 @@
   transition: all 0.5s;
 }
 
+
 .style-button-descargarCV:hover::before {
   background-color: #ffb633;
   height: 100%;
   transition: all 0.5s;
 }
 
-.text-descargarCV {
-  font-size: 1.25vw;
-  margin-left: 2.7vw;
-  transition: all 0.5s;
-  color: #2a2a2a;
-  position: relative;
-  left: 0.5vw;
-  
+.container-text__CV-descargado {
+  width: 14vw;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.style-button-descargarCV:hover .text-descargarCV {
-  margin-left: 1.4vw !important;
-  /* transition: all 0.5s; */
+.hideEffectHoverButton {
+  pointer-events: none !important;
+}
+
+.container-text-descargarCV {
+  font-size: 1.1vw;
+  transition: all 0.5s;
+  color: #2a2a2a;
+}
+
+.texto-descargar-CV {
+  margin-top: 0.1vw;
+}
+
+.fa-file-circle-check {
+  font-size: 1.3vw;
 }
 
 .show-iconPDF {
@@ -199,7 +251,8 @@
   color: #fff;
   transition: all 0.5s;
   position: relative;
-  right: 1.85vw;
+  margin-right: 2.8vw;
+  right: -1vw;
   bottom: 0.05vw;
 }
 
@@ -211,7 +264,8 @@
   transition: all 0.5s;
 }
 
-.style-button-descargarCV:hover .text-descargarCV {
+
+.style-button-descargarCV:hover .container-text-descargarCV {
   margin-left: 2.1vw;
   transition: all 0.5s;
   transform: rotateY(360deg);
