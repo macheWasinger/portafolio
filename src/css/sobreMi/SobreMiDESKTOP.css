@@ -219,9 +219,19 @@
   transition: all 0.5s;
 }
 
+.style-button-descargarCV:hover .container-text-descargarCV {
+  transition: all 0.5s;
+  transform: rotateY(360deg);
+  color: #fff;
+  position: relative;
+  bottom: 0.1vw;
+  /* background-color: red; */
+}
+
+
 .container-text__CV-descargado {
   width: 14vw;
-  /* background-color: red; */
+  height: 3vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -232,45 +242,37 @@
 }
 
 .container-text-descargarCV {
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   transition: all 0.5s;
   color: #2a2a2a;
+  display: flex;
+  align-items: center;
 }
+
+.texto-CV-descargado,
+.fa-circle-check {
+  animation: changeColors 0.5s forwards;
+}
+
+  @keyframes changeColors {
+    from {
+      color: #fff;
+    }
+
+    to {
+      color: #ffb633;
+      text-shadow: 1px 0 0 #2a2a2a, 0 1px 0 #2a2a2a, -1px 0 0 #2a2a2a, 0 -1px 0 #2a2a2a;
+    }
+  }
 
 .texto-descargar-CV {
   margin-top: 0.1vw;
 }
 
-.fa-file-circle-check {
-  font-size: 1.3vw;
+.fa-circle-check {
+  font-size: 1.3vw !important;
 }
 
-.show-iconPDF {
-  display: block;
-  font-size: 1.3vw;
-  color: #fff;
-  transition: all 0.5s;
-  position: relative;
-  margin-right: 2.8vw;
-  right: -1vw;
-  bottom: 0.05vw;
-}
-
-.hide-iconPDF {
-  font-size: 0;
-  /* color: #2a2a2a; */
-  position: relative;
-  right: 3.8vw;
-  transition: all 0.5s;
-}
-
-
-.style-button-descargarCV:hover .container-text-descargarCV {
-  margin-left: 2.1vw;
-  transition: all 0.5s;
-  transform: rotateY(360deg);
-  color: #fff;
-}
 
 @media only screen and (min-width: 1441px) and (max-width: 2560px) {
   .container-text_sobreMi p {

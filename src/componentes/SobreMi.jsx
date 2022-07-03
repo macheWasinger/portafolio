@@ -6,6 +6,8 @@ import mawAnimado from "../img/mawAnimado.png";
 
 import cv from "../cv/CV-WasingerMarcelo-2022.pdf";
 
+import imageCV from "../img/image-cv.png";
+
 const SobreMi = () => {
   const [active, setActive] = React.useState(false);
 
@@ -40,7 +42,7 @@ const SobreMi = () => {
             onMouseOver={() => activeHandleImage()}
             onMouseOut={() => disableHandleImage()}
           >
-            <article className="image_container">
+            <article className="image_container" data-aos="zoom-in">
               <img
                 loading="lazy"
                 src={handleImage ? smallImage : mawAnimado}
@@ -107,15 +109,8 @@ const SobreMi = () => {
               <i class="fa-solid fa-circle-check"></i>
             </div>
           ) : (
-            <div className="texto-descargar-CV">Descargar CV</div>
+            <span className="texto-descargar-CV">Descargar CV</span>
           )}
-        </span>
-        <span
-          className={`iconPDF ${
-            active === true ? "show-iconPDF" : "hide-iconPDF"
-          }`}
-        >
-          <i className="fa-solid fa-file-lines"></i>
         </span>
       </a>
     </div>

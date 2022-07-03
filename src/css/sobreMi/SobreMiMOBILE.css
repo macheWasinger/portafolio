@@ -150,30 +150,41 @@
   }
 
   .container-text__CV-descargado {
-    width: 128% !important;
+    width: 230px !important;
+    height: 50px;
     position: relative !important;
-    right: 22.5px !important;
+    right: 0!important;
+    top: -8.5px !important;
   }
 
-  /* .texto-CV-descargado {
-    margin-left: -1vw;
-  } */
+  
+.style-button-descargarCV:hover .container-text-descargarCV {
+  transition: all 0.5s;
+  transform: rotateY(360deg);
+}
+
+.texto-CV-descargado,
+.fa-circle-check {
+  animation: changeColors 0.5s forwards;
+}
+
+  @keyframes changeColors {
+    from {
+      color: #fff;
+    }
+
+    to {
+      color: #ffb633;
+      text-shadow: 1px 0 0 #2a2a2a, 0 1px 0 #2a2a2a, -1px 0 0 #2a2a2a, 0 -1px 0 #2a2a2a;
+    }
+  }
 
   .hideEffectHoverButton {
     pointer-events: none !important;
   }
 
-  /* .text-descargarCV {
-    font-size: 1.25vw;
-    margin-left: 2.7vw;
-    transition: all 0.5s;
-    color: #2a2a2a;
-    position: relative;
-    left: 0.3vw;
-  } */
-
-  .fa-file-circle-check {
-    font-size: 15px !important;
+  .fa-circle-check {
+    font-size: 20px !important;
     left: 0;
   }
 
